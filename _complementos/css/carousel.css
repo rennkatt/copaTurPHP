@@ -46,8 +46,8 @@
 
 #intro h2 {
   color: #fff;
-  margin-bottom: 30px;
-  font-size: 48px;
+  margin-bottom: 40px;
+  font-size: 58px;
   font-weight: 700;
   font-family: dusha;
 }
@@ -59,14 +59,17 @@
 }
 
 #intro p {
+  font-size: 15px;
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-family: whitney;
 }
 
 @media (min-width: 1024px) {
   #intro p {
     width: 60%;
+    font-size: 20px;
   }
 }
 
@@ -139,3 +142,15 @@
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+@font-face {
+    font-family: dusha;
+    src: url(../fonts/dusha.woff)
+}
+
+@font-face {
+    font-family: whitney;
+    src: url(../fonts/Whitney Medium.ttf)
+}
+
+
+
