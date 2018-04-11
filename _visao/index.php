@@ -155,14 +155,12 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <!--
         End Fixed Navigation
         ==================================== -->
-		
 		<div class="banner" id="home">
             <div class="overlay">
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Rússia</span></h1>
-                        <p>Rússia é o maior país do mundo. Tem uma população de mais de 140 milhões de pessoas. Mais da metade deles são fãs ou sabem do futebol. FIFA 2018 é uma oportunidade para mostrar ao mundo a bezela que é esse país.</p>
-                        
+                        <p>A Fita World Cup – Russia 2018 cria a oportunidade perfeita para mostrar essa grande nação ao mundo, sua força intercontinental traduz mais de dois mil anos de conquistas e, une suas 83 federações em uma única língua, cultura e religião. A Rússia como conhecemos teve inicio no desenvolvimento das ideias da Terceira Roma, o grão-duque Ivã IV, o "Terrível", foi oficialmente coroado o primeiro czar ("césar") da Rússia em 1547. Mas, apenas, em 1991, na primeira eleição direta presidencial na história russa e, após a desintegração da União Soviética, renasce o amor às tradições e a beleza desse povo.</p>                        
                     </div>
                 </div>
             </div>
@@ -176,10 +174,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<h2>
 							Cidades Sedes 
 						</h2>
-						<p>
-							Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.  
-						</p>
+						<p>O impossível se revela: Conseguir demostrar toda a cultura da maior nação do mundo em apenas onze de suas milhares de cidades é uma tarefa árdua, mas compensadora. A escolha não foi fácil e, inúmeras outras belezas ficarão ainda escondidas, entretanto foi sábia, pois com pouco veremos o muito desse continente, sua história; Sua força de vida.</p>
 					</div><!--/.gallery-header-->
+
 					<div class="gallery-box">
 						<div class="gallery-content">
 						  	<div class="filtr-container">
@@ -187,19 +184,43 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 						  			<div class="col-md-12 padding-0">
 						  				<div class="filtr-item">
-											<a href="#"><img src="../_complementos/images/home/01.jpg" alt="portfolio image"/></a>
+											<a href="#"><img src="../_complementos/images/home/02.jpg" alt="portfolio image"/></a>
 											<div class="item-title">
-												<a href="#">
-													Moscou
-												</a>
-												
+												<a href="#">Moscow</a>			
 											</div><!-- /.item-title -->
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="#"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/></a>
+											<a href="#"><img src="../_complementos/images/home/03.jpg" alt="portfolio image"/></a>
+											<div class="item-title">
+												<a href="#">Kaliningrad</a>			
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6 padding-0">
+						  				<div class="filtr-item">
+											<a href="#"><img src="../_complementos/images/home/04.jpg" alt="portfolio image"/></a>
+											<div class="item-title">
+												<a href="#">Kazan</a>			
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6 padding-0">
+						  				<div class="filtr-item">
+											<a href="#"><img src="../_complementos/images/home/05.jpg" alt="portfolio image"/></a>
+											<div class="item-title">
+												<a href="#">Nizhny Novgorod</a>		
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6 padding-0">
+						  				<div class="filtr-item">
+											<a href="#"><img src="../_complementos/images/home/06.jpg" alt="portfolio image"/></a>
 											<div class="item-title">
 												<a href="#">Rostov-on-Don</a>
 											</div> <!-- /.item-title-->
@@ -208,49 +229,55 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="#"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/></a>
+											<a href="#"><img src="../_complementos/images/home/07.jpg" alt="portfolio image"/></a>
 											<div class="item-title">
-												<p>
-													Iecaterimburgo
-												</p>
-												
+												<a href="#">Saint Petersburg</a>	
 											</div><!-- /.item-title -->
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
-						  			<div class="col-md-4 padding-0">
+						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="#"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/></a>
+											<a href="#"><img src="../_complementos/images/home/08.png" alt="portfolio image"/></a>
 											<div class="item-title">
-												<a href="#">
-													australia 
-												</a>
-												
-											</div> <!-- /.item-title-->
+												<a href="#">Samara</a>		
+											</div><!-- /.item-title -->
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
-						  			<div class="col-md-4 padding-0">
+						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
 											<a href="#"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/></a>
 											<div class="item-title">
-												<a href="#">
-													netharland
-												</a>
-												
-											</div> <!-- /.item-title-->
+												<a href="#">Saransk</a>		
+											</div><!-- /.item-title -->
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
-						  			<div class="col-md-4 padding-0">
+						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="#"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/></a>
+											<a href="#"><img src="../_complementos/images/home/10.jpg" alt="portfolio image"/></a>
 											<div class="item-title">
-												<a href="#">
-													turkey
-												</a>
-												
-											</div> <!-- /.item-title-->
+												<a href="#">Sochi</a>		
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6 padding-0">
+						  				<div class="filtr-item">
+											<a href="#"><img src="../_complementos/images/home/11.jpg" alt="portfolio image"/></a>
+											<div class="item-title">
+												<a href="#">Volgograd</a>		
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6 padding-0">
+						  				<div class="filtr-item">
+											<a href="#"><img src="../_complementos/images/home/12.jpg" alt="portfolio image"/></a>
+											<div class="item-title">
+												<a href="#">Yekaterinburg</a>		
+											</div><!-- /.item-title -->
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
