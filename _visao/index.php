@@ -108,13 +108,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <a class="page-scroll" href="../index.html">Home</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#gallery">Cidades</a>
+	                        <a class="page-scroll" href="#gallery" onclick="desser_mais()">Cidades</a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#about">Sobre Nós</a>
+							<a class="page-scroll" href="#about" onclick="desser_mais()">Sobre Nós</a>
+							
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="#contact">Contato</a>
+	                        <a class="page-scroll" href="#contact" onclick="desser_mais()">Contato</a>
 	                    </li>
 						
 	                     <?php if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){ ?>
@@ -450,3 +451,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<script src="../_complementos/js/custom.js"></script>
     </body>
 </html>
+
+
+<script>
+	function desser_mais(){
+		setTimeout(
+			function(){
+				window.scrollTo( 0, window.pageYOffset + 1);
+			}, 1);		
+		console.log("desseu");
+	}
+</script>
