@@ -11,6 +11,8 @@
 		public function inserirUsuario($usuario){
 			try{
 
+				
+
 				$sqlInserir = "Insert into login(nome, sobrenome, email, senha, nivel) values(:nome, :sobrenome, :email, :senha, :nivel)";
 
 				$usuario->setNivel(2);

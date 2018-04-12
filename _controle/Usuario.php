@@ -13,10 +13,10 @@ class Usuario{
 		$this->sobrenome = $sobrenome;
 		$this->email = $email;
 		$this->senha = $senha;
-		$this->estado = $estado;
-		$this->cidade = $cidade;
-		$this->endereco = $endereco;
-		$this->telefone = $telefone;
+		// $this->estado = $estado;
+		// $this->cidade = $cidade;
+		// $this->endereco = $endereco;
+		// $this->telefone = $telefone;
 	}
 
 	public function getId(){

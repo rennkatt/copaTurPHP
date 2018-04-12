@@ -182,6 +182,27 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 				}else{
 					include "index.php?";
 				}
+
+				// Mostra msh de erro
+				if ( isset($_GET['erro_cod']) ){
+					$erro_cod = $_GET['erro_cod'];
+
+					switch($erro_cod){
+						case 1:
+							echo '<div class="alert alert-danger">
+							<button type="button" class="close" data-dismiss="alert">×</button>
+							<strong>A operação não pôde ser realizada!</strong> 
+							</div> ';	
+							break;
+						case 2:
+							echo '<div class="alert alert-warning">
+							<button type="button" class="close" data-dismiss="alert">×</button>
+							<strong>Preencha as informações obrigatórias!</strong> 
+							 </div> ';		
+							 break;
+					}
+					   			
+				}
 								
 			?>			
 					

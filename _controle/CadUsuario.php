@@ -20,19 +20,13 @@
 
                 header("Location: ../_visao/index.php"); 	 
                  
-			} else {
-				echo '<div class="alert alert-danger">
-                      <button type="button" class="close" data-dismiss="alert">×</button>
-                      <strong>A operação não pôde ser realizada!</strong> 
-                 	  </div> ';
+			} else {				
+				 header("Location: ../_visao/home.php?link=2&erro_cod=1"); 	 
 			}
 
 		} else {
-			echo '<div class="alert alert-warning">
-                  <button type="button" class="close" data-dismiss="alert">×</button>
-                  <strong>Preencha as informações obrigatórias!</strong> 
-             	  </div> ';		
-		}
+			header("Location: ../_visao/home.php?link=2&erro_cod=2"); 	 			
+		}	
 	}	
 
 ?>

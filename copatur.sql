@@ -56,6 +56,7 @@ INSERT INTO `login` (`id`, `nome`, `sobrenome`, `email`, `senha`, `nivel`) VALUE
 ALTER TABLE `login`
   ADD PRIMARY KEY (`id`);
 
+ALTER TABLE `login` ADD UNIQUE(`email`);
 --
 -- AUTO_INCREMENT for dumped tables
 --
