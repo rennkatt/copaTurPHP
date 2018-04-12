@@ -37,7 +37,7 @@ if(isset($_POST['logar'])){
 				$email = $_POST['email'];
 				$senha	 = $_POST['senha'];
 
-				$_SESSION['email'] 	= $email;
+				$_SESSION['email'] 		= $email;
 				$_SESSION['senha']  	= $senha;
 
 				$loop = $result->fetchAll();

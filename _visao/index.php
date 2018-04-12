@@ -220,9 +220,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="rostov-on-don.php"><img src="../_complementos/images/home/06.jpg" alt="portfolio image"/></a>
+											<a href="rostov_on_don.php"><img src="../_complementos/images/home/06.jpg" alt="portfolio image"/></a>
 											<div class="item-title">
-												<a href="rostov-on-don.php">Rostov-on-Don</a>
+												<a href="rostov_on_don.php">Rostov-on-Don</a>
 											</div> <!-- /.item-title-->
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->

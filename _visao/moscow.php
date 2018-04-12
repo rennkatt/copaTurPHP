@@ -223,7 +223,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 					<div class="f-hotel">
 						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
 						<div class="desc">
-							<h2>Estádio</h2>
+							<h2>Comidas Típicas</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
@@ -231,7 +231,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 					<div class="f-hotel">
 						<div class="image " style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
 						<div class="desc">
-							<h2>Pontos Turísticos</h2>
+							<h2>Artesanato</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>

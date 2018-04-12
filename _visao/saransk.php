@@ -156,11 +156,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         End Fixed Navigation
         ==================================== -->
 		
-		<div class="banner moscow" id="home">
+		<div class="banner saransk" id="home">
             <div class="overlay">
                 <div class="container">
                     <div class="intro-text">
-                        <h1>Bem Vindo à <span>Moscow</span></h1>
+                        <h1>Bem Vindo à <span>Saransk</span></h1>
                         <p>Rússia é o maior país do mundo. Tem uma população de mais de 140 milhões de pessoas. Mais da metade deles são fãs ou sabem do futebol. FIFA 2018 é uma oportunidade para mostrar ao mundo a bezela que é esse país.</p>
                         
                     </div>
@@ -173,7 +173,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
@@ -183,7 +183,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
@@ -191,7 +191,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
@@ -202,7 +202,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
@@ -210,7 +210,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
@@ -221,17 +221,17 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 						<div class="desc">
-							<h2>Estádio</h2>
+							<h2>Comidas Típicas</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
 						<div class="desc">
-							<h2>Pontos Turísticos</h2>
+							<h2>Artesanato</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
