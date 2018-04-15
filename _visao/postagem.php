@@ -167,7 +167,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Moscow</span></h1>
-                        <p>Rússia é o maior país do mundo. Tem uma população de mais de 140 milhões de pessoas. Mais da metade deles são fãs ou sabem do futebol. FIFA 2018 é uma oportunidade para mostrar ao mundo a bezela que é esse país.</p>
+                       	<ol class="breadcrumb">
+						  <li><a href="#">Home</a></li>
+						  <li><a href="#">Moscow</a></li>
+						  <li class="active">História</li>
+						</ol>
                         
                     </div>
                 </div>
@@ -245,7 +249,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                      <div class="post-tags tagcloud">
                                         <a href="#" rel="tag">Pontos Turísticos</a>
                                         <a href="#" rel="tag">Hotéis</a>
+                                        <a href="#" rel="tag">Restaurantes</a>
+                                        <a href="#" rel="tag">Comidas Típicas</a>
                                         <a href="#" rel="tag">Estádios</a>
+                                        <a href="#" rel="tag">Artesanato</a>
                                      </div>
                                      <!-- .post-tags -->
                                     
@@ -253,7 +260,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                      <!-- .share-links -->
                                      <div class="share-links">
                                         
-                                        <h3>SHARE THIS POST</h3>
+                                        <h3>COMPARTILHE ESTA POSTAGEM</h3>
                                         
                                         <div class="share-links-wrap">
                                                                         
@@ -274,7 +281,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <!-- .about-author -->
                                     <aside class="about-author">
                                         
-                                        <h3 class="section-title">WRITTEN BY</h3>
+                                        <h3 class="section-title">ESCRITO POR</h3>
                                         
                                         <!-- .author-bio --> 
                                         <div class="author-bio">
@@ -437,7 +444,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                               <!-- #respond --> 
                               <div id="respond">
                               
-                                <h3 id="reply-title">Deixe seu comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel reply</a></small></h3>
+                                <h3 id="reply-title">Deixe seu comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancela resposta</a></small></h3>
                                 
                                 <!-- .commentform -->
                                 <form action="#" method="post" id="commentform">
@@ -498,7 +505,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<footer  class="footer-copyright">
 			<div class="container">
 				
-				<hr>
+				
 				<div class="foot-icons ">
 					
 		        	<p>&copy; 2018 <a href="#">CopaTur</a>.</p>
