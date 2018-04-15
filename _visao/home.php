@@ -182,8 +182,8 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 				}else{
 					include "index.php?";
 				}
-
-				// Mostra msh de erro
+			
+// Mostra msh de erro
 				if ( isset($_GET['erro_cod']) ){
 					$erro_cod = $_GET['erro_cod'];
 
@@ -203,7 +203,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 					}
 					   			
 				}
-								
+
 			?>			
 					
 		</main>

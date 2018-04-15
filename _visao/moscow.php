@@ -161,7 +161,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Moscow</span></h1>
-                        <p>Rússia é o maior país do mundo. Tem uma população de mais de 140 milhões de pessoas. Mais da metade deles são fãs ou sabem do futebol. FIFA 2018 é uma oportunidade para mostrar ao mundo a bezela que é esse país.</p>
+                        <p>Dois estádios, apenas refletem a grandiosidade dessa cidade.</p>
                         
                     </div>
                 </div>
@@ -173,28 +173,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/historia.jpeg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Não existe uma data precisa de sua fundação, sabe-se apenas que a mais de 870 anos foi a capital da Moscovia, do subsequente Czarado da Rússia e, durante a Guerra Fria, Moscou foi a capital da extinta União Soviética e, mesmo que alguma cicatriz nos traga à memoria esta época, as pérolas arquitetônicas do ciclo do Império se espalham por essa capital icônica. </p>
 						<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/estadio.jpeg);"></div>
 						<div class="desc">
-							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<h2>Estádios</h2>
+							<p>Moscou é a única cidade em que os jogos da Copa do Mundo irão decorrer em dois estádios. Os jogos mais importantes, incluindo a final, serão acolhidos pelo legendário estádio Luzhniki. Luzhniki será acompanhado pelo estádio Spartak, o qual já foi testado com êxito durante a Copa das Confederações. </p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/ponto_turistico.jpeg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A Catedral do Cristo Salvador é o mais importante templo de Moscou.<br><br><br><br><br><br><br><br></p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -202,18 +202,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/hotel.jpeg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Hotel Baltschug Kempinski <br><br><br><br><br><br><br><br></p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/restaurante.jpeg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Restaurante White Rabbit<br><br><br><br><br><br><br><br></p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -221,18 +221,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/comida_tipica.jpeg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A sopa Borsch é facilmente encontrada em qualquer restaurante de Moscow. Apesar de o inverno brasileiro já ter passado, ainda restam aqueles dias mais frios que pedem um prato quente. Nessa hora, nada melhor do que testar a receita dessa deliciosa sopa de beterraba.</p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/moscow/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/moscow/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Matrioskas<br><br><br><br><br><br><br><br></p>
 							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>

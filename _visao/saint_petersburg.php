@@ -161,7 +161,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Moscow</span></h1>
-                        <p>Rússia é o maior país do mundo. Tem uma população de mais de 140 milhões de pessoas. Mais da metade deles são fãs ou sabem do futebol. FIFA 2018 é uma oportunidade para mostrar ao mundo a bezela que é esse país.</p>
+                        <p>Os portões para o mundo ocidental, a cidade mais europeia. </p>
                         
                     </div>
                 </div>

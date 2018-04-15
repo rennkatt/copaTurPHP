@@ -111,8 +111,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <a class="page-scroll" href="#gallery" onclick="desser_mais()">Cidades</a>
 	                    </li>
 	                    <li>
-							<a class="page-scroll" href="#about" onclick="desser_mais()">Sobre Nós</a>
-							
+	                        <a class="page-scroll" href="#about" onclick="desser_mais()">Sobre Nós</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#contact" onclick="desser_mais()">Contato</a>
@@ -136,7 +135,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			                        ";
 		                         } ?>
 		                        <li class="dropdown-item">
-		                            <a href="../_controle/sair.php" class="external"><i class="fa fa-fw fa-power-off"></i> Sair </a>
+		                            <a href="../_controle/sair.php" class="external" onClick="return confirm('Deseja realmente sair do Sistema?')"><i class="fa fa-fw fa-power-off"></i> Sair </a>
 		                        </li>
 		                    </ul>
 		                </li>
@@ -335,15 +334,76 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 							Sobre Nós 
 						</h2>
 						<p>
-							 
+							 Nosso Time
 						</p>
 					</div><!--/.gallery-header-->
 					
 				</div><!--/.gallery-details-->
+				<div class="row wow fadeInUp">
+          <div class="col-md-2 pull-left">
+            <div class="member">
+              <div class="pic  "><img src="../_complementos/images/team/01.jpg" class="img-responsive   "  width="150px" alt=""></div>
+              <h4>Renato Moura</h4>
+              <span>Gerente de Projeto</span>
+              
+            </div>
+          </div>
+
+          <div class="col-md-2 pull-left">
+            <div class="member">
+              <div class="pic  "><img src="../_complementos/images/team/02.jpg" class="img-responsive   " width="150px"  alt=""></div>
+              <h4>Elder Cordeiro</h4>
+              <span>Design</span>
+              
+            </div>
+          </div>
+
+          <div class="col-md-2 pull-left">
+            <div class="member">
+              <div class="pic  "><img src="../_complementos/images/team/03.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <h4>Erico Vinicio</h4>
+              <span>Analista</span>
+              
+            </div>
+          </div>
+
+          <div class="col-md-2 pull-left">
+            <div class="member">
+             <div class="pic  "><img src="../_complementos/images/team/04.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <h4>Hyago Sayomar</h4>
+              <span>Desenvolvedor</span>
+              
+            </div>
+          </div>
+
+           <div class="col-md-2 pull-left">
+            <div class="member">
+              <div class="pic  "><img src="../_complementos/images/team/05.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <h4>Jefferson Gonçalves</h4>
+              <span>Desenvolvedor</span>
+              
+            </div>
+          </div>
+
+           <div class="col-md-2 pull-left">
+            <div class="member">
+              <div class="pic  "><img src="../_complementos/images/team/06.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <h4>Robson Lemos</h4>
+              <span>Testador</span>
+              
+            </div>
+          </div>
+        </div>
+
+        
+
 			</div><!--/.container-->
+
+
 
 		</section><!--/.gallery-->
 
+	
 		
 		<section id="contact" class="contact ">
 	        <div class="container overlay">
@@ -369,7 +429,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                                <div class="form-group">
-	                                    <input type="tel" class="form-control" placeholder="Seu Assunto *" id="phone" required data-validation-required-message="Por favor, escreva o assunto deste e-mail.">
+	                                    <input type="text" class="form-control" placeholder="Seu Assunto *" id="assunto" required data-validation-required-message="Por favor, escreva o assunto deste e-mail.">
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                            </div>
@@ -452,7 +512,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
     </body>
 </html>
 
-
 <script>
 	function desser_mais(){
 		setTimeout(
@@ -461,4 +520,4 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			}, 1);		
 		console.log("desseu");
 	}
-</script>
+</script> 

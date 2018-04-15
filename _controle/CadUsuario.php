@@ -20,13 +20,13 @@
 
                 header("Location: ../_visao/index.php"); 	 
                  
-			} else {				
-				 header("Location: ../_visao/home.php?link=2&erro_cod=1"); 	 
+			} else {
+				header("Location: ../_visao/home.php?link=2&erro_cod=1");
 			}
 
 		} else {
-			header("Location: ../_visao/home.php?link=2&erro_cod=2"); 	 			
-		}	
+			header("Location: ../_visao/home.php?link=2&erro_cod=2"); 	
+		}
 	}	
 
 ?>
