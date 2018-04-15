@@ -36,7 +36,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 
 
 		<!-- TITULO DO SITE -->
-		<title>copaTur</title>
+		<title>CopaTur</title>
 
 		<!-- icon -->
 		<link rel="shortcut icon" type="image/icon" href="../_complementos/img/logo.png"/>
@@ -214,7 +214,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 				<hr>
 				<div class="foot-icons ">
 					
-		        	<p>&copy; 2018 <a href="#">copaTur</a>.</p>
+		        	<p>&copy; 2018 <a href="#">CopaTur</a>.</p>
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">
