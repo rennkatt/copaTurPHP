@@ -1,0 +1,198 @@
+/* DESKTOPS */
+@media screen and (min-width: 992px) {
+	
+	/* HEADER */
+	.site-header {
+ 	 	padding-top: 3em; width: 100%;
+		}
+	.site-header .site-title {
+ 	 	font-size: 1.4em;
+		}
+	
+	/* SIDEBAR */
+    .with-sidebar { 
+        float: left; width: 69%;
+        }
+    .sidebar { 
+        float: left; width: 25%; margin-left: 6%;
+        }
+	
+	/* DESKTOP MENU */
+	.menu-toggle {
+		display: none; padding: 0;
+		}
+	.site-navigation { 
+        text-align: center;
+        }
+    .nav-menu ul {
+        display: inline-block; list-style: none; margin: 0; padding: 0; 
+        }
+    .nav-menu ul li {
+        display: inline-block; letter-spacing: 1px; line-height: 53px; padding: 0; position: relative; cursor: default;
+        }
+    .nav-menu ul li a {
+        border: 0;  padding: 0 0.8em; 
+        }
+	/* navigation level 2 */
+    .nav-menu ul ul {
+        border: 3px solid #555; display: none; left: -0.9em; margin: -2px 0 0 0; padding: 0; position: absolute; top: 54px; width: 160px; z-index: 10310;
+        }
+	.nav-menu ul ul:after, 
+	.nav-menu ul ul:before {
+		bottom: 100%; left: 32px; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none;
+		}
+	.nav-menu ul ul:after {
+		border-color: rgba(255, 255, 255, 0); border-bottom-color: #ffffff; border-width: 8px; margin-left: -8px;
+		}
+	.nav-menu ul ul:before {
+		border-color: rgba(85, 85, 85, 0); border-bottom-color: #555555; border-width: 10px; margin-left: -7px;
+		}
+    .nav-menu ul > li:hover > ul {
+        display: block; 
+        }
+    .nav-menu ul ul li {
+        background-color: #fff; display: block; line-height: 1.5; margin: 0; max-height: none; padding: 0; text-align: left; letter-spacing: 0; border-bottom: 1px solid #eee; 
+        }
+    .nav-menu ul ul li:first-child {
+        border-top: 0; 
+        }
+    .nav-menu ul ul li a {
+        display: block; padding: .9em 1.4em; font-size: 11px; letter-spacing: .03em;
+        }
+    .nav-menu ul ul li:last-child {
+        border-bottom: none; 
+        }
+	/* navigation level 3 */
+	.nav-menu ul ul ul { 
+        top: 0; left: 148px; right: auto;
+        }
+	.nav-menu ul ul ul:after, 
+	.nav-menu ul ul ul:before {
+		bottom: auto; top: 10px; left: -18px; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none;
+		}
+	.nav-menu ul ul ul:after {
+		border-color: rgba(255, 255, 255, 0); border-right-color: #ffffff; border-width: 9px; margin-left: 0; margin-top: 3px;
+		}
+	.nav-menu ul ul ul:before {
+		border-color: rgba(85, 85, 85, 0); border-right-color: #555; border-width: 8px; margin-left: 0;
+		}
+		
+	/* INTRO */
+	.home-wrap .intro { 
+		padding-top: 5%;
+		}
+	.intro h2 { 
+		font-size: 2.4em;
+		}
+		
+	/* ROTATE WORDS */
+    .rotate-words {
+        min-width: 188px; min-height: 42px;
+        }
+	
+	/* KEN BURNS SLIDER */
+	.sy-box + .intro { 
+		margin-top: -50px; 
+		}
+	
+	/* HOME LANDING */
+	.home-landing .home-wrap .intro {
+		top: 28%;
+		}
+	.home-landing .social li a {
+		font-size: 30px; width: 56px; line-height: 56px;
+		}
+		
+	/* VIEW.js Gallery */
+	.viewjs-gallery figure ul li:nth-child(1),
+	.viewjs-gallery figure ul li:nth-child(7) { 
+		width:5%; display: inline-block;
+		}
+	.viewjs-gallery figure ul li:nth-child(2),
+	.viewjs-gallery figure ul li:nth-child(6) { 
+		width:8%; 
+		} 
+	.viewjs-gallery figure ul li:nth-child(3),
+	.viewjs-gallery figure ul li:nth-child(5) { 
+		width:17%;
+		}
+	.viewjs-gallery figure ul li:nth-child(4) { 
+		width:35%;
+		}
+}
+
+
+/* DESKTOPS MEDIUM */
+@media screen and (min-width: 1200px) { 
+	
+	 /* increase column gutter on large screens */
+	 .row {
+		margin-left: -20px;
+		margin-right: -20px;
+		}
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		padding-left: 20px; padding-right: 20px;
+		}
+    
+	/* GALLERY */
+    .gallery-grid .masonry-item {
+		width: 33.3%;
+		}
+    
+	/* blockquote  */
+    .content-area:not(.with-sidebar) blockquote {
+		width: 130%; margin-left: -15%;
+		}
+     
+}
+
+/* DESKTOPS > 1400px */
+@media screen and (min-width: 1400px) {
+	
+	/* INTRO */
+	.home-wrap .intro { 
+		padding-top: 6.2%;
+		}
+	.intro h2 { 
+		font-size: 2.9em;
+		}
+		
+	/* HOME LANDING */
+	.home-landing .home-wrap .intro {
+		top: 25%; 
+		}	
+		
+	/* ROTATE WORDS */
+    .rotate-words {
+        min-width: 206px; min-height: 51px;
+        }
+		
+	/* KEN BURNS SLIDER */
+	.sy-box + .intro { 
+		margin-top: -80px; 
+		}
+		
+}
+
+/* DESKTOPS > 1560 */
+@media screen and (min-width: 1560px) { 
+	
+	/* GALLERY */
+    .gallery-grid .masonry-item {
+		width: 25%;
+		}
+		
+	/* INTRO */
+	.home-wrap .intro { 
+		padding-top: 8.2%;
+		}
+	.home-landing .intro h2 { 
+		font-size: 3.3em; letter-spacing: -1px;
+		}
+		
+	/* ROTATE WORDS */
+    .home-landing .rotate-words {
+        min-width: 310px; min-height: 58px;
+        }
+		
+}

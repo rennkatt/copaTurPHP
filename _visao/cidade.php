@@ -43,6 +43,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!--font-awesome.min.css-->
 		<link rel="stylesheet" href="../_complementos/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../_complementos/lib/fontello/css/fontello.css" />
+		
 		
 		<!--animate.css-->
 		<link rel="stylesheet" href="../_complementos/css/animate.css" />
@@ -65,6 +67,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<link rel="stylesheet" type="text/css" href="../_complementos/css/light-red.css">
 		<!--style.css-->
 		<link rel="stylesheet" href="../_complementos/css/style.css" />
+		<link rel="stylesheet" href="../_complementos/css/main.css" />
+		<link rel="stylesheet" href="../_complementos/css/992.css" />
+		<link rel="stylesheet" href="../_complementos/css/768.css" />
+		
 		
 		<!--responsive.css-->
 		<link rel="stylesheet" href="../_complementos/css/responsive.css" />
@@ -168,7 +174,326 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             </div>
         </div>
 
+ <div id="page" class="hfeed site">
+        
+        
+        
+        <!-- site-main -->
+        <div id="main" class="site-main">
+        
+                 
+                        
+            <!-- primary -->
+        	<div id="primary" class="content-area">
+            	
+                <!-- site-content -->
+                <div id="content" class="site-content" role="main"> <!-- layout-fixed -->
+                    <div class="layout-fixed"> <!-- .hentry -->
+                            <article class="hentry type-post">
+                            
+                            	
+                                <!-- .entry-header -->
+                                <header class="entry-header">
+                                    
+                                    
+                                    <!-- .entry-title -->
+                                    <h1 class="entry-title">História de Moscow</h1>
+                                    
+                                </header>
+                                <!-- .entry-header -->
+                                
+                                <!-- .featured-image -->
+                                <div class="featured-image">
+                                    <img src="../_complementos/images/cidades/moscow/historia.jpeg" alt="blog-image">
+                                    <cite>Fonte da imagem: <a href="#" title="test link">test link</a></cite>
+                                </div>
+                                <!-- .featured-image -->
+                                                                
+                                
+                                
+                                <!-- .entry-content -->
+                                <div class="entry-content">
+                                    
+                                    
+                                                                                                            
+                                    <p class="drop-cap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, maiores blanditiis amet alias. Rerum quam repudiandae consequuntur, rem nemo cupiditate eaque, ad, at veniam necessitatibus recusandae vero facere officia, iusto.</p>
+                                    
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto iure inventore magni quos et sit expedita dolor eius autem fugiat. Suscipit optio at consectetur hic ipsum animi, laudantium tempore quisquam.</p>
+                                    
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consequuntur eveniet voluptate iure! Non est, debitis ab esse officia quibusdam similique voluptatem asperiores, ad cupiditate sunt sed perspiciatis voluptatum, facilis.</p>
+                                                                    
+                                    <!-- blockquote -->
+                                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam provident, neque ad excepturi ipsa, repellat voluptate officia nostrum. In nostrum, officiis quas laboriosam omnis perspiciatis voluptas possimus sit repellat! Debitis..
+                                        <cite>Steve JOBS</cite>
+                                    </blockquote>
+                                    <!-- blockquote -->
+                                    
+                                    <p>Lorem ipsum dolor sit amet, <a href="#" title="test link">test link</a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+                                                                        
+                                    
+                                    <h2>Lorem Lorem!</h2>
+                                    
+                                   
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dicta tenetur a, exercitationem ab consequatur ducimus atque ex ipsa reprehenderit modi sed ad dolore perspiciatis rerum accusamus numquam voluptatem minima!</p>
 
+                                    <p><img src="../_complementos/images/cidades/moscow/01.jpg" alt="Image"><cite>Fonte da imagem: <a href="#" title="test link">test link</a></cite></p>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, nesciunt, voluptatibus! Accusantium cupiditate voluptatem, eaque ratione, et provident odio architecto nemo numquam sint, assumenda veniam adipisci laudantium. Accusantium, animi iusto?</p>
+                                    
+                                    
+                                     <!-- .post-tags -->
+                                     <div class="post-tags tagcloud">
+                                        <a href="#" rel="tag">Pontos Turísticos</a>
+                                        <a href="#" rel="tag">Hotéis</a>
+                                        <a href="#" rel="tag">Estádios</a>
+                                     </div>
+                                     <!-- .post-tags -->
+                                    
+                                     
+                                     <!-- .share-links -->
+                                     <div class="share-links">
+                                        
+                                        <h3>SHARE THIS POST</h3>
+                                        
+                                        <div class="share-links-wrap">
+                                                                        
+                                            <a rel="nofollow" target="_blank" href="mailto:?subject=Eu quero que veja essa postagem&amp;body=Olha esta postagem : História de Moscow - http://copatur-com-br.umbler.net/_visao/moscow.php" title="Email this post to a friend"><i class="pw-icon-mail"></i></a>
+                                            
+                                            <a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=http://copatur-com-br.umbler.net/_visao/moscow.php" title="Compartilhe esta postagem no Google+"><i class="pw-icon-gplus"></i></a>
+                                            
+                                            <a rel="nofollow" target="_blank" href="http://twitter.com/home?status=http://copatur-com-br.umbler.net/_visao/moscow.php" title="Compartilhe esta postagem no Twitter"><i class="pw-icon-twitter"></i></a>
+                                              
+                                            <a rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://copatur-com-br.umbler.net/_visao/moscow.php" title="Compartilhe esta postagem no Facebook"><i class="pw-icon-facebook"></i></a>
+                                        
+                                        </div>
+                                        
+                                     </div>
+                                     <!-- .share-links -->
+                                     
+                                        
+                                    <!-- .about-author -->
+                                    <aside class="about-author">
+                                        
+                                        <h3 class="section-title">WRITTEN BY</h3>
+                                        
+                                        <!-- .author-bio --> 
+                                        <div class="author-bio">
+                                            
+                                            <!-- .author-img --> 
+                                            <div class="author-img">
+                                                <a href="#"><img alt="Johnny Doe" src="../_complementos/images/team/01.jpg" class="avatar"></a>												
+                                            </div>
+                                            <!-- .author-img -->
+                                            
+                                            <!-- .author-info -->
+                                            <div class="author-info">
+                                                <h4 class="author-name">Lorem lorem</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolores, modi recusandae ipsa iure nesciunt ducimus odit quos maiores molestiae blanditiis. Voluptatem ipsam eaque, dolorum deserunt ratione. Rem, fugit. Nemo.</p>
+                                                
+                                                <!-- SOCIAL -->
+                                                <ul class="social">
+                                                    <li><a class="facebook" href="#"></a></li>
+                                                    <li><a class="instagram" href="#"></a></li>
+                                                    <li><a class="twitter" href="#"></a></li>
+                                                    <li><a class="github" href="#"></a></li>
+                                                    <li><a class="google-plus" href="#"></a></li>
+                                                </ul>
+                                                <!-- SOCIAL -->
+                                                
+                                            </div>
+                                            <!-- .author-info -->
+                                            
+                                        </div>
+                                        <!-- .author-bio --> 
+                                        
+                                    </aside>
+                                    <!-- .about-author -->
+                                    
+                                        
+
+                                </div>
+                                <!-- .entry-content -->
+                                  
+                            
+                                
+                            </article>
+                            <!-- .hentry -->
+                        
+                        
+                            <!-- #comments -->
+                            <div id="comments" class="comments-area">
+                              
+                              <h3 class="comments-title">3 Commentários</h3>
+                              
+                              <!-- .commentlist -->
+                              <ol class="commentlist">
+                                <li class="comment even thread-even depth-1">
+                                  
+                                  <!-- #comment-## -->
+                                  <article class="comment">
+                                    
+                                    <!-- .comment-meta -->
+                                    <header class="comment-meta comment-author vcard">
+                                        <img alt="" src="../_complementos/images/team/01.jpg" class="avatar" height="75" width="75">
+                                        <cite class="fn"><a href="#" rel="external nofollow" class="url">Lorem Lorem</a></cite>
+                                        <span class="comment-date">15 de abril de 2018, às 16:16</span>
+                                    </header>
+                                    <!-- .comment-meta -->
+                                    
+                                    <!-- .comment-content -->
+                                    <section class="comment-content comment">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aut eveniet amet vel! Similique officia repellendus temporibus. Voluptatum tempore quasi repellendus, nostrum in adipisci dicta dignissimos sed veniam laboriosam nihil!</p>
+                                    </section>
+                                    <!-- .comment-content -->
+                                    
+                                    <!-- .reply --> 
+                                    <div class="reply">
+                                        <a class="comment-reply-link" href="#">Responder</a>
+                                    </div>
+                                    <!-- .reply --> 
+                                    
+                                  </article>
+                                  <!-- #comment-## -->
+                                  
+                                  <!-- .comment depth-2 -->
+                                  <ol class="children">
+                                  
+                                    <li class="comment odd alt depth-2 ">
+                                      
+                                      <!-- #comment-## -->
+                                      <article class="comment">
+                                      
+                                        <!-- .comment-meta -->
+                                        <header class="comment-meta vcard">
+                                            <img alt="" src="../_complementos/images/team/02.jpg" class="avatar photo" height="75" width="75">
+                                            <cite class="fn"><a href="#" rel="external nofollow" class="url">Ipsum</a></cite>
+                                            <span class="comment-date">15 de abril de 2018, às 16:16</span>
+                                        </header>
+                                        <!-- .comment-meta -->
+                                        
+                                        <!-- .comment-content -->
+                                        <section class="comment-content comment">
+                                          <p>Lorem Lorem Ipsum</p>
+                                        </section>
+                                        <!-- .comment-content -->
+                                        
+                                        <!-- .reply --> 
+                                        <div class="reply">
+                                            <a class="comment-reply-link" href="#">Responder</a>
+                                        </div>
+                                        <!-- .reply -->  
+                                        
+                                      </article>
+                                      <!-- #comment-## -->
+                                      
+                                      <!-- .comment depth-3 -->
+                                      <ol class="children">
+                                      
+                                        <li class="comment even depth-3">
+                                          <article class="comment">
+                                            
+                                            <!-- .comment-meta -->
+                                            <header class="comment-meta vcard">
+                                                <img alt="" src="../_complementos/images/team/03.jpg" class="avatar photo" height="75" width="75">
+                                                <cite class="fn"><a href="#" rel="external nofollow" class="url">Joao</a></cite>
+                                                <span class="comment-date">15 de abril de 2018, às 16:16</span>
+                                            </header>
+                                            <!-- .comment-meta -->
+                                            
+                                            
+                                            <!-- .comment-content -->
+                                            <section class="comment-content comment">
+                                              <p>Lorem</p>
+                                            </section>
+                                            <!-- .comment-content -->
+                                            
+                                            <!-- .reply --> 
+                                            <div class="reply">
+                                                <a class="comment-reply-link" href="#">Responder</a>
+                                            </div>
+                                            <!-- .reply -->
+                                             
+                                          </article>
+                                          <!-- #comment-## -->
+                                          
+                                        </li>
+                                      </ol>
+                                      <!-- .comment depth-3 -->
+                                      
+                                    </li>
+                                  </ol>
+                                  <!-- .comment depth-2 -->
+                                  
+                                </li>
+                                <!-- .comment depth-1 -->
+                                
+                                
+                                
+                                
+                              </ol>
+                              <!-- .commentlist -->
+                              
+                              
+                              <!-- #respond --> 
+                              <div id="respond">
+                              
+                                <h3 id="reply-title">Deixe seu comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancel reply</a></small></h3>
+                                
+                                <!-- .commentform -->
+                                <form action="#" method="post" id="commentform">
+                                
+                                  
+                                  <p class="comment-form-comment">
+                                    <textarea id="comment" name="comment" rows="8" aria-required="true"></textarea>
+                                  </p>
+                                  
+                                  <p class="form-submit">
+                                    <input type="submit" name="submit" id="submit" class="button primary" value="Postar Commentário">
+                                    <input type="hidden" name="comment_post_ID" value="16" id="comment_post_ID">
+                                    <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                                  </p>
+                                  
+                                </form>
+                                <!-- .commentform -->
+                                
+                              </div>
+                              <!-- #respond --> 
+                              
+                            </div>
+                            <!-- #comments -->
+                            
+                            
+                            
+               		</div>
+                    <!-- layout-fixed -->
+                    
+                    
+                    
+                    
+                
+                	
+                	
+                
+                </div>
+                <!-- site-content -->
+                
+            </div>
+            <!-- primary --> 
+            
+            
+            
+               
+        
+        
+        
+        
+        </div>
+        <!-- site-main -->
+        
+       
+
+        
+	</div>
 		
 		<footer  class="footer-copyright">
 			<div class="container">
