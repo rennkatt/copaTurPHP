@@ -1,3 +1,2 @@
-## Welcome to GitHub Pages
 
-# copaTur
+## copaTur
