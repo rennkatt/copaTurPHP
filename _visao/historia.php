@@ -166,10 +166,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             <div class="overlay">
                 <div class="container">
                     <div class="intro-text">
-                        <h1>Bem Vindo à <span>Moscow</span></h1>
+                        <h1>História de <span>Moscow</span></h1>
                        	<ol class="breadcrumb">
-						  <li><a href="#">Home</a></li>
-						  <li><a href="#">Moscow</a></li>
+						  <li><a href="index.php">Home</a></li>
+						  <li><a href="moscow.php">Moscow</a></li>
 						  <li class="active">História</li>
 						</ol>
                         

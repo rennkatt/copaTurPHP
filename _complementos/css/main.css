@@ -163,7 +163,7 @@ table {
 	
     -------------------------------------------- */
 form p {
- 	position: relative; margin: 1.6em 0;
+ 	position: relative; 
 	}
 label {
  	display: block; font-size: 9px; letter-spacing: .15em; margin-bottom: 0.6em; text-transform: uppercase;
