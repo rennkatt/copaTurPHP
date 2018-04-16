@@ -184,100 +184,111 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 						  			<div class="col-md-12 padding-0">
 						  				<div class="filtr-item-2" >
-											<a href="moscow.php"><img class="" src="../_complementos/images/home/022.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="moscow.php">Moscow</a>			
-											</div><!-- /.item-title -->
+											<a href="moscow.php"><img class="" src="../_complementos/images/home/022.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Moscow</p>			
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="kaliningrad.php"><img src="../_complementos/images/home/03.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="kaliningrad.php">Kaliningrad</a>			
-											</div><!-- /.item-title -->
+											<a href="kaliningrad.php"><img src="../_complementos/images/home/03.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Kaliningrad</p>			
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="kazan.php"><img src="../_complementos/images/home/04.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="kazan.php">Kazan</a>			
-											</div><!-- /.item-title -->
+											<a href="kazan.php"><img src="../_complementos/images/home/04.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Kazan</p>			
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="nizhny_novgorod.php"><img src="../_complementos/images/home/05.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="nizhny_novgorod.php">Nizhny Novgorod</a>		
-											</div><!-- /.item-title -->
+											<a href="nizhny_novgorod.php"><img src="../_complementos/images/home/05.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Nizhny Novgorod</p>		
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="rostov_on_don.php"><img src="../_complementos/images/home/06.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="rostov_on_don.php">Rostov-on-Don</a>
-											</div> <!-- /.item-title-->
+											<a href="rostov_on_don.php"><img src="../_complementos/images/home/06.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Rostov-on-Don</p>
+												</div> <!-- /.item-title-->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="saint_petersburg.php"><img src="../_complementos/images/home/07.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="saint_petersburg.php">Saint Petersburg</a>	
-											</div><!-- /.item-title -->
+											<a href="saint_petersburg.php"><img src="../_complementos/images/home/07.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Saint Petersburg</p>	
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="samara.php"><img src="../_complementos/images/home/08.png" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="samara.php">Samara</a>		
-											</div><!-- /.item-title -->
+											<a href="samara.php"><img src="../_complementos/images/home/08.png" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Samara</p>		
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="saransk.php"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="saransk.php">Saransk</a>		
-											</div><!-- /.item-title -->
+											<a href="saransk.php"><img src="../_complementos/images/home/09.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Saransk</p>		
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="sochi.php"><img src="../_complementos/images/home/10.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="sochi.php">Sochi</a>		
-											</div><!-- /.item-title -->
+											<a href="sochi.php"><img src="../_complementos/images/home/10.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Sochi</p>		
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="volgograd.php"><img src="../_complementos/images/home/11.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="volgograd.php">Volgograd</a>		
-											</div><!-- /.item-title -->
+											<a href="volgograd.php"><img src="../_complementos/images/home/11.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Volgograd</p>		
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="yekaterinburg.php"><img src="../_complementos/images/home/12.jpg" alt="portfolio image"/></a>
-											<div class="item-title">
-												<a href="yekaterinburg.php">Yekaterinburg</a>		
-											</div><!-- /.item-title -->
+											<a href="yekaterinburg.php"><img src="../_complementos/images/home/12.jpg" alt="portfolio image"/>
+												<div class="item-title">
+													<p>Yekaterinburg</p>		
+												</div><!-- /.item-title -->
+											</a>
 										</div><!-- /.filtr-item -->
 						  			</div><!-- /.col -->
 
