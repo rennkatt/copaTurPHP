@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Saransk</span></h1>
-                        <p>O conforto da cidade, a beleza de suas ruas se traduz na Arena Mordovia.</p>
-                        
+                        <p>A menor das cidades sedes, Saransk, centro administrativo da Mordovia, foi nomeada a mais confortável da Rússia, com um know-how moderno e uma ativa parceria público-privada, onde as estruturas e o ecológico convivem em harmonia.</p>
+                
                     </div>
                 </div>
             </div>

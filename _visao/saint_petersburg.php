@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Moscow</span></h1>
-                        <p>Os portões para o mundo ocidental, a cidade mais europeia. </p>
-                        
+                        <p>Fundada em 1703, pelo imperador Pedro, o Grande, desfruta de uma atmosfera vibrante e cosmopolita e de algumas das mais belas arquiteturas da Europa. Embora jovem, para o padrão da Rússia, tem uma história rica e emocionante, cheia de eventos dramáticos e grandes figuras históricas.</p>
+                
                     </div>
                 </div>
             </div>

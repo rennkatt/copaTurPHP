@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Samara</span></h1>
-                        <p>A ameaça moderna sobre a herança histórica.</p>
-                        
+                        <p>Joia arquitetônica, uma mistura de obras-primas art nouveau e construções construtivistas, de charme improvável e beleza excêntrica, ainda é um segredo bem guardado. Fundada em 1586 à margem esquerda do Volga.</p>
+                
                     </div>
                 </div>
             </div>

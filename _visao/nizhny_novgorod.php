@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Nizhny Novgorod</span></h1>
-                        <p>Gorky terá, enfim, seus segredos revelados!?</p>
-                        
+                       <p>Nízhniy Novgorod, fundada em 1221, situa-se às margens dos rios Volga e Oka. Já no século XVII era uma cidade de grande progresso - se Moscow era o coração da Rússia; Saint Petersburg, o cérebro; Novgorod era o bolso.</p>
+                
                     </div>
                 </div>
             </div>

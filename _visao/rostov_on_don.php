@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Rostov-On-Don</span></h1>
-                        <p>Um passeio por bosques, a beleza da paisagem e sua rica história. </p>
-                        
+                        <p>Rostov, o Grande, é uma das primeiras cidades historicamente comprovadas na Rússia, mencionada pela primeira vez em 862, na antiga crônica "Conto dos Anos Passados". O principal marco de Rostov-on-Don é o seu Kremlin, um exemplo maravilhosamente preservado da arquitetura medieval russa.</p>
+                
                     </div>
                 </div>
             </div>

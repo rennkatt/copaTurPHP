@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Kaliningrad</span></h1>
-                        <p>Da devastação da Segunda Guerra Mundial à imponente Arena Baltika.</p>
-                        
+                         <p>Exclave russo entre a Polónia e a Lituânia, à beira do Mar Báltico. Fundada em 1255 pelos Cavaleiros Teutónicos sob o nome de Königsberg - "montanha do rei”. A cidade de muitos: No século XIII, foi parte da Polônia; Também foi a capital da Prússia Oriental e, a partir de 1871, fez parte do Império Alemão.</p>
+                
                     </div>
                 </div>
             </div>

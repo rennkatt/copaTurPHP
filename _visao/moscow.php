@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Moscow</span></h1>
-                        <p>Dois estádios, apenas refletem a grandiosidade dessa cidade.</p>
-                        
+                        <p>Se você quer conhecer fantasmas ou conversar com espíritos, basta dar um passeio por Moscow, que tem um arsenal de mitos e lendas arrepiantes, e desfruta da reputação de ser uma das cidades mais misteriosas e estranhas da Europa.</p>
+                                       
                     </div>
                 </div>
             </div>

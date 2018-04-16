@@ -43,6 +43,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!--font-awesome.min.css-->
 		<link rel="stylesheet" href="../_complementos/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../_complementos/lib/fontello/css/fontello.css" />
+		
 		
 		<!--animate.css-->
 		<link rel="stylesheet" href="../_complementos/css/animate.css" />
@@ -65,7 +67,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<link rel="stylesheet" type="text/css" href="../_complementos/css/light-red.css">
 		<!--style.css-->
 		<link rel="stylesheet" href="../_complementos/css/style.css" />
-		
+				
 		<!--responsive.css-->
 		<link rel="stylesheet" href="../_complementos/css/responsive.css" />
 
@@ -156,104 +158,65 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         End Fixed Navigation
         ==================================== -->
 		
-		<div class="banner sochi" id="home">
-            <div class="overlay">
-                <div class="container">
-                    <div class="intro-text">
-                        <h1>Bem Vindo à <span>Sochi</span></h1>
-                         <p>Cidade resort da Rússia, situada no Krai de Krasnodar, no sudoeste do país, nas proximidades das montanhas nevadas do Cáucaso e do mar Negro. Aspectos físicos da região, praias e montanhas, fazem de Sótchi o destino de milhares de russos durante suas férias.</p>
-                
-                    </div>
-                </div>
-            </div>
-        </div>
-
-<div id="featured-hotel" class="fh5co-bg-color">
-		<div class="container">
-			
-			<div class="row">
-				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-					<div class="desc">
-						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
-						<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+		
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2>
+							Administrativo
+						</h2>
 					</div>
 				</div>
-
-				<div class="feature-full-2col">
-					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-						<div class="desc">
-							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
-						</div>
-					</div>
-					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-						<div class="desc">
-							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="feature-full-2col">
-					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-						<div class="desc">
-							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
-						</div>
-					</div>
-					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-						<div class="desc">
-							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="feature-full-2col">
-					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-						<div class="desc">
-							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
-						</div>
-					</div>
-					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
-						<div class="desc">
-							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
-						</div>
-					</div>
-				</div>
-
 			</div>
+		
 
+
+
+		<div class="container">
+		    
+		    <div class="row">
+		    	<div class="col-md-12">
+		            <div class="panel with-nav-tabs panel-default">
+		                <div class="panel-heading">
+		                        <ul class="nav nav-tabs">
+		                            <li class="active"><a href="#tab1default" data-toggle="tab">História</a></li>
+		                            <li><a href="#tab2default" data-toggle="tab">Pontos Turísticos</a></li>
+		                            <li><a href="#tab3default" data-toggle="tab">Estádios</a></li>
+		                            <li><a href="#tab2default" data-toggle="tab">Hotéis</a></li>
+		                            <li><a href="#tab3default" data-toggle="tab">Restaurantes</a></li>
+		                            <li><a href="#tab2default" data-toggle="tab">Comidas</a></li>
+		                            <li><a href="#tab3default" data-toggle="tab">Artesanato</a></li>
+		                            <li><a href="#tab2default" data-toggle="tab">Usuários</a></li>
+		                            
+		                        </ul>
+		                </div>
+		                
+		                <div class="panel-body">
+		                    <div class="tab-content">
+		                        <div class="tab-pane fade in active" id="tab1default">
+									
+										<?php include_once("gerencia-postagens.php"); ?>
+									
+
+		                        </div>
+		                        <div class="tab-pane fade" id="tab2default">Default 2</div>
+		                        <div class="tab-pane fade" id="tab3default">Default 3</div>
+		                        
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
 		</div>
-	</div>
-
-
-	
-	
+ 
 		
 		<footer  class="footer-copyright">
 			<div class="container">
 				
-				<hr>
+				
 				<div class="foot-icons ">
 					
-		        	<p>&copy; 2018 <a href="#">CopaTur</a>.</p>
+		        	&copy; 2018 <a href="#">CopaTur</a>.
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">

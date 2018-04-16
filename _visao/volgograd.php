@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Volgograd</span></h1>
-                        <p>Na Copa 2018, o mundo verá uma nova batalha, uma grande festa .</p>
-                        
+                        <p>Eternizada nos cinemas: "Nas Trincheiras de Stalingrado" de Viktor Nekrasov e, "Vida e Destino" de Vassily Grossman. Foi local de uma das batalhas mais importantes da história do mundo. Em 10 de janeiro de 1943, o General Konstantin Rokossovsky lançou a Operação Ring, que acabaria por conduzir à aniquilação dos restos do Sexto Exército alemão que rodeado a cidade.</p>
+                
                     </div>
                 </div>
             </div>

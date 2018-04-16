@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Kazan</span></h1>
-                        <p>Seu multiculturalismo e seu poderio financeiro será destaque na Copa 2018.</p>
-                        
+                        <p>Kazan, fundada no ano de 1005, é a capital da República do Tatarstan e uma das cidades mais antigas da Rússia. Cheia de paisagens, belas ruas e parques acolhedores, sua culinária tártara, merece atenção especial.</p>
+                
                     </div>
                 </div>
             </div>

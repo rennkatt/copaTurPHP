@@ -161,8 +161,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Yekaterinburg</span></h1>
-                        <p>Do sufrágio à eterna homenagem aos Romanov.</p>
-                        
+                        <p>À leste dos Montes Urais e às margens do Rio Iset, a cidade é conhecida pelo Monumento aos Fundadores: A Igreja do Sangue de Cúpula Dourada, construída no início do século XXI no local das execuções dos Romanov, em 1918.</p>
+                
                     </div>
                 </div>
             </div>
