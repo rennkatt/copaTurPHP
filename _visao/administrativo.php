@@ -71,6 +71,17 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<!--responsive.css-->
 		<link rel="stylesheet" href="../_complementos/css/responsive.css" />
 
+		 <link href="../_complementos/lib/metisMenu/metisMenu.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="../_complementos/lib/datatables-plugins/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="../_complementos/lib/datatables-responsive/dataTables.responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../_complementos/css/sb-admin-2.css" rel="stylesheet">
+
 		
         
 
@@ -131,7 +142,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		                        <?php if ($_SESSION['nivel'] == 1) {
 		                        	# code...
 			                        echo "<li class='dropdown-item'>
-			                            <a href='#' class='external'><i class='fa fa-fw fa-users'></i> Painel Administrativo </a>
+			                            <a href='administrativo.php' class='external'><i class='fa fa-fw fa-users'></i> Painel Administrativo </a>
 			                        </li>
 			                        
 			                        ";
@@ -152,62 +163,89 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	        <!-- /.container-fluid -->
 	    </nav>
 				<!-- /main nav -->
-				
+		
+		<div id="wrapper">
+        
+         <!-- Navigation -->
+        <nav class=" border" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="administrativo.php">Painel Administrativo</a>
             </div>
-        <!--
-        End Fixed Navigation
-        ==================================== -->
+            <!-- /.navbar-header -->
+            
+            <div class="sidebar" role="navigation">
+                <div class="sidebar-nav">
+                    <ul class="nav" id="side-menu">
+                       
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Publicações<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="gerencia_historia.php">História</a>
+                                </li>
+                                <li>
+                                    <a href="gerencia_estadio.php">Estádios</a>
+                                </li>
+                                <li>
+                                    <a href="gerencia_ponto_turistico.php">Pontos Turísticos</a>
+                                </li>
+                                <li>
+                                    <a href="gerencia_hotel.php">Hotéis</a>
+                                </li>
+                                <li>
+                                    <a href="gerencia_restaurante.php">Restaurantes</a>
+                                </li>
+                                <li>
+                                    <a href="gerencia_comida.php">Comidas Típicas</a>
+                                </li>
+                                <li>
+                                    <a href="gerencia_artesanato.php">Artesanato</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                         <li>
+                            <a href="gerencia_usuarios.php"><i class="fa fa-user fa-fw"></i> Usuários</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="page-header" style="text-align: center;" >Painel Administrativo</h3>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        
+                        <div class="panel-body">
+                            <p>Este é seu painel administrativo. No menu ao lado você pode encontrar o gerenciamento de publicações, de usuários, entre outros. É possível cadastrar, listar, pesquisar, editar e/ou excluir publicações e usuários. Use com parcimônia.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+           
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+          
+
 		
-		
-			<div class="container">
-				<div class="gallery-details">
-					<div class="gallary-header text-center">
-						<h2>
-							Administrativo
-						</h2>
-					</div>
-				</div>
-			</div>
-		
-
-
-
-		<div class="container">
-		    
-		    <div class="row">
-		    	<div class="col-md-12">
-		            <div class="panel with-nav-tabs panel-default">
-		                <div class="panel-heading">
-		                        <ul class="nav nav-tabs">
-		                            <li class="active"><a href="#tab1default" data-toggle="tab">História</a></li>
-		                            <li><a href="#tab2default" data-toggle="tab">Pontos Turísticos</a></li>
-		                            <li><a href="#tab3default" data-toggle="tab">Estádios</a></li>
-		                            <li><a href="#tab2default" data-toggle="tab">Hotéis</a></li>
-		                            <li><a href="#tab3default" data-toggle="tab">Restaurantes</a></li>
-		                            <li><a href="#tab2default" data-toggle="tab">Comidas</a></li>
-		                            <li><a href="#tab3default" data-toggle="tab">Artesanato</a></li>
-		                            <li><a href="#tab2default" data-toggle="tab">Usuários</a></li>
-		                            
-		                        </ul>
-		                </div>
-		                
-		                <div class="panel-body">
-		                    <div class="tab-content">
-		                        <div class="tab-pane fade in active" id="tab1default">
-									
-										<?php include_once("gerencia-postagens.php"); ?>
-									
-
-		                        </div>
-		                        <div class="tab-pane fade" id="tab2default">Default 2</div>
-		                        <div class="tab-pane fade" id="tab3default">Default 3</div>
-		                        
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-		    </div>
-		</div>
  
 		
 		<footer  class="footer-copyright">
@@ -266,5 +304,25 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<!--Custom JS-->
 		<script src="../_complementos/js/scri-pt.js"></script>
 		<script src="../_complementos/js/custom.js"></script>
+
+		<!-- Metis Menu Plugin JavaScript -->
+    <script src="../_complementos/lib/metisMenu/metisMenu.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="../_complementos/lib/datatables/js/jquery.dataTables.js"></script>
+    <script src="../_complementos/lib/datatables-plugins/dataTables.bootstrap.js"></script>
+    <script src="../_complementos/lib/datatables-responsive/dataTables.responsive.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../_complementos/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+            responsive: true
+        });
+    });
+    </script>
     </body>
 </html>

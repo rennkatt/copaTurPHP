@@ -129,7 +129,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		                        <?php if ($_SESSION['nivel'] == 1) {
 		                        	# code...
 			                        echo "<li class='dropdown-item'>
-			                            <a href='#' class='external'><i class='fa fa-fw fa-users'></i> Painel Administrativo </a>
+			                            <a href='administrativo.php' class='external'><i class='fa fa-fw fa-users'></i> Painel Administrativo </a>
 			                        </li>
 			                        
 			                        ";
