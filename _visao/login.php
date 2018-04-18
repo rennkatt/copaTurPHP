@@ -13,7 +13,34 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 		    	<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<?php include_once("../_controle/valida_login.php");
-						      //include_once("../_controle/CadUsuario.php");
+							  include_once("../_controle/CadUsuario.php");			
+							
+							  	// Mostra msg de erro
+								if ( isset($_GET['erro_cod']) ){
+									$erro_cod = $_GET['erro_cod'];
+									$erro_msg = $_GET['erro_msg'];
+									
+									if ( !isset($erro_msg) ){
+										$erro_msg = "A operação não pôde ser realizada!";
+									}
+
+									switch($erro_cod){
+										case 1:
+											echo '<div class="alert alert-danger">
+											<button type="button" class="close" data-dismiss="alert">×</button>
+											<strong>'. $erro_msg .'</strong> 
+											</div> ';	
+											break;
+										case 2:
+											echo '<div class="alert alert-warning">
+											<button type="button" class="close" data-dismiss="alert">×</button>
+											<strong>Preencha as informações obrigatórias!</strong> 
+											</div> ';		
+											break;
+									}
+												
+								}
+							  
 						?>
 						<div class="panel panel-login">
 							<div class="panel-heading">
@@ -48,7 +75,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 											</div>
 											
 										</form>
-										<form data-toggle="validator" id="register-form" action="../_controle/CadUsuario.php" method="post" enctype="multipart/form-data" role="form" style="display: none;">
+										<form data-toggle="validator" id="register-form" action="#" method="post" enctype="multipart/form-data" role="form" style="display: none;">
 											<div class="row">
 												<div class="col-xs-12 col-sm-6 col-md-6">
 													<div class="form-group">
