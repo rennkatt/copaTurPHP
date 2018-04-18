@@ -20,7 +20,8 @@
 
 #intro .carousel-item::before {
   content: '';
-  /*background-color: rgba(0, 0, 0, 0.1);*/
+  background-color: rgba(190, 216, 214, 0.06);
+  filter: contrast(.68) brightness(.9) saturate(4);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -77,24 +78,19 @@
   width: 80%;
   margin: 0 auto 10px auto;
   color: #fff;
-  font-family: whitney;
+  font-family: 'lobster', cursive;
   text-shadow: 0 1px 1px #ccc, 
                0 1px 1px #c9c9c9,
                0 1px 1px #bbb,
                0 1px 1px #b9b9b9,
-               0 1px 1px #000,
-               1px 6px 6px rgba(0,0,0,.9),
                0 6px 6px rgba(0,0,0,.9),
                0 6px 6px rgba(0,0,0,.9),
-               0 5px 5px rgba(0,0,0,.9),
-               0 5px 5px rgba(0,0,0,.9),
-               0 10px 10px rgba(0,0,0,.9),
-               0 20px 20px rgba(0,0,0,.9);
+               0 5px 5px rgba(0,0,0,.9);
 }
 
 @media (min-width: 1024px) {
   #intro p {
-    width: 90%;
+    width: 80%;
     font-size: 30px;
   }
 }

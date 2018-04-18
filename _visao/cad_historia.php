@@ -271,9 +271,13 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				                    <option>Kazan</option>
 			                  </select>
                         </div>
-                        <div class=" col-lg-12 pad10">
+                        <div class=" col-lg-6 pad10">
                             <label class="control-label" for="image">Imagem Destacada</label>
 				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]">
+                        </div>
+                        <div class=" col-lg-6 pad10">
+                            <label class="control-label" for="titulo">Fonte da Imagem</label>
+				            <input type="text" id="fonte" value="" name="fonte" placeholder="Fonte da Imagem" class="form-control">
                         </div>
                         <div class=" col-lg-12 pad10">
                             

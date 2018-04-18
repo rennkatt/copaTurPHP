@@ -274,10 +274,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 					                    
 				                  </select>
                         </div>
-                        <div class=" col-lg-12 pad10">
+                        <div class=" col-lg-6 pad10">
                             <label>Imagem Destacada</label>
 				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]">
 				                   <img src="../_upload/postagens/<?php echo $novoNome;?>" width="200px"/>
+                        </div>
+                        <div class=" col-lg-6 pad10">
+                            <label class="control-label" for="fonte">Fonte da Imagem</label>
+				            <input type="text" id="fonte" value="<?php echo $fonte;?>" name="fonte" placeholder="Fonte da Imagem" class="form-control">
                         </div>
                         <div class=" col-lg-12 pad10">
                             

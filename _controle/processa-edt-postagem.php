@@ -18,7 +18,8 @@ $contagem =1;
 					$imagem = $mostra->imagem;
 					$cidade = $mostra->cidade;
 					$descricao = $mostra->descricao;
-					$categoria = $mostra->categoria;	
+					$categoria = $mostra->categoria;
+					$fonte = $mostra->fonte_imagem;	
 				}				
 			}else{
 				echo '<div class="alert alert-danger">
@@ -39,6 +40,7 @@ $contagem =1;
 			$data 			= trim(strip_tags($_POST['data']));
 			$cidade 		= trim(strip_tags($_POST['cidade']));
 			$categoria 		= trim(strip_tags($_POST['categoria']));
+			$fonte 		= trim(strip_tags($_POST['fonte']));
 			$descricao	 	= $_POST['descricao'];
 			
 			if(!empty($_FILES['img']['name'])){
@@ -120,7 +122,7 @@ $contagem =1;
 			
 			                        
 		
-			$update = "UPDATE tb_postagens SET titulo=:titulo, imagem=:imagem, cidade=:cidade, descricao=:descricao, categoria=:categoria WHERE id=:id";
+			$update = "UPDATE tb_postagens SET titulo=:titulo, imagem=:imagem, cidade=:cidade, descricao=:descricao, categoria=:categoria, fonte_imagem=:fonte WHERE id=:id";
 			
 		
 		try{
@@ -132,6 +134,7 @@ $contagem =1;
 			$result->bindParam(':cidade', $cidade, PDO::PARAM_STR);
 			$result->bindParam(':descricao', $descricao, PDO::PARAM_STR);
 			$result->bindParam(':categoria', $categoria, PDO::PARAM_STR);
+			$result->bindParam(':fonte', $fonte, PDO::PARAM_STR);
 			$result->execute();
 			$contar = $result->rowCount();
 			if($contar>0){
