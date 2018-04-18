@@ -181,6 +181,34 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 								    case 'Moscow':
 								        echo 'moscow.php';
 								        break;
+								    case 'Kaliningrad':
+								        echo 'kaliningrad.php';
+								        break;
+								    case 'Nizhny Novgorod':
+								        echo 'nizhny_novgorod.php';
+								        break;
+								    case 'Rostov On Don':
+								        echo 'rostov_on_don.php';
+								        break;
+								    case 'Saint Petersburg':
+								        echo 'saint_petersburg.php';
+								        break;
+								    case 'Samara':
+								        echo 'samara.php';
+								        break;
+								    case 'Saransk':
+								        echo 'saransk.php';
+								        break;
+								    case 'Sochi':
+								        echo 'sochi.php';
+								        break;
+								    case 'Volgograd':
+								        echo 'volgograd.php';
+								        break;
+								    case 'Yekaterinburg':
+								        echo 'yekaterinburg.php';
+								        break;
+
 								}
 							?>"><?php echo ($cidade)?></a></li>
 						  <li class="active">História</li>

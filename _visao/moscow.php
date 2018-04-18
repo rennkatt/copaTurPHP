@@ -177,7 +177,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 					<div class="desc">
 						<h2>História</h2>
 						<p>Não existe uma data precisa de sua fundação, sabe-se apenas que a mais de 870 anos foi a capital da Moscovia, do subsequente Czarado da Rússia e, durante a Guerra Fria, Moscou foi a capital da extinta União Soviética e, mesmo que alguma cicatriz nos traga à memoria esta época, as pérolas arquitetônicas do ciclo do Império se espalham por essa capital icônica. </p>
-						<p><a href="historia.php" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+						<p><a href="historia.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
