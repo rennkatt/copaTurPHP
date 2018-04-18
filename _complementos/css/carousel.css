@@ -20,7 +20,7 @@
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  /*background-color: rgba(0, 0, 0, 0.1);*/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -47,30 +47,55 @@
 
 #intro h2 {
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-size: 58px;
   font-weight: 700;
   font-family: dusha;
+  
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #222,
+               0 6px 6px rgba(0,0,0,.9),
+               0 3px 5px rgba(0,0,0,.9),
+               0 3px 3px rgba(0,0,0,.9),
+               0 3px 5px rgba(0,0,0,.9),
+               0 5px 10px rgba(0,0,0,.9),
+               0 10px 10px rgba(0,0,0,.9),
+               0 20px 20px rgba(0,0,0,.9);
 }
 
 @media (max-width: 768px) {
   #intro h2 {
-    font-size: 28px;
+    font-size: 40px;
   }
 }
 
 #intro p {
-  font-size: 15px;
+  font-size: 20px;
   width: 80%;
   margin: 0 auto 10px auto;
   color: #fff;
   font-family: whitney;
+  text-shadow: 0 1px 1px #ccc, 
+               0 1px 1px #c9c9c9,
+               0 1px 1px #bbb,
+               0 1px 1px #b9b9b9,
+               0 1px 1px #000,
+               1px 6px 6px rgba(0,0,0,.9),
+               0 6px 6px rgba(0,0,0,.9),
+               0 6px 6px rgba(0,0,0,.9),
+               0 5px 5px rgba(0,0,0,.9),
+               0 5px 5px rgba(0,0,0,.9),
+               0 10px 10px rgba(0,0,0,.9),
+               0 20px 20px rgba(0,0,0,.9);
 }
 
 @media (min-width: 1024px) {
   #intro p {
-    width: 60%;
-    font-size: 20px;
+    width: 90%;
+    font-size: 30px;
   }
 }
 
@@ -103,6 +128,7 @@
 
 #intro .carousel-control-prev, #intro .carousel-control-next {
   width: 10%;
+
 }
 
 @media (min-width: 1024px) {
@@ -115,6 +141,18 @@
   background: none;
   font-size: 32px;
   line-height: 1;
+  text-shadow: 0 1px 1px #ccc, 
+               0 1px 1px #c9c9c9,
+               0 1px 1px #bbb,
+               0 1px 1px #b9b9b9,
+               0 1px 1px #000,
+               1px 6px 6px rgba(0,0,0,.9),
+               0 6px 6px rgba(0,0,0,.9),
+               0 6px 6px rgba(0,0,0,.9),
+               0 5px 5px rgba(0,0,0,.9),
+               0 5px 5px rgba(0,0,0,.9),
+               0 10px 10px rgba(0,0,0,.9),
+               0 20px 20px rgba(0,0,0,.9);
 }
 
 #intro .carousel-indicators li {
