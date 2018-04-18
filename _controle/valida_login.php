@@ -59,7 +59,7 @@ if(isset($_POST['logar'])){
 			}else{
 				echo '<div class="alert alert-danger">
                       <button type="button" class="close" data-dismiss="alert">×</button>
-                      <strong>Erro ao logar!</strong> Os dados estão incorretos.
+                      <strong>Erro ao logar!</strong> Usuário ou senha incorretos.
                 </div>';
 			}
 			

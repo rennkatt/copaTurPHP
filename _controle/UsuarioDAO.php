@@ -11,7 +11,17 @@
 		public function inserirUsuario($usuario){
 			try{
 
-				$sqlInserir = "Insert into login(nome, sobrenome, email, senha, nivel) values(:nome, :sobrenome, :email, :senha, :nivel)";
+				$busca_usuario = "SELECT COUNT(id) AS total FROM login WHERE email = :email";
+				$p_busca_usuario = $this->conexao->prepare($busca_usuario);
+				$p_busca_usuario->bindValue(":email", $usuario->getEmail());
+				$p_busca_usuario->execute();
+				$row = $p_busca_usuario->fetch(PDO::FETCH_ASSOC);
+
+				if ( isset($row['total']) and $row['total'] > 0 ){
+					return array(false, "Esse email já está existe no sistema!");
+				}
+
+				$sqlInserir = "INSERT INTO login(nome, sobrenome, email, senha, nivel) values(:nome, :sobrenome, :email, :senha, :nivel)";
 
 				$usuario->setNivel(2);
 
@@ -25,13 +35,13 @@
 
 				$result->execute();
 
-				return true;
+				return array( true, "");
 
 			} catch(PDOException $e){
 				echo $e;
 			}
 
-			return false;
+			return array( false, "" );
 		}
 	}
 ?>

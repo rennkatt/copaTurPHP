@@ -12,7 +12,9 @@
 
 			$UsuarioDAO = new UsuarioDAO($conexao);
 
-			if($UsuarioDAO->inserirUsuario($Usuario)){
+			list($dados_retorno, $msg_retorno) = $UsuarioDAO->inserirUsuario($Usuario);
+
+			if( $dados_retorno ){
 				echo '<div class="alert alert-success">
                       <button type="button" class="close" data-dismiss="alert">×</button>
                       <strong>Operação realizada com sucesso!</strong> 
@@ -21,7 +23,7 @@
                 header("Location: ../_visao/index.php"); 	 
                  
 			} else {
-				header("Location: ../_visao/home.php?link=2&erro_cod=1");
+				header("Location: ../_visao/home.php?link=2&erro_cod=1&erro_msg=". $msg_retorno );
 			}
 
 		} else {
