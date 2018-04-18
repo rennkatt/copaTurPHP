@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 18-Abr-2018 às 02:55
+-- Generation Time: 18-Abr-2018 às 02:54
 -- Versão do servidor: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -21,30 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `copatur`
 --
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `login`
---
-
-CREATE TABLE `login` (
-  `id` int(11) NOT NULL,
-  `nome` varchar(255) NOT NULL,
-  `sobrenome` varchar(50) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `senha` varchar(255) NOT NULL,
-  `nivel` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Extraindo dados da tabela `login`
---
-
-INSERT INTO `login` (`id`, `nome`, `sobrenome`, `email`, `senha`, `nivel`) VALUES
-(1, 'Renato', 'Moura', 'renato@gmail.com', 'teste123', '1'),
-(2, 'Katia', 'Rodrigues', 'katia@gmail.com', 'katia123', '1'),
-(3, 'Rejane', 'Barbosa', 'rejane@gmail.com', '123', '2');
 
 -- --------------------------------------------------------
 
@@ -85,13 +61,6 @@ INSERT INTO `tb_postagens` (`id`, `titulo`, `imagem`, `categoria`, `descricao`, 
 --
 
 --
--- Indexes for table `login`
---
-ALTER TABLE `login`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
-
---
 -- Indexes for table `tb_postagens`
 --
 ALTER TABLE `tb_postagens`
@@ -100,12 +69,6 @@ ALTER TABLE `tb_postagens`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
---
--- AUTO_INCREMENT for table `login`
---
-ALTER TABLE `login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `tb_postagens`
