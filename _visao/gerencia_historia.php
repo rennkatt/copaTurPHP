@@ -5,7 +5,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	//header("Location: home.php");exit;
 }
 	include("../_controle/conecta.php");
-    
     include("../_controle/limita-texto.php");
 ?>
 
@@ -136,7 +135,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         <li class="dropdown nav-item">
 		                    <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-aria-haspopup="true" data-aria-expanded="false"><i class="fa fa-user"></i> <?php echo $_SESSION['nome']; ?> <b class="caret"></b></a>
 		                    
-		                    <ul class="dropdown-menu">
+		                    <ul class="dropdown-menu black">
 		                        <li class="dropdown-item">
 		                            <a href="#" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
 		                        </li>
@@ -224,7 +223,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                     <h3 class="page-header" style="text-align: center;" >Publicações sobre a história das cidades</h3>
                 </div>
                 <div class="col-lg-3">
-                    <a href="#" type="button" class="btn btn-primary page-header pull-right"><i class="fa fa-plus"></i> Nova Publicação</a>
+                    <a href="cad_historia.php" type="button" class="btn btn-primary page-header pull-right"><i class="fa fa-plus"></i> Nova Publicação</a>
                 </div>
 
                 <!-- /.col-lg-12 -->
@@ -250,7 +249,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <?PHP
 
                                         try{
-                                            $select = "SELECT * from tb_postagens ORDER BY id";
+                                            $select = "SELECT * from tb_postagens WHERE categoria = 'historia' ORDER BY cidade";
                                             $result = $conexao->prepare($select);           
                                             $result->execute();
                                             $contar = $result->rowCount();
@@ -264,14 +263,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <tr class="odd gradeA">
                                         <td <?php echo "data-url='$url'" ?> ><H5> <?php echo $mostra->titulo;?></H5> </td>
 
-                                        <td <?php echo "data-url='$url'" ?> ><H5> <?php echo $mostra->categoria;?></H5> </td>
+                                        <td <?php echo "data-url='$url'" ?> ><H5> <?php echo $mostra->cidade;?></H5> </td>
 
-                                        <td <?php echo "data-url='$url'" ?> ><H5> <?php echo $mostra->imagem;?></H5> </td>
+                                        <td <?php echo "data-url='$url'" ?> ><img src="../_upload/postagens/<?php echo $mostra->imagem;?>" width="50"/></td>
 
                                         <td <?php echo "data-url='$url'" ?> > <H5><?php echo limitarTexto($mostra->descricao, $limite=200)?> </H5></td>
                                         
                                         <td class="td-actions">
-                                           <a href="administrativo.php?link=5&id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>
+                                           <a href="edita_historia.php?id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>
                                             <a href="gerencia_historia.php?delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir o post?')" ><i class="fa fa-times"> </i></a>
                         
                                         </td>

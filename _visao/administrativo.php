@@ -134,7 +134,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         <li class="dropdown nav-item">
 		                    <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-aria-haspopup="true" data-aria-expanded="false"><i class="fa fa-user"></i> <?php echo $_SESSION['nome']; ?> <b class="caret"></b></a>
 		                    
-		                    <ul class="dropdown-menu">
+		                    <ul class="dropdown-menu black">
 		                        <li class="dropdown-item">
 		                            <a href="#" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
 		                        </li>

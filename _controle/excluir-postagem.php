@@ -19,11 +19,10 @@
 				}
 				
 				
-				/*
 				$fotoDeleta = $exibir['imagem'];
 				$arquivo = "../_upload/postagens/" .$fotoDeleta;
 				unlink($arquivo);
-				*/
+				
 				
 				// exclui o registo
 				$seleciona = "DELETE from tb_postagens WHERE id=:id_delete";
