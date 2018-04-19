@@ -5,6 +5,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	//header("Location: home.php");exit;
 }
 	include("../_controle/conecta.php");
+	include_once("../_controle/seguranca.php"); 
+
+	if($nivelLogado==2) {
+		header("Location: index.php");exit;
+	}
 ?>
 
 <!DOCTYPE html>
