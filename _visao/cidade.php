@@ -232,7 +232,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
                                     <p>De avião: Não existem voos diretos das principais capitais brasileiras para Moscou, apenas com conexões em outras cidades europeias - o tempo total de viagem saindo de São Paulo, por exemplo, é de no mínimo 16 horas, já contando a parada na conexão. A capital da Rússia é servida por três aeroportos: Sheremetyevo International, Moscou Domodedovo e Moscou Vnukovo.</p>
                                     <p>De trem: É possível acessar Moscou das principais cidades da Europa, mas essa não é uma viagem das mais rápidas e nem das mais baratas. Passageiros provenientes de Praga (República Tcheca), Kiev (Ucrânia) e Budapeste (Hungria) desembarcam na estação Kievskiy, enquanto trens de alta velocidade provenientes de São Petersburgo chegam na estação Leningradskiy. Neste último trajeto, o tempo é de 3h50.</p>
-                                    <p>De carro : Moscou pode ser acessada de carro, mas a capital russa tem um trânsito local bastante confuso, além de toda má fama dos motoristas, que, no geral, não respeitarem sinais de trânsito e limites de velocidade. Além disso, os engarrafamentos são constantes na cidade que abriga dois dos estádios da Copa 2018.</p>
+                                    <p>De carro: Moscou pode ser acessada de carro, mas a capital russa tem um trânsito local bastante confuso, além de toda má fama dos motoristas, que, no geral, não respeitarem sinais de trânsito e limites de velocidade. Além disso, os engarrafamentos são constantes na cidade que abriga dois dos estádios da Copa 2018.</p>
 
 
 
