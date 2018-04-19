@@ -387,7 +387,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
     <script>
     $(document).ready(function() {
        
-        $('#dataTables-example').DataTable( {
+        $('#dataTabl-es-example').DataTable( {
             responsive: true,
             
           
@@ -396,6 +396,16 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
         
     });
+
+    $(document).ready(function() {
+    $('#dataTables-example').DataTable( {
+         responsive: 'true',
+         "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.10.12/i18n/Portuguese-Brasil.json"
+            }
+
+    } );
+} );
 
 
 
