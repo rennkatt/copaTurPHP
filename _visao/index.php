@@ -160,7 +160,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Rússia</span></h1>
-                        <p>A Fita World Cup – Russia 2018 cria a oportunidade perfeita para mostrar essa grande nação ao mundo, sua força intercontinental traduz mais de dois mil anos de conquistas e, une suas 83 federações em uma única língua, cultura e religião. A Rússia como conhecemos teve inicio no desenvolvimento das ideias da Terceira Roma, o grão-duque Ivã IV, o "Terrível", foi oficialmente coroado o primeiro czar ("césar") da Rússia em 1547. Mas, apenas, em 1991, na primeira eleição direta presidencial na história russa e, após a desintegração da União Soviética, renasce o amor às tradições e a beleza desse povo.</p>                        
+                        <p>A Fifa World Cup – Russia 2018 cria a oportunidade perfeita para mostrar essa grande nação ao mundo, sua força intercontinental traduz mais de dois mil anos de conquistas e, une suas 83 federações em uma única língua, cultura e religião. A Rússia como conhecemos teve inicio no desenvolvimento das ideias da Terceira Roma, o grão-duque Ivã IV, o "Terrível", foi oficialmente coroado o primeiro czar ("césar") da Rússia em 1547. Mas, apenas, em 1991, na primeira eleição direta presidencial na história russa e, após a desintegração da União Soviética, renasce o amor às tradições e a beleza desse povo.</p>                        
                     </div>
                 </div>
             </div>
