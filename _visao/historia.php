@@ -303,7 +303,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                             
                                             <!-- .author-img --> 
                                             <div class="author-img">
-                                                <a href="#"><img alt="Johnny Doe" src="../_complementos/images/team/01.jpg" class="avatar"></a>												
+                                                <a href="#"><img alt="Johnny Doe" src="../_complementos/images/team/02.jpg" class="avatar"></a>												
                                             </div>
                                             <!-- .author-img -->
                                             

@@ -230,9 +230,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                                                         
                                     <h2>Como chegar:</h2>
 
-                                    <p>De avião: As passagens partindo de Moscou custam a partir de R$ 300 e o tempo de viagem dura em média 1h55. O desembarque será no aeroporto de Khrabrovo e de lá será preciso pegar outro transporte para Kaliningrado.</p>
-                                    <p>De trem: A viagem será longa, de pelo menos 19h, mas pode ser válido para descansar ou observar a paisagem entre a capital e Kaliningrado. O trem pode ser pego na estação Belorussky.</p>
-                                    <p>De carro/ônibus: A viagem de ônibus ou de carro de Moscou até Kaliningrado, uma das cidades russas com estádios da Copa, dura, pelo menos, 15h45. Talvez o gasto excessivo com combustível faça não valer a pena a viagem com automóvel particular</p>
+                                    <p>De avião: Não existem voos diretos das principais capitais brasileiras para Moscou, apenas com conexões em outras cidades europeias - o tempo total de viagem saindo de São Paulo, por exemplo, é de no mínimo 16 horas, já contando a parada na conexão. A capital da Rússia é servida por três aeroportos: Sheremetyevo International, Moscou Domodedovo e Moscou Vnukovo.</p>
+                                    <p>De trem: É possível acessar Moscou das principais cidades da Europa, mas essa não é uma viagem das mais rápidas e nem das mais baratas. Passageiros provenientes de Praga (República Tcheca), Kiev (Ucrânia) e Budapeste (Hungria) desembarcam na estação Kievskiy, enquanto trens de alta velocidade provenientes de São Petersburgo chegam na estação Leningradskiy. Neste último trajeto, o tempo é de 3h50.</p>
+                                    <p>De carro : Moscou pode ser acessada de carro, mas a capital russa tem um trânsito local bastante confuso, além de toda má fama dos motoristas, que, no geral, não respeitarem sinais de trânsito e limites de velocidade. Além disso, os engarrafamentos são constantes na cidade que abriga dois dos estádios da Copa 2018.</p>
+
+
+
+ 
+
                                     
                                     <p>Leia mais em: <a href="https://br.sputniknews.com/portuguese.ruvr.ru/2012_10_16/Copa-Mundial-de-2018-em-Kaliningrado-areias-cantantes-e-buscas-de-ambar/">sputniknews</a> | 
                                     	<a href="https://en.wikipedia.org/wiki/Kaliningrad">wikipedia</a></p>

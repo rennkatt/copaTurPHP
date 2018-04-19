@@ -247,13 +247,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                     <form id="edit-profile" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+                     <form id="hist-form" class="form-horizontal" data-toggle="validator" action="" method="post" enctype="multipart/form-data" role="form">
 						<div class="row">
 						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
 						
                         <div class=" col-lg-12 pad10">
                             <label class="control-label" for="titulo">Título</label>
-				            <input type="text" id="titulo" value="" name="titulo" placeholder="TITULO" class="form-control">
+				            <input type="text" id="titulo" value="" name="titulo" placeholder="TITULO" class="form-control" tabindex="1" required>
+				            <div class="help-block with-errors"></div>
                         </div>
                         <div class=" col-lg-12 pad10 hidden">
                             <label class="control-label" for="data">Data</label>
@@ -282,7 +283,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         </div>
                         <div class=" col-lg-6 pad10">
                             <label class="control-label" for="image">Imagem Destacada</label>
-				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]">
+				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]" required>
+				                  <div class="help-block with-errors"></div>
                         </div>
                         <div class=" col-lg-6 pad10">
                             <label class="control-label" for="titulo">Fonte da Imagem</label>
@@ -290,7 +292,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         </div>
                         <div class=" col-lg-12 pad10">
                             
-                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" ><br>Escreva sua mensagem aqui <br></textarea><br>
+                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" required><br>Escreva sua mensagem aqui <br></textarea><br>
+                            <div class="help-block with-errors"></div>
                         </div>
                         
                         <div class="form-actions col-lg-12">
