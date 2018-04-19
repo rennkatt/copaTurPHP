@@ -259,19 +259,19 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                             $contar = $result->rowCount();
                                             if($contar>0){
                                                 while($mostra = $result->FETCH(PDO::FETCH_OBJ)){
-                                                    $url = "administrativo.php?link=1&id=".$mostra->id;
+                                                    
                                 ?>
 
 
 
                                     <tr class="odd gradeA">
-                                        <td <?php echo "data-url='$url'" ?> ><H5> <?php echo $mostra->titulo;?></H5> </td>
+                                        <td  ><H5> <?php echo $mostra->titulo;?></H5> </td>
 
-                                        <td <?php echo "data-url='$url'" ?> ><H5> <?php echo $mostra->cidade;?></H5> </td>
+                                        <td  ><H5> <?php echo $mostra->cidade;?></H5> </td>
 
-                                        <td <?php echo "data-url='$url'" ?> ><img src="../_upload/postagens/<?php echo $mostra->imagem;?>" width="50"/></td>
+                                        <td  ><img src="../_upload/postagens/<?php echo $mostra->imagem;?>" width="50"/></td>
 
-                                        <td <?php echo "data-url='$url'" ?> > <H5><?php echo limitarTexto($mostra->descricao, $limite=200)?> </H5></td>
+                                        <td  > <H5><?php echo limitarTexto($mostra->descricao, $limite=200)?> </H5></td>
                                         
                                         <td class="td-actions">
                                            <a href="edita_historia.php?id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>

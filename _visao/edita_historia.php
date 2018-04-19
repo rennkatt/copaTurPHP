@@ -266,6 +266,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         <div class=" col-lg-12 pad10 hidden">
                             <label class="control-label" for="categoria">Categoria</label>
 				            <input type="text" class="form-control" id="categoria" value="historia" name="categoria">
+				            			<!-- value = aqui muda a categoria... -->
                         </div>
 
                         <div class=" col-lg-12 pad10">
@@ -273,9 +274,17 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			                  
 				                  <select class="form-control" id="cidade"  name="cidade">
 					                    <option selected><?php echo $cidade;?></option>
-					                    <option>Moscow</option>
-					                    <option>Kazan</option>
-					                    
+					                    <option value="Kaliningrad">Kaliningrad</option>
+					                    <option value="Kazan">kazan</option>
+					                	<option value="Moscow">Moscow</option>
+					                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
+					                    <option value="Rostov On Don">Rostov On Don</option>
+					                    <option value="Saint Petersburg">Saint Petersburg</option>
+					                    <option value="Samara">Samara</option>
+					                    <option value="Saransk">Saransk</option>
+					                    <option value="Sochi">Sochi</option>
+					                    <option value="Volgograd">Volgograd</option>
+					                    <option value="Yekaterinburg">Yekaterinburg</option>
 				                  </select>
                         </div>
                         <div class=" col-lg-6 pad10">
@@ -296,7 +305,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 							
 							<input type="submit" name="atualizar" class="btn btn-primary btn-block" value="atualizar">
 							<a href="gerencia_historia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
-							<a href="gerencia_historia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')" >EXCLUIR PUBLICAÇÃO</a>
+							<a href="gerencia_historia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
 						</div> <!-- /form-actions -->
 
 						</div>
