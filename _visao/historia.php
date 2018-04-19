@@ -241,8 +241,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <header class="entry-header">
                                     
                                     
-                                    <!-- .entry-title -->
-                                    <h1 class="entry-title hidden"><?php echo $titulo;?></h1>
+                                    
                                     
                                 </header>
                                 <!-- .entry-header -->
