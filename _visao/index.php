@@ -43,6 +43,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!--font-awesome.min.css-->
 		<link rel="stylesheet" href="../_complementos/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../_complementos/lib/fontello/css/fontello.css" />
 		
 		<!--animate.css-->
 		<link rel="stylesheet" href="../_complementos/css/animate.css" />
@@ -64,7 +65,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 		<link rel="stylesheet" type="text/css" href="../_complementos/css/light-red.css">
 		<!--style.css-->
+		<link rel="stylesheet" href="../_complementos/css/ma-in.css" />
 		<link rel="stylesheet" href="../_complementos/css/style.css" />
+
 		
 		<!--responsive.css-->
 		<link rel="stylesheet" href="../_complementos/css/responsive.css" />
@@ -353,54 +356,96 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				<div class="row wow fadeInUp">
           <div class="col-md-2 pull-left">
             <div class="member">
-              <div class="pic  "><img src="../_complementos/images/team/01.jpg" class="img-responsive   "  width="150px" alt=""></div>
-              <h4>Renato Moura</h4>
+              <center><div class="pic  "><img src="../_complementos/images/team/01.jpg" class="img-responsive   "  width="150px" alt=""></div>
+               <h4>Renato Moura</h4>
               <span>Gerente de Projeto</span>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="https://www.facebook.com/renatomoura7"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/rennkatt"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
               
             </div>
           </div>
 
           <div class="col-md-2 pull-left">
             <div class="member">
-              <div class="pic  "><img src="../_complementos/images/team/02.jpg" class="img-responsive   " width="150px"  alt=""></div>
+              <center><center><div class="pic  "><img src="../_complementos/images/team/02.jpg" class="img-responsive   " width="150px"  alt=""></div>
               <h4>Elder Cordeiro</h4>
               <span>Design</span>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
               
             </div>
           </div>
 
           <div class="col-md-2 pull-left">
             <div class="member">
-              <div class="pic  "><img src="../_complementos/images/team/03.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <center><div class="pic  "><img src="../_complementos/images/team/03.jpg" class="img-responsive   " width="150px" alt=""></div>
               <h4>Erico Vinicio</h4>
               <span>Analista</span>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
               
             </div>
           </div>
 
           <div class="col-md-2 pull-left">
             <div class="member">
-             <div class="pic  "><img src="../_complementos/images/team/04.jpg" class="img-responsive   " width="150px" alt=""></div>
+             <center><div class="pic  "><img src="../_complementos/images/team/04.jpg" class="img-responsive   " width="150px" alt=""></div>
               <h4>Hyago Sayomar</h4>
               <span>Desenvolvedor</span>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
               
             </div>
           </div>
 
            <div class="col-md-2 pull-left">
             <div class="member">
-              <div class="pic  "><img src="../_complementos/images/team/05.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <center><div class="pic  "><img src="../_complementos/images/team/05.jpg" class="img-responsive   " width="150px" alt=""></div>
               <h4>Jefferson Gonçalves</h4>
               <span>Desenvolvedor</span>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
               
             </div>
           </div>
 
            <div class="col-md-2 pull-left">
             <div class="member">
-              <div class="pic  "><img src="../_complementos/images/team/06.jpg" class="img-responsive   " width="150px" alt=""></div>
+              <center><div class="pic  "><img src="../_complementos/images/team/06.jpg" class="img-responsive   " width="150px" alt=""></div>
               <h4>Robson Lemos</h4>
               <span>Testador</span>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
               
             </div>
           </div>
