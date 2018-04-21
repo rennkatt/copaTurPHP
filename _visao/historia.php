@@ -167,7 +167,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                     	<?php 
-                    		include("../_controle/post.php"); 
+                    		include("historia_post.php"); 
+                    				//edita aqui...
                             if($contar > 0 ){
                         ?>
                         <h1>História de <span><?php echo ($cidade)?></span></h1>
@@ -279,13 +280,15 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                         
                                         <div class="share-links-wrap">
                                                                         
-                                            <a rel="nofollow" target="_blank" href="mailto:?subject=Eu quero que veja essa postagem&amp;body=Olha esta postagem : História de Moscow - http://copatur-com-br.umbler.net/_visao/historia.php?cidade=<?php echo ($cidade)?>" title="Mande esta postagem por e-mail"><i class="pw-icon-mail"></i></a>
+                                            <a rel="nofollow" target="_blank" href="mailto:?subject=Eu quero que veja essa postagem&amp;body=Olha esta postagem : História de <?php echo ($cidade)?> - http://copatur-com-br.umbler.net/_visao/historia.php?cidade=<?php echo ($cidade)?>" title="Mande esta postagem por e-mail"><i class="pw-icon-mail"></i></a>
                                             
                                             <a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=http://copatur-com-br.umbler.net/_visao/historia.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Google+"><i class="pw-icon-gplus"></i></a>
                                             
                                             <a rel="nofollow" target="_blank" href="http://twitter.com/home?status=http://copatur-com-br.umbler.net/_visao/historia.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Twitter"><i class="pw-icon-twitter"></i></a>
                                               
                                             <a rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://copatur-com-br.umbler.net/_visao/historia.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Facebook"><i class="pw-icon-facebook"></i></a>
+
+                                            <!-- Atualiza aqui tbm. -->
                                         
                                         </div>
                                         

@@ -186,32 +186,32 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> Publicações<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="gerencia_historia.php">História</a>
+                                    <a href="historia_gerencia.php">História</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_estadio.php">Estádios</a>
+                                    <a href="estadio_gerencia.php">Estádios</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_ponto_turistico.php">Pontos Turísticos</a>
+                                    <a href="ponto_turistico_gerencia.php">Pontos Turísticos</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_hotel.php">Hotéis</a>
+                                    <a href="hotel_gerencia.php">Hotéis</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_restaurante.php">Restaurantes</a>
+                                    <a href="restaurante_gerencia.php">Restaurantes</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_comida.php">Comidas Típicas</a>
+                                    <a href="comida_gerencia.php">Comidas Típicas</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_artesanato.php">Artesanato</a>
+                                    <a href="artesanato_gerencia.php">Artesanato</a>
                                 </li>
                             </ul>
-                            <!-- /.nav-second-level -->
+                            <!-- Tenta deixar os arquivos gerencia com estes nomes acima -->
                         </li>
 
                          <li>
-                            <a href="gerencia_usuarios.php"><i class="fa fa-user fa-fw"></i> Usuários</a>
+                            <a href="usuarios_gerencia.php"><i class="fa fa-user fa-fw"></i> Usuários</a>
                         </li>
                        
                     </ul>

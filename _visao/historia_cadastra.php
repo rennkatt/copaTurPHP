@@ -5,11 +5,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	//header("Location: home.php");exit;
 }
 	include("../_controle/conecta.php");
-    include("../_controle/limita-texto.php");
-    include_once("../_controle/seguranca.php"); 
-    if($nivelLogado==2) {
-        header("Location: index.php");exit;
-    }
+	include_once("../_controle/seguranca.php"); 
+
+	if($nivelLogado==2) {
+		header("Location: index.php");exit;
+	}
 ?>
 
 <!DOCTYPE html>
@@ -31,6 +31,17 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!-- CSS
 		================================================== -->
+ 
+		 <!-- Main jQuery -->
+        <script src="../_complementos/js/jquery.js"></script>
+
+        <!--bootstrap.min.js-->
+        <script  src="../_complementos/js/bootstrap.min.js"></script>
+    
+        <script  src="../_complementos/js/validator.js"></script>
+
+        <link href="../_complementos/lib/summernote/summernote.css" rel="stylesheet">
+	<script src="../_complementos/lib/summernote/summernote.js"></script>
 
 		<!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
@@ -50,7 +61,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<link rel="stylesheet" href="../_complementos/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="../_complementos/lib/fontello/css/fontello.css" />
 		
-		
 		<!--animate.css-->
 		<link rel="stylesheet" href="../_complementos/css/animate.css" />
 
@@ -69,6 +79,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<!-- bootsnav -->
 		<link rel="stylesheet" href="../_complementos/css/bootsnav.css"/>
 
+		
 		<link rel="stylesheet" type="text/css" href="../_complementos/css/light-red.css">
 		<!--style.css-->
 		<link rel="stylesheet" href="../_complementos/css/style.css" />
@@ -86,8 +97,15 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
     <!-- Custom CSS -->
     <link href="../_complementos/css/sb-admin-2.css" rel="stylesheet">
+	
+	
 
-		
+		<!-- Page-Level Demo Scripts - Tables - Use for reference -->
+     <script>
+		$(document).ready(function() {
+		  $('#summernote').summernote();
+		});
+	</script>
         
 
     </head>
@@ -177,7 +195,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <a class="navbar-brand" href="administrativo.php">Painel Administrativo</a>
             </div>
             <!-- /.navbar-header -->
-            
+
             <div class="sidebar" role="navigation">
                 <div class="sidebar-nav">
                     <ul class="nav" id="side-menu">
@@ -186,32 +204,32 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                             <a href="#"><i class="fa fa-wrench fa-fw"></i> Publicações<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="gerencia_historia.php">História</a>
+                                    <a href="historia_gerencia.php">História</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_estadio.php">Estádios</a>
+                                    <a href="estadio_gerencia.php">Estádios</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_ponto_turistico.php">Pontos Turísticos</a>
+                                    <a href="ponto_turistico_gerencia.php">Pontos Turísticos</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_hotel.php">Hotéis</a>
+                                    <a href="hotel_gerencia.php">Hotéis</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_restaurante.php">Restaurantes</a>
+                                    <a href="restaurante_gerencia.php">Restaurantes</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_comida.php">Comidas Típicas</a>
+                                    <a href="comida_gerencia.php">Comidas Típicas</a>
                                 </li>
                                 <li>
-                                    <a href="gerencia_artesanato.php">Artesanato</a>
+                                    <a href="artesanato_gerencia.php">Artesanato</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
 
                          <li>
-                            <a href="gerencia_usuarios.php"><i class="fa fa-user fa-fw"></i> Usuários</a>
+                            <a href="usuarios_gerencia.php"><i class="fa fa-user fa-fw"></i> Usuários</a>
                         </li>
                        
                     </ul>
@@ -223,87 +241,76 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
         <div id="page-wrapper">
             <div class="row">
-                <div class="col-lg-9">
-                    <h3 class="page-header" style="text-align: center;" >Publicações sobre a história das cidades</h3>
-                </div>
-                <div class="col-lg-3">
-                    <a href="cad_historia.php" type="button" class="btn btn-primary page-header pull-right"><i class="fa fa-plus"></i> Nova Publicação</a>
-                </div>
+                <div class="col-lg-12">
+                    <h3 class="page-header" style="text-align: center;" >Cadastrar História</h3>
+								<!-- Edita aqui... -->
+					<?php include_once("../_controle/processa-cad-postagem.php"); ?>
 
+                </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <table width="100%" class="table table-striped table-bordered table-hover " id="dataTables-example">
-                                <thead>
-                                    <tr>
-                                        <th width=15% data-priority="1">Título</th>
-                                        <th width=15%>Cidade</th>
-                                        <th width=15%>Imagem</th>
-                                        <th width=45%>Resumo</th>
-                                        <th width=10% data-priority="s">Ações</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-
-                                <?PHP
-
-                                        try{
-                                            $select = "SELECT * from tb_postagens WHERE categoria = 'historia' ORDER BY cidade";
-                                            $result = $conexao->prepare($select);           
-                                            $result->execute();
-                                            $contar = $result->rowCount();
-                                            if($contar>0){
-                                                while($mostra = $result->FETCH(PDO::FETCH_OBJ)){
-                                                    
-                                ?>
-
-
-
-                                    <tr class="odd gradeA">
-                                        <td  ><H5> <?php echo $mostra->titulo;?></H5> </td>
-
-                                        <td  ><H5> <?php echo $mostra->cidade;?></H5> </td>
-
-                                        <td  ><img src="../_upload/postagens/<?php echo $mostra->imagem;?>" width="50"/></td>
-
-                                        <td  > <H5><?php echo limitarTexto($mostra->descricao, $limite=200)?> </H5></td>
-                                        
-                                        <td class="td-actions">
-                                           <a href="edita_historia.php?id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>
-                                            <a href="gerencia_historia.php?delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir o post?')" ><i class="fa fa-times"> </i></a>
-                        
-                                        </td>
-                                    </tr>
-                                
-                                <?php
-                        echo '<script>var id = "'. $mostra->id .'";</script>';
-                    }               
-                }else{
-                    echo '<div class="alert alert-danger">
-                          <button type="button" class="close" data-dismiss="alert">×</button>
-                          <strong>Aviso!</strong> Não há post cadastrado em nosso banco de dados ou a página não existe.
-                    </div>';
-                }                   
-            }catch(PDOException $e){
-                    echo $e;
-                }
-            include_once("../_controle/excluir-postagem.php");
-        ?>       
-                                    
-                                 
-                                </tbody>
-                            </table>
-                            <!-- /.table-responsive -->
-                            
+                     <form id="hist-form" class="form-horizontal" data-toggle="validator" action="" method="post" enctype="multipart/form-data" role="form">
+						<div class="row">
+						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
+						
+                        <div class=" col-lg-12 pad10">
+                            <label class="control-label" for="titulo">Título</label>
+				            <input type="text" id="titulo" value="" name="titulo" placeholder="TITULO" class="form-control" tabindex="1" required>
+				            <div class="help-block with-errors"></div>
                         </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
+                        <div class=" col-lg-12 pad10 hidden">
+                            <label class="control-label" for="data">Data</label>
+				            <input type="text" class="form-control" id="data" value="" name="data">
+                        </div>
+                        <div class=" col-lg-12 pad10 hidden">
+                            <label class="control-label" for="categoria">Categoria</label>
+				            <input type="text" class="form-control" id="categoria" value="historia" name="categoria">
+				            		<!-- edita aqui, onde tem value="historia", troca pela categoria que estiver fazendo -->
+                        </div>
+
+                        <div class=" col-lg-12 pad10">
+                            <label class="control-label" for="cidade">Cidade Sede</label>
+			                  <select class="form-control" id="cidade"  name="cidade">
+				                    <option value="Kaliningrad">Kaliningrad</option>
+				                    <option value="Kazan">kazan</option>
+				                	<option value="Moscow">Moscow</option>
+				                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
+				                    <option value="Rostov On Don">Rostov On Don</option>
+				                    <option value="Saint Petersburg">Saint Petersburg</option>
+				                    <option value="Samara">Samara</option>
+				                    <option value="Saransk">Saransk</option>
+				                    <option value="Sochi">Sochi</option>
+				                    <option value="Volgograd">Volgograd</option>
+				                    <option value="Yekaterinburg">Yekaterinburg</option>
+			                  </select>
+                        </div>
+                        <div class=" col-lg-6 pad10">
+                            <label class="control-label" for="image">Imagem Destacada</label>
+				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]" required>
+				                  <div class="help-block with-errors"></div>
+                        </div>
+                        <div class=" col-lg-6 pad10">
+                            <label class="control-label" for="titulo">Fonte da Imagem</label>
+				            <input type="text" id="fonte" value="" name="fonte" placeholder="Fonte da Imagem" class="form-control">
+                        </div>
+                        <div class=" col-lg-12 pad10">
+                            
+                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" required><br>Escreva sua mensagem aqui <br></textarea><br>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        
+                        <div class="form-actions col-lg-12">
+							<input type="submit" name="cadastrar" class="btn btn-primary btn-block" value="Salvar">
+							<a href="gerencia_historia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
+						</div> <!-- edita aqui... linkando para o gerenciador da categoria... -->
+
+						</div>
+                    </form>
+					
+					
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -337,12 +344,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!-- Essential jQuery Plugins
 		================================================== -->
-		<!-- Main jQuery -->
-		<script src="../_complementos/js/jquery.js"></script>
-
-		<!--bootstrap.min.js-->
-		<script  src="../_complementos/js/bootstrap.min.js"></script>
-	
+			
 		<!-- Twitter Bootstrap -->
         <script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
@@ -387,34 +389,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
     <!-- Custom Theme JavaScript -->
     <script src="../_complementos/js/sb-admin-2.js"></script>
 
-    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
-    <script>
-    $(document).ready(function() {
-       
-        $('#dataTabl-es-example').DataTable( {
-            responsive: true,
-            
-          
-        } );
-
-
-        
-    });
-
-    $(document).ready(function() {
-    $('#dataTables-example').DataTable( {
-         responsive: 'true',
-         "language": {
-                "url": "https://cdn.datatables.net/plug-ins/1.10.12/i18n/Portuguese-Brasil.json"
-            }
-
-    } );
-} );
-
-
-
-
-   
-    </script>
+    
     </body>
 </html>
