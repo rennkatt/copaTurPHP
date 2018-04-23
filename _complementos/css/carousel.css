@@ -174,13 +174,29 @@
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #0000ff;
+  background: #FF432E;
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #0000ff;
+  color: #FF432E;
 }
+
+ .animated1 {
+  -webkit-animation: lightSpeedIn 1s ease-in 800ms both;
+  animation: lightSpeedIn 1s ease-in 800ms both;
+}
+
+ .animated2 {
+  -webkit-animation: bounceIn 1s ease-in 800ms both;
+  animation: bounceIn 1s ease-in 800ms both;
+}
+
+ .animated3 {
+  -webkit-animation: flipInX 2s ease-in-out 800ms both;
+  animation: flipInX 2s ease-in-out 800ms both;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
