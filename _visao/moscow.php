@@ -214,7 +214,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Restaurantes</h2>
 							<p>Restaurante White Rabbit<br><br><br><br><br><br><br><br></p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="restaurante.php?cidade=Moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>
