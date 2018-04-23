@@ -14,8 +14,16 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: cent-er;
   background-repeat: no-repeat;
+}
+
+.top{
+  background-position: left top;
+}
+
+.center{
+  background-position: center;
 }
 
 #intro .carousel-item::before {
@@ -110,7 +118,7 @@
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.9s;
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item-next,
