@@ -14,16 +14,8 @@
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: cent-er;
-  background-repeat: no-repeat;
-}
-
-.top{
-  background-position: left top;
-}
-
-.center{
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #intro .carousel-item::before {
@@ -118,7 +110,7 @@
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
-  transition: 0.9s;
+  transition: 0.5s;
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item-next,
@@ -174,29 +166,13 @@
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #FF432E;
+  background: #0000ff;
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #FF432E;
+  color: #0000ff;
 }
-
- .animated1 {
-  -webkit-animation: lightSpeedIn 1s ease-in 800ms both;
-  animation: lightSpeedIn 1s ease-in 800ms both;
-}
-
- .animated2 {
-  -webkit-animation: bounceIn 1s ease-in 800ms both;
-  animation: bounceIn 1s ease-in 800ms both;
-}
-
- .animated3 {
-  -webkit-animation: flipInX 2s ease-in-out 800ms both;
-  animation: flipInX 2s ease-in-out 800ms both;
-}
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -210,76 +186,4 @@
     font-family: whitney;
     src: url(../fonts/Whitney Medium.ttf)
 }
-
-
-
-
-/******* Style Loader *******/
-
-#loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  z-index: 9999999999;
-}
-
-.spinner {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 50%;
-  left: 50%;
-  margin-left: -40px;
-  margin-top: -40px;
-  -webkit-animation: rotatee 2.0s infinite linear;
-  animation: rotatee 2.0s infinite linear;
-}
-
-.dot1, .dot2 {
-  width: 60%;
-  height: 60%;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -o-border-radius: 100%;
-  -webkit-animation: bouncee 2.0s infinite ease-in-out;
-  animation: bouncee 2.0s infinite ease-in-out;
-}
-
-.dot2 {
-  top: auto;
-  bottom: 0px;
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
-
-@-webkit-keyframes rotatee { 100% { -webkit-transform: rotate(360deg) }}
-@keyframes rotatee {
-  100% {
-    transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes bouncee {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes bouncee {
-  0%, 100% {
-    transform: scale(0.0);
-        -webkit-transform: scale(0.0);
-    } 50% {
-        transform: scale(1.0);
-        -webkit-transform: scale(1.0);
-      }
-}
-
 

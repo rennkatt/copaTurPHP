@@ -127,7 +127,6 @@ jQuery(document).ready(function( $ ) {
     allowPageScroll:"vertical"
   });
 
-  
   // Skills section
   $('#skills').waypoint(function() {
     $('.progress .progress-bar').each(function() {
@@ -163,6 +162,12 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  
+  // Testimonials carousel (uses the Owl Carousel library)
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
 
 });

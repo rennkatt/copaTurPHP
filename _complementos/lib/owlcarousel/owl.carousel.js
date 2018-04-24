@@ -1758,7 +1758,7 @@
 	 */
 	AutoRefresh.Defaults = {
 		autoRefresh: true,
-		autoRefreshInterval: 1000
+		autoRefreshInterval: 500
 	};
 
 	/**
