@@ -262,7 +262,15 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			</div><!-- /.container-->
 
 		</footer>
-		
+
+
+ <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    		
 		<!-- Essential jQuery Plugins
 		================================================== -->
 		<!-- Main jQuery -->
@@ -301,7 +309,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <script  src="../_complementos/js/datepicker.js"></script>
 
 		<!--Custom JS-->
-		<script src="../_complementos/js/scri-pt.js"></script>
+		<script src="../_complementos/js/script.js"></script>
 		<script src="../_complementos/js/custom.js"></script>
     </body>
 </html>

@@ -174,7 +174,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			<div class="container">
 				<div class="gallery-details">
 					<div class="gallary-header text-center">
-						<h2 class="anim-ated2">
+						<h2 class="animated2">
 							Cidades Sedes 
 						</h2>
 						<p>O impossível se revela: Conseguir demostrar toda a cultura da maior nação do mundo em apenas onze de suas milhares de cidades é uma tarefa árdua, mas compensadora. A escolha não foi fácil e, inúmeras outras belezas ficarão ainda escondidas, entretanto foi sábia, pois com pouco veremos o muito desse continente, sua história; Sua força de vida.</p>
@@ -344,7 +344,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			<div class="container">
 				<div class="gallery-details">
 					<div class="gallary-header text-center">
-						<h2>
+						<h2 class="animated2">
 							Sobre Nós 
 						</h2>
 						<p>
