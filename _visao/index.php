@@ -174,7 +174,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			<div class="container">
 				<div class="gallery-details">
 					<div class="gallary-header text-center">
-						<h2>
+						<h2 class="anim-ated2">
 							Cidades Sedes 
 						</h2>
 						<p>O impossível se revela: Conseguir demostrar toda a cultura da maior nação do mundo em apenas onze de suas milhares de cidades é uma tarefa árdua, mas compensadora. A escolha não foi fácil e, inúmeras outras belezas ficarão ainda escondidas, entretanto foi sábia, pois com pouco veremos o muito desse continente, sua história; Sua força de vida.</p>
@@ -524,6 +524,13 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			</div><!-- /.container-->
 
 		</footer>
+
+		 <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
 		
 		<!-- Essential jQuery Plugins
 		================================================== -->
@@ -563,7 +570,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <script  src="../_complementos/js/datepicker.js"></script>
 
 		<!--Custom JS-->
-		<script src="../_complementos/js/scri-pt.js"></script>
+		<script src="../_complementos/js/script.js"></script>
 		<script src="../_complementos/js/custom.js"></script>
     </body>
 </html>
