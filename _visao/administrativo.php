@@ -111,9 +111,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll" href="#page-top" href="index.html">copa<span>Tur</span>
-									</a>
-								</div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -201,7 +199,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <a href="restaurante_gerencia.php">Restaurantes</a>
                                 </li>
                                 <li>
-                                    <a href="comida_gerencia.php">Comidas Típicas</a>
+                                    <a href="comidas_gerencia.php">Comidas Típicas</a>
                                 </li>
                                 <li>
                                     <a href="artesanato_gerencia.php">Artesanato</a>

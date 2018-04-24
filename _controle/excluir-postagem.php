@@ -4,8 +4,7 @@
 	if(isset($_GET['delete'])){
 		$id_delete = $_GET['delete'];
 		
-		
-		
+				
 		// seleciona a imagem
 		$seleciona = "SELECT * from tb_postagens WHERE id= :id_delete";
 		try{
@@ -32,11 +31,13 @@
 					$result->execute();
 					$contar = $result->rowCount();
 					if($contar>0){
+						header('Refresh:2');
 						echo '<div class="alert alert-success">
                       <button type="button" class="close" data-dismiss="alert">×</button>
                       <strong>Sucesso!</strong> O post foi excluído.
                 </div>';
 					}else{
+						header('Refresh:2');
 						echo '<div class="alert alert-danger">
                       <button type="button" class="close" data-dismiss="alert">×</button>
                       <strong>Erro!</strong> Não foi possível excluir o post.

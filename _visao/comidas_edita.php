@@ -216,7 +216,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <a href="restaurante_gerencia.php">Restaurantes</a>
                                 </li>
                                 <li>
-                                    <a href="comida_gerencia.php">Comidas Típicas</a>
+                                    <a href="comidas_gerencia.php">Comidas Típicas</a>
                                 </li>
                                 <li>
                                     <a href="artesanato_gerencia.php">Artesanato</a>
@@ -239,7 +239,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header" style="text-align: center;" >Editar Artesanato</h3>
+                    <h3 class="page-header" style="text-align: center;" >Editar Comidas Típicas</h3>
                     	<!-- Altera aqui -->
 
 					<?php include_once("../_controle/processa-edt-postagem.php"); ?>
@@ -264,7 +264,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         </div>
                         <div class=" col-lg-12 pad10 hidden">
                             <label class="control-label" for="categoria">Categoria</label>
-				            <input type="text" class="form-control" id="categoria" value="artesanato" name="categoria">
+				            <input type="text" class="form-control" id="categoria" value="historia" name="categoria">
 				            			<!-- value = aqui muda a categoria... -->
                         </div>
 
@@ -274,7 +274,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				                  <select class="form-control" id="cidade"  name="cidade">
 					                    <option selected><?php echo $cidade;?></option>
 					                    <option value="Kaliningrad">Kaliningrad</option>
-					                    <option value="Kazan">kazan</option>
+					                    <option value="Kazan">Kazan</option>
 					                	<option value="Moscow">Moscow</option>
 					                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
 					                    <option value="Rostov On Don">Rostov On Don</option>
@@ -303,8 +303,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         <div class="form-actions col-lg-12">
 							
 							<input type="submit" name="atualizar" class="btn btn-primary btn-block" value="atualizar">
-							<a href="artesanato_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
-							<a href="artesanato_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
+							<a href="comidas_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
+							<a href="comidas_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
 						</div> <!-- altera aqui. -->
 
 						</div>

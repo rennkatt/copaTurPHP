@@ -165,11 +165,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                     	<?php 
-                    		include("artesanato_post.php"); 
+                    		include("estadio_post.php"); 
                     				//edita aqui...
                             if($contar > 0 ){
                         ?>
-                        <h1>Artesanato de <span><?php echo ($cidade)?></span></h1>
+                        <h1>Estádio de <span><?php echo ($cidade)?></span></h1>
                        	<ol class="breadcrumb">
 						  <li><a href="index.php">Home</a></li>
 						  <li><a href="<?php  
@@ -210,7 +210,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 								}
 							?>"><?php echo ($cidade)?></a></li>
-						  <li class="active">Artesanato</li>
+						  <li class="active">Estádio</li>
 						</ol>
                         
                     </div>
@@ -266,7 +266,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                         <a href="restaurante.php?cidade=<?php echo ($cidade)?>" rel="tag">Restaurantes</a>
                                         <a href="comidas.php?cidade=<?php echo ($cidade)?>" rel="tag">Comidas Típicas</a>
                                         <a href="estadio.php?cidade=<?php echo ($cidade)?>" rel="tag">Estádios</a>
-                                        <a href="historia.php?cidade=<?php echo ($cidade)?>" rel="tag">História</a>
+                                        <a href="artesanato.php?cidade=<?php echo ($cidade)?>" rel="tag">Artesanato</a>
                                      </div>
                                      <!-- .post-tags -->
                                     
@@ -278,13 +278,13 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                         
                                         <div class="share-links-wrap">
                                                                         
-                                            <a rel="nofollow" target="_blank" href="mailto:?subject=Eu quero que veja essa postagem&amp;body=Olha esta postagem : Artesanato de <?php echo ($cidade)?> - http://copatur-com-br.umbler.net/_visao/artesanato.php?cidade=<?php echo ($cidade)?>" title="Mande esta postagem por e-mail"><i class="pw-icon-mail"></i></a>
+                                            <a rel="nofollow" target="_blank" href="mailto:?subject=Eu quero que veja essa postagem&amp;body=Olha esta postagem : História de <?php echo ($cidade)?> - http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=<?php echo ($cidade)?>" title="Mande esta postagem por e-mail"><i class="pw-icon-mail"></i></a>
                                             
-                                            <a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=http://copatur-com-br.umbler.net/_visao/artesanato.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Google+"><i class="pw-icon-gplus"></i></a>
+                                            <a rel="nofollow" target="_blank" href="https://plus.google.com/share?url=http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Google+"><i class="pw-icon-gplus"></i></a>
                                             
-                                            <a rel="nofollow" target="_blank" href="http://twitter.com/home?status=http://copatur-com-br.umbler.net/_visao/artesanato.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Twitter"><i class="pw-icon-twitter"></i></a>
+                                            <a rel="nofollow" target="_blank" href="http://twitter.com/home?status=http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Twitter"><i class="pw-icon-twitter"></i></a>
                                               
-                                            <a rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://copatur-com-br.umbler.net/_visao/artesanato.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Facebook"><i class="pw-icon-facebook"></i></a>
+                                            <a rel="nofollow" target="_blank" href="http://www.facebook.com/sharer.php?u=http://copatur-com-br.umbler.net/_visao/estadio.php?cidade=<?php echo ($cidade)?>" title="Compartilhe esta postagem no Facebook"><i class="pw-icon-facebook"></i></a>
 
                                             <!-- Atualiza aqui tbm. -->
                                         

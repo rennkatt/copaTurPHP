@@ -239,7 +239,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header" style="text-align: center;" >Editar Artesanato</h3>
+                    <h3 class="page-header" style="text-align: center;" >Editar História</h3>
                     	<!-- Altera aqui -->
 
 					<?php include_once("../_controle/processa-edt-postagem.php"); ?>
@@ -264,7 +264,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         </div>
                         <div class=" col-lg-12 pad10 hidden">
                             <label class="control-label" for="categoria">Categoria</label>
-				            <input type="text" class="form-control" id="categoria" value="artesanato" name="categoria">
+				            <input type="text" class="form-control" id="categoria" value="estadio" name="categoria">
 				            			<!-- value = aqui muda a categoria... -->
                         </div>
 
@@ -303,8 +303,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         <div class="form-actions col-lg-12">
 							
 							<input type="submit" name="atualizar" class="btn btn-primary btn-block" value="atualizar">
-							<a href="artesanato_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
-							<a href="artesanato_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
+							<a href="estadio_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
+							<a href="estadio_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
 						</div> <!-- altera aqui. -->
 
 						</div>
