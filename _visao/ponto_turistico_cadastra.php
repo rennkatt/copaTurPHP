@@ -240,7 +240,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header" style="text-align: center;" >Cadastrar Ponto Turísticos</h3>
+                    <h3 class="page-header" style="text-align: center;" >Cadastrar Pontos Turísticos</h3>
 								<!-- Edita aqui... -->
 					<?php include_once("../_controle/processa-cad-postagem.php"); ?>
 
