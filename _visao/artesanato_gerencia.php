@@ -44,7 +44,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<title>CopaTur</title>
 
 		<!-- icon -->
-		<link rel="shortcut icon" type="image/icon" href="../_complementos/images/logo.png"/>
+		<link rel="shortcut icon" type="image/icon" href="../_complementos/images/icone.png"/>
 		
 		<!--font-awesome.min.css-->
 		<link rel="stylesheet" href="../_complementos/css/font-awesome.min.css" />
