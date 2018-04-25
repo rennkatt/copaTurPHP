@@ -217,23 +217,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <div class="entry-content">
                                     
                                     
-                                                                                                            
-                                    <p class="drop-cap">A 1.255 km a oeste de Moscou, é um enclave russo no coração da Europa, sem conexão terrestre com o resto do país. A região costumava fazer parte da Prússia (então conhecida como Königsberg), possível perceber isso pela arquitetura; é como se estivéssemos em uma cidade medieval alemã. </p>
                                     
-                                    <p>No fim da Segunda Guerra Mundial, em 1945, a cidade de Königsberg foi anexada pela União Soviética, enquanto se aguardava a decisão definitiva sobre questões territoriais (incluindo a partição da antiga Prússia Oriental) que viria no acordo de paz, valendo até lá o que fora decidido pelos Aliados (União Soviética, Estados Unidos e Grã-Bretanha) participantes da Conferência de Potsdam.</p>
+                                    <p class="drop-cap">O Kaliningrad Stadiumou ou Arena Baltika está sendo construído propositalmente para a Fifa World Cup - Russia 2018.  Ele fica em uma ilha no próprio centro da cidade em um local que já foi muito florescente, com quadras de habitação, empresas e grande população, mas que foi devastada pela Segunda Guerra, ficando deserta por 70 anos. O Mundial é a chance de recuperação.</p>
                                     
-                                    <p>Königsberg foi renomeada Kaliningrado em 1946, após a morte de Mikhail Kalinin, um dos bolcheviques originais. A população alemã sobrevivente foi expulsa da área, entre 1946 e 1949, e a cidade foi repovoada por cidadãos soviéticos. A língua alemã foi substituída pela língua russa. A cidade, que fora devastada pelos bombardeios britânicos durante a Guerra, foi reconstruída. Por ser o território mais ocidental da URSS, o Oblast de Kaliningrado tornou-se uma área estrategicamente importante durante a Guerra Fria. A Frota do Báltico (soviética) permaneceria em Kaliningrado, ao longo dos anos 1950, e, por sua importância estratégica, a cidade foi fechada a visitantes estrangeiros. E em 1957 foi firmado um acordo, que passaria a vigorar posteriormente, delimitando a fronteira entre a Polônia e a União Soviética. </p>
-                                                                    
-                                    <p>Kaliningrad possui as maiores dunas de areia da Europa, no menor parque nacional da Rússia: O Istmo da Curlândia, uma estreita faixa de areia que separa o Mar Báltico e a Lagoa da Curlândia. Pelas suas dimensões, comprimento, dunas altíssimas, o istmo não tem análogos na Europa. Em um só dia aqui se pode ver florestas de pinheiros de beleza extraordinária, mar e dunas altíssimas, caminhar pelas praias do Báltico que se estendem por vários quilômetros e encontrar âmbar. Também se pode ouvir a música das areias. Quando você caminha pelo istmo, a areia produz sons únicos que se juntam em melodias. Quase um milhão de turistas são atraídos todo ano por suas belezas.</p>
+									<p>Situado a apenas 45 quilômetros da fronteira com a Polônia, sendo o estádio da Copa mais próximo da União Europeia, será um estádio de dois níveis, equipado com sistemas de segurança ultramodernos e CCTV, todo o projeto terá um custo de 11 bilhões de rublos, após a copa uma parte do telhado será retraída e, o número de assentos reduzido para 25 mil. </p>
+
+									<p>No Baltika, acontecerão quatro jogos da fase de grupos e após o fim da Copa deve ser a nova casa do Baltika Kaliningrad.</p>
+
+									<p><img src="../_upload/partidas/kaliningrad.png" alt="blog-image">
+                                    <cite>Fonte: <a href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="Tabela Copa 2018">Tabela Copa 2018</a></cite></p>
+                                   
+									<p>O único clube de Kaliningrado se chama FC Baltika Kaliningrado e foi fundado em 1954, mas só ganhou esse nome em 1958 e antes se chamava Pishchevik Kaliningrad. Atualmente, está na segunda divisão do Campeonato Russo, onde está desde 2005, quando venceu a terceira divisão. O Balda, como é chamado, leva as cores azul e branco em seus uniformes e, de acordo com dados oficiais do site, o brasileiro Iago Sampaio Silva faz parte da equipe.</p>
+
+									<p>Conhecida por sua cerveja boa e barata. Na medieval Koenigsberg, literalmente todos - incluindo mulheres grávidas e bebês - bebiam cerveja e, era adicionado a sopa, massa, ensopado, etc. Muitos bares e restaurantes locais ainda têm suas próprias cervejarias.</p>
+
+									                                    
                                                                         
-                                    <h2>Como chegar:</h2>
-
-                                    <p>De avião: Não existem voos diretos das principais capitais brasileiras para Moscou, apenas com conexões em outras cidades europeias - o tempo total de viagem saindo de São Paulo, por exemplo, é de no mínimo 16 horas, já contando a parada na conexão. A capital da Rússia é servida por três aeroportos: Sheremetyevo International, Moscou Domodedovo e Moscou Vnukovo.</p>
-                                    <p>De trem: É possível acessar Moscou das principais cidades da Europa, mas essa não é uma viagem das mais rápidas e nem das mais baratas. Passageiros provenientes de Praga (República Tcheca), Kiev (Ucrânia) e Budapeste (Hungria) desembarcam na estação Kievskiy, enquanto trens de alta velocidade provenientes de São Petersburgo chegam na estação Leningradskiy. Neste último trajeto, o tempo é de 3h50.</p>
-                                    <p>De carro: Moscou pode ser acessada de carro, mas a capital russa tem um trânsito local bastante confuso, além de toda má fama dos motoristas, que, no geral, não respeitarem sinais de trânsito e limites de velocidade. Além disso, os engarrafamentos são constantes na cidade que abriga dois dos estádios da Copa 2018.</p>
+                                    <p>Saiba mais em: <a target="_blank" href="https://nautilus.rest/gallery/ ">nautilus</a> | <a target="_blank" href="http://www.britannicaproject.ru/restaurant/хмель/#contacts">britannicaproject</a> | <a target="_blank" href="https://www.facebook.com/madam.bushe.39/">Madam Bushe</a> | <a target="_blank" href="http://borshsalo.ru/">Borshsalo</a> | <a target="_blank" href="https://www.facebook.com/yeltsin.pub/">yeltsin</a> | <a target="_blank" href="http://rk-rk.ru/restorany/pivovarnya-bretsel/">Pivovarnya-Bretsel</a> |  </p>
+                                    
 
 
-
+<p>Leia Mais em: <a target="_blank" href="http://kaiserhof-hotel.com/en/?utm_source=tripadvisor&utm_medium=referral">Keiserhor Hotel</a> | <a target="_blank" href="https://viajandobemebarato.com.br/2017/10/onde-se-hospedar-na-copa-2018.html">Viajando bem barato</a> |  <a target="_blank" href="https://www.accorhotels.com/pt-br/brasil/index.shtml">Accorhotels</a></p>
+                                    
  
 
                                     

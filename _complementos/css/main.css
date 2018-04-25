@@ -707,3 +707,7 @@ body {
 ::-moz-selection {
     text-shadow: none; color: #333; background: #eee;
 	}
+
+cite{
+	padding-bottom: 10px;
+}

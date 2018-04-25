@@ -281,6 +281,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                         <a href="comidas.php?cidade=<?php echo ($cidade)?>" rel="tag">Comidas Típicas</a>
                                         <a href="estadio.php?cidade=<?php echo ($cidade)?>" rel="tag">Estádios</a>
                                         <a href="historia.php?cidade=<?php echo ($cidade)?>" rel="tag">História</a>
+                                        
                                      </div>
                                      <!-- .post-tags -->
                                     
