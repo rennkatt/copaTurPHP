@@ -30,7 +30,10 @@
 		          $id = $exibe->id;
 		    }
 		}else{
-			header("Location: ../_visao/index.php");
+			echo '<div class="alert alert-danger">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						A postagem não existe!
+					</div>';
 	            
 		}
 				

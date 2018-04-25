@@ -185,7 +185,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Estádios</h2>
 							<p>Moscou é a única cidade em que os jogos da Copa do Mundo irão decorrer em dois estádios. Os jogos mais importantes, incluindo a final, serão acolhidos pelo legendário estádio Luzhniki. Luzhniki será acompanhado pelo estádio Spartak, o qual já foi testado com êxito durante a Copa das Confederações. </p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="estadio.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
@@ -193,7 +193,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
 							<p>A Catedral do Cristo Salvador é o mais importante templo de Moscou.<br><br><br><br><br><br><br><br></p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="ponto_turistico.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -204,7 +204,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Hotéis</h2>
 							<p>Hotel Baltschug Kempinski <br><br><br><br><br><br><br><br></p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="hotel.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
@@ -212,7 +212,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Restaurantes</h2>
 							<p>Restaurante White Rabbit<br><br><br><br><br><br><br><br></p>
-							<p><a href="restaurante.php?cidade=Moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="restaurante.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -223,7 +223,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
 							<p>A sopa Borsch é facilmente encontrada em qualquer restaurante de Moscow. Apesar de o inverno brasileiro já ter passado, ainda restam aqueles dias mais frios que pedem um prato quente. Nessa hora, nada melhor do que testar a receita dessa deliciosa sopa de beterraba.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="comidas.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
@@ -231,7 +231,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Artesanato</h2>
 							<p>Matrioskas<br><br><br><br><br><br><br><br></p>
-							<p><a href="artesanato.php?cidade=Moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="artesanato.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>

@@ -23,14 +23,17 @@
 		          $data = $exibe->data;
 		          $data = date('d/m/Y',strtotime($data));
 		          $imagem = $exibe->imagem;
-		          $cidade = $exibe->cidade;
 		          $categoria = $exibe->categoria;
 		          $fonte  = $exibe->fonte_imagem;
 		          $autor = $exibe->autor;
 		          $id = $exibe->id;
 		    }
 		}else{
-			header("Location: ../_visao/index.php");
+			//header("Location: ../_visao/index.php");
+			echo '<div class="alert alert-danger">
+						<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+						A postagem não existe!
+					</div>';
 	            
 		}
 				

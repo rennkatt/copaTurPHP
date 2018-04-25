@@ -164,52 +164,62 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             <div class="overlay">
                 <div class="container">
                     <div class="intro-text">
-                    	<?php 
-                    		include("restaurante_post.php"); 
-                    				//edita aqui...
-                            if($contar > 0 ){
-                        ?>
-                        <h1>Restaurantes de <span><?php echo ($cidade)?></span></h1>
-                       	<ol class="breadcrumb">
+                    	
+                        <h1>Restaurantes de <span><?php echo $_GET['cidade']?></span></h1>
+                       		<ol class="breadcrumb">
 						  <li><a href="index.php">Home</a></li>
 						  <li><a href="<?php  
-								switch ($cidade) {
-								    case 'Kazan':
+								switch ($_GET['cidade']) {
+								    case 'Kazan';
+								    case 'kazan':
 								        echo 'kazan.php';
 								        break;
-								    case 'Moscow':
+								    case 'Moscow';
+								    case 'moscow':
 								        echo 'moscow.php';
 								        break;
-								    case 'Kaliningrad':
+								    case 'Kaliningrad';
+								    case 'kaliningrad':
 								        echo 'kaliningrad.php';
 								        break;
-								    case 'Nizhny Novgorod':
+								    case 'Nizhny Novgorod';
+								    case 'nizhny novgorod':
 								        echo 'nizhny_novgorod.php';
 								        break;
-								    case 'Rostov On Don':
+								    case 'Rostov On Don';
+								    case 'rostov on don':
 								        echo 'rostov_on_don.php';
 								        break;
-								    case 'Saint Petersburg':
+								    case 'Saint Petersburg';
+								    case 'saint petersburg':
 								        echo 'saint_petersburg.php';
 								        break;
-								    case 'Samara':
+								    case 'Samara';
+								    case 'samara':
 								        echo 'samara.php';
 								        break;
-								    case 'Saransk':
+								    case 'Saransk';
+								    case 'saransk':
 								        echo 'saransk.php';
 								        break;
-								    case 'Sochi':
+								    case 'Sochi';
+								    case 'sochi':
 								        echo 'sochi.php';
 								        break;
-								    case 'Volgograd':
+								    case 'Volgograd';
+								    case 'volgograd':
 								        echo 'volgograd.php';
 								        break;
-								    case 'Yekaterinburg':
+								    case 'Yekaterinburg';
+								    case 'yekaterinburg':
 								        echo 'yekaterinburg.php';
 								        break;
+								    default:
+								    	header("Location: ../_visao/index.php");
+								    	break;
 
 								}
-							?>"><?php echo ($cidade)?></a></li>
+							?>" style="text-transform: capitalize"><?php echo $_GET['cidade']?></a></li>
 						  <li class="active">Restaurantes</li>
 						</ol>
                         
@@ -238,7 +248,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                             	
                                 <!-- .entry-header -->
                                 <header class="entry-header">
-                                    
+                                    <?php 
+			                    		include("restaurante_post.php"); 
+			                    				//edita aqui...
+			                            if($contar > 0 ){
+			                        ?>
                                     
                                     <!-- .entry-title -->
                                     <h1 class="entry-title hidden"><?php echo $titulo;?></h1>

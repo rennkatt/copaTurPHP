@@ -185,7 +185,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Estádio</h2>
 							<p>O Kaliningrad Stadiumou ou Arena Baltika está sendo construído propositalmente para a Fifa World Cup - Russia 2018.  Ele fica em uma ilha no próprio centro da cidade em um local que já foi muito florescente, com quadras de habitação, empresas e grande população, mas que foi devastada pela Segunda Guerra, ficando deserta por 70 anos. O Mundial é a chance de  recuperação.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="estadio.php?cidade=kaliningrad" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
@@ -193,7 +193,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
 							<p>A região de Kaliningrado é responsável por cerca de 90% da produção mundial de âmbar. Por isso, para ver os espécimes mais raros, é preciso ir ao Museu do Âmbar, localizado em uma fortaleza da metade do século XIX. <br><br><br><br><br></p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="ponto_turistico.php?cidade=kaliningrad" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -204,7 +204,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Hotéis</h2>
 							<p>De acordo com a cotação 18 de abril de 2018, R$ 1 equivale a 18,00 rublos russos. Mas para fazer trocas para a moeda local, a melhor opção é usar dólar norte-americano e euro. Os custos diários na Rússia podem variar de acordo com o seu orçamento. Em uma viagem de baixo custo, é possível gastar cerca de R$ 90 com hospedagem em quartos compartilhados e alimentação em lugares simples.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="hotel.php?cidade=kaliningrad" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
@@ -212,7 +212,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Restaurantes</h2>
 							<p>Mesmo para um europeu comum, é fácil satisfazer todos os caprichos em Kaliningrado: à taxa de câmbio atual, os preços até mesmo para os serviços de "luxo" - por padrões locais - não são altos. Para se ter uma ideia da estética prussiana, os visitantes costumam ir a um bairro restaurado de Koenigsberg, chamado Village Fishing. Um complexo de spa e restaurantes com vista para o principal marco da cidade: A Catedral do século 14 situada na ilha de Kneiphof.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="restaurante.php?cidade=kaliningrad" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -223,7 +223,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
 							<p>Os antigos portões e fortificações, datados do século XVII, são as principais atrações para quem gosta de história. Visitar as margens do mar Báltico podem ajudar os torcedores com uma pausa após assistir aos jogos da Copa.</p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="comidas.php?cidade=kaliningrad" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
@@ -231,7 +231,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="desc">
 							<h2>Artesanato</h2>
 							<p>A região de Kaliningrado é responsável por cerca de 90% da produção mundial de âmbar, tendo até o “Museu Âmbar”, que guarda os espécimes mais raros, Itens de âmbar artesanal são vendidos em todos os grandes centros comerciais, mas o melhor custo-benefício é oferecido por fornecedores locais. </p>
-							<p><a href="#" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
+							<p><a href="artesanato.php?cidade=kaliningrad" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 				</div>
