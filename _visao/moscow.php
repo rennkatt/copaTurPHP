@@ -222,7 +222,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/comida_tipica.jpeg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>A sopa Borsch é facilmente encontrada em qualquer restaurante de Moscow. Apesar de o inverno brasileiro já ter passado, ainda restam aqueles dias mais frios que pedem um prato quente. Nessa hora, nada melhor do que testar a receita dessa deliciosa sopa de beterraba.</p>
+							<p>A origem do pelmeni não é clara e existem várias versões. A mais aceite afirma que a receita foi descoberta nos Urais por exploradores russos, que observaram que a população local usava um prato semelhante (chamado "pelnian", literalmente "orelha de urso", na língua local), que consistia em pedaços de carne envolvida num pão muito fino. </p>
 							<p><a href="comidas.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>

@@ -276,7 +276,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                      <!-- .post-tags -->
                                      <div class="post-tags tagcloud">
                                         <a href="artesanato.php?cidade=<?php echo ($cidade)?>" rel="tag">Artesanato</a>
-                                        <a href="hoteis.php?cidade=<?php echo ($cidade)?>" rel="tag">Hotéis</a>
+                                        <a href="hotel.php?cidade=<?php echo ($cidade)?>" rel="tag">Hotéis</a>
                                         <a href="restaurante.php?cidade=<?php echo ($cidade)?>" rel="tag">Restaurantes</a>
                                         <a href="comidas.php?cidade=<?php echo ($cidade)?>" rel="tag">Comidas Típicas</a>
                                         <a href="estadio.php?cidade=<?php echo ($cidade)?>" rel="tag">Estádios</a>
