@@ -5,10 +5,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	//header("Location: home.php");exit;
 }
 	include("../_controle/conecta.php");
-	include_once("../_controle/seguranca.php"); 
-	if($nivelLogado==2) {
-		header("Location: index.php");exit;
-	}
+    include("../_controle/limita-texto.php");
+    include_once("../_controle/seguranca.php"); 
+    if($nivelLogado==2) {
+        header("Location: index.php");exit;
+    }
 ?>
 
 <!DOCTYPE html>
@@ -30,17 +31,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!-- CSS
 		================================================== -->
- 
-		 <!-- Main jQuery -->
-        <script src="../_complementos/js/jquery.js"></script>
-
-        <!--bootstrap.min.js-->
-        <script  src="../_complementos/js/bootstrap.min.js"></script>
-    
-        <script  src="../_complementos/js/validator.js"></script>
-
-        <link href="../_complementos/lib/summernote/summernote.css" rel="stylesheet">
-	<script src="../_complementos/lib/summernote/summernote.js"></script>
 
 		<!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
@@ -60,6 +50,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<link rel="stylesheet" href="../_complementos/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="../_complementos/lib/fontello/css/fontello.css" />
 		
+		
 		<!--animate.css-->
 		<link rel="stylesheet" href="../_complementos/css/animate.css" />
 
@@ -78,7 +69,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<!-- bootsnav -->
 		<link rel="stylesheet" href="../_complementos/css/bootsnav.css"/>
 
-		
 		<link rel="stylesheet" type="text/css" href="../_complementos/css/light-red.css">
 		<!--style.css-->
 		<link rel="stylesheet" href="../_complementos/css/style.css" />
@@ -96,15 +86,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
     <!-- Custom CSS -->
     <link href="../_complementos/css/sb-admin-2.css" rel="stylesheet">
-	
-	
 
-		<!-- Page-Level Demo Scripts - Tables - Use for reference -->
-     <script>
-		$(document).ready(function() {
-		  $('#summernote').summernote();
-		});
-	</script>
+		
         
 
     </head>
@@ -192,7 +175,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <a class="navbar-brand" href="administrativo.php">Painel Administrativo</a>
             </div>
             <!-- /.navbar-header -->
-
+            
             <div class="sidebar" role="navigation">
                 <div class="sidebar-nav">
                     <ul class="nav" id="side-menu">
@@ -238,79 +221,89 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
         <div id="page-wrapper">
             <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="page-header" style="text-align: center;" >Editar Restaurantes</h3>
-                    	<!-- Altera aqui -->
-
-					<?php include_once("../_controle/processa-edt-postagem.php"); ?>
-
+                <div class="col-lg-9">
+                    <h3 class="page-header" style="text-align: center;" >Publicações sobre os hotéis das cidades</h3>
+                                <!-- Edita aqui...  -->
                 </div>
+                <div class="col-lg-3">
+                    <a href="hotel_cadastra.php" type="button" class="btn btn-primary page-header pull-right"><i class="fa fa-plus"></i> Nova Publicação</a>
+                </div>
+
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                     <form id="edit-profile" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
-						<div class="row">
-						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
-						
-                        <div class=" col-lg-12 pad10">
-                            <label class="control-label" for="username">Título</label>
-				                  <input type="text" id="titulo" value="<?php echo $titulo;?>" name="titulo" placeholder="TITULO" class="form-control">
-                        </div>
-                        <div class=" col-lg-12 pad10 hidden">
-                            <label class="control-label" for="username">Data</label>
-				                    <input type="text" class="form-control" id="data" value="<?php echo $data;?>" name="data">
-                        </div>
-                        <div class=" col-lg-12 pad10 hidden">
-                            <label class="control-label" for="categoria">Categoria</label>
-				            <input type="text" class="form-control" id="categoria" value="restaurante" name="categoria">
-				            			<!-- value = aqui muda a categoria... -->
-                        </div>
+                    <div class="panel panel-default">
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <table width="100%" class="table table-striped table-bordered table-hover " id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th width=15% data-priority="1">Título</th>
+                                        <th width=15%>Cidade</th>
+                                        <th width=15%>Imagem</th>
+                                        <th width=45%>Resumo</th>
+                                        <th width=10% data-priority="s">Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
 
-                        <div class=" col-lg-12 pad10">
-                            <label class="control-label" for="cidade">Cidade Sede</label>
-			                  
-				                  <select class="form-control" id="cidade"  name="cidade">
-					                    <option selected><?php echo $cidade;?></option>
-					                    <option value="Kaliningrad">Kaliningrad</option>
-					                    <option value="Kazan">kazan</option>
-					                	<option value="Moscow">Moscow</option>
-					                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
-					                    <option value="Rostov On Don">Rostov On Don</option>
-					                    <option value="Saint Petersburg">Saint Petersburg</option>
-					                    <option value="Samara">Samara</option>
-					                    <option value="Saransk">Saransk</option>
-					                    <option value="Sochi">Sochi</option>
-					                    <option value="Volgograd">Volgograd</option>
-					                    <option value="Yekaterinburg">Yekaterinburg</option>
-				                  </select>
-                        </div>
-                        <div class=" col-lg-6 pad10">
-                            <label>Imagem Destacada</label>
-				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]">
-				                   <img src="../_upload/postagens/<?php echo $novoNome;?>" width="200px"/>
-                        </div>
-                        <div class=" col-lg-6 pad10">
-                            <label class="control-label" for="fonte">Fonte da Imagem</label>
-				            <input type="text" id="fonte" value="<?php echo $fonte;?>" name="fonte" placeholder="Fonte da Imagem" class="form-control">
-                        </div>
-                        <div class=" col-lg-12 pad10">
+                                <?PHP
+
+                                        try{
+                                            $select = "SELECT * from tb_postagens WHERE categoria = 'hotel' ORDER BY cidade";
+                                                                    //Edita aqui a categoria...
+                                            $result = $conexao->prepare($select);           
+                                            $result->execute();
+                                            $contar = $result->rowCount();
+                                            if($contar>0){
+                                                while($mostra = $result->FETCH(PDO::FETCH_OBJ)){
+                                                    
+                                ?>
+
+
+
+                                    <tr class="odd gradeA">
+                                        <td  ><H5> <?php echo $mostra->titulo;?></H5> </td>
+
+                                        <td  ><H5> <?php echo $mostra->cidade;?></H5> </td>
+
+                                        <td  ><img src="../_upload/postagens/<?php echo $mostra->imagem;?>" width="50"/></td>
+
+                                        <td  > <H5><?php echo limitarTexto($mostra->descricao, $limite=200)?> </H5></td>
+                                        
+                                        <td class="td-actions">
+                                           <a href="hotel_edita.php?id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>
+                                            <a href="hotel_gerencia.php?delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir o post?')" ><i class="fa fa-times"> </i></a>
+                                                    <!-- edita aqui tb... linka com os outros arquivos... -->
+                                        </td>
+                                    </tr>
+                                
+                                <?php
+                        echo '<script>var id = "'. $mostra->id .'";</script>';
+                    }               
+                }else{
+                    echo '<div class="alert alert-danger">
+                          <button type="button" class="close" data-dismiss="alert">×</button>
+                          <strong>Aviso!</strong> Não há post cadastrado em nosso banco de dados ou a página não existe.
+                    </div>';
+                }                   
+            }catch(PDOException $e){
+                    echo $e;
+                }
+            include_once("../_controle/excluir-postagem.php");
+        ?>       
+                                    
+                                 
+                                </tbody>
+                            </table>
+                            <!-- /.table-responsive -->
                             
-                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" ><?php echo $descricao;?></textarea>
                         </div>
-                        
-                        <div class="form-actions col-lg-12">
-							
-							<input type="submit" name="atualizar" class="btn btn-primary btn-block" value="atualizar">
-							<a href="restaurante_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
-							<a href="restaurante_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
-						</div> <!-- altera aqui. -->
-
-						</div>
-                    </form>
-					
-					
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -344,7 +337,12 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!-- Essential jQuery Plugins
 		================================================== -->
-			
+		<!-- Main jQuery -->
+		<script src="../_complementos/js/jquery.js"></script>
+
+		<!--bootstrap.min.js-->
+		<script  src="../_complementos/js/bootstrap.min.js"></script>
+	
 		<!-- Twitter Bootstrap -->
         <script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
@@ -389,6 +387,34 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
     <!-- Custom Theme JavaScript -->
     <script src="../_complementos/js/sb-admin-2.js"></script>
 
-    
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+       
+        $('#dataTabl-es-example').DataTable( {
+            responsive: true,
+            
+          
+        } );
+
+
+        
+    });
+
+    $(document).ready(function() {
+    $('#dataTables-example').DataTable( {
+         responsive: 'true',
+         "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.10.12/i18n/Portuguese-Brasil.json"
+            }
+
+    } );
+} );
+
+
+
+
+   
+    </script>
     </body>
 </html>

@@ -217,7 +217,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <a href="restaurante_gerencia.php">Restaurantes</a>
                                 </li>
                                 <li>
-                                    <a href="comida_gerencia.php">Comidas Típicas</a>
+                                    <a href="comidas_gerencia.php">Comidas Típicas</a>
                                 </li>
                                 <li>
                                     <a href="artesanato_gerencia.php">Artesanato</a>

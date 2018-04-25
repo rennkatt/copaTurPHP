@@ -199,7 +199,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <a href="restaurante_gerencia.php">Restaurantes</a>
                                 </li>
                                 <li>
-                                    <a href="comida_gerencia.php">Comidas Típicas</a>
+                                    <a href="comidas_gerencia.php">Comidas Típicas</a>
                                 </li>
                                 <li>
                                     <a href="artesanato_gerencia.php">Artesanato</a>
@@ -222,7 +222,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-9">
-                    <h3 class="page-header" style="text-align: center;" >Publicações sobre a história das cidades</h3>
+                    <h3 class="page-header" style="text-align: center;" >Publicações sobre os estádios das cidades</h3>
                                 <!-- Edita aqui...  -->
                 </div>
                 <div class="col-lg-3">

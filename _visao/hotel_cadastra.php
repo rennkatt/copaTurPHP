@@ -6,6 +6,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 }
 	include("../_controle/conecta.php");
 	include_once("../_controle/seguranca.php"); 
+
 	if($nivelLogado==2) {
 		header("Location: index.php");exit;
 	}
@@ -239,10 +240,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header" style="text-align: center;" >Editar Restaurantes</h3>
-                    	<!-- Altera aqui -->
-
-					<?php include_once("../_controle/processa-edt-postagem.php"); ?>
+                    <h3 class="page-header" style="text-align: center;" >Cadastrar Hotéis</h3>
+								<!-- Edita aqui... -->
+					<?php include_once("../_controle/processa-cad-postagem.php"); ?>
 
                 </div>
                 <!-- /.col-lg-12 -->
@@ -250,62 +250,60 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                     <form id="edit-profile" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+                     <form id="hist-form" class="form-horizontal" data-toggle="validator" action="" method="post" enctype="multipart/form-data" role="form">
 						<div class="row">
 						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
 						
                         <div class=" col-lg-12 pad10">
-                            <label class="control-label" for="username">Título</label>
-				                  <input type="text" id="titulo" value="<?php echo $titulo;?>" name="titulo" placeholder="TITULO" class="form-control">
+                            <label class="control-label" for="titulo">Título</label>
+				            <input type="text" id="titulo" value="" name="titulo" placeholder="TITULO" class="form-control" tabindex="1" required>
+				            <div class="help-block with-errors"></div>
                         </div>
                         <div class=" col-lg-12 pad10 hidden">
-                            <label class="control-label" for="username">Data</label>
-				                    <input type="text" class="form-control" id="data" value="<?php echo $data;?>" name="data">
+                            <label class="control-label" for="data">Data</label>
+				            <input type="text" class="form-control" id="data" value="" name="data">
                         </div>
                         <div class=" col-lg-12 pad10 hidden">
                             <label class="control-label" for="categoria">Categoria</label>
-				            <input type="text" class="form-control" id="categoria" value="restaurante" name="categoria">
-				            			<!-- value = aqui muda a categoria... -->
+				            <input type="text" class="form-control" id="categoria" value="hotel" name="categoria">
+				            		<!-- edita aqui, onde tem value="historia", troca pela categoria que estiver fazendo -->
                         </div>
 
                         <div class=" col-lg-12 pad10">
                             <label class="control-label" for="cidade">Cidade Sede</label>
-			                  
-				                  <select class="form-control" id="cidade"  name="cidade">
-					                    <option selected><?php echo $cidade;?></option>
-					                    <option value="Kaliningrad">Kaliningrad</option>
-					                    <option value="Kazan">kazan</option>
-					                	<option value="Moscow">Moscow</option>
-					                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
-					                    <option value="Rostov On Don">Rostov On Don</option>
-					                    <option value="Saint Petersburg">Saint Petersburg</option>
-					                    <option value="Samara">Samara</option>
-					                    <option value="Saransk">Saransk</option>
-					                    <option value="Sochi">Sochi</option>
-					                    <option value="Volgograd">Volgograd</option>
-					                    <option value="Yekaterinburg">Yekaterinburg</option>
-				                  </select>
+			                  <select class="form-control" id="cidade"  name="cidade">
+				                    <option value="Kaliningrad">Kaliningrad</option>
+				                    <option value="Kazan">kazan</option>
+				                	<option value="Moscow">Moscow</option>
+				                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
+				                    <option value="Rostov On Don">Rostov On Don</option>
+				                    <option value="Saint Petersburg">Saint Petersburg</option>
+				                    <option value="Samara">Samara</option>
+				                    <option value="Saransk">Saransk</option>
+				                    <option value="Sochi">Sochi</option>
+				                    <option value="Volgograd">Volgograd</option>
+				                    <option value="Yekaterinburg">Yekaterinburg</option>
+			                  </select>
                         </div>
                         <div class=" col-lg-6 pad10">
-                            <label>Imagem Destacada</label>
-				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]">
-				                   <img src="../_upload/postagens/<?php echo $novoNome;?>" width="200px"/>
+                            <label class="control-label" for="image">Imagem Destacada</label>
+				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]" required>
+				                  <div class="help-block with-errors"></div>
                         </div>
                         <div class=" col-lg-6 pad10">
-                            <label class="control-label" for="fonte">Fonte da Imagem</label>
-				            <input type="text" id="fonte" value="<?php echo $fonte;?>" name="fonte" placeholder="Fonte da Imagem" class="form-control">
+                            <label class="control-label" for="titulo">Fonte da Imagem</label>
+				            <input type="text" id="fonte" value="" name="fonte" placeholder="Fonte da Imagem" class="form-control">
                         </div>
                         <div class=" col-lg-12 pad10">
                             
-                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" ><?php echo $descricao;?></textarea>
+                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" required><br>Escreva sua mensagem aqui <br></textarea><br>
+                            <div class="help-block with-errors"></div>
                         </div>
                         
                         <div class="form-actions col-lg-12">
-							
-							<input type="submit" name="atualizar" class="btn btn-primary btn-block" value="atualizar">
-							<a href="restaurante_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
-							<a href="restaurante_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger btn-block" onClick="return confirm('Deseja realmente exluir o post?')">EXCLUIR PUBLICAÇÃO</a>
-						</div> <!-- altera aqui. -->
+							<input type="submit" name="cadastrar" class="btn btn-primary btn-block" value="Salvar">
+							<a href="hotel_gerencia.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
+						</div> <!-- edita aqui... linkando para o gerenciador da categoria... -->
 
 						</div>
                     </form>
