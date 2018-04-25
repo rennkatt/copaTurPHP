@@ -218,27 +218,92 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">Por ser uma megalópole, Moscou conta com inúmeras opções de comida, sejam típicas da Rússia ou até mesmo de outras nacionalidades. Confira três dos melhores restaurantes de culinária russa em Moscou:</p>
+                                    <p class="drop-cap">Em Moscou os jogos da Copa do Mundo irão decorrer em dois estádios: O ESTÁDIO LUZHNIKI e o OTKRYTIE ARENA.</p>
                                     
-									<h2>Lepim i Varim</h2>
+									<h2>ESTÁDIO LUZHNIKI</h2>
 
-									<p><img src="../_upload/extras/restaurantemoscow1.jpg" alt="blog-image">
-                                    <br><cite>Fonte: <a target="_blank" href="https://themoscowtimes.com/articles/rethinking-pelmeni-at-lepim-i-varim-caf233-51031" title="themoscowtimes">themoscowtimes.com</a></cite></p>
+									<p><img src="../_upload/extras/estadiomoscow1.jpeg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://gestion.pe/tendencias/conozca-12-estadios-copa-mundo-rusia-2018-221823?foto=1" title="gestion.pe">gestion.pe</a></cite></p>
 
-									<p>Lugar bastante simpático, com comida boa e, até certo ponto, barata. Com um ambiente charmoso e moderno, são muitos os pratos típicos do país. O carro-chefe é o pelmeni, uma espécie de ravióli com diversos recheios, para todos os gostos. Cardápio em inglês e funcionários que também falam inglês.</p>
+									<p>O antigo Estádio Central Lênin está localizado próximo à estação de metrô Sportivnaya, de fácil acesso para os torcedores. A sua reforma foi concluída em junho de 2017, sendo que o local vai receber sete jogos ao longo da competição, incluindo a partida de abertura e a grande final. Depois do Mundial, nenhum clube vai mandar seus jogos na arena, que ficará à disposição da seleção russa.</p>
 
 									<p>
-										<strong>Localização:</strong> Stoleshnikov Ln., 9/1, Moscou, Rússia.<br>
-										<strong>Telefone:</strong> +7 (985) 688 9606 <br>
-										<strong>Site Oficial:</strong> <a target="_blank" href="http://lepimivarim.ru/en/" title="Site Oficial">lepirivarium.ru</a>
+										<strong>Capacidade:</strong> 81.000 pessoas.<br>
+										<strong>Custo:</strong> R$ 1,803 bilhão <br>
 									</p>
 
-									<h2>Farm Restaurant Lavkalavka</h2>
+									<h3>Jogos:</h3>
 
-									<p><img src="../_upload/extras/restaurantemoscow2.jpg" alt="blog-image">
-                                    <br><cite>Fonte: <a target="_blank" href="http://welcome2018.com/en/cities/moscow/fermerskaya-eda/" title="welcome2018">welcome2018.com</a></cite></p>
+									<p><img src="../_upload/partidas/moscow1.png" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
 
-                                    <p>Restaurante que usa produtos frescos e de produtores locais. As opções de entradas são consideradas as melhores da Rússia, e as carnes são as melhores pedidas como prato principal - a mais atraente é a carne de pato.</p>
+                                    <h3>Outros jogos:</h3>
+
+                                    <p>
+										<strong>Oitavas de Final:</strong> 01 de Julho de 2018, às 20:00<br>
+										<strong>Semifinal:</strong> 11 de Julho de 2018, às 20:00 <br>
+										<strong>Final:</strong> 15 de Julho de 2018, às 20:00 <br>
+									</p>
+
+									<h2>OTKRYTIE ARENA</h2>
+
+									<p><img src="../_upload/extras/estadiomoscow2.jpeg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="http://img.fifa.com/mm/photo/tournament/destination/02/66/42/90/2664290_xbig-lnd.jpg" title="fifa">FIFA</a></cite></p>
+
+									<p>Conhecido também como Spartak Stadium, já que pertence ao Spartak Moscou, clube da 1ª divisão russa, a Otkrytie Arena foi inaugurada em setembro de 2014, sediando algumas partidas da Copa das Confederações de 2017. A seleção brasileira faz o jogo contra a Sérvia neste estádio, que receberá cinco partidas no total.</p>
+
+									<p>
+										<strong>Capacidade:</strong> 45.360 pessoas.<br>
+										<strong>Custo:</strong> R$ 1,939 bilhão <br>
+									</p>
+
+									<h3>Jogos:</h3>
+
+									<p><img src="../_upload/partidas/moscow2.png" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+
+                                    <h3>Outros jogos:</h3>
+
+                                    <p>
+										<strong>Oitavas de Final:</strong> 03 de Julho de 2018, às 20:00<br>
+										
+									</p>
+
+									<h2>Clubes da Cidade de Moscow</h2>
+
+
+                                    <p>Por ser a maior cidade da Rússia, Moscou possui muitos times de futebol. Atualmente são 14 clubes ativos, em todas as divisões, e outros três que já foram extintos. </p>
+
+                                    <h3>CSKA Moscou</h3>
+
+                                    <p>Fundado em 1911 e com 32 títulos nacionais no currículo, é um dos mais vitoriosos e antigos do país - o seu nome em português significa Clube Central de Esportes do Exército. Entre outras conquistas, o CSKA já faturou seis vezes o Campeonato Russo, sete vezes o extinto Campeonato Soviético e também já levantou a taça da Copa da Uefa (atual Liga Europa) em 2005.</p>
+
+                                    <h3>Spartak Moscou </h3>
+
+                                    <p>Maior rival do CSKA, o Spartak foi fundado em 1922. O clube é portador da Ordem de Lênin e também tem diversos títulos no currículo, sendo 10 do Campeonato Russo e outros 12 da antiga União Soviética. Em âmbito europeu, foi semifinalista das duas maiores e importantes competições da Uefa: Liga Europa e Liga dos Campeões.</p>
+
+                                    <h3>Dínamo de Moscou </h3>
+
+                                    <p>Fundado em 1923, o Dínamo teve seu momento de maior glória quando o país ainda era a União Soviética, conquistando 10 títulos nacionais entre 1936 e 1963. Quando a Federação Russa foi criada, o clube perdeu força e faturou apenas uma Copa da Rússia, em 1995.</p>
+
+                                    <h3>Lokomotiv Moscou  </h3>
+
+                                    <p>Considerado um dos times mais "copeiros" da Rússia, o Lokomotiv tem poucas ligas nacionais - são apenas dois Campeonatos Russos conquistados. Em contrapartida, o clube fundado em 1922 já foi campeão da Copa da Rússia em sete oportunidades e também levou a Copa da URSS duas vezes.</p>
+
+                                    <h3>Torpedo Moscou</h3>
+
+                                    <p>A equipe participa regularmente da segunda divisão do Campeonato Russo e teve sua melhor época entre as décadas de 50 e 60, quando venceu dois Campeonato Soviéticos e três Copas da URSS. Com o fim da União Soviética, o Torpedo voltou a conquistar um título logo no início da reformulação do futebol russo, a Copa da Rússia de 1993, e depois, o máximo que conseguiu alcançar foi um terceiro lugar na primeira divisão.</p>
+
+                                    <h3>Outros clubes de Moscou </h3>
+
+                                    <p>FC Priesnia Moscou, FC FShM Torpedo Moscou, FC Monolit Moscou, FC Nika Moscou, FC Mosenergo Moscou, FC Chertanovo Moscou, FC Trestar Ostankino, FC Lotto MosKabelMet Moscou e FC Alnas Moscou.</p>
+
+                                    <h3>Clubes extintos ou licenciados </h3>
+
+                                    <p>FC Moscou, FC Spartak-Chukotka Moscou e FC Pelé Moscou</p>
+
+
+                                    <p></p>
 
 									<p>
 										<strong>Localização:</strong> Petrovka St., 21-2, Moscou, Rússia.<br>
