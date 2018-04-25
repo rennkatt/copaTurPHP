@@ -218,13 +218,52 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">A origem do pelmeni não é clara e existem várias versões. A mais aceite afirma que a receita foi descoberta nos Urais por exploradores russos, que observaram que a população local usava um prato semelhante (chamado "pelnian", literalmente "orelha de urso", na língua local), que consistia em pedaços de carne envolvida num pão muito fino. Em consequência, mais a oeste, na Polónia, o pelmeni é conhecido como "uszka", que também significa orelhas. Outra teoria indica que o pelmeni foi inventado por caçadores, que precisavam de uma comida leve, fácil de fazer e nutritiva, para levarem com eles em caçadas longas (pode ser mantido congelado por muito tempo, sem perder qualidade e sabor, e a água da cozedura faz uma boa sopa). Existe ainda uma teoria defendendo que a sua origem não se encontra na Rússia, mas na China, explicando a utilização da pimenta, que não é nativa da Rússia e teria que ser importada. De qualquer forma, existem documentos que provam a existência de pelmeni na Rússia já no século XVI.</p>
+                                    <p class="drop-cap">Por ser uma megalópole, Moscou conta com inúmeras opções de comida, sejam típicas da Rússia ou até mesmo de outras nacionalidades. Confira três dos melhores restaurantes de culinária russa em Moscou:</p>
                                     
-									<p>O recheio pode ser carne picada (porco, cordeiro, carne ou qualquer outro tipo de carne) ou peixe. A mistura de diferentes tipos de carne é tão popular. A receita tradicional de udmurta requer uma mistura de 45% de carne bovina, 35% de carne de carneiro e 20% de carne suína. Várias especiarias, como pimenta preta e cebola picada, bem como alho, são misturadas no recheio. </p>
+									<h2>Lepim i Varim</h2>
+
+									<p><img src="../_upload/extras/restaurantemoscow1.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://themoscowtimes.com/articles/rethinking-pelmeni-at-lepim-i-varim-caf233-51031" title="themoscowtimes">themoscowtimes.com</a></cite></p>
+
+									<p>Lugar bastante simpático, com comida boa e, até certo ponto, barata. Com um ambiente charmoso e moderno, são muitos os pratos típicos do país. O carro-chefe é o pelmeni, uma espécie de ravióli com diversos recheios, para todos os gostos. Cardápio em inglês e funcionários que também falam inglês.</p>
+
+									<p>
+										<strong>Localização:</strong> Stoleshnikov Ln., 9/1, Moscou, Rússia.<br>
+										<strong>Telefone:</strong> +7 (985) 688 9606 <br>
+										<strong>Site Oficial:</strong> <a target="_blank" href="http://lepimivarim.ru/en/" title="Site Oficial">lepirivarium.ru</a>
+									</p>
+
+									<h2>Farm Restaurant Lavkalavka</h2>
+
+									<p><img src="../_upload/extras/restaurantemoscow2.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="http://welcome2018.com/en/cities/moscow/fermerskaya-eda/" title="welcome2018">welcome2018.com</a></cite></p>
+
+                                    <p>Restaurante que usa produtos frescos e de produtores locais. As opções de entradas são consideradas as melhores da Rússia, e as carnes são as melhores pedidas como prato principal - a mais atraente é a carne de pato.</p>
+
+									<p>
+										<strong>Localização:</strong> Petrovka St., 21-2, Moscou, Rússia.<br>
+										<strong>Telefone:</strong> +7 (495) 621 2036 <br>
+										<strong>Site Oficial:</strong> <a target="_blank" href="http://restoran.lavkalavka.com/en/" title="Site Oficial">Lavkalavka.com</a>
+									</p>
+
+									<h2>SAVVA</h2>
+
+									<p><img src="../_upload/extras/restaurantemoscow3.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="http://www.moscow-hotels.net/metropol-hotel/dining/restaurants/savva-restaurant/" title="moscow-hotels.net">moscow-hotels.net</a></cite></p>
+
+                                    <p>Tradicional restaurante de Moscou, o Savva fica dentro do Metropol Hotel, oferendo um ambiente elegante, um serviço impecável e uma comida saborosa. Com uma grande variedade de saladas, entradas, carnes e sobremesas pra lá de criativas, o estabelecimento não é dos mais baratos da cidade.</p>
+
+									<p>
+										<strong>Localização:</strong> Teatralny Dr., 2, Moscou, Rússia.<br>
+										<strong>Site Oficial:</strong> <a target="_blank" href="http://savvarest.ru/en/" title="Site Oficial">savvarest.ru</a>
+										<br><strong>Site do Metropol Hotel:</strong> <a target="_blank" href="http://metropol-moscow.ru/en/restaurants/" title="Site Oficial">metropol-moscow.ru</a>
+									</p>
+
+
 
 									<p>Normalmente, são armazenados congelados e preparados imediatamente antes de serem consumidos, em água a ferver, até entre 2 a 5 minutos após começarem a flutuar. O prato resultante é servido com manteiga e ou natas frescas (a mostarda, o ketchup e o vinagre também são populares). Algumas receitas também sugerem que sejam fritos, após a cozedura, até que dourem. Onde exista uma comunidade russa, é muito provável que existam pacotes de Pelmeni congelado. Estes são feitos industrialmente, muitas vezes por companhias italianas</p>
 
-									
+
 
 									<p><img src="../_upload/partidas/kaliningrad.png" alt="blog-image">
                                     <cite>Fonte: <a href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="Tabela Copa 2018">Tabela Copa 2018</a></cite></p>
