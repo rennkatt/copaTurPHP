@@ -711,3 +711,286 @@ body {
 cite{
 	padding-bottom: 10px;
 }
+
+
+
+
+
+	.bandeira {
+	    display: block;
+	    float: left;
+	    border-radius: 50px;
+	    border: 1px solid #ccc;
+		width: 30px;
+		height: 30px;
+		overflow: hidden;
+		background-image: url(https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/img/bandeiras-copa-2018-p.jpg);
+		background-repeat: no-repeat;
+		background-position: -100px -100px;
+		vertical-align: middle;
+	    margin-top: 0px;
+		margin-right:10px;
+	    background-color: #ccc;
+	}
+
+	.bandeira-RU {
+		background-position: -12px 0px
+	}
+	.bandeira-DE {
+		background-position: -12px -33px
+	}
+	.bandeira-BR {
+		background-position: -12px -65px
+	}
+	.bandeira-PT {
+		background-position: -7px -97px
+	}
+	.bandeira-AR {
+		background-position: -12px -129px
+	}
+	.bandeira-BE {
+		background-position: -12px -160px
+	}
+	.bandeira-PL {
+		background-position: -12px -193px
+	}
+	.bandeira-FR {
+		background-position: -12px -225px
+	}
+	.bandeira-ES {
+		background-position: -5px -256px
+	}
+	.bandeira-PE {
+		background-position: -12px -288px
+	}
+	.bandeira-CH {
+		background-position: -12px -320px
+	}
+	.bandeira-_england {
+		background-position: -12px -352px
+	}
+	.bandeira-CO {
+		background-position: -12px -384px
+	}
+	.bandeira-MX {
+		background-position: -12px -415px
+	}
+	.bandeira-UY {
+		background-position: -2px -447px
+	}
+	.bandeira-HR {
+		background-position: -12px -479px
+	}
+	.bandeira-DK {
+		background-position: -9px -511px
+	}
+	.bandeira-IS {
+		background-position: -7px -543px
+	}
+	.bandeira-CR {
+		background-position: -12px -575px
+	}
+	.bandeira-SE {
+		background-position: -8px -606px
+	}
+	.bandeira-TN {
+		background-position: -12px -639px
+	}
+	.bandeira-EG {
+		background-position: -12px -671px
+	}
+	.bandeira-SN {
+		background-position: -12px -702px
+	}
+	.bandeira-IR {
+		background-position: -12px -734px
+	}
+	.bandeira-RS {
+		background-position: -6px -766px
+	}
+	.bandeira-NG {
+		background-position: -12px -798px
+	}
+	.bandeira-AU {
+		background-position: -9px -829px
+	}
+	.bandeira-JP {
+		background-position: -12px -862px
+	}
+	.bandeira-MA {
+		background-position: -12px -894px
+	}
+	.bandeira-PA {
+		background-position: -12px -925px
+	}
+	.bandeira-KR {
+		background-position: -12px -957px
+	}
+	.bandeira-SA {
+		background-position: -12px -989px
+	}
+	.bandeira-BR + .nomePais, .bandeira-BR + .nomePais + .siglaPais {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.brasil {
+		background: gold; padding: 6px 8px !important;
+	}
+
+	#grupos {
+		font-size: 12px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#grupos h3 {
+		color: #666;
+	    font-size: 20px;
+	    font-weight: bold;
+	    line-height: 1.5;
+	    padding: 0;
+	    margin: 0 0 5px 0;
+	    text-align: left;
+	}
+	#grupos div.grupoW {
+		overflow: hidden;
+		margin: 10px 0;
+		width: 100%;
+	    padding: 0;
+	}
+	#grupos ul {
+		margin: 0;
+		padding: 0;
+		border-top: rgba(0, 0, 0, .2)
+	}
+	#grupos li {
+		list-style-type: none;
+	    clear: both;
+	    color: #222;
+	    text-transform: none;
+	    font-weight: 300;
+	    font-size: 20px;
+	    text-align: left;
+	    border-top: 1px dotted #ccc;
+	    padding: 6px 0;
+	}
+
+	.confronto {
+	    margin-bottom: 9px;
+	    float: left;
+	    width: 100%;
+	}
+
+	#grupos h4 {
+		color: #666;
+	    font-size: 13px;
+	    font-weight: bold;
+	    line-height: 1;
+	    padding: 0;
+	    margin: 8px 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+
+	.dataLocal {
+		color: #222;
+		text-align: center;
+		font-size: 12px;
+		text-transform: uppercase;
+	    margin: 6px 0;
+	}
+
+	.equipeE, .equipeD {
+		float: left;
+		width: 46%;
+	}
+	.equipeE .bandeira {
+		float: right;
+		margin-right: 0;
+		margin-left: 6px;
+	}
+	.equipeE .nomePais {
+		float: right;
+		margin: 0;
+	}
+	.versus {
+		width: 8%;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+	    color: #666;
+	    margin-top: 4px;
+	}
+
+	.chaves, .chaves320, .chaves375, .chaves720, .chaves768 { display: none; }
+	.chaves { display: initial; }
+
+	#finais .equipeE, #finais .equipeD {
+		width: 44%;
+	}
+	#finais .versus {
+		width: 12%;
+	}
+
+
+	#grupos li span.nomePais {
+		line-height: 30px;
+	}
+	#grupos li span.siglaPais {
+		line-height: 30px;
+		display: none;
+	}
+
+
+	@media screen and (max-width: 1160px) {
+		.chaves, .chaves320, .chaves375, .chaves720, .chaves768 { display: none; }
+		.chaves768 { display: initial; }
+	}
+
+	@media screen and (max-width: 990px) {
+		.col-md-12 {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+	}
+
+	@media screen and (max-width: 960px) {
+		#grupos li {
+		    font-size: 16px;
+		}
+		#grupos h3 {
+			font-size: 16px
+		}
+		.versus {
+		    margin-top: 4px;
+		}
+		.chaves, .chaves320, .chaves375, .chaves720, .chaves768 { display: none; }
+		.chaves720 { display: initial; }
+
+	
+	}
+
+	@media screen and (max-width: 750px) {
+		.chaves, .chaves320, .chaves375, .chaves720, .chaves768 { display: none; }
+		.chaves375 { display: initial; }
+	}
+
+	@media screen and (max-width: 640px) {
+		.bandeira {
+		    margin-right: 6px;
+		}
+		.brasil {
+			background: white;
+		    padding: 6px 0 !important;
+		}
+		#grupos div.grupoW {
+		    margin: 10px 0;
+		    padding: 0;
+		}
+	}
+	@media screen and (max-width: 320px) {
+		#grupos li {
+		    font-size: 14px;
+		}
+		.chaves, .chaves320, .chaves375, .chaves720, .chaves768 { display: none; }
+		.chaves320 { display: initial; }
+	}

@@ -259,13 +259,166 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 									<h3>Jogos:</h3>
 
-									<p><img src="../_upload/partidas/moscow2.png" alt="blog-image">
-                                    <br><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+									<div id="grupos">
+										<div class="grupoW">
+											
+											
+											<ul id="jogos">
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>14 de junho de 2018, 12h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo A</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-RU"></div>
+															<span class="nomePais">Rússia</span>
+															<span class="siglaPais">RUS</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-SA"></div>
+															<span class="nomePais">A. Saudita</span>
+															<span class="siglaPais">ARA</span>
+														</div>
+													</div>
+												</li>
 
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>17 de junho de 2018, 12h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo F</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-DE"></div>
+															<span class="nomePais">Alemanha</span>
+															<span class="siglaPais">ALE</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-MX"></div>
+															<span class="nomePais">México</span>
+															<span class="siglaPais">MEX</span>
+														</div>
+													</div>
+												</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>20 de junho de 2018, 9h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo B</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-PT"></div>
+															<span class="nomePais">Portugal</span>
+															<span class="siglaPais">POR</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-MA"></div>
+															<span class="nomePais">Marrocos</span>
+															<span class="siglaPais">MAR</span>
+														</div>
+													</div>
+												</li>
+												
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>26 de junho de 2018, 11h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo C</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-DK"></div>
+															<span class="nomePais">Dinamarca</span>
+															<span class="siglaPais">DIN</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-FR"></div>
+															<span class="nomePais">França</span>
+															<span class="siglaPais">FRA</span>
+														</div>
+													</div>
+												</li>
+											</ul>
+
+										</div>
+										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+									</div>
+
+									<div id="grupos">
+										<div class="grupoW">
+											
+											
+											<ul id="jogos">
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>16 de junho de 2018, 10h &gt;</strong> Arena Spartak, Moscou &gt; Grupo D</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-AR"></div>
+															<span class="nomePais">Argentina</span>
+															<span class="siglaPais">ARG</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-IS"></div>
+															<span class="nomePais">Islândia</span>
+															<span class="siglaPais">ISL</span>
+														</div>
+													</div>
+												</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>27 de junho de 2018, 15h &gt;</strong> Arena Spartak, Moscou &gt; Grupo E</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-RS"></div>
+															<span class="nomePais">Sérvia</span>
+															<span class="siglaPais">SER</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-BR"></div>
+															<span class="nomePais">Brasil</span>
+															<span class="siglaPais">BRA</span>
+														</div>
+													</div>
+												</li>
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>23 de junho de 2018, 9h &gt;</strong> Arena Spartak, Moscou &gt; Grupo G</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-BE"></div>
+															<span class="nomePais">Bélgica</span>
+															<span class="siglaPais">BEL</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-TN"></div>
+															<span class="nomePais">Tunísia</span>
+															<span class="siglaPais">TUN</span>
+														</div>
+													</div>
+												</li>
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>19 de junho de 2018, 9h &gt;</strong> Arena Spartak, Moscou &gt; Grupo H</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-PL"></div>
+															<span class="nomePais">Polônia</span>
+															<span class="siglaPais">POL</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-SN"></div>
+															<span class="nomePais">Senegal</span>
+															<span class="siglaPais">SEN</span>
+														</div>
+													</div>
+												</li>
+																		
+											</ul>
+
+										</div>
+										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+									</div>
+
+									
                                     <h3>Outros jogos:</h3>
 
                                     <p>
-										<strong>Oitavas de Final:</strong> 03 de Julho de 2018, às 20:00<br>
+										<strong>Oitpppavas de Final:</strong> 03 de Julho de 2018, às 20:00<br>
 										
 									</p>
 
