@@ -344,8 +344,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     </aside>
                                     <!-- .about-author -->
                                     
-                                       
 
+                                       
                                 </div>
                                 <!-- .entry-content -->
                                   
