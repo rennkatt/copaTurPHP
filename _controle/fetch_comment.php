@@ -1,8 +1,7 @@
 <?php
 
 //fetch_comment.php
-
-$connect = new PDO('mysql:host=localhost;dbname=copatur', 'root', '');
+include("conecta.php");
 
 $id      = $_POST['id'];
 
@@ -12,7 +11,7 @@ WHERE parent_comment_id = '0' AND postagem_id = :id
 ORDER BY comment_id DESC
 ";
 
-$statement = $connect->prepare($query);
+$statement = $conexao->prepare($query);
       $statement->bindParam(':id', $id, PDO::PARAM_STR);
      
 
@@ -45,18 +44,18 @@ foreach($result as $row)
   </article>
   
 ';
- $output .= get_reply_comment($connect, $row["comment_id"]);
+ $output .= get_reply_comment($conexao, $row["comment_id"]);
 }
 
 echo $output;
 
-function get_reply_comment($connect, $parent_id = 0, $marginleft = 0)
+function get_reply_comment($conexao, $parent_id = 0, $marginleft = 0)
 {
  $query = "
  SELECT * FROM tbl_comment WHERE parent_comment_id = '".$parent_id."'
  ";
  $output = '';
- $statement = $connect->prepare($query);
+ $statement = $conexao->prepare($query);
  $statement->execute();
  $result = $statement->fetchAll();
  $count = $statement->rowCount();
@@ -105,16 +104,16 @@ function get_reply_comment($connect, $parent_id = 0, $marginleft = 0)
   </ol>
 
    ';
-   $output .= get_reply_comment($connect, $row["comment_id"], $marginleft);
+   $output .= get_reply_comment($conexao, $row["comment_id"], $marginleft);
   }
  }
- get_qtde($connect);
+ get_qtde($conexao);
  return $output;
 }
 
 
 
-function get_qtde($connect)
+function get_qtde($conexao)
 {
 $query = "
 SELECT * FROM tbl_comment 
@@ -122,7 +121,7 @@ WHERE parent_comment_id = '0' AND postagem_id = :id
 ORDER BY comment_id DESC
 ";
 
-$res = $connect->prepare($query);
+$res = $conexao->prepare($query);
       $res->bindParam(':id', $id, PDO::PARAM_STR);
      
 

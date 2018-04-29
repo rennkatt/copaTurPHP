@@ -2,7 +2,7 @@
 
 //fetch_comment.php
 
-$connect = new PDO('mysql:host=localhost;dbname=copatur', 'root', '');
+include("conecta.php");
 
 $id      = $_POST['id'];
 
@@ -12,7 +12,7 @@ SET comment = ' Mensagem apagada pelo autor ou administrador'
 WHERE comment_id = :id
 ";
 
-$statement = $connect->prepare($query);
+$statement = $conexao->prepare($query);
       $statement->bindParam(':id', $id, PDO::PARAM_STR);
      
 

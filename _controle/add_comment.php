@@ -2,7 +2,7 @@
 
 //add_comment.php
 
-$connect = new PDO('mysql:host=localhost;dbname=copatur', 'root', '');
+include("conecta.php");
 
 $error = '';
 $comment_name = '';
@@ -33,7 +33,7 @@ if($error == '')
  (parent_comment_id, comment, comment_sender_name, postagem_id) 
  VALUES (:parent_comment_id, :comment, :comment_sender_name, :postagem_id)
  ";
- $statement = $connect->prepare($query);
+ $statement = $conexao->prepare($query);
  $statement->execute(
   array(
    ':parent_comment_id' => $_POST["comment_id"],

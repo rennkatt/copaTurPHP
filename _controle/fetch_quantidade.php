@@ -1,8 +1,7 @@
 <?php
 
 //fetch_comment.php
-
-$connect = new PDO('mysql:host=localhost;dbname=copatur', 'root', '');
+include("conecta.php");
 
 $id      = $_POST['id'];
      
@@ -12,7 +11,7 @@ WHERE postagem_id = :id
 ORDER BY comment_id DESC
 ";
 
-$res = $connect->prepare($query);
+$res = $conexao->prepare($query);
       $res->bindParam(':id', $id, PDO::PARAM_STR);
      
 
