@@ -6,12 +6,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 }
 	include("../_controle/conecta.php");
 ?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-br" class="no-js"> <!--<![endif]-->
     <head>
     	<!-- meta character set -->
         <meta charset="utf-8">
@@ -414,6 +413,83 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
 									</div>
 
+									<div id="grupos">
+										<div class="grupoW">
+											
+											
+											<ul id="jogos">
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>25 de junho de 2018, 15h &gt;</strong> Kaliningrado &gt; Grupo B</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-ES"></div>
+															<span class="nomePais">Espanha</span>
+															<span class="siglaPais">ESP</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-MA"></div>
+															<span class="nomePais">Marrocos</span>
+															<span class="siglaPais">MAR</span>
+														</div>
+													</div>
+												</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>16 de junho de 2018, 16h &gt;</strong> Kaliningrado &gt; Grupo D</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-HR"></div>
+															<span class="nomePais">Croácia</span>
+															<span class="siglaPais">CRO</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-NG"></div>
+															<span class="nomePais">Nigéria</span>
+															<span class="siglaPais">NIG</span>
+														</div>
+													</div>
+												</li>
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>22 de junho de 2018, 15h &gt;</strong> Kaliningrado &gt; Grupo E</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-RS"></div>
+															<span class="nomePais">Sérvia</span>
+															<span class="siglaPais">SER</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-CH"></div>
+															<span class="nomePais">Suíça</span>
+															<span class="siglaPais">SUI</span>
+														</div>
+													</div>
+												</li>
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>28 de junho de 2018, 15h &gt;</strong> Kaliningrado &gt; Grupo G</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-_england"></div>
+															<span class="nomePais">Inglaterra</span>
+															<span class="siglaPais">ING</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-BE"></div>
+															<span class="nomePais">Bélgica</span>
+															<span class="siglaPais">BEL</span>
+														</div>
+													</div>
+												</li>
+																		
+											</ul>
+
+										</div>
+										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+									</div>
+
 									
                                     <h3>Outros jogos:</h3>
 
@@ -496,7 +572,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
 
 
-<p>Leia Mais em: <a target="_blank" href="http://kaiserhof-hotel.com/en/?utm_source=tripadvisor&utm_medium=referral">Keiserhor Hotel</a> | <a target="_blank" href="https://viajandobemebarato.com.br/2017/10/onde-se-hospedar-na-copa-2018.html">Viajando bem barato</a> |  <a target="_blank" href="https://www.accorhotels.com/pt-br/brasil/index.shtml">Accorhotels</a></p>
+									<p>Leia Mais em: <a target="_blank" href="http://kaiserhof-hotel.com/en/?utm_source=tripadvisor&utm_medium=referral">Keiserhor Hotel</a> | <a target="_blank" href="https://viajandobemebarato.com.br/2017/10/onde-se-hospedar-na-copa-2018.html">Viajando bem barato</a> |  <a target="_blank" href="https://www.accorhotels.com/pt-br/Brasil/index.shtml">Accorhotels</a></p>
                                     
  
 
@@ -592,131 +668,27 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                               <h3 class="comments-title">3 Commentários</h3>
                               
                               <!-- .commentlist -->
-                              <ol class="commentlist">
-                                <li class="comment even thread-even depth-1">
-                                  
-                                  <!-- #comment-## -->
-                                  <article class="comment">
-                                    
-                                    <!-- .comment-meta -->
-                                    <header class="comment-meta comment-author vcard">
-                                        <img alt="" src="../_complementos/images/team/01.jpg" class="avatar" height="75" width="75">
-                                        <cite class="fn"><a href="#" rel="external nofollow" class="url">Lorem Lorem</a></cite>
-                                        <span class="comment-date">15 de abril de 2018, às 16:16</span>
-                                    </header>
-                                    <!-- .comment-meta -->
-                                    
-                                    <!-- .comment-content -->
-                                    <section class="comment-content comment">
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aut eveniet amet vel! Similique officia repellendus temporibus. Voluptatum tempore quasi repellendus, nostrum in adipisci dicta dignissimos sed veniam laboriosam nihil!</p>
-                                    </section>
-                                    <!-- .comment-content -->
-                                    
-                                    <!-- .reply --> 
-                                    <div class="reply">
-                                        <a class="comment-reply-link" href="#">Responder</a>
-                                    </div>
-                                    <!-- .reply --> 
-                                    
-                                  </article>
-                                  <!-- #comment-## -->
-                                  
-                                  <!-- .comment depth-2 -->
-                                  <ol class="children">
-                                  
-                                    <li class="comment odd alt depth-2 ">
-                                      
-                                      <!-- #comment-## -->
-                                      <article class="comment">
-                                      
-                                        <!-- .comment-meta -->
-                                        <header class="comment-meta vcard">
-                                            <img alt="" src="../_complementos/images/team/02.jpg" class="avatar photo" height="75" width="75">
-                                            <cite class="fn"><a href="#" rel="external nofollow" class="url">Ipsum</a></cite>
-                                            <span class="comment-date">15 de abril de 2018, às 16:16</span>
-                                        </header>
-                                        <!-- .comment-meta -->
-                                        
-                                        <!-- .comment-content -->
-                                        <section class="comment-content comment">
-                                          <p>Lorem Lorem Ipsum</p>
-                                        </section>
-                                        <!-- .comment-content -->
-                                        
-                                        <!-- .reply --> 
-                                        <div class="reply">
-                                            <a class="comment-reply-link" href="#">Responder</a>
-                                        </div>
-                                        <!-- .reply -->  
-                                        
-                                      </article>
-                                      <!-- #comment-## -->
-                                      
-                                      <!-- .comment depth-3 -->
-                                      <ol class="children">
-                                      
-                                        <li class="comment even depth-3">
-                                          <article class="comment">
-                                            
-                                            <!-- .comment-meta -->
-                                            <header class="comment-meta vcard">
-                                                <img alt="" src="../_complementos/images/team/03.jpg" class="avatar photo" height="75" width="75">
-                                                <cite class="fn"><a href="#" rel="external nofollow" class="url">Joao</a></cite>
-                                                <span class="comment-date">15 de abril de 2018, às 16:16</span>
-                                            </header>
-                                            <!-- .comment-meta -->
-                                            
-                                            
-                                            <!-- .comment-content -->
-                                            <section class="comment-content comment">
-                                              <p>Lorem</p>
-                                            </section>
-                                            <!-- .comment-content -->
-                                            
-                                            <!-- .reply --> 
-                                            <div class="reply">
-                                                <a class="comment-reply-link" href="#">Responder</a>
-                                            </div>
-                                            <!-- .reply -->
-                                             
-                                          </article>
-                                          <!-- #comment-## -->
-                                          
-                                        </li>
-                                      </ol>
-                                      <!-- .comment depth-3 -->
-                                      
-                                    </li>
-                                  </ol>
-                                  <!-- .comment depth-2 -->
-                                  
-                                </li>
-                                <!-- .comment depth-1 -->
-                                
-                                
-                                
-                                
-                              </ol>
+                              <div id="display_comment"></div>
                               <!-- .commentlist -->
                               
                               
                               <!-- #respond --> 
-                              <div id="respond">
+                              <div id="respond"> 
                               
                                 <h3 id="reply-title">Deixe seu comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancela resposta</a></small></h3>
                                 
                                 <!-- .commentform -->
-                                <form action="#" method="post" id="commentform">
+                                <form action="#" method="post" id="comment_form">
                                 
-                                  
+                                  <input type="text" name="comment_name" id="comment_name" class="form-control hidden" value="Renato Moura" placeholder="Enter Name" />
+
                                   <p class="comment-form-comment">
-                                    <textarea id="comment" name="comment" rows="8" aria-required="true"></textarea>
+                                    <textarea id="comment_content" name="comment_content" rows="5" placeholder="Entre com seu comentário" aria-required="true"></textarea>
                                   </p>
                                   
                                   <p class="form-submit">
-                                    <input type="submit" name="submit" id="submit" class="button primary" value="Postar Commentário">
-                                    <input type="hidden" name="comment_post_ID" value="16" id="comment_post_ID">
-                                    <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                                    <input type="hidden" name="comment_id" id="comment_id" value="0"/>
+     								<input type="submit" name="submit" id="submit" class="btn button primary" value="Postar Comentário" />
                                   </p>
                                   
                                 </form>
@@ -724,8 +696,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 
                               </div>
                               <!-- #respond --> 
-                              
-                            </div>
+
+                             
                             <!-- #comments -->
                             
                             
@@ -819,3 +791,50 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<script src="../_complementos/js/custom.js"></script>
     </body>
 </html>
+
+<script>
+$(document).ready(function(){
+ 
+ $('#comment_form').on('submit', function(event){
+  event.preventDefault();
+  var form_data = $(this).serialize();
+  $.ajax({
+   url:"../_controle/add_comment.php",
+   method:"POST",
+   data:form_data,
+   dataType:"JSON",
+   success:function(data)
+   {
+    if(data.error != '')
+    {
+     $('#comment_form')[0].reset();
+     $('#comment_message').html(data.error);
+     $('#comment_id').val('0');
+     load_comment();
+    }
+   }
+  })
+ });
+
+ load_comment();
+
+ function load_comment()
+ {
+  $.ajax({
+   url:"../_controle/fetch_comment.php",
+   method:"POST",
+   success:function(data)
+   {
+    $('#display_comment').html(data);
+   }
+  })
+ }
+
+ $(document).on('click', '.resp', function(){
+  var comment_id = $(this).attr("id");
+  $('#comment_id').val(comment_id);
+  $('#comment_content').focus();
+ });
+ 
+});
+</script>

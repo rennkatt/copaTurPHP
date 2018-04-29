@@ -326,6 +326,7 @@
         }
     .comment-content p {
         font-size: .925em;
+        text-transform: initial;
         }
     .comments-area ol ol {
         margin-left: 8%

@@ -166,7 +166,7 @@ form p {
  	position: relative; 
 	}
 label {
- 	display: block; font-size: 9px; letter-spacing: .15em; margin-bottom: 0.6em; text-transform: uppercase;
+ 	display: block; font-size: 12px; letter-spacing: .15em; margin-bottom: 0.6em; font-family: Roboto ;
 	}
 label input { 
     font-weight: 400; font-size: 16px !important; 
@@ -626,22 +626,23 @@ a.button.green:hover {
     border-bottom: 0;
     }
 .comment-meta {
-    text-transform: uppercase;
+    text-transform: ;
     }
 .comment-meta img {
     display: block; float: left; margin: 0 1.0em 0 0; max-width: 52px; 
 	}
 .comment-meta .fn {
-    display: block; font-size: 13px; font-weight: 700; line-height: 1.2; font-style: normal;
+    display: block; font-size: 20px; font-weight: 700; line-height: 1.2; font-style: normal;
     }
 .comment-meta .comment-date {
-    display: block; font-size: 11px; font-weight: 600; color: #ddd;
+    display: block; font-size: 12px; font-weight: 500; color: #666;
     }
 .comment-content {
     padding-top: .1em; clear: left;
 	}
 	.comment-content p {
  		margin: .6em 0 .8em 0; font-size: 0.875em;
+ 		text-transform: initial;
 		}
 .comment .reply {
     text-align: right; font-weight: 700; font-size: 12px; letter-spacing: 1px; text-transform: uppercase;

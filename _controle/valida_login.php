@@ -54,7 +54,7 @@ if(isset($_POST['logar'])){
                       <strong>Logado com Sucesso!</strong> Redirecionando para o sistema.
                 </div> ';
 				
-				header("Location: index.php");
+				echo "<script>history.go(-2)</script>";
 
 			}else{
 				echo '<div class="alert alert-danger">
