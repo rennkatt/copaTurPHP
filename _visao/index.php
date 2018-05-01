@@ -467,36 +467,57 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <h2>Dúvidas e Sugestões</h2>
 	                        <p class="white-text">Mande-nos sua mensagem</p>
 	                    </div>
+
+	                    <?php
+
+                            if(isset($_GET['mail'])){
+                            		$id_mail = $_GET['mail'];
+                               
+                                if ($id_mail = 'success'){
+                               
+                                    echo '<div class="alert alert-success">
+                                              <button type="button" style="margin-top: 0px;" class="close" data-dismiss="alert">×</button>
+                                              <strong>Sucesso!</strong> Email enviado com sucesso.
+                                            </div>';
+                                } else {
+                                    echo '<div class="alert alert-danger">
+                                      <button type="button" style="margin-top: 0px;" class="close" data-dismiss="alert">×</button>
+                                      <strong>Erro!</strong> Não foi possível excluir o post.
+                                    </div>';
+                                }
+                            }
+                            
+                            ?>
 	                </div>
 	            </div>
 	            <div class="row">
 	                <div class="col-lg-12">
-	                    <form name="sentMessage" id="contactForm" novalidate>
+	                    <form name="sentMessage" id="contactForm" action="../_email/enviar.php" method="post" enctype="multipart/form-data" role="form" novalidate>
 	                        <div class="row">
 	                            <div class="col-md-6">
 	                                <div class="form-group">
-	                                    <input type="text" class="form-control" placeholder="Seu Nome *" id="name" required data-validation-required-message="Por favor, escreva o seu nome.">
+	                                    <input type="text" class="form-control" placeholder="Seu Nome *" id="nome" name="nome" required data-validation-required-message="Por favor, escreva o seu nome.">
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                                <div class="form-group">
-	                                    <input type="email" class="form-control" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, escreva o seu e-mail.">
+	                                    <input type="email" id="email" name="email" class="form-control" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, escreva o seu e-mail.">
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                                <div class="form-group">
-	                                    <input type="text" class="form-control" placeholder="Seu Assunto *" id="assunto" required data-validation-required-message="Por favor, escreva o assunto deste e-mail.">
+	                                    <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Seu Assunto *" id="assunto" required data-validation-required-message="Por favor, escreva o assunto deste e-mail.">
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                            </div>
 	                            <div class="col-md-6">
 	                                <div class="form-group">
-	                                    <textarea class="form-control" placeholder="Sua Mensagem *" id="message" required data-validation-required-message="Por favor, escreva sua mensagem."></textarea>
+	                                    <textarea class="form-control" placeholder="Sua Mensagem *" id="message" name="mensagem" required data-validation-required-message="Por favor, escreva sua mensagem."></textarea>
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                            </div>
 	                            <div class="clearfix"></div>
 	                            <div class="col-lg-12 text-center">
 	                                <div id="success"></div>
-	                                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+	                                <button type="submit" id="enviar"  value="Enviar" name="enviar" class="btn btn-primary">Enviar Mensagem</button>
 	                            </div>
 	                        </div>
 	                    </form>
