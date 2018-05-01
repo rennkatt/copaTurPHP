@@ -217,19 +217,75 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">Em Moscou os jogos da Copa do Mundo irão decorrer em dois estádios: O ESTÁDIO LUZHNIKI e o OTKRYTIE ARENA.</p>
+                                    <p class="drop-cap">Olhando Moscou do alto, por satélite, veremos as três ‘Ring Roads’ bem definidas e, ao centro o contorno do Kremlin. Habitada por povo ‘fino-úgricos’, dois séculos antes de Cristo, a colina do rio Neglinnaya recebeu, no século XI, uma estrutura fortificada que fora destruída em 1237 pelos mongóis e reconstruída em 1339. Mas desde 1331 já era conhecida como Kremlin. Dmitri Donskoi substituiu os muros de carvalho por uma fortaleza de calcário branco em 1366-1368, onde se encontram as fundaçõe das paredes atuais. O filho de Dmitri, Vasily, retomou a construção e a recém-construída Catedral da Anunciação foi pintada por Teófanes, o grego, Andrei Rublev e Prokhor, em 1406. O mosteiro de Chudov foi fundado pelo tutor de Dmitri, o metropolita Alexis; enquanto sua viúva, Eudoxia, estabeleceu o Convento da Ascensão em 1397.  As muralhas do Kremlin, como aparecem agora, foram construídas entre 1485 e 1495.</p>
+
+                                    <p>O Grande Príncipe Ivan III organizou a desconstrução do Kremlin, convidando vários arquitetos experientes da Itália renascentista, incluindo Petrus Antonius Solarius, que projetou o novo muro do Kremlin e suas torres, e Marcus Ruffus, que projetou o novo palácio para o príncipe. Foi durante o seu reinado que três catedrais do Kremlin, a Igreja de Deposição e o Palácio das Facetas foram construídos. O edifício mais alto da cidade e da Rússia moscovita foi o Ivan, o Grande Campanário, construído entre 1505 e, ampliado até a atual altura em 1600. Os Portões de Spasskie ainda carregam uma dedicação em latim, louvando Petrus Antonius Solarius pelo design.</p>
+
+                                    <p>Enfim. O Kremlin é um complexo fortificado no coração de Moscou, com vista para o rio Moskva ao sul, a Catedral de São Basílio e a Praça Vermelha, a leste, e o Jardim de Alexandre, a oeste. É o mais conhecido dos kremlin (cidadelas russas) e, inclui cinco palácios, quatro catedrais e sua muralha e, torres. Também dentro deste complexo está o Grande Palácio do Kremlin, que antigamente era a residência do czar em Rússia e hoje o complexo serve como a residência oficial do Presidente da Federação Russa.</p>
+
+                                    <p>Esta é a Moscou que iremos conhecer; como a sopa Borsch, cheia de ingredientes, sabores e texturas, um resumo da arte e da cultura universal. Onde não há pontos cegos e, de norte a sul, leste a oeste, as dimensões se desdobram para que o turista veja que ao seu redor muito há para desvendar. Moscou não é só bela, excêntrica e estranha, não são só os seus fantasmas, suas sombras que escondem, ou que iluminam seus segredos, Moscou é simplesmente tudo e, tudo nela se encontra!</p>
                                     
-									<h2>ESTÁDIO LUZHNIKI</h2>
+                                    <p>Um pouco mais de Moscou...</p>
 
-									<p><img src="../_upload/extras/estadiomoscow1.jpeg" alt="blog-image">
-                                    <br><cite>Fonte: <a target="_blank" href="https://gestion.pe/tendencias/conozca-12-estadios-copa-mundo-rusia-2018-221823?foto=1" title="gestion.pe">gestion.pe</a></cite></p>
 
-									<p>O antigo Estádio Central Lênin está localizado próximo à estação de metrô Sportivnaya, de fácil acesso para os torcedores. A sua reforma foi concluída em junho de 2017, sendo que o local vai receber sete jogos ao longo da competição, incluindo a partida de abertura e a grande final. Depois do Mundial, nenhum clube vai mandar seus jogos na arena, que ficará à disposição da seleção russa.</p>
+									<h2>ÓPERA OU BALÉ NO TEATRO BOLSHOI</h2>
 
-									<p>
-										<strong>Capacidade:</strong> 81.000 pessoas.<br>
-										<strong>Custo:</strong> R$ 1,803 bilhão <br>
-									</p>
+									<p><img src="../_upload/extras/pontomoscow1.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://tourgratismoscu.com/informacion-util/el-teatro-bolshoi/" title="El Teatro Bolshoi">El Teatro Bolshoi</a></cite></p>
+
+									<p>Ir ao Teatro Bolshoi é um dos destaques de uma visita à Rússia. Certifique-se de reservar um bilhete com antecedência para assistir ao balé “O Lago dos Cisnes” ou à ópera “Boris Godunov”, de Aleksandr Púchkin. O opulento teatro e seus interiores restaurados irão levá-lo de volta há outro século.</p>
+
+									<h2>GALERIA TRETIAKOV</h2>
+
+									<p><img src="../_upload/extras/pontomoscow2.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://ideaguide.ru/fr/moscou/la_galerie_tretiakov" title="Galerie Tretiakov">Galerie Tretiakov</a></cite></p>
+
+									<p>A capital da Rússia é cheia de ‘Arte’... Há o Museu Estatal Pushkin de Belas Artes, que apresenta algumas das grandes obras da arte europeia, e o Museu Roeritch, uma parada obrigatória para adeptos dos estudos índicos. Mas para aqueles que são apaixonados por arte russa, nada melhor do que visitar a Galeria Tretiakov. Ali é possível admirar grandes obras de Vassíli Verechchaguin e Isaak Levitan, por exemplo. A simples dimensão de “A Apoteose de Guerra”, uma pintura de Verechchaguin que apresenta uma gigantesca coleção de crânios, pode fazer o tempo parar e causar calafrios. O quadro de Levitan retratando o interior russo e as noites claras de verão são capazes de transportar os visitantes de volta aos tempos mais remotos.</p>
+
+									<h2>GUM</h2>
+
+									<p><img src="../_upload/extras/pontomoscow3.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://www.flickr.com/photos/91293200@N00/4973694227" title="GUM">Flickr</a></cite></p>
+
+									<p>GUM é uma loja de departamento enorme no centro da cidade que dá de cara para a Praça Vermelha. Apesar de inúmeras lojas com preços bem salgados, a praça de alimentação no piso superior tem algumas opções acessíveis de café-da-manhã. Vá a uma “stolovaia” no estilo soviético e peça algumas panquecas russas, frutas e chá. Sente-se no topo da Chukhov e assista às pessoas passarem enquanto saboreia um delicioso café. Curta a arquitetura única do edifício, que tem elementos da Rússia medieval combinados com molduras de aço e teto de vidro.</p>
+
+									<h2>MOSTEIRO NOVODEVITCHI</h2>
+
+									<p><img src="../_upload/extras/pontomoscow4.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://pt.advisor.travel/poi/Convento-de-Novodevichy-1773" title="Advisor">Advisor</a></cite></p>
+
+									<p>O mosteiro Novodevitchi mesmo pra quem não é uma pessoa religiosa é um assistir ao culto no interior da Catedral de Smolensk. Esse é um dos poucos lugares na capital russa onde algumas das tradições pré-revolução bolchevique continuam bem preservadas.</p>
+
+									<h2>CATEDRAL DE KAZAN</h2>
+
+									<p><img src="../_upload/extras/pontomoscow5.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://www.expedia.com/pictures/russia/moscow/kazan-cathedral.d6297959/" title="Expedia">Expedia</a></cite></p>
+
+									<p>Entrando na Praça Vermelha pelos Portões Voskressênskie, você verá a sua esquerda uma pequenina e aconchegante igreja. Esta é a Igreja de Nossa Senhora de Kazan, ou apenas Catedral de Kazan. A imagem de Nossa Senhora de Kazan fica em em cima da porta, e é uma das mais adoradas da Rússia ortodoxa.</p>
+
+									<p>A igreja foi construída inicialmente em 1625, reconstruída muitas vezes e destruída pelas autoridades soviéticas em 1936. Mas no começo da década de 1990, ela foi reconstruída seguindo seus primeiros traços arquitetônicos.</p>
+
+									<h2>CATEDRAL DE SÃO BASÍLIO</h2>
+
+									<p><img src="../_upload/extras/pontomoscow6.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://www.expedia.com/pictures/russia/moscow.d178289?view=large-gallery&page=1" title="Advisor">Advisor</a></cite></p>
+
+									<p>Esta catedral que mais parece uma construção de doces saída de “João e Maria” é um dos símbolos mais conhecidos de Moscou e da Rússia, reproduzidos em milhões de cartões postais e suvenires. A construção foi erguida por Ivan, o Terrível, entre 1555 e 1561 em homenagem à anexação de Kazan e da conquista do Canato de Kazan.</p>
+
+									<p>Vale a pena não apenas tirar fotos do lado de fora, mas também espiar lá dentro: de murais pintados dentro das cúpulas, aos portões do altar em diferentes capelas e iconostasis, também acontece muito de se encontrar um coral de canto ortodoxo no interior da catedral.</p>
+
+
+
+
+
+
+
+
+
+									
+
+
+
 
 									<h3>Jogos:</h3>
 

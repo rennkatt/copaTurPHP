@@ -32,12 +32,12 @@ foreach($result as $row)
         <span class="comment-date"> Em '. $row["date"] .'</span></cite>
     </header>
     <section class="comment-content comment">
-      <p>'. $row["comment"] .'</p>
+      <p>'. $row["comment"] .' </p>
     </section>
     
     <div class="reply">
         <button type="button" class="btn-sm resp" id="'. $row['comment_id'] .'" >Responder</button>
-        <button type="button" class="btn-sm hidden excluir" id="'. $row['comment_id'] .'" >Excluir</button>
+        <button type="button" class="btn-sm hidden excluir del" id="del" nome="'. $row['comment_id'] .'" >Excluir</button>
     </div>
     <!-- .reply --> 
     

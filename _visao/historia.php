@@ -366,6 +366,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                               <div id="display_comment"></div>
                               <!-- .commentlist -->
                               
+                              <div ></div>
                               
                               <!-- #respond --> 
                               <div id="respond"> 
@@ -566,8 +567,10 @@ $(document).ready(function(){
   $('#comment_content').focus();
  });
 
+
+
  $(document).on('click', '.excluir', function(){
-  var comment_id = $(this).attr("id");
+  var comment_id = $(this).attr("nome");
 
   $.ajax({
    url:"../_controle/apaga_comment.php",
@@ -581,6 +584,13 @@ $(document).ready(function(){
   })
   	
  });
+
+  	var perfil = '<%=Session["nivel"]%>';
+    if (perfil == '2')
+        $("#del").show();
+	else
+	 	$("#del").hide();
+   
  
 });
 </script>
