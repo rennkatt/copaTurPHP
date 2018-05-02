@@ -7,7 +7,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
     include("../_controle/conecta.php");
     include_once("../_controle/seguranca.php"); 
 	if($nivelLogado==2) {
-		header("Location: index.php");exit;
+		//header("Location: index.php");exit;
 	}
 ?>
 
@@ -113,7 +113,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 		<!-- preloader -->
 		<!-- end preloader -->
-
         <!--
         Fixed Navigation
         ==================================== -->
@@ -185,7 +184,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				<!-- /main nav -->
 		
 		<div id="wrapper">
-        
+
+        <?php
+        if($nivelLogado==1) {
+        ?>
          <!-- Navigation -->
         <nav class=" border" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
@@ -235,6 +237,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             </div>
             <!-- /.navbar-static-side -->
         </nav>
+        <?php
+        }
+        ?>
 
         <div id="page-wrapper">
             <div class="row">
@@ -254,12 +259,16 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="col-lg-12">
                      <form id="edit-profile" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
                      <?php 
+                       
+                       if($nivelLogado==1) {
+                       
                         if ( $nivel == 2 ){
                             echo '<input type="submit" name="usuario_admin" class="btn btn-primary" value="Tornar Administrador">';
                         }
                         else{
                             echo '<input type="submit" name="usuario_comum" class="btn btn-primary" value="Tornar Usuário Comum">';                                  
                         }                        
+                      }
                     ?>
                         <div class="row">
 						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
