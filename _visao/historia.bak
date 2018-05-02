@@ -376,6 +376,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 
                                   <input type="text" name="comment_name" id="comment_name" class="form-control hidden" value="<?php echo $_SESSION['nome']; ?>" placeholder="Enter Name" />
 
+                                  <input type="text" name="imagem" id="imagem" class="form-control hidden" value="<?php echo $_SESSION['imagem']; ?>" placeholder="Enter Name" />
+
                                   <input type="text" name="postagem_id" id="postagem_id" class="form-control hidden" value="<?php echo ($id)?>"  />
 
                                   <p class="comment-form-comment">
