@@ -171,10 +171,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/historia.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Localizada na Rússia central é conhecida por ser o centro administrativo do Distrito Federal do Volga. A cidade de Nizhny Novgorod foi fundada em 4 de fevereiro de 1221 pelo príncipe Yury Vsevolodovich de Vladimir. Em 1932 Stalin mudou o nome da cidade para Gorky em homenagem ao escritor Maksim Gorki, a mesma permaneceu com esse nome até 1990.</p>
 						<p><a href="historia.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
