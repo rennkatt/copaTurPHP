@@ -226,6 +226,5 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 			}
 		}
 
-		
 	 
 	 ?>

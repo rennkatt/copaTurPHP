@@ -7,7 +7,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	include("../_controle/conecta.php");
 	include_once("../_controle/seguranca.php"); 
 
-	if($nivelLogado==2) {
+	if($_SESSION['nivel']==2) {
 		header("Location: index.php");exit;
 	}
 ?>

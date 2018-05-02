@@ -7,7 +7,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	include("../_controle/conecta.php");
     include("../_controle/limita-texto.php");
     include_once("../_controle/seguranca.php"); 
-    if($nivelLogado==2) {
+    if($_SESSION['nivel']==2) {
         header("Location: index.php");exit;
     }
 ?>
@@ -274,7 +274,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                         <td  ><H5> <?php echo $mostra->categoria;?></H5> </td>
                                         
                                         <td class="td-actions">
-                                           <a href="usuario_edita.php?id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>
+                                           <a href="usuarios_gerencia.php?alteraNivel=<?php echo $mostra->id;?>" class="btn btn-success btn-sm" onClick="return confirm('Deseja realmente alterar o nível de acesso?')"><i class="fa fa-pencil"> </i></a>
                                             <a href="usuarios_gerencia.php?delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir o usuário?')" ><i class="fa fa-times"> </i></a>
                                                     <!-- edita aqui tb... linka com os outros arquivos... -->
                                         </td>
@@ -293,6 +293,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                     echo $e;
                 }
             include_once("../_controle/excluir-usuario.php");
+            include_once("../_controle/processa-altera-nivel.php");
         ?>       
                                     
                                  
