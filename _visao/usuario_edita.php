@@ -4,8 +4,8 @@ session_start();
 if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	//header("Location: home.php");exit;
 }
-	include("../_controle/conecta.php");
-	include_once("../_controle/seguranca.php"); 
+    include("../_controle/conecta.php");
+    include_once("../_controle/seguranca.php"); 
 	if($nivelLogado==2) {
 		header("Location: index.php");exit;
 	}
@@ -156,7 +156,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		                    
 		                    <ul class="dropdown-menu black">
 		                        <li class="dropdown-item">
-		                            <a href="#" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
+                                <a href="../_visao/usuario_edita.php?id=<?php echo $_SESSION['id'] ?>" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
 		                        </li>
 		                        
 		                        <?php if ($_SESSION['nivel'] == 1) {
@@ -239,8 +239,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-					<?php include_once("../_controle/processa-edt-usuario.php"); ?>
-                    
+                    <?php include_once("../_controle/processa-edt-usuario.php"); ?>                  
 
                     <h3 class="page-header" style="text-align: left;" >Editar Usuário - <?php echo $categotia;?>                   
                     </h3>
@@ -293,7 +292,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                             
                         <div class="form-actions col-lg-12" style="margin-top: 50px">
 							<input type="submit" name="atualizar" class="btn btn-success" value="atualizar">
-							<a href="historia_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger" onClick="return confirm('Deseja realmente exluir o usuário?')">Excluir</a>
+							<a href="usuarios_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger" onClick="return confirm('Deseja realmente exluir o usuário?')">Excluir</a>
 						</div> <!-- altera aqui. -->
 
 						</div>

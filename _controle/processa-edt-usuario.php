@@ -69,7 +69,7 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 						$result = $conexao->prepare($update);
 						$result->bindParam(':id', $id, PDO::PARAM_INT);
 						$result->bindParam(':nome', $nome, PDO::PARAM_STR);
-						$result->bindParam(':sobrenome', $data, PDO::PARAM_STR);
+						$result->bindParam(':sobrenome', $sobrenome, PDO::PARAM_STR);
 						$result->bindParam(':email', $email, PDO::PARAM_STR);
 						$result->bindParam(':senha', $senha, PDO::PARAM_STR);
 						$result->execute();
@@ -124,7 +124,7 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 									$result = $conexao->prepare($update);
 									$result->bindParam(':id', $id, PDO::PARAM_INT);
 									$result->bindParam(':nome', $nome, PDO::PARAM_STR);
-									$result->bindParam(':sobrenome', $data, PDO::PARAM_STR);
+									$result->bindParam(':sobrenome', $sobrenome, PDO::PARAM_STR);
 									$result->bindParam(':email', $email, PDO::PARAM_STR);
 									$result->bindParam(':senha', $senha, PDO::PARAM_STR);
 									$result->bindParam(':imagem', $novoNome, PDO::PARAM_STR);

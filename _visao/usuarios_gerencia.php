@@ -139,7 +139,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		                    
 		                    <ul class="dropdown-menu black">
 		                        <li class="dropdown-item">
-		                            <a href="#" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
+                                <a href="../_visao/usuario_edita.php?id=<?php echo $_SESSION['id'] ?>" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
 		                        </li>
 		                        
 		                        <?php if ($_SESSION['nivel'] == 1) {
@@ -275,7 +275,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                         
                                         <td class="td-actions">
                                            <a href="usuario_edita.php?id=<?php echo $mostra->id;?>" class="btn btn-success btn-sm"><i class="fa fa-pencil"> </i></a>
-                                            <a href="usuario_gerencia.php?delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir o usuário?')" ><i class="fa fa-times"> </i></a>
+                                            <a href="usuarios_gerencia.php?delete=<?php echo $mostra->id;?>" class="btn btn-danger btn-sm" onClick="return confirm('Deseja realmente exluir o usuário?')" ><i class="fa fa-times"> </i></a>
                                                     <!-- edita aqui tb... linka com os outros arquivos... -->
                                         </td>
                                     </tr>
@@ -292,7 +292,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             }catch(PDOException $e){
                     echo $e;
                 }
-            include_once("../_controle/excluir-postagem.php");
+            include_once("../_controle/excluir-usuario.php");
         ?>       
                                     
                                  
