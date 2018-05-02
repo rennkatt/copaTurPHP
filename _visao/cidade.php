@@ -217,14 +217,29 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">São Petersburgo tem como grande atração o museu Hermitage, um dos mais famosos do mundo por ter um enorme acervo de peças históricas. O principal prédio do museu é o Palácio de Inverno, o mesmo foi construído no século XVIII e serviu de residência para muitos czares russos. Foi um marco da Revolução Russa de 1917, quando funcionou como quartel-general dos Bolcheviques. Com 1.057 salas, o Hermitage abriga cerca de 3 milhões de obras de arte, incluindo obras de Picasso, Renoir e Leonardo da Vinci. Mas o grande atrativo da cidade é o elegante desenho urbano estabelecido sobre um extensa rede de canais e pequenas ilhas, com muitos edifícios barrocos, palácios e igrejas luxuosas. Outros atrativos são:</p>
+                                    <p class="drop-cap">A região do centro histórico é a melhor opção para hospedar-se em São Petersburgo. Hotéis, albergues ou apartamentos de temporada, próximos à famosa Avenida Nevsky, garante ao visitante a possibilidade de fazer boa parte do roteiro a pé. A extensa avenida está repleta de bares e restaurantes, lojas e transporte público de qualidade. Mas a cidade não é muito barata no quesito hospedagem, é necessário pesquisar muito para que a viagem não fique cara. O grupo AcoorHotesl possui os: Novotel Saint Petersburg Centre; ibis Saint Petersburg Centre e SO Sofitel Saint Petersburg.</p>
 
-                                    <h2>Palácio de Catarina </h2>
+                                    <p>Veja outros hotéis abaixo:</p>
 
-                                    <p><img src="../_upload/extras/pontosaint1.JPG" alt="blog-image">
-                                    <br><cite>Fonte: <a target="_blank" href="http://www.viajarsempreviajar.com/2013/07/palacio-de-catarina-em-sao-petersburgo.html" title="http://www.viajarsempreviajar.com/2013/07/palacio-de-catarina-em-sao-petersburgo.html">viajarsempreviajar</a></cite></p>
+                                    <h2>Tuchkov Hotel at the Palace Square </h2>
 
-                                    <p>Construído em 1756, a luxuosa e extravagante construção servia de residência de verão aos czares russos e suas famílias. Belos jardins cercam o palácio, que tem mais de 100 quilos de ouro em sua fachada estilo rococó. </p>
+                                   
+                                    <p>Este charmoso hotel está localizado no centro de São Petersburgo, a apenas três minutos a pé do Museu Hermitage. O buffet de café da manhã é servido diariamente no restaurante do hotel e a lanchonete está disponível gratuitamente – novidade para quem está acostumado com hotéis que cobram por tudo e qualquer diferencial! E é ótimo para quem vai assistir a Copa 2018, já que a Estação de Metrô Admiralteyskaya fica a 150 m do mesmo. </p>
+
+                                    <h2>Kaleidoscop on Italyanskaya</h2>
+
+                                   
+                                    <p> Esse charmoso hotel/pousada fica a 700 metros da Catedral do Sangue Derramado, um dos pontos turísticos obrigatórios de São Petersburgo. A Praça do Palácio fica a pouco mais de um km do hotel, ou seja, em uma curta caminhada você chega num dos pontos turísticos mais famosos da cidade. Todos os quartos possuem cozinha compacta com microondas, geladeira, fogão e chaleira. E servem café da manhã para os hóspedes encararem bem um dia de turistada – ou de futebol! </p>
+
+                                    <h2>Galunov Hotel</h2>
+
+                                   
+                                    <p>Outra opção super bem localizada de hotel em São Petersburgo, fica a apenas sete minutos a pé do Ploshchad Vosstaniya. Todos os quartos incluem TV de tela plana e banheiro privativo e uma decoração provençal, super aconhegante. E pra quem vai assistir aos jogos da Copa, uma boa notícia: a Estação de Trem Moskovsky fica a apenas 450 metros de distância!</p>
+
+                                   	<h2>Hotel Astória</h2>
+
+                                   	<p>Ótima localização em frente à Catedral de Santo Isaac. As principais atracções, incluindo o Museu Hermitage e o Teatro Mariinsky, estão a uma curta distância a pé. 169 quartos confortáveis, incluindo 86 suítes. Os hóspedes podem descobrir a cozinha russo-francesa no Restaurante Astoria, cocktails no Bar Lichfield e sobremesas do Astoria Chocolatier no Rotonda Lounge.</p>
+		
 
                                     <h2>Catedral do Sangue Derramado</h2>
 
