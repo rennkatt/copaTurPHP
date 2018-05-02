@@ -217,13 +217,56 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">Olhando Moscou do alto, por satélite, veremos as três ‘Ring Roads’ bem definidas e, ao centro o contorno do Kremlin. Habitada por povo ‘fino-úgricos’, dois séculos antes de Cristo, a colina do rio Neglinnaya recebeu, no século XI, uma estrutura fortificada que fora destruída em 1237 pelos mongóis e reconstruída em 1339. Mas desde 1331 já era conhecida como Kremlin. Dmitri Donskoi substituiu os muros de carvalho por uma fortaleza de calcário branco em 1366-1368, onde se encontram as fundaçõe das paredes atuais. O filho de Dmitri, Vasily, retomou a construção e a recém-construída Catedral da Anunciação foi pintada por Teófanes, o grego, Andrei Rublev e Prokhor, em 1406. O mosteiro de Chudov foi fundado pelo tutor de Dmitri, o metropolita Alexis; enquanto sua viúva, Eudoxia, estabeleceu o Convento da Ascensão em 1397.  As muralhas do Kremlin, como aparecem agora, foram construídas entre 1485 e 1495.</p>
+                                    <p class="drop-cap">O mundo volta os olhos à Rússia. Além de estádios modernos com tecnologia de ponta, a ‘Fifa World Cup - Russia 2018’ escolheu a dedo cidades capazes de encantar a todos com suas belezas e mistérios e Moscou com sua grandiosidade é o palco central desta festa. Mas embarcar nessa aventura e ver as grandes seleções na disputa pela Taça Fifa, não é barato e é necessário planejar cuidadosamente sua viagem! Com um plano turístico criterioso e uma meta de alcançar a marca de 535 hotéis até 2020, Moscou possui hotéis para todos os gostos e bolsos. </p>
 
-                                    <p>O Grande Príncipe Ivan III organizou a desconstrução do Kremlin, convidando vários arquitetos experientes da Itália renascentista, incluindo Petrus Antonius Solarius, que projetou o novo muro do Kremlin e suas torres, e Marcus Ruffus, que projetou o novo palácio para o príncipe. Foi durante o seu reinado que três catedrais do Kremlin, a Igreja de Deposição e o Palácio das Facetas foram construídos. O edifício mais alto da cidade e da Rússia moscovita foi o Ivan, o Grande Campanário, construído entre 1505 e, ampliado até a atual altura em 1600. Os Portões de Spasskie ainda carregam uma dedicação em latim, louvando Petrus Antonius Solarius pelo design.</p>
+                                    <p>Buscando boas opções de hospedagens em Moscou com uma relação custo-benefício e localização, temos:</p>
 
-                                    <p>Enfim. O Kremlin é um complexo fortificado no coração de Moscou, com vista para o rio Moskva ao sul, a Catedral de São Basílio e a Praça Vermelha, a leste, e o Jardim de Alexandre, a oeste. É o mais conhecido dos kremlin (cidadelas russas) e, inclui cinco palácios, quatro catedrais e sua muralha e, torres. Também dentro deste complexo está o Grande Palácio do Kremlin, que antigamente era a residência do czar em Rússia e hoje o complexo serve como a residência oficial do Presidente da Federação Russa.</p>
+                                   	<h2>Brick Design Hotel </h2>
 
-                                    <p>Esta é a Moscou que iremos conhecer; como a sopa Borsch, cheia de ingredientes, sabores e texturas, um resumo da arte e da cultura universal. Onde não há pontos cegos e, de norte a sul, leste a oeste, as dimensões se desdobram para que o turista veja que ao seu redor muito há para desvendar. Moscou não é só bela, excêntrica e estranha, não são só os seus fantasmas, suas sombras que escondem, ou que iluminam seus segredos, Moscou é simplesmente tudo e, tudo nela se encontra!</p>
+									
+									<p>O Brick Design Hotel é super bem localizado – fica bem no centro de Moscou, num belo edifício histórico do século XIX. A Estação de Metrô Chistye Prudy fica a apenas 300 m do hotel. Todos os quartos possuem ar-condicionado e tem design contemporâneo, com peças de design vintage e obras de artistas russos. É uma excelente opção para quem gosta de fazer passeios a pé e também é perto das maiores lojas de departamento da cidade, para quem quer aproveitar e fazer compras por lá!</p>
+
+									<p>
+										<strong>Localização:</strong> Myasnitskaya Ulitsa, 24/7 строение 3-4, Moscou, Rússia, 101000<br>
+										<strong>Telefone:</strong>+7 499 110-24-70<br>
+										<strong>Site Oficial:</strong> <a target="_blank" href="http://www.brickhotel.ru" title="Site Oficial">brickhotel.ru</a>
+									</p>
+
+									<h2>Loft Hotel H11</h2>
+
+									
+									<p>O Loft Hotel H11 fica em Basmanny, um bairro que é uma ótima escolha de onde ficar na Copa para viajantes interessados em passeios a pé, caminhadas urbanas e arquitetura. O hotel fica a pouco mais de um quilômetros da Catedral de São Basílio. A hospedagem é simples mas bastante confortável e tem decoração mais rústica, com tijolos à vista. Para quem quer mais conforto, alguns quartos oferecem vista do jardim ou da cidade! </p>
+
+									<p>
+										<strong>Localização:</strong> Khokhlovskiy Pereulok, 11с1, Moscou, Rússia.<br>
+										<strong>Telefone:</strong>+7 499 110-24-70<br>
+										
+									</p>
+
+									<h2>Apart-hotel Naumov Sretenka </h2>
+
+									<p>Nossa terceira dica de hospedagem em Moscou também fica localizada em um prédio histórico russo e fica no bairro Krasnoselsky, que pode ser outra boa opção para se hospedar na cidade. Esse hotel é super bem avaliado no Booking (isso é muito importante, já que todas as avaliações são feitas por quem se hospedou ali de verdade) e tem decoração rústica e espaços aconchegantes, vale conferir! </p>
+
+									<p>
+										<strong>Localização:</strong> Ulitsa Sretenka, 4/1, Moskva, Rússia, 107045<br>
+										<strong>Telefone:</strong>+7 499 110-24-70<br>
+										
+									</p>
+
+									<h2>AccorHotels  </h2>
+
+									
+									<p>A rede AccorHotels conta ainda com 16 hotéis apenas na cidade de Moscou, com preços que variam de R$ 150,00 a diária, ‘ibis Moscow Paveletskaya’ a R$ 245,00, Novotel Moscow Kievskaya e Mercure Moscou Paveletskaya. </p>
+
+									
+
+									
+		
+
+                                     <p>Leia Mais: <a target="_blank" href="https://oglobo.globo.com/boa-viagem/moscou-onde-vermelho-mais-bonito-18020634#ixzz5EIpnTDwz " title="Globo.com">Globo.com</a></p>
+
+
+
                                     
                                     <p>Um pouco mais de Moscou...</p>
 
