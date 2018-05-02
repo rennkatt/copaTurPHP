@@ -184,7 +184,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image" style="background-image: url(../_complementos/images/cidades/kazan/estadio.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A Arena Kazan começou a ser construída no ano de 2010 e em 2013, foi inaugurada. Localizado às margens do rio Kazanka, o estádio é a casa do Rubin Kazan, o principal time de futebol da cidade. </p>
 							<p><a href="estadio.php?cidade=kazan" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>

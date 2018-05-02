@@ -343,16 +343,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 										<strong>Final:</strong> 15 de Julho de 2018, às 20:00 <br>
 									</p>
 
-									<h2>OTKRYTIE ARENA</h2>
+									<h2>KAZAN ARENA</h2>
 
-									<p><img src="../_upload/extras/estadiomoscow2.jpeg" alt="blog-image">
-                                    <br><cite>Fonte: <a target="_blank" href="http://img.fifa.com/mm/photo/tournament/destination/02/66/42/90/2664290_xbig-lnd.jpg" title="fifa">FIFA</a></cite></p>
-
-									<p>Conhecido também como Spartak Stadium, já que pertence ao Spartak Moscou, clube da 1ª divisão russa, a Otkrytie Arena foi inaugurada em setembro de 2014, sediando algumas partidas da Copa das Confederações de 2017. A seleção brasileira faz o jogo contra a Sérvia neste estádio, que receberá cinco partidas no total.</p>
+									
+									<p>A Arena Kazan começou a ser construída no ano de 2010 e em 2013, foi inaugurada. Localizado às margens do rio Kazanka, o estádio é a casa do Rubin Kazan, o principal time de futebol da cidade. Além de quatro jogos da fase de grupos, será palco também de uma oitava de final e uma partida das quartas.</p>
 
 									<p>
-										<strong>Capacidade:</strong> 45.360 pessoas.<br>
-										<strong>Custo:</strong> R$ 1,939 bilhão <br>
+										<strong>Capacidade:</strong> 45.379 pessoas.<br>
+										
 									</p>
 
 									<h3>Jogos:</h3>
@@ -363,69 +361,69 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 											
 											<ul id="jogos">
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>14 de junho de 2018, 12h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo A</div>
+													<div class="dataLocal"><strong>20 de junho de 2018, 15h &gt;</strong> Kazan &gt; Grupo B</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-RU"></div>
-															<span class="nomePais">Rússia</span>
-															<span class="siglaPais">RUS</span>
+															<div class="bandeira bandeira-IR"></div>
+															<span class="nomePais">Irã</span>
+															<span class="siglaPais">IRA</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-SA"></div>
-															<span class="nomePais">A. Saudita</span>
-															<span class="siglaPais">ARA</span>
+															<div class="bandeira bandeira-ES"></div>
+															<span class="nomePais">Espanha</span>
+															<span class="siglaPais">ESP</span>
 														</div>
 													</div>
 												</li>
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>17 de junho de 2018, 12h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo F</div>
+													<div class="dataLocal"><strong>16 de junho de 2018, 7h &gt;</strong> Kazan &gt; Grupo C</div>
 													<div class="confronto">
 														<div class="equipeE">
+															<div class="bandeira bandeira-FR"></div>
+															<span class="nomePais">França</span>
+															<span class="siglaPais">FRA</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-AU"></div>
+															<span class="nomePais">Austrália</span>
+															<span class="siglaPais">AUS</span>
+														</div>
+													</div>
+												</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>27 de junho de 2018, 11h &gt;</strong> Kazan &gt; Grupo F</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-KR"></div>
+															<span class="nomePais">Coreia do Sul</span>
+															<span class="siglaPais">COR</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
 															<div class="bandeira bandeira-DE"></div>
 															<span class="nomePais">Alemanha</span>
 															<span class="siglaPais">ALE</span>
-														</div>
-														<div class="versus">X</div>
-														<div class="equipeD">
-															<div class="bandeira bandeira-MX"></div>
-															<span class="nomePais">México</span>
-															<span class="siglaPais">MEX</span>
-														</div>
-													</div>
-												</li>
-
-												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>20 de junho de 2018, 9h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo B</div>
-													<div class="confronto">
-														<div class="equipeE">
-															<div class="bandeira bandeira-PT"></div>
-															<span class="nomePais">Portugal</span>
-															<span class="siglaPais">POR</span>
-														</div>
-														<div class="versus">X</div>
-														<div class="equipeD">
-															<div class="bandeira bandeira-MA"></div>
-															<span class="nomePais">Marrocos</span>
-															<span class="siglaPais">MAR</span>
 														</div>
 													</div>
 												</li>
 												
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>26 de junho de 2018, 11h &gt;</strong> Estádio Luzhniki, Moscou &gt; Grupo C</div>
+													<div class="dataLocal"><strong>24 de junho de 2018, 15h &gt;</strong> Kazan &gt; Grupo H</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-DK"></div>
-															<span class="nomePais">Dinamarca</span>
-															<span class="siglaPais">DIN</span>
+															<div class="bandeira bandeira-PL"></div>
+															<span class="nomePais">Polônia</span>
+															<span class="siglaPais">POL</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-FR"></div>
-															<span class="nomePais">França</span>
-															<span class="siglaPais">FRA</span>
+															<div class="bandeira bandeira-CO"></div>
+															<span class="nomePais">Colômbia</span>
+															<span class="siglaPais">COL</span>
 														</div>
 													</div>
 												</li>
@@ -434,6 +432,17 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 										</div>
 										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
 									</div>
+
+									 <h3>Outros jogos:</h3>
+
+                                    <p>
+										<strong>Oitavas de Final:</strong> 30 de Junho de 2018, às 11:00<br>
+										<strong>Semifinal:</strong> 6 de julho de 2018, às 15:00 <br>
+										<strong>Final:</strong> 15 de Julho de 2018, às 20:00 <br>
+									</p>
+
+
+
 
 									<div id="grupos">
 										<div class="grupoW">
