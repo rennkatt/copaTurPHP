@@ -1,6 +1,6 @@
 <?php
-//RECUPERA OS DADOS
 if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
+if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exit;}
 		$id = $_GET['id'];
 		$select = "SELECT *, CASE nivel WHEN 1 THEN 'Administrador' ELSE 'Comum' END AS categoria FROM login WHERE id=:id";
 		$contagem =1;
@@ -19,8 +19,10 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 					$categotia = $mostra->categoria;
 					$nivel = $mostra->nivel;
 					$imagem = $mostra->imagem;
+					$senha = $mostra->senha;
 				}				
 			}else{
+
 				echo '<div class="alert alert-danger">
                       <button type="button" class="close" data-dismiss="alert">×</button>
                       <strong>Aviso!</strong> Não há dados cadastrados com o id informado.
@@ -29,7 +31,9 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 			
 		}catch(PDOException $e){
 			echo $e;
-		}						
+		}	
+
+		$novoNome = $imagem;					
 						
 		// ATUALIZAR				
 	  	if(isset($_POST['atualizar'])){
@@ -63,7 +67,8 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 		
 				if($numFile <= 0){
 
-					$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, email=:email, senha=:senha WHERE id=:id";
+					$novoNome = $imagem;
+					$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, email=:email, senha=:senha, imagem=:imagem  WHERE id=:id";
 							
 					try{
 						$result = $conexao->prepare($update);
@@ -72,9 +77,11 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 						$result->bindParam(':sobrenome', $sobrenome, PDO::PARAM_STR);
 						$result->bindParam(':email', $email, PDO::PARAM_STR);
 						$result->bindParam(':senha', $senha, PDO::PARAM_STR);
+						$result->bindParam(':imagem', $novoNome, PDO::PARAM_STR);
 						$result->execute();
 						$contar = $result->rowCount();
 						if($contar>0){
+							header('Refresh:0');
 							echo '<div class="alert alert-success">
 								<button type="button" class="close" data-dismiss="alert">×</button>
 								<strong>Sucesso!</strong> O Usuário foi atualizado.
@@ -103,7 +110,8 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 						$tmp	= $file['tmp_name'][$i];
 						
 						$extensao = @end(explode('.', $name));
-						$novoNome = $id.".".$extensao;
+						//$novoNome = $id.".".$extensao;
+						$novoNome = rand().".$extensao";
 						
 						if($error != 0)
 							$msg[] = "<b>$name :</b> ".$errorMsg[$error];
@@ -117,8 +125,10 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 								//$msg[] = "<b>$name :</b> Upload Realizado com Sucesso!";
 								
 								$arquivo = "../_upload/login/" .$imagem;
+								unlink($arquivo);
 								
 								$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, email=:email, senha=:senha, imagem=:imagem WHERE id=:id";
+								
 							
 								try{
 									$result = $conexao->prepare($update);
@@ -131,6 +141,7 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 									$result->execute();
 									$contar = $result->rowCount();
 									if($contar>0){
+										header('Refresh:0');
 										echo '<div class="alert alert-success">
 											<button type="button" class="close" data-dismiss="alert">×</button>
 											<strong>Sucesso!</strong> O Usuário foi atualizado.
@@ -154,7 +165,7 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 							
 							echo '<div class="alert alert-danger">
 			                      <button type="button" class="close" data-dismiss="alert">×</button>
-			                      <strong>Erro ao cadastrar! </strong>'.$pop.' - Não foi possível atualizar o post.
+			                      <strong>Erro ao cadastrar! </strong>'.$pop.' - Não foi possível atualizar o usuário.
 			                </div>';
 					}
 				}

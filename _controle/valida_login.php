@@ -48,6 +48,7 @@ if(isset($_POST['logar'])){
 				$_SESSION['nome']	= $exibir['nome'];
 				$_SESSION['nivel']	= $exibir['nivel'];
 				$_SESSION['email']	= $exibir['email'];
+				$_SESSION['imagem']	= $exibir['imagem'];
 				
 				echo '<div class="alert alert-success">
                       <button type="button" class="close" data-dismiss="alert">x</button>

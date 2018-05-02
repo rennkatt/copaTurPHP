@@ -51,6 +51,7 @@ if(!isset($_GET['id'])){ header("Location: ../_visao/index.php"); exit;}
 				$numFile	= count(array_filter($file['name']));
 				
 				//PASTA
+				//
 				$folder		= '../_upload/postagens/';
 				
 				//REQUISITOS

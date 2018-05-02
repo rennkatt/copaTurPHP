@@ -27,7 +27,7 @@ foreach($result as $row)
                                     
     <!-- .comment-meta -->
     <header class="comment-meta comment-author vcard">
-        <img alt="" src="../_complementos/images/team/01.jpg" class="avatar" height="75" width="75">
+        <img alt="" src="../_upload/login/'. $row["imagem"] .'" class="avatar" height="75" width="75">
         <cite class="fn"><a href="#" rel="external nofollow" class="url">'. $row["comment_sender_name"] .'</a>
         <span class="comment-date"> Em '. $row["date"] .'</span></cite>
     </header>
@@ -80,7 +80,7 @@ function get_reply_comment($conexao, $parent_id = 0, $marginleft = 0)
         
        
         <header class="comment-meta vcard">
-            <img alt="" src="../_complementos/images/team/03.jpg" class="avatar photo" height="75" width="75">
+            <img alt="" src="../_upload/login/'. $row["imagem"] .'"  class="avatar photo" height="75" width="75">
             <cite class="fn"><a href="#" rel="external nofollow" class="url">'. $row["comment_sender_name"] .'</a>
             <span class="comment-date"> Em '. $row["date"] .'</span></cite>
         </header>

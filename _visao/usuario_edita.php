@@ -6,7 +6,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 }
     include("../_controle/conecta.php");
     include_once("../_controle/seguranca.php"); 
-	if($nivelLogado==2) {
+	if($_SESSION['nivel']==2) {
 		//header("Location: index.php");exit;
 	}
 ?>
@@ -186,7 +186,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<div id="wrapper">
 
         <?php
-        if($nivelLogado==1) {
+        if($_SESSION['nivel']==1) {
         ?>
          <!-- Navigation -->
         <nav class=" border" role="navigation" style="margin-bottom: 0">
@@ -258,18 +258,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             <div class="row">
                 <div class="col-lg-12">
                      <form id="edit-profile" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
-                     <?php 
-                       
-                       if($nivelLogado==1) {
-                       
-                        if ( $nivel == 2 ){
-                            echo '<input type="submit" name="usuario_admin" class="btn btn-primary" value="Tornar Administrador">';
-                        }
-                        else{
-                            echo '<input type="submit" name="usuario_comum" class="btn btn-primary" value="Tornar Usuário Comum">';                                  
-                        }                        
-                      }
-                    ?>
+                     
                         <div class="row">
 						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
                         
@@ -296,7 +285,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
                          <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Nova Senha</label>
-				                    <input type="text" class="form-control" id="senha" value="****" name="senha">
+				                    <input type="password" class="form-control" id="senha" value="<?php echo $senha;?>" name="senha">
                         </div>
                             
                         <div class="form-actions col-lg-12" style="margin-top: 50px">
