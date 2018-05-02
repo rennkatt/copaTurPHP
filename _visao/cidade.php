@@ -217,7 +217,160 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">O mundo volta os olhos à Rússia. Além de estádios modernos com tecnologia de ponta, a ‘Fifa World Cup - Russia 2018’ escolheu a dedo cidades capazes de encantar a todos com suas belezas e mistérios e Moscou com sua grandiosidade é o palco central desta festa. Mas embarcar nessa aventura e ver as grandes seleções na disputa pela Taça Fifa, não é barato e é necessário planejar cuidadosamente sua viagem! Com um plano turístico criterioso e uma meta de alcançar a marca de 535 hotéis até 2020, Moscou possui hotéis para todos os gostos e bolsos. </p>
+                                    <p class="drop-cap">São Petersburgo tem como grande atração o museu Hermitage, um dos mais famosos do mundo por ter um enorme acervo de peças históricas. O principal prédio do museu é o Palácio de Inverno, o mesmo foi construído no século XVIII e serviu de residência para muitos czares russos. Foi um marco da Revolução Russa de 1917, quando funcionou como quartel-general dos Bolcheviques. Com 1.057 salas, o Hermitage abriga cerca de 3 milhões de obras de arte, incluindo obras de Picasso, Renoir e Leonardo da Vinci. Mas o grande atrativo da cidade é o elegante desenho urbano estabelecido sobre um extensa rede de canais e pequenas ilhas, com muitos edifícios barrocos, palácios e igrejas luxuosas. Outros atrativos são:</p>
+
+                                    <h2>Palácio de Catarina </h2>
+
+                                    <p><img src="../_upload/extras/pontosaint1.JPG" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="http://www.viajarsempreviajar.com/2013/07/palacio-de-catarina-em-sao-petersburgo.html" title="http://www.viajarsempreviajar.com/2013/07/palacio-de-catarina-em-sao-petersburgo.html">viajarsempreviajar</a></cite></p>
+
+                                    <p>Construído em 1756, a luxuosa e extravagante construção servia de residência de verão aos czares russos e suas famílias. Belos jardins cercam o palácio, que tem mais de 100 quilos de ouro em sua fachada estilo rococó. </p>
+
+                                    <h2>Catedral do Sangue Derramado</h2>
+
+                                    <p><img src="../_upload/extras/pontosaint2.JPG" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="http://www.perdidosnomundo.com/?attachment_id=4341" title="http://www.perdidosnomundo.com/?attachment_id=4341">perdidos no mundo</a></cite></p>
+
+                                    <p>Localizada às margens do rio Griboedov é um dos cartões-postais de São Petersburgo e foi palco do assassinato de Alexandre II por terroristas, em 1881.</p>
+
+                                    <h2>Jardins de Verão </h2>
+
+                                   
+                                    <p>Construído por ordens de Pedro, o Grande, o local abriga alguns lagos e uma coleção de esculturas dos séculos 17 e 18, além de se destacar pela grande quantidade de flores coloridas, principalmente em épocas mais quentes (ou menos frias) do ano.</p>
+
+                                    <h2>Rio Neva </h2>
+
+                                    
+                                    <p>Os passeios de barco pelos canais do Rio Neva, que corta a cidade, renderam à cidade de São Petesburgo o apelido de Veneza do Norte, fazendo referência à famosa Veneza italiana.</p>
+
+                                    <h2>Catedral Ortodoxa de Santo Isaac</h2>
+
+                                     <p><img src="../_upload/extras/pontosaint3.JPG" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://www.getyourguide.pt/sao-petersburgo-l43/" title="https://www.getyourguide.pt/sao-petersburgo-l43/">getyourguide</a></cite></p>
+
+
+                                    <p>Lugar famoso pelas colunas de mármores e esculturas na fachada. É a maior catedral da cidade. Catedral Smolny, nas cores azul e branca, a bela construção foi feita em estilo rococó e a Catedral de São Pedro e São Paulo, o luxuoso local é bastante visitado por turistas de todo o mundo por possuir os túmulos dos czares russos. </p>
+
+                                    <h3>Jogos:</h3>
+
+									<div id="grupos">
+										<div class="grupoW">
+											
+											
+											<ul id="jogos">
+												<li style="border-top: 1px solid #ccc;">
+													<<div class="dataLocal"><strong>26 de junho de 2018, 15h &gt;</strong> São Petersburgo</div>
+													<div class="confronto">
+														<div class="equipeE">
+											<div class="bandeira bandeira-NG"></div>
+											<span class="nomePais">Nigéria</span>
+											<span class="siglaPais">NIG</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+											<div class="bandeira bandeira-AR"></div>
+											<span class="nomePais">Argentina</span>
+											<span class="siglaPais">ARG</span>
+														</div>
+													</div>
+																			</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>22 de junho de 2018, 9h &gt;</strong> São Petersburgo</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-BR"></div>
+															<span class="nomePais">Brasil</span>
+															<span class="siglaPais">BRA</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-CR"></div>
+															<span class="nomePais">Costa Rica</span>
+															<span class="siglaPais">CRC</span>
+														</div>
+													</div>
+												</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>19 de junho de 2018, 15h &gt;</strong> São Petersburgo</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-RU"></div>
+															<span class="nomePais">Rússia</span>
+															<span class="siglaPais">RUS</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-EG"></div>
+															<span class="nomePais">Egito</span>
+															<span class="siglaPais">EGI</span>
+														</div>
+													</div>
+												</li>
+												
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>15 de junho de 2018, 12h &gt;</strong> São Petersburgo</div>
+													<div class="confronto">
+														<div class="equipeE">
+											<div class="bandeira bandeira-MA"></div>
+											<span class="nomePais">Marrocos</span>
+											<span class="siglaPais">MAR</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+											<div class="bandeira bandeira-IR"></div>
+											<span class="nomePais">Irã</span>
+											<span class="siglaPais">IRA</span>
+														</div>
+													</div>
+												</li>
+											</ul>
+
+										</div>
+										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+									</div>
+
+									 <h3>Outros jogos:</h3>
+
+                                    <p>
+										<strong>Oitavas de Final:</strong> 03 de Julho de 2018, às 15:00<br>
+										<strong>Semifinal:</strong> 10 de julho de 2018, às 15:00 <br>
+										<strong>Decisão do 3º lugar:</strong> 14 de Julho de 2018, às 11:00 <br>
+									</p>
+									
+									<h3>Times:</h3>
+
+									<p>A cidade tem apenas um clube que se destaca que é o Zenit São Petersburgo, com participações frequentes na primeira divisão russa e também em competições europeias. Bart Simpson é seu mascote oficial desde 2014, após acordo firmado com a FOX. O Zenit, fundado em maio de 1925, é campeão soviético, tetracampeão russo e vencedor da Copa da Uefa de 2007/08, atual Liga Europa. O clube também levantou a taça da Supercopa Europeia de 2008. Por conta do seu sucesso no fim da década passada, sua torcida cresceu bastante e ficou entre as maiores do país, rivalizando com CSKA Moscou e Spartak Moscou. Seu estádio era o lendário Petrovsky, que cedeu o lugar ao recém-construído Krestovsky.</p>
+
+									<h3>Outros times:</h3>
+									
+									<p>FC Dínamo São Petersburgo e FC Kosmos-Kirovets São Petersburgo</p>
+									
+									<h3>Times extintos ou licenciados:</h3>
+									
+									<p>FC Saturn-1991 São Petersburgo, FC Petrotrest São Petersburgo, FC Lokomotiv São Petersburgo e FC Galaks São Petersburgo.</p>
+
+
+
+
+
+
+                                    <h2>Como chegar:</h2>
+
+                                    <p><strong>De avião:</strong> O aeroporto de Pulkovo conecta São Petersburgo a várias cidades na Europa, com voos diários. Vans e ônibus ligam o aeroporto ao centro da cidade com saídas frequentes, com um rápido trajeto que leva cerca de 30 minutos.</p>
+
+                                    <p><strong>Via terrestre:</strong> São Petesburgo pode ser acessada a partir de Moscou em viagens de trens que duram de 4 a 5 horas, ou também de Helsinki, na Finlândia, em um percurso mais curto, de 3h30. </p>
+
+                                    <p><strong>Via marítima:</strong> Alguns serviços com barcos de alta velocidade também servem para chegar à cidade que possui um dos estádios da Copa 2018. Eles partem de Tallinn, na Estônia, Helsinki, na Finlândia, e também Riga, na Letônia</p>
+
+                                     <p>Leia Mais: <a target="_blank" href="http://www.saint-petersburg.com/history/" title="http://www.saint-petersburg.com/history/">saint-petersburg.com/history</a> | 
+                                     <a target="_blank" href="https://en.wikipedia.org/wiki/Saint_Petersburg" title="https://en.wikipedia.org/wiki/Saint_Petersburg">wikipedia</a>
+
+                                     </p>
+
+
+			
 
                                     <p>Buscando boas opções de hospedagens em Moscou com uma relação custo-benefício e localização, temos:</p>
 
