@@ -4,11 +4,10 @@ session_start();
 if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	//header("Location: home.php");exit;
 }
-	include("../_controle/conecta.php");
-	include_once("../_controle/seguranca.php"); 
-
+    include("../_controle/conecta.php");
+    include_once("../_controle/seguranca.php"); 
 	if($nivelLogado==2) {
-		header("Location: index.php");exit;
+		//header("Location: index.php");exit;
 	}
 ?>
 
@@ -114,7 +113,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 		<!-- preloader -->
 		<!-- end preloader -->
-
         <!--
         Fixed Navigation
         ==================================== -->
@@ -157,7 +155,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		                    
 		                    <ul class="dropdown-menu black">
 		                        <li class="dropdown-item">
-								<a href="../_visao/usuario_edita.php?id=<?php echo $_SESSION['id'] ?>" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
+                                <a href="../_visao/usuario_edita.php?id=<?php echo $_SESSION['id'] ?>" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
 		                        </li>
 		                        
 		                        <?php if ($_SESSION['nivel'] == 1) {
@@ -186,7 +184,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				<!-- /main nav -->
 		
 		<div id="wrapper">
-        
+
+        <?php
+        if($nivelLogado==1) {
+        ?>
          <!-- Navigation -->
         <nav class=" border" role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
@@ -236,74 +237,72 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             </div>
             <!-- /.navbar-static-side -->
         </nav>
+        <?php
+        }
+        ?>
 
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="page-header" style="text-align: center;" >Cadastrar Comidas Típicas</h3>
-								<!-- Edita aqui... -->
-					<?php include_once("../_controle/processa-cad-postagem.php"); ?>
+                    <?php include_once("../_controle/processa-edt-usuario.php"); ?>                  
 
+                    <h3 class="page-header" style="text-align: left;" >Editar Usuário - <?php echo $categotia;?>                   
+                    </h3>
+                    <a href="usuarios_gerencia.php" class="tn btn-link" style="float: right;">VOLTAR</a>                            
+                    
+                    <!-- Altera aqui -->
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12">
-                     <form id="hist-form" class="form-horizontal" data-toggle="validator" action="" method="post" enctype="multipart/form-data" role="form">
-						<div class="row">
+                     <form id="edit-profile" class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+                     <?php 
+                       
+                       if($nivelLogado==1) {
+                       
+                        if ( $nivel == 2 ){
+                            echo '<input type="submit" name="usuario_admin" class="btn btn-primary" value="Tornar Administrador">';
+                        }
+                        else{
+                            echo '<input type="submit" name="usuario_comum" class="btn btn-primary" value="Tornar Usuário Comum">';                                  
+                        }                        
+                      }
+                    ?>
+                        <div class="row">
 						<input class="hidden" id="autor" name="autor" value="<?php echo $_SESSION['nome']; ?>"></input>
-						
+                        
+                        <div class="col-lg-6 pad10">                            
+                                   <img src="../_upload/login/<?php echo isset( $imagem ) ? $imagem : 'default.png' ;?>" style="border-radius: 75%; width: 63px; height: 63px;"/>
+                                   <br>       
+                                   <br>                            
+				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]">
+                        </div>
+                        
                         <div class=" col-lg-12 pad10">
-                            <label class="control-label" for="titulo">Título</label>
-				            <input type="text" id="titulo" value="" name="titulo" placeholder="TITULO" class="form-control" tabindex="1" required>
-				            <div class="help-block with-errors"></div>
+                            <label class="control-label" for="username">Nome</label>
+				                  <input type="text" id="nome" value="<?php echo $nome;?>" name="nome" placeholder="TITULO" class="form-control">
                         </div>
-                        <div class=" col-lg-12 pad10 hidden">
-                            <label class="control-label" for="data">Data</label>
-				            <input type="text" class="form-control" id="data" value="" name="data">
-                        </div>
-                        <div class=" col-lg-12 pad10 hidden">
-                            <label class="control-label" for="categoria">Categoria</label>
-				            <input type="text" class="form-control" id="categoria" value="comidas" name="categoria">
-				            		<!-- edita aqui, onde tem value="historia", troca pela categoria que estiver fazendo -->
+                        <div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Sobrenome</label>
+				                    <input type="text" class="form-control" id="sobrenome" value="<?php echo $sobrenome;?>" name="sobrenome">
                         </div>
 
                         <div class=" col-lg-12 pad10">
-                            <label class="control-label" for="cidade">Cidade Sede</label>
-			                  <select class="form-control" id="cidade"  name="cidade">
-				                    <option value="Kaliningrad">Kaliningrad</option>
-				                    <option value="Kazan">Kazan</option>
-				                	<option value="Moscow">Moscow</option>
-				                    <option value="Nizhny Novgorod">Nizhny Novgorod</option>
-				                    <option value="Rostov On Don">Rostov On Don</option>
-				                    <option value="Saint Petersburg">Saint Petersburg</option>
-				                    <option value="Samara">Samara</option>
-				                    <option value="Saransk">Saransk</option>
-				                    <option value="Sochi">Sochi</option>
-				                    <option value="Volgograd">Volgograd</option>
-				                    <option value="Yekaterinburg">Yekaterinburg</option>
-			                  </select>
+                            <label class="control-label" for="username">Email</label>
+				                    <input type="text" class="form-control" id="email" value="<?php echo $email;?>" name="email">
                         </div>
-                        <div class=" col-lg-6 pad10">
-                            <label class="control-label" for="image">Imagem Destacada</label>
-				                  <input type="file" multiple class="span6 fileinput" id="imagem" name="img[]" required>
-				                  <div class="help-block with-errors"></div>
+
+                         <div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Nova Senha</label>
+				                    <input type="text" class="form-control" id="senha" value="****" name="senha">
                         </div>
-                        <div class=" col-lg-6 pad10">
-                            <label class="control-label" for="titulo">Fonte da Imagem</label>
-				            <input type="text" id="fonte" value="" name="fonte" placeholder="Fonte da Imagem" class="form-control">
-                        </div>
-                        <div class=" col-lg-12 pad10">
                             
-                            <textarea class=" summernote" id="summernote" name="descricao" id="descricao" rows="10" placeholder="Escreva sua mensagem" required><br>Escreva sua mensagem aqui <br></textarea><br>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        
-                        <div class="form-actions col-lg-12">
-							<input type="submit" name="cadastrar" class="btn btn-primary btn-block" value="Salvar">
-							<a href="gerencia_comidas.php" class="btn btn-block btn-warning" value="Cancelar" >VOLTAR</a>
-						</div> <!-- edita aqui... linkando para o gerenciador da categoria... -->
+                        <div class="form-actions col-lg-12" style="margin-top: 50px">
+							<input type="submit" name="atualizar" class="btn btn-success" value="atualizar">
+							<a href="usuarios_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger" onClick="return confirm('Deseja realmente exluir o usuário?')">Excluir</a>
+						</div> <!-- altera aqui. -->
 
 						</div>
                     </form>

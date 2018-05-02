@@ -58,6 +58,9 @@ INSERT INTO `login` (`id`, `nome`, `sobrenome`, `email`, `senha`, `nivel`) VALUE
 ALTER TABLE `login`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `email` (`email`);
+  
+  
+ALTER TABLE `login` ADD `imagem` VARCHAR(200);
 
 --
 -- Indexes for table `tb_postagens`

@@ -157,7 +157,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		                    
 		                    <ul class="dropdown-menu black">
 		                        <li class="dropdown-item">
-		                            <a href="#" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
+								<a href="../_visao/usuario_edita.php?id=<?php echo $_SESSION['id'] ?>" class="external"><i class="fa fa-fw fa-user"></i> Perfil </a>
 		                        </li>
 		                        
 		                        <?php if ($_SESSION['nivel'] == 1) {
