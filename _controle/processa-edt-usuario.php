@@ -125,7 +125,7 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 								//$msg[] = "<b>$name :</b> Upload Realizado com Sucesso!";
 								
 								$arquivo = "../_upload/login/" .$imagem;
-								unlink($arquivo);
+								//unlink($arquivo);
 								
 								$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, email=:email, senha=:senha, imagem=:imagem WHERE id=:id";
 								
