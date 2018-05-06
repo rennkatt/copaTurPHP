@@ -171,28 +171,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/historia.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>O Forte de Saransk, chamado anteriormente de Atemar, foi construído em 1641 no local de confluência do rio Saranka com o rio Insar. Nos séculos XVI-XVII, para defender as fronteiras da Rússia das incursões dos tártaros da Crimeia, nogaios e basquires, no território da atual Mordóvia foi construído um sistema de estruturas defensivas.</p>
 						<p><a href="historia.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/estadio.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>O Estilo da arquitetura escolhido para a construção da Arena Mordovia é dedicada ao 1000º aniversário da união dos mordovos, como é chamada a população da região. Com formato oval, a Mordóvia Arena é predominantemente laranja, vermelha e branca, cores que remetem à paleta usada nas artes do povo mordóvio. </p>
 							<p><a href="estadio.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/pontos_turisticos.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A cidade é muito conhecia pela sua arquitetura que remete à época do império russo. Mesmo tendo a maioria dos seus maiores monumentos construídos recentemente, as cores são vivas e chamam muito a atenção de quem visita a cidade. </p>
 							<p><a href="ponto_turistico.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/saransk/hotel.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>O Hotel Saransk abriu as portas para os hóspedes em dezembro de 1979. A localização do hotel é muito conveniente: está localizado no centro histórico e comercial da cidade, perto de prédios governamentais e bancos, a 8 km do Saransk Airport e a 1 km. do Mordovia Arena, o que o torna uma ótima opção para os turistas que irão assistir os jogos.</p>
 							<p><a href="hotel.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/saransk/restaurante.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A gastronomia local tem grande influência de diversas cozinhas ao redor do mundo. As maiores influências vieram da Europa, principalmente de restaurantes italianos, e alemães e da culinária japonesa. </p>
 							<p><a href="restaurante.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/saransk/comida.jpeg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A cozinha tradicional mordoviana é simples e saudável, mas ao mesmo tempo misteriosa e atraente. A carne é um ingrediente básico para os habitantes locais, que caçavam desde a antiguidade. Territorialmente, Mordóvia é cheia de muitos rios profundos, córregos e lagos cheios de peixes, o que se traduz em uma paixão particular dos Mordvins pela pesca. </p>
 							<p><a href="comidas.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/saransk/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/saransk/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>O artesanato mais comum em Saransk é a boneca no traje nacional Mordovian, onde todos os itens de traje podem ser feitos à mão, mais próximos possíveis do original. </p>
 							<p><a href="artesanato.php?cidade=saransk" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>

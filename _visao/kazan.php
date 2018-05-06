@@ -174,7 +174,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 					<div class="image" style="background-image: url(../_complementos/images/cidades/kazan/historia.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Kazan é uma das cidades mais antigas da Rússia. Fundada por búlgaros do Volga em torno do século XI, Kazan foi mais tarde conquistada pela Horda Dourada e tornou-se um Estado sucessor mongol-tártaro muito importante, conhecido como Canato de Kazan. Por mais de trezentos anos, Kazan era um domínio búlgaro.</p>
 						<p><a href="historia.php?cidade=kazan" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
@@ -192,7 +192,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image" style="background-image: url(../_complementos/images/cidades/kazan/ponto_turistico.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A principal atração turística de Kazan é o seu Kremlin, construído entre os séculos X e XIV, e concluído durante o reinado de Ivan, o Terrível. Diferentemente dos históricos Kremlins de Moscou e de Níjni Novgorod, o de Kazan é branco e a sua beleza não está nas tradicionais igrejas ortodoxas, mas em uma magnífica mesquita, a Mesquita Kul Sharif.</p>
 							<p><a href="ponto_turistico.php?cidade=kazan" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -203,7 +203,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/kazan/hotel.JPEG);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Uma ótima opção  é o Mirage Hotel, que fica a 9 minutos a pé da praia. Oferecendo vista do Kremlin de Kazan, Patrimônio Mundial da Humanidade, e situado perto de várias das atrações de Kazan, este hotel 5 estrelas oferece acomodações luxuosas e muita hospitalidade em uma localização fantástica.</p>
 							<p><a href="hotel.php?cidade=kazan" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -211,7 +211,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/kazan/restaurante.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Uma das melhores características de uma cidade é a mistura cultural da comida que serve. Tártaro e europeu, russo e oriental, a oferta de comida de Kazan é reflexo das culturas que atravessa. Por ser uma cidade multicultural, Kazan possui restaurantes das mais variadas cozinhas do mundo que se misturam com a gastronomia local</p>
 							<p><a href="restaurante.php?cidade=kazan" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,7 +219,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/kazan/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/kazan/comida.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
@@ -227,10 +227,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/kazan/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/kazan/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Em Kazan, pode-se encontrar facilmente lembrancinhas com a imagem do gato Kazan, como miniaturas, cartões postais, pinturas, placas, etc. Os artesãos locais também fazem pratos muito bonitas e incomuns, além de outros objetos que podemos encontrar facilmente nos Souvenirs.</p>
 							<p><a href="artesanato.php?cidade=kazan" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
