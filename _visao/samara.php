@@ -174,25 +174,25 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 					<div class="image" style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Conhecida como Kuibyshev na era soviética, a cidade funcionou como uma segunda capital da Rússia. Isso porque quando Moscou sofreu ameaça nazista na Segunda Grande Guerra, Samara se tornou o lugar para onde foram evacuados membros do governo russo e delegações diplomáticas de países estrangeiros. </p>
 						<p><a href="historia.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/samara/02.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Construída no distrito de Radiotsentr no início em 2014, a Arena Cosmos possui inspirações espaciais, sendo assim feita como forma de homenagem ao setor aeroespacial da cidade.</p>
 							<p><a href="estadio.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/samara/03.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A cidade abriga uma diversidade religiosa e é bastante conhecida por hospedar o Grushinsky, famoso festival de poesia de guitarra desde 1968,  e o Kacheli, de rock, desde 2007. O rio que corta a cidade oferece bons espaços de lazer para turistas.</p>
 							<p><a href="ponto_turistico.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/samara/04.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Opções de hospedagem para quem quer descanço e conforto ao acompanhar a copa do mundo.</p>
 							<p><a href="hotel.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/samara/05.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A sexta maior cidade do país oferece diversas opções de restaurantes típicos, que também trazem no cardápio fusões de cozinhas de todo o mundo.</p>
 							<p><a href="restaurante.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/samara/06.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Kulebjaka - Uma torta deliciosa culinária típica da tradição russa cheia de peixe (geralmente salmão ou, às vezes, com esturjão) ou vários tipos de carne (ou, às vezes, mesmo de plantas) que podem ser servidos como aperitivo para um jantar elegante, ou abertura, mais maciça em tamanho, como uma refeição precisa para deliciar o seu paladar.</p>
 							<p><a href="comidas.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/samara/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/samara/07.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>...</p>
 							<p><a href="artesanato.php?cidade=samara" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
