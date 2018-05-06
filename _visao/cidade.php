@@ -217,19 +217,76 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     
                                     
                                     
-                                    <p class="drop-cap">A região do centro histórico é a melhor opção para hospedar-se em São Petersburgo. Hotéis, albergues ou apartamentos de temporada, próximos à famosa Avenida Nevsky, garante ao visitante a possibilidade de fazer boa parte do roteiro a pé. A extensa avenida está repleta de bares e restaurantes, lojas e transporte público de qualidade. Mas a cidade não é muito barata no quesito hospedagem, é necessário pesquisar muito para que a viagem não fique cara. O grupo AcoorHotesl possui os: Novotel Saint Petersburg Centre; ibis Saint Petersburg Centre e SO Sofitel Saint Petersburg.</p>
+                                    <p class="drop-cap">A principal atração turística de Kazan é o seu <strong>Kremlin</strong>, construído entre os séculos X e XIV, e concluído durante o reinado de Ivan, o Terrível. Diferentemente dos históricos Kremlins de Moscou e de Níjni Novgorod, o de Kazan é branco e a sua beleza não está nas tradicionais igrejas ortodoxas, mas em uma magnífica mesquita, a Mesquita Kul Sharif. </p>
 
-                                    <p>Veja outros hotéis abaixo:</p>
+                                    <p><img src="../_upload/extras/pontokazan1.jpg" alt="blog-image">
+                                    <br><cite>Kremlin de Kazan durante o dia. Foto: <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Казанский_кремль._Панорама_с_колеса_обозрения.jpg">@wikipedia</a></cite></p>
 
-                                    <h2>Tuchkov Hotel at the Palace Square </h2>
+                                    <p><img src="../_upload/extras/pontokazan2.jpg" alt="blog-image">
+                                    <br><cite>Kremlin de Kazan durante a noite. Foto: <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Казанский_кремль_в_вечернее_время.jpg">@wikipedia</a></cite></p>
+
+                                    <h2>Mesquita Kul Sharif</h2>
+
+                                    <p>A cultura muçulmana é muito forte em Kazan. A mesquita da cidade é uma das mais emblemáticas construções da Rússia, graças a sua arquitetura única. Ela foi destruída na invasão das tropas de Ivan, o Terrível, em 1552, quando a região foi anexada aos domínios russos. Em 1996, foi reconstruída. Seu interior é belíssimo, com lustres, vitrais, pinturas e cores impressionantes. No subsolo, um pequeno museu explica algumas curiosidades do lugar.</p>
+
+                                    <p><img src="../_upload/extras/pontokazan3.jpg" alt="blog-image">
+                                    <br><cite>Mesquita Kul Sharif. Foto: <a target="_blank" href="https://bloghoteis.com/kazan-jogos-2018/">@bloghoteis</a></cite></p>
+
+                                    <h2>Soyembike</h2>
+
+                                    <p>Segundo uma antiga lenda, Ivan, o Terrível, após derrotar os tártaros e destruir uma antiga fortaleza, quis se casar com uma bela jovem moradora do local. A moça que se chamava Siuyumbike aceitou a proposta, mas colocou como condição a construção de uma grande torre. Assim que a obra foi concluída, ela subiu no ponto mais alto da construção e pulou. Essa torre, que também está localizada dentro do complexo, se chama Soyembike. Ela possui uma inclinação de quase 2 metros, fazendo com que seja associada a famosa Torre de Pisa, localizada na cidade de Pisa, na Itália.</p>
+
+                                     <p><img src="../_upload/extras/pontokazan4.jpg" alt="blog-image">
+                                    <br><cite>Torre Soyembike. Foto: <a target="_blank" href="http://modoferias.com.br/o-que-fazer-em-kazan/">@modoferias</a></cite></p>
+
+                                    <h2>Catedral da Anunciação </h2>
+
+                                    <p>A catedral da Anunciação foi construída a partir do século 16 como o centro da administração da Igreja Ortodoxa. A catedral é a maior construção do Kremlin, com uma cúpula de cinco metros e duas capelas conectadas por um alpendre. Na década de 1930, a torre sineira, o pórtico oeste e os domos foram derrubados. A casa do bispo foi construída em 1829.</p>
+
+                                     <p><img src="../_upload/extras/pontokazan5.jpg" alt="blog-image">
+                                    <br><cite>A Catedral da Anunciação, dentro do Kremlin de Kazan. Foto: <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Казань._Кремль._Памятник_Зодчим_Казанского_Кремля_и_Благовещенский_Собор.jpg">@wikipedia</a></cite></p>
+
+
+
+                                    <p>A pérola de Kazan é o Kremlin de Kazan - um complexo único de monumentos arqueológicos, históricos e arquitetônicos. O Kremlin forma um conjunto de edifícios que datam do século XVI ao século XIX, incluindo as ruínas de edifícios antigos que datam do século X ao século XVI. O Kremlin de Kazan também é único, pois é a única fortaleza tártara que permanece dentro da Federação Russa. O complexo possui uma série de edificações históricas e diversos museus. Entre os prédios mais importantes, estão a residência do presidente da República da Rússia, a catedral da Anunciação e a mesquita Kul Sharif, símbolo da convivência pacífica entre as duas religiões no local. Aliás, Kazan é a única das 11 cidades sedes da Copa do Mundo 2018 que possui população de maioria muçulmana.</p>
+                                    <p>Em 30 de novembro de 2000, o complexo histórico e arquitetônico do Kremlin de Kazan foi inscrito na Lista do Patrimônio Mundial da UNESCO. Por causa disso, Kazan tornou-se membro da Organização das Cidades Patrimônio da Humanidade, bem como a sede de sua região, a Eurásia.</p>
+
+                                    <h2>Como chegar em Kazan</h2>
+
+                                    <h3>Trem</h3>
 
                                    
-                                    <p>Este charmoso hotel está localizado no centro de São Petersburgo, a apenas três minutos a pé do Museu Hermitage. O buffet de café da manhã é servido diariamente no restaurante do hotel e a lanchonete está disponível gratuitamente – novidade para quem está acostumado com hotéis que cobram por tudo e qualquer diferencial! E é ótimo para quem vai assistir a Copa 2018, já que a Estação de Metrô Admiralteyskaya fica a 150 m do mesmo. </p>
+                                    <p>O trem é a opção mais prática e conveniente para viajar na Rússia e estação de trem em Kazan fica no centro da cidade. Para longas viagens, os assentos têm camas para dormir. A estação de trem ( Kazan passazhirsky ) fica muito perto do Kremlin de Kazan, a apenas 5 minutos a pé e no centro da cidade. O tráfego ferroviário é bastante intenso e a partir de Kazan você pode viajar de trem para qualquer destino na Rússia. Abaixo, o tempo de viagem de Kazan a outras cidades russas.</p>
 
-                                    <h2>Kaleidoscop on Italyanskaya</h2>
+                                    <p> <strong>Kazan para Moscou:</strong> cerca de 13 horas<br>
+									<strong>Kazan para São Petersburgo:</strong> cerca de 22 horas<br>
+									<strong>Kazan para Nizhny Novgorod:</strong> cerca de 9 horas<br>
+									<strong>Kazan para Ekaterinburgo:</strong> cerca de 14 horas<br>
+									<strong>Kazan para Irkutsk:</strong> cerca de 68 horas (2 dias e meio)<br>
+									</p>
+
+									<h3>Aeroporto</h3>
 
                                    
-                                    <p> Esse charmoso hotel/pousada fica a 700 metros da Catedral do Sangue Derramado, um dos pontos turísticos obrigatórios de São Petersburgo. A Praça do Palácio fica a pouco mais de um km do hotel, ou seja, em uma curta caminhada você chega num dos pontos turísticos mais famosos da cidade. Todos os quartos possuem cozinha compacta com microondas, geladeira, fogão e chaleira. E servem café da manhã para os hóspedes encararem bem um dia de turistada – ou de futebol! </p>
+                                    <p>O aeroporto mais perto de Kazan é Aeroporto Internacional de Kazan, a 26 km da cidade. De lá, saem e chegam voos domésticos dos principais aeroportos da Rússia, assim como voos internacionais.</p>
+
+                                    <h3>De ônibus</h3>
+
+                                    <p> <strong>Kazan para Moscou:</strong> cerca de 14 horas<br>
+									<strong>Kazan para São Petersburgo:</strong> cerca de 35 a 40 horas<br>
+									<strong>Kazan para Nizhny Novgorod:</strong> cerca de 8 horas<br>
+									<strong>Kazan para Ekaterinburgo:</strong> cerca de 20 horas<br>
+									
+									</p>
+									<h2>Como se locomover em Kazan</h2>
+
+									<p>Os turistas podem se locomover em Kazan através dos meios de transportes públicos, como o metrô e o ônibus. Para pegar táxis em todo o país pode-se utilizar aplicativos como Uber, Yandex Taxi e o RuTaxi. Mais uma alternativa é alugar um carro durante a sua viagem na Rússia. Nesse caso, a carteira de motorista brasileira tem validade no país europeu, mas deve ser traduzida para o russo e autenticada em consulados da Rússia no Brasil.</p>
+
+
+									<p>Leia Mais em: <a target="_blank" href="https://rusiaturismo.es/destinos/kazan.html">Russiaturismo.es</a> | <a target="_blank" href="http://modoferias.com.br/kazan/">Modo Férias</a> |  <a target="_blank" href="https://pt.wikipedia.org/wiki/Cazã">Wikipédia</a></p>
+
+
+
 
                                     <h2>Galunov Hotel</h2>
 
