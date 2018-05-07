@@ -171,28 +171,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/historia.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Tsaritsyn foi seu primeiro nome, originada em 1555, evidências documentadas na confluência dos rios Tsaritsa e Volga datam apenas de 1589. Grigori Zasekin estabeleceu a fortaleza Sary Su (o nome local em idioma tártaro significa "água amarela" ou "rio amarelo") como parte das defesas da instável fronteira meridional do Tzarismo da Rússia. </p>
 						<p><a href="historia.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/estadio2.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A Arena Volgograd, localizada ao lado do Memorial de Mamayev Kurgan, um dos principais pontos turísticos da cidade, e às margens do Rio Volga, foi construída em 1958, no lugar de um depósito de óleo e, espera-se que sua reinauguração seja mais uma conquista depois de completamente reformado para a disputa da Copa do Mundo.</p>
 							<p><a href="estadio.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/ponto_turistico.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A cidade é muito conhecia pelo seu histórico soviético e pelas grandes batalhas travadas em seu território. Assim, os principais monumentos históricos fizeram parte da guerra ou foram construídos para homenagear os que faleceram durante os confrontos. </p>
 							<p><a href="ponto_turistico.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/volgograd/hotel.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Sem dúvida, a melhor região onde ficar em Volgograd é a do centro da cidade. A antiga Stalingrado era considerada uma das principais cidades da União Soviética comunista, por isso nessa área você vai encontrar muitos pontos turísticos relacionados a essa época, como museus e monumentos. </p>
 							<p><a href="hotel.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/volgograd/restaurante.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A influência europeia é grande em Volgogrado e a especialidade da cidade são as ‘espetadas de carne’, chamadas de chachlík. Elas podem ser encontradas em todos os restaurantes. Outro prato muito servido é o frango à Kiev (filé de peito de frango recheado com manteiga e salsinha), prato que veio da Ucrânia.</p>
 							<p><a href="restaurante.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/volgograd/comida.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Frango Kiev é um prato de filé de frango socado e enrolado em torno de manteiga fria, então revestido com ovos e migalhas de pão, e frito ou assado. Em geral, o prato de peito de frango recheado também é conhecido nas culinárias ucraniana, russa e polonesa como côtelette de volaille.</p>
 							<p><a href="comidas.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/volgograd/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/volgograd/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Em nossa pesquisa, não encontramos menção ao artesanato da cidade de Volgogrado. Mas, na Rússia, há uma grande variedade de solvernis em oferta, que vale a pena conferir. </p>
 							<p><a href="artesanato.php?cidade=volgograd" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
