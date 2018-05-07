@@ -215,7 +215,23 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <!-- .entry-content -->
                                 <div class="entry-content">
                                     
+                                    <p class="drop-cap">Saransk é uma cidade primordialmente industrial durante o crescimento da União Soviética. Recebeu muitos moradores em busca de emprego e melhor qualidade de vida durante as décadas de 50 e 60. Atualmente, sua população está em diminuindo continuamente, já que a maioria dos empregos eram gerados por companhias e industrias que não existem mais. </p>
+
+                                    <p>O forte russo Atemar, fundado em 1641, recebeu o nome de uma cidade vizinha de Mordvin, na época a fortaleza ficava na fronteira sudeste do tzarismo da Rússia. O nome atual, "Saransk", refere-se à situação da cidade no rio Saransk. Logo após a fundação, a cidade se tornou um importante centro comercial para os moradores de Erzya. Depois de 1708, Saransk foi concedido à província de Azov e depois ao governador de Kazan. Em 1780, assentamentos humanos foram reconhecidos como uma cidade e novamente transferido, desta vez para o governo de Penza, em 1928 Saransk tornou-se o centro administrativo da recém-criada Murdervin Nacional Okrug, que se tornou a região autónoma da Mordovia em 1930 Os planejadores soviéticos reconstruíram o antigo centro nos anos 60 e 70. Foram adicionadas amplas ruas e planejada a construção em massa de áreas residenciais.</p>
+
+                                    <p>Saransk tem um grande número de edifícios históricos como este assentamento tem sido uma fortaleza desde 1641, uma vez que era uma fronteira no sudeste do Império Russo.</p>
+
+                                    <h2>Como chegar:</h2>
+                                   	<p><strong>De avião:</strong> cada dia no aeroporto de Saransk aterrissam dois aviões vindos de Moscou. Para além disso, há voos diários vindo de São Petersburgo. O preço das passagens é baixo e podem chegar a custar menos de R$ 150,00.br 
+                                   	<br><strong>De trem:</strong> estação de trens Saranksk-1 recebe vários trens vindos de Moscou, São Petersburgo, Rostov-no-Don, Ekaterinburgo e várias outras cidades. Seis trens saem de capital em direção a cidade todos os dias. A viagem dura pouco menos de 9 horas. 
+                                   	<br><strong>De carro:</strong> A viagem de carro para um dos estádios da Copa é mais demorada que a de trem. O trajeto demora pouco mais de 10 horas.</p>
+
+
                                     
+                                    <p>Leia Mais em: <a target="_blank" href="http://esporte.ig.com.br/futebol/copa-do-mundo-2018/2018-03-01/estadios-da-copa-saransk.html">esporte.ig.com.br</a> | <a target="_blank" href="http://es.fifa.com/worldcup/destination/cities/city=55696/index.html">fifa.com</a></p>
+
+                                    
+
                                     
                                     <p class="drop-cap">A principal atração turística de Kazan é o seu <strong>Kremlin</strong>, construído entre os séculos X e XIV, e concluído durante o reinado de Ivan, o Terrível. Diferentemente dos históricos Kremlins de Moscou e de Níjni Novgorod, o de Kazan é branco e a sua beleza não está nas tradicionais igrejas ortodoxas, mas em uma magnífica mesquita, a Mesquita Kul Sharif. </p>
 
@@ -317,11 +333,139 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
                                     <h2>Catedral Ortodoxa de Santo Isaac</h2>
 
-                                     <p><img src="../_upload/extras/pontosaint3.JPG" alt="blog-image">
+                                    <p><img src="../_upload/extras/pontosaint3.JPG" alt="blog-image">
                                     <br><cite>Fonte: <a target="_blank" href="https://www.getyourguide.pt/sao-petersburgo-l43/" title="https://www.getyourguide.pt/sao-petersburgo-l43/">getyourguide</a></cite></p>
 
+									<h2>Hotel Saransk</h2>
 
-                                    <p>Lugar famoso pelas colunas de mármores e esculturas na fachada. É a maior catedral da cidade. Catedral Smolny, nas cores azul e branca, a bela construção foi feita em estilo rococó e a Catedral de São Pedro e São Paulo, o luxuoso local é bastante visitado por turistas de todo o mundo por possuir os túmulos dos czares russos. </p>
+                                    <p class="drop-cap">Uma das melhores características de uma cidade é a mistura cultural da comida que serve. Tártaro e europeu, russo e oriental, a oferta de comida de Kazan é reflexo das culturas que atravessa. Por ser uma cidade multicultural, Kazan possui restaurantes das mais variadas cozinhas do mundo que se misturam com a gastronomia local.</p>
+
+                                    <p>A <strong>Rua Bauman</strong> é o lugar ideal para passear e conhecer os melhores restaurantes, bares, cafés e lojas de souvenirs (objeto que resgata memórias que estão relacionadas ao destino turístico). É a rua principal de Kazan, com o calçadão somente para pedestres, muito frequentado por jovens e bem movimentado principalmente a tarde e a noite. E o melhor, você pode experimentar a saborosa comida Tartar, com vários restaurantes especializados na cozinha nacional de Tartar, como por exemplo o <strong>Restaurante Dom Tatarskoi Kulinarii</strong></p>
+
+                                    <p><img src="../_upload/extras/kazanrestaurante1.jpg" alt="blog-image">
+                                    <br><cite>Rua mauman. Fonte: <a target="_blank" href="https://www.tripadvisor.com/">tripadivisor</a></cite></p>
+
+
+                                    <h2>Dom Tatarskoi Kulinarii </h2>
+
+                                    
+                                    <p><img src="../_upload/extras/kazanrestaurante2.jpg" alt="blog-image">
+                                    <br><cite>Dom Tatarskoi Kulinarii. Fonte: <a target="_blank" href="https://www.tripadvisor.com/">tripadivisor</a></cite></p>
+
+                                    <p class="drop-cap">Dom Tatarskoi Kulinarii (que pode ser traduzido para “A Casa da Comida Tartar”) é a cozinha nacional de Tartar. Existe há anos e é altamente recomendado pelos habitantes locais. Seu interior datado de sua ampla sala de jantar decorado em estilo tártaro, é parte de seu charme. Este é o lugar certo para experimentar as iguarias da cozinha Tartar, como alguns dos pratos de carne de cavalo, assim como uma abundância de bolos e outros pedaços para saborear e desfrutar.</p>
+
+                                    <p><strong>Localização:</strong> Rua Bauman, 31 | Metro: Kremljovskaja, Kazan 420111, Rússia
+                                    <br><strong>Telefone:</strong> +7 843 292-70-70
+									<br><strong>Site Oficial:</strong> <a target="_blank" href="http://domtk.com">domtk.com</a> </p>
+
+									<h2>Priyut Kholostyaka</h2>
+
+									 <p><img src="../_upload/extras/kazanrestaurante3.jpg" alt="blog-image">
+                                    <br><cite>Priyut Kholostyaka. Fonte: <a target="_blank" href="https://www.tripadvisor.com">tripadivisor</a></cite></p>
+
+                                    <p>Mas se você quer experimentar outro tipo de refeição, tem o restaurante Priyut Kholostyaka, com um cardápio padrão e internacional, o local é dividido em várias áreas: salão principal, espaço para fumar narguile e também uma varanda que só abre nos dias de verão. O restaurante é bastante procurado pelo ambiente informal e bons pratos, mas um dos sucessos da casa é a sopa de cogumelos. Uma refeição sai por cerca de 1200 rublos por pessoa.</p>
+
+                                     <p><strong>Localização:</strong> 27А Ulitsa Chernyshevskogo, Kazan, 420111, Russia
+                                    <br><strong>Telefone:</strong> +78432920771
+									<br><strong>instagram:</strong> <a target="_blank" href="http://prihol.ru">prihol.ru</a> </p>
+
+									<h2>Beerhouse</h2>
+
+									 <p><img src="../_upload/extras/kazanrestaurante4.jpg" alt="blog-image">
+                                    <br><cite>Beerhouse. Fonte: <a target="_blank" href="http://welcome2018.com/en/places/kazan/236852/">welcome2018</a></cite></p>
+
+                                    <p>O local simula um típico restaurante alemão mas a cozinha possui inspirações rússas, é claro, além de tatar e europeia. No Beerhouse, a decoração é feita com bastante madeira e até mesmo as garçonetes se vestem com roupas típicas da Alemanha. Há diversas opções de cervejas e o preço médio de uma refeição fica em torno de 700 rublos por pessoa.</p>
+
+                                    <p><strong>Localização:</strong> Ulitsa Astronomicheskaya, 10, Kazan, Respublika Tatarstan, Rússia, 420111
+                                    <br><strong>Telefone:</strong> +7 843 260-08-24
+									<br><strong>Site Oficial:</strong> <a target="_blank" href=" http://www.beerhouse-kazan.ru">beerhouse-kazan.ru</a> </p>
+
+									<h2>Dobraya Stolovaya</h2>
+
+									 <p><img src="../_upload/extras/kazanrestaurante5.jpg" alt="blog-image">
+                                    <br><cite>Beerhouse. Fonte: <a target="_blank" href="http://welcome2018.com/en/places/kazan">welcome2018</a></cite></p>
+
+                                    <p>Ideal para quem quer gastar pouco, o local é um self-service e os pratos são vendidos por peso. Mesmo assim, é um dos restaurantes mais procurados da cidade não só pelo preço, mas também pela qualidade e sabor da comida. Vale a pena provar a torta de mel. Uma pessoa no Dobraya Stolovaya gasta cerca de 200 rublos.</p>
+
+                                    <p><strong>Localização:</strong> Bauman St, 21,1st floor, Kazan, Russia, 420111
+                                    <br><strong>Telefone:</strong> 7 (843) 297 91 99
+									<br><strong>Site Oficial:</strong> <a target="_blank" href=" http://dobraya.su">dobraya.su</a> </p>
+
+
+                                    <p><strong>Localização:</strong> Raboche-Krest'yanskaya st, 18, Volgograd, Rússia
+									</p>
+
+                                    
+                                   <p><img src="../_upload/extras/hotelkazan1.jpg" alt="blog-image">
+                                    <br><cite>Mirage Hotel. Fonte: <a target="_blank" href="https://www.booking.com/hotel/ru/mirage.pt-br.html?aid=356986;label=gog235jc-city_placestostay-xb-ru-kazan-unspec-br-com-L%3Axb-O%3AwindowsS10-B%3Aopera-N%3AXX-S%3Abo-U%3Ac-H%3As;sid=3ce19f78515c44fd0fc3b574c4b47d03">booking</a></cite></p>
+
+                                    <p>Uma ótima opção é o Mirage Hotel, que fica a 9 minutos a pé da praia. Oferecendo vista do Kremlin de Kazan, Patrimônio Mundial da Humanidade, e situado perto de várias das atrações de Kazan, este hotel 5 estrelas oferece acomodações luxuosas e muita hospitalidade em uma localização fantástica.</p>
+
+                                    <p>	O ponto negativo dessa região é que ela fica mais distante da Arena Kazan – estádio dos jogos da Copa.</p>
+
+                                    <p><strong>Localização:</strong> Moskovskaya St., 5, Kazan 420202, Rússia
+									<br><strong>Site Oficial:</strong> <a target="_blank" href="http://mirage-hotel.ru">mirage-hotel</a> </p>
+
+									<h2>Riviera Hotel</h2>
+
+                                    <p><img src="../_upload/extras/hotelkazan2.jpg" alt="blog-image">
+                                    <br><cite>Riviera Hotel. Fonte: <a target="_blank" href="https://www.booking.com/hotel/ru/the-riviera.pt-br.html">booking</a></cite></p>
+
+                                    <p>Se deseja ficar mais perto do estádio, a dica é procurar hospedagem na região do Riviera Hotel, que fica a 2km da Arena Kazan, e a 2 minutos a pé da praia. Oferecendo parque aquático, piscina coberta e ao ar livre, spa e centro de bem-estar. Por ser o maior edifício de Kazan, a propriedade apresenta linda vista do rio e do Kremlin.</p>
+
+                                    <p><strong>Localização:</strong> Fatykha Amirkhana Ave., 1A, Kazan 420124, Rússia
+									<br><strong>Site Oficial:</strong> <a target="_blank" href="https://kazanriviera.ru/en/">kazanriviera.ru</a> </p>
+
+                                    <p><img src="../_upload/extras/hotelsaransk1.jpg" alt="blog-image">
+                                    <br><cite>Mirage Hotel. Fonte: <a target="_blank" href="https://www.booking.com/hotel/ru/mirage.pt-br.html?aid=356986;label=gog235jc-city_placestostay-xb-ru-kazan-unspec-br-com-L%3Axb-O%3AwindowsS10-B%3Aopera-N%3AXX-S%3Abo-U%3Ac-H%3As;sid=3ce19f78515c44fd0fc3b574c4b47d03">booking</a></cite></p> 
+
+                                    <p>	A Catedral de St. Theodore Ushakov é a construção é a mais bonita da cidade e apenas ficou pronta em agosto de 2006. A cruz central da catedral é do estilo do Império Russo e tem 62 metros de altura. Nela, existem quatro torres de sino e 12 sinos, o maior dos quais pesa seis toneladas. Ao lado da catedral há um monumento a Fedor Ushakov, um almirante russo que comandou a Frota do Mar Negro em 1790-1792. Os moradores de Saransk o consideram o santo padroeiro da cidade. O comandante militar passou apenas seus últimos anos em Mordovia, mas sua história familiar está estreitamente entrelaçada com a história do povo da mordovia.</p>
+
+                                    <p><img src="../_upload/extras/pontosaransk2.jpg" alt="blog-image">
+                                    <br><cite>Catedral de St. Theodore Ushakov. Fonte: <a target="_blank" href="http://welcome2018.com/es/cities/saransk/the-picturesque-saransk/">walcome2018</a></cite></p> 
+
+                                    <p>	A Catedral de St. Theodore Ushakov é a construção é a mais bonita da cidade e apenas ficou pronta em agosto de 2006. A cruz central da catedral é do estilo do Império Russo e tem 62 metros de altura. Nela, existem quatro torres de sino e 12 sinos, o maior dos quais pesa seis toneladas. Ao lado da catedral há um monumento a Fedor Ushakov, um almirante russo que comandou a Frota do Mar Negro em 1790-1792. Os moradores de Saransk o consideram o santo padroeiro da cidade. O comandante militar passou apenas seus últimos anos em Mordovia, mas sua história familiar está estreitamente entrelaçada com a história do povo da mordovia.</p>
+
+                                    <p><img src="../_upload/extras/pontosaransk2.jpg" alt="blog-image">
+                                    <br><cite>Catedral de St. Theodore Ushakov. Fonte: <a target="_blank" href="http://welcome2018.com/es/cities/saransk/the-picturesque-saransk/">walcome2018</a></cite></p> 
+
+                                    
+
+                                    <h2>Museu Panorâmico da Batalha de Stalingrado</h2>
+
+                                    <p>	Um dos principais símbolos da cidade, possui a coleção mais extensa e completa de artefatos, documentos e objetos relacionados à batalha de Stalingrado. Há ainda uma tela grandiosa representando a luta dos soldados que morreram durante a batalha. Sua principal sala é a do Triunfo, onde estão expostas as bandeiras reais de todas as unidades e tropas envolvidas nessa batalha que marcou a cidade. Além disso, há estátuas de bronze de Rodin, como "O Beijo" e "A Fidelidade", entregues à cidade por Lady Vestmakott em 1945, assim como a espada do rei britânico George 6º, oferecida à cidade em 1943 em homenagem à vitória.</p>
+
+                                    <h2>Casa Pavlov</h2>
+
+                                    <p>	O local ficou famoso durante a Batalha de Stalingrado. No confronto, apenas 25 soldados defenderam o ponto por 58 dias. O prédio foi marco de grande importância estratégica, já que ficava no centro da principal praça da cidade. Durante a batalha, uma menina batizada de Zinaída nasceu na Casa Pavlov. Ela ainda mora na cidade e é uma das maiores personalidades de Volgogrado.</p>
+
+                                    <h2>Monumento a Vladimir Lenin</h2>
+
+                                    <p><img src="../_upload/extras/pontovolgograd1.jpg" alt="blog-image">
+                                    <br><cite>Monumento a Vladimir Lenin. Fonte: <a target="_blank" href="https://oquefazeremsuaviagem.com/russia/o-que-fazer-em-volgograd-na-russia/">oquefazeremsuaviagem.com</a></cite></p> 
+
+                                    <p>A maior estátua pra o ex-líder da União Soviética pode ser encontrada na cidade. O pedestal tem 30 metros da altura, enquanto a escultura de Lênin mede 27. O munumento está no livro dos Recordes, o Guinness, como o mais alto feito a uma pessoa real.</p>
+
+                                   
+                                   
+
+
+
+
+
+                                    <p><img src="../_upload/extras/comidakazan2.jpg" alt="blog-image">
+                                    <br><cite>Etchpetchmac. Fonte: <a target="_blank" href="https://es.rbth.com/cultura/2015/10/16/5-platos-por-los-que-vale-la-pena-viajar-a-kazan_483551"> rbth.com</a></cite></p>
+
+                                    <p>	<strong>Etchpetchmac</strong> tem a forma de uma torta simples: massa fermentada, carne, cebola, batata cortada em cubos, todos fechados em forma de pirâmide e cozidos. Uma vez que a massa foi preparada e recheada, os cantos são dobrados para trás de forma que haja um pequeno buraco no topo da torta. Na metade do processo de cozimento, os echpochmak são retirados do forno e uma colher de caldo é derramado no recheio pelo buraco. Isso garante que a carne - que é recheada crua - permaneça úmida, macia e deliciosa para comer.</p>
+
+                                    <p>Receita: <a target="_blank" href="http://www.pt.rowland98.com/eda/47813-kystybyy-recepty-tradicionnogo-tatarskogo-blyuda.html">rowland98.com</a> </p>
+
+                                   
+
+
+
+
+                                    <p>A Arena Volgograd, localizada ao lado do Memorial de Mamayev Kurgan, um dos principais pontos turísticos da cidade, e às margens do Rio Volga, foi construída em 1958, no lugar de um depósito de óleo e, espera-se que sua reinauguração seja mais uma conquista depois de completamente reformado para a disputa da Copa do Mundo. Com capacidade para 45.568 espectadores e a um custo de R$ 952 milhões será palco dos seguintes jogos:</p>
 
                                     <h3>Jogos:</h3>
 
@@ -330,47 +474,63 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 											
 											
 											<ul id="jogos">
-												<li style="border-top: 1px solid #ccc;">
-													<<div class="dataLocal"><strong>26 de junho de 2018, 15h &gt;</strong> São Petersburgo</div>
-													<div class="confronto">
-														<div class="equipeE">
-											<div class="bandeira bandeira-NG"></div>
-											<span class="nomePais">Nigéria</span>
-											<span class="siglaPais">NIG</span>
-														</div>
-														<div class="versus">X</div>
-														<div class="equipeD">
-											<div class="bandeira bandeira-AR"></div>
-											<span class="nomePais">Argentina</span>
-											<span class="siglaPais">ARG</span>
-														</div>
+												<div class="dataLocal"><strong>22 de junho de 2018, 12h &gt;</strong> Volgogrado</div>
+												<div class="confronto">
+													<div class="equipeE">
+														<div class="bandeira bandeira-NG"></div>
+														<span class="nomePais">Nigéria</span>
+														<span class="siglaPais">NIG</span>
 													</div>
-																			</li>
+													<div class="versus">X</div>
+													<div class="equipeD">
+														<div class="bandeira bandeira-IS"></div>
+														<span class="nomePais">Islândia</span>
+														<span class="siglaPais">ISL</span>
+													</div>
+												</div>
+												</li>
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>22 de junho de 2018, 9h &gt;</strong> São Petersburgo</div>
+													<div class="dataLocal"><strong>18 de junho de 2018, 15h &gt;</strong> Volgogrado</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-BR"></div>
-															<span class="nomePais">Brasil</span>
-															<span class="siglaPais">BRA</span>
+															<div class="bandeira bandeira-TN"></div>
+															<span class="nomePais">Tunísia</span>
+															<span class="siglaPais">TUN</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-CR"></div>
-															<span class="nomePais">Costa Rica</span>
-															<span class="siglaPais">CRC</span>
+															<div class="bandeira bandeira-_england"></div>
+															<span class="nomePais">Inglaterra</span>
+															<span class="siglaPais">ING</span>
 														</div>
 													</div>
 												</li>
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>19 de junho de 2018, 15h &gt;</strong> São Petersburgo</div>
+													<div class="dataLocal"><strong>28 de junho de 2018, 11h &gt;</strong> Volgogrado</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-RU"></div>
-															<span class="nomePais">Rússia</span>
-															<span class="siglaPais">RUS</span>
+															<div class="bandeira bandeira-JP"></div>
+															<span class="nomePais">Japão</span>
+															<span class="siglaPais">JAP</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-PL"></div>
+															<span class="nomePais">Polônia</span>
+															<span class="siglaPais">POL</span>
+														</div>
+													</div>
+												</li>
+												
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>25 de junho de 2018, 11h &gt;</strong> Volgogrado</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-SA"></div>
+															<span class="nomePais">A. Saudita</span>
+															<span class="siglaPais">ARA</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
@@ -380,40 +540,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 														</div>
 													</div>
 												</li>
-												
-												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>15 de junho de 2018, 12h &gt;</strong> São Petersburgo</div>
-													<div class="confronto">
-														<div class="equipeE">
-											<div class="bandeira bandeira-MA"></div>
-											<span class="nomePais">Marrocos</span>
-											<span class="siglaPais">MAR</span>
-														</div>
-														<div class="versus">X</div>
-														<div class="equipeD">
-											<div class="bandeira bandeira-IR"></div>
-											<span class="nomePais">Irã</span>
-											<span class="siglaPais">IRA</span>
-														</div>
-													</div>
-												</li>
 											</ul>
 
 										</div>
 										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
 									</div>
 
-									 <h3>Outros jogos:</h3>
-
-                                    <p>
-										<strong>Oitavas de Final:</strong> 03 de Julho de 2018, às 15:00<br>
-										<strong>Semifinal:</strong> 10 de julho de 2018, às 15:00 <br>
-										<strong>Decisão do 3º lugar:</strong> 14 de Julho de 2018, às 11:00 <br>
-									</p>
-									
+																		
 									<h3>Times:</h3>
 
-									<p>A cidade tem apenas um clube que se destaca que é o Zenit São Petersburgo, com participações frequentes na primeira divisão russa e também em competições europeias. Bart Simpson é seu mascote oficial desde 2014, após acordo firmado com a FOX. O Zenit, fundado em maio de 1925, é campeão soviético, tetracampeão russo e vencedor da Copa da Uefa de 2007/08, atual Liga Europa. O clube também levantou a taça da Supercopa Europeia de 2008. Por conta do seu sucesso no fim da década passada, sua torcida cresceu bastante e ficou entre as maiores do país, rivalizando com CSKA Moscou e Spartak Moscou. Seu estádio era o lendário Petrovsky, que cedeu o lugar ao recém-construído Krestovsky.</p>
+									<p>O FC Rotor Volgograd é o maior clube da cidade e o único profissional no momento. Atualmente, disputa a segunda divisão do Campeonato Russo, onde briga contra o rebaixamento. Nos anos 90, era um dos principais clubes do país, chegando a disputar torneios europeus em quatro oportunidades. Seu momento de auge foi em 1995, quando eliminou o Manchester United da Copa da UEFA, após dois empates. Sua decadência ocorreu após um grande problema financeiro, quando o clube ameaçou decretar falência, mas conseguiu manter seu profissionalismo, mesmo jogando nas divisões inferiores do país.</p>
+
+									<p>Leia Mais em: <a target="_blank" href="https://br.rbth.com/viagem/80370-ratos-gatos-mamutes-historia-monumentos-animais">rbth.com</a></p>
 
 									<h3>Outros times:</h3>
 									
