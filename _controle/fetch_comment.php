@@ -13,14 +13,14 @@ ORDER BY comment_id DESC
 
 $statement = $conexao->prepare($query);
       $statement->bindParam(':id', $id, PDO::PARAM_STR);
-     
-
+    
 $statement->execute();
 
 $result = $statement->fetchAll();
 $output = '';
 foreach($result as $row)
 {
+ 
  $output .= '
 
  <article class="comment">

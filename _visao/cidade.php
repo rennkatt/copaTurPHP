@@ -215,20 +215,21 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <!-- .entry-content -->
                                 <div class="entry-content">
                                     
-                                    <p class="drop-cap">Saransk é uma cidade primordialmente industrial durante o crescimento da União Soviética. Recebeu muitos moradores em busca de emprego e melhor qualidade de vida durante as décadas de 50 e 60. Atualmente, sua população está em diminuindo continuamente, já que a maioria dos empregos eram gerados por companhias e industrias que não existem mais. </p>
+                                    <p class="drop-cap">Rostov-on-Don, fundada em 1749, é uma cidade portuária e centro administrativo do Oblast de Rostov e do Distrito Federal do Sul da Rússia. Encontra-se na parte sudeste da Planície do Leste Europeu no rio Don, 32 quilômetros do Mar de Azov. Os subúrbios do sudoeste da cidade confinam com o delta do rio Don. A população é pouco mais de um milhão de pessoas com números recentes registrados como: 1.089.261 (Censo de 2010). Não confundi com Rostov Veliki ou Rostov Grande, que são outros municípios da Rússia. </p>
 
-                                    <p>O forte russo Atemar, fundado em 1641, recebeu o nome de uma cidade vizinha de Mordvin, na época a fortaleza ficava na fronteira sudeste do tzarismo da Rússia. O nome atual, "Saransk", refere-se à situação da cidade no rio Saransk. Logo após a fundação, a cidade se tornou um importante centro comercial para os moradores de Erzya. Depois de 1708, Saransk foi concedido à província de Azov e depois ao governador de Kazan. Em 1780, assentamentos humanos foram reconhecidos como uma cidade e novamente transferido, desta vez para o governo de Penza, em 1928 Saransk tornou-se o centro administrativo da recém-criada Murdervin Nacional Okrug, que se tornou a região autónoma da Mordovia em 1930 Os planejadores soviéticos reconstruíram o antigo centro nos anos 60 e 70. Foram adicionadas amplas ruas e planejada a construção em massa de áreas residenciais.</p>
+                                    <p>Desde os tempos antigos, a área ao redor da foz do rio Don tem tido importância cultural e comercial. Os antigos habitantes indígenas incluíam as tribos Citas, Sarmat e Savromat. Foi o local de Tanais, uma antiga colônia grega, Fort Tana, sob os genoveses e Fort Azak na época do Império Otomano. Em 1749, uma alfândega foi estabelecida no rio Temernik, um afluente do Don, por decreto da imperatriz Elizabeth, a filha de Pedro, o Grande, a fim de controlar o comércio com a Turquia. No final do século XVIII, com a incorporação de territórios e mares otomanos ao Império Russo, o assentamento perdeu muito de sua importância estratégica militar como posto de fronteira. Em 1806, foi oficialmente nomeado Rostov-on-Don. Durante o século XIX, devido às suas conexões fluviais com o interior da Rússia, Rostov se transformou em um importante centro comercial e centro de comunicações. A conexão ferroviária com Kharkiv foi concluída em 1870, com mais ligações seguintes em 1871 a Voronezh e em 1875 a Vladikavkaz.</p>
 
-                                    <p>Saransk tem um grande número de edifícios históricos como este assentamento tem sido uma fortaleza desde 1641, uma vez que era uma fronteira no sudeste do Império Russo.</p>
+                                    <p>Durante a Guerra Civil Russa, os Brancos e os Reds disputaram Rostov-on-Don, então a cidade mais fortemente industrializada do sul da Rússia. Em 1928, o governo regional havia se mudado da antiga capital cossaca de Novocherkassk para Rostov-on-Don. Nos anos soviéticos, os bolcheviques demoliram dois dos principais marcos históricos de Rostov-on-Don: A Catedral de Santo Alexandre Nevsky (1908) e a Catedral de St. George (1783-1807).</p>
 
+                                    <p>Durante a Segunda Guerra Mundial, as forças alemãs ocuparam Rostov-on-Don, a princípio por sete dias, a partir de 21 de novembro de 1941, após ataques do primeiro Exército Panzer alemão na Batalha de Rostov e depois por sete meses, de 24 de julho de 1942 a 14 de fevereiro de 1943. 27.000 judeus e civis soviéticos foram massacrados pelos militares alemães em 11 e 12 de agosto de 1942, em Rostov-on-Don, em um local chamado Zmievskaya Balka A cidade era de importância estratégica com um entroncamento ferroviário e um porto fluvial com acesso ao Cáucaso, uma região rica em petróleo e minerais. Demorou dez anos para restaurar a cidade dos danos sofridos na Segunda Guerra Mundial.</p>
+
+                                   
                                     <h2>Como chegar:</h2>
-                                   	<p><strong>De avião:</strong> cada dia no aeroporto de Saransk aterrissam dois aviões vindos de Moscou. Para além disso, há voos diários vindo de São Petersburgo. O preço das passagens é baixo e podem chegar a custar menos de R$ 150,00.br 
-                                   	<br><strong>De trem:</strong> estação de trens Saranksk-1 recebe vários trens vindos de Moscou, São Petersburgo, Rostov-no-Don, Ekaterinburgo e várias outras cidades. Seis trens saem de capital em direção a cidade todos os dias. A viagem dura pouco menos de 9 horas. 
-                                   	<br><strong>De carro:</strong> A viagem de carro para um dos estádios da Copa é mais demorada que a de trem. O trajeto demora pouco mais de 10 horas.</p>
-
-
-                                    
-                                    <p>Leia Mais em: <a target="_blank" href="http://esporte.ig.com.br/futebol/copa-do-mundo-2018/2018-03-01/estadios-da-copa-saransk.html">esporte.ig.com.br</a> | <a target="_blank" href="http://es.fifa.com/worldcup/destination/cities/city=55696/index.html">fifa.com</a></p>
+                                   	<p><strong>De avião:</strong> Um voo de Moscou para Rostov-on- Don tem duração média de 1h50 e custa cerca de R$500. Há voos regulares que saem dos aeroportos de Domodedovo, Vnukovo e Sheremetyevo. 
+                                   	<br><strong>De trem:</strong> Há trens que saem da estação Estação Kazansky, em Moscou, diariamente. O tempo de viagem é de aproximadamente 16 horas. 
+                                   	<br><strong>De carro:</strong> Os ônibus de Moscou para Rostov-on-Don podem ser encontrados na estação de ônibus Orekhovo ou na estação de metrô Komsomolskaya. A viagem dura aproximadamente 17 horas. Caso vá com o seu próprio carro, é possível realizar o percurso em 14 horas.</p>
+                                   
+                                    <p>Leia Mais em: <a target="_blank" href="https://br.sputniknews.com/rostov-on-don-worldcup-2018/201711119814469-rostov-don-comida-bebida-foto-curiosidades-copa/ ">sputniknews.com</a></p>
 
                                     
 
@@ -338,7 +339,97 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 									<h2>Hotel Saransk</h2>
 
-                                    <p class="drop-cap">Uma das melhores características de uma cidade é a mistura cultural da comida que serve. Tártaro e europeu, russo e oriental, a oferta de comida de Kazan é reflexo das culturas que atravessa. Por ser uma cidade multicultural, Kazan possui restaurantes das mais variadas cozinhas do mundo que se misturam com a gastronomia local.</p>
+                                    <p class="drop-cap">A comida russa não é apenas pelmeny e borsch, não. E não é assim tão sofisticada para o gosto dos estrangeiros. De fato, por ser um país multinacional, a Rússia, ao longo dos séculos, absorveu milhares de elementos gastronômicos de todo o mundo, tanto asiáticos como europeus. Como exemplo, no restaurante emblemático Pauling que se situa em pleno centro de Rostov, se pode provar desde pratos tradicionais com traços modernos, até à cozinha fusion. Sobretudo, vale ressaltar que na região do Don a alimentação se destaca especialmente pela variedade de pratos de peixe, evidentemente devido à sua situação geográfica. Rostov-on-Dom é a Cidade dos Cinco Mares - Azov, Negro, Cáspio, Báltico e Branco.  Aqui, a gente pode provar as cotletas (bolinhos) de lúcio com molho de queijo, batatinhas crocantes e salada, ou uma versão da sopa borsch russa, mas com rosbife delicadíssimo.</p><p><strong>Cotletas:</strong> Prato tradicional e amado em toda a Rússia, feitos de carne moída. Veio da Europa para a Rússia e inicialmente era uma fatia de carne frita com uma fita de osso, mas depois tornou-se um hambúrguer de carne moído e temperado, coberto com migalhas de pão e frito. Desde o século XIX foi tão popular que inclusive Alexander Pushkin, o génio da poesia russa, mencionou cotletas em seu poema imortal “Eugene Onegin”, em uma descrição de um banquete de festa. Mas aqui em Rostov-on-Don, além das tradicionais, são encontradas Cotletas preparadas com peixe e, servidas com delicioso molho de queijo.  </p>
+
+                                    <p>Leia Mais em: <a target="_blank" href="http://www.recipestudio.com/2010/06/classic-russian-cotleta-cotelette.html">recipestudio.com</a></p>
+
+
+                                    <h3>Smetana</h3>
+                                    <p>Ambiente acolhedor e deslocado, é uma boa opção para o almoço. Recomenda-se o pelmeni, visivelmente parecido com o capeletti, é um bolinho de massa fina recheado com carne e claro, no estilo russo. Outra pedida é o vareniki, uma massa similar ao ravioli, que possui diversos tipos de recheios. Ambos são alguns dos pratos favoritos de russos e ucranianos. No almoço, o preço médio chega a ser de 250 rublos russos. </p>
+
+                                     <p><strong>Endereço:</strong> Bolshaya Sadovaya St., 80, Rostov-on-Don 
+                                    <br><strong>Telefone: </strong> +7 863 244-16-11
+                                    <br><strong>Site: </strong><a target="_blank" href="https://smetana.gidm.ru/">smetana.ru</a></p>
+
+                                    <h3>Onegin Dacha</h3> 
+
+                                    <p>Sofisticado, é considerado um dos melhores da cidade. Localizado no centro de Rostov-on-Don, é dividido em dois diferentes ambientes: o "pomar de cereja" e o "jardim de inverno". No Onegin Dacha, além dos pratos tradicionais russos, a gastronomia possui acentos da culinária francesa. As especialidades da casa incluem a sopa de peixe, um coelho assado com creme de maça e uma salada Olivier com língua de vitela, camarões, caviar e alcaparras. Nos finais de semana, o jantar conta com jazz ao vivo. </p>
+
+                                    <p><strong>Endereço:</strong> Chekhova Ave, 45B, Rostov-on-Don 
+                                    <br><strong>Telefone: </strong> +7 863 201-80-00
+                                    <br><strong>Site: </strong><a target="_blank" href="http://goodrestaurants.ru/">goodrestaurants.ru</a></p>
+
+                                    <h3>Pauling</h3>
+                                    <p>Restaurante de primeira classe, que está localizado no coração de Rostov em um dos edifícios mais antigos da cidade. O cardápio "Pauling" é, antes de mais nada, a cozinha nacional russa, complementada por pratos do eminente chef Eugene Mescheryakov que venceu uma competição internacional profissional. Os hóspedes podem encontrar um lugar para todos os gostos, o restaurante tem dois andares, uma varanda e um terraço aberto no verão e no outono. Possui, ainda, sala VIP para o cliente que deseja um local mais discreto e reservado.</p>
+
+                                    <p><strong>Endereço:</strong> Bolshaya Sadovaya St., 91, Rostov-on-Don  
+                                    <br><strong>Telefone: </strong> +7 863 263-24-32
+                                    <br><strong>Site: </strong><a target="_blank" href="https://tomesto.ru/rostov/places/pauling">tomesto.ru</a></p>
+					
+
+                                    <p><strong>Catedral da Natividade da Santíssima Virgem Maria:</strong> É um dos cartões postais da cidade e considerada uma réplica em tamanho reduzido da Catedral de Cristo Salvador de Moscou.</p>
+
+                                    <p><strong>Monumento de Alexander Pushkin:</strong> Considerado o maior poeta russo na época romântica, Alexander Pushkin foi homenageado com um monumento, localizado entre a Rua Pushkin e a Avenida Voroshilov.</p>
+
+                                    <p><strong>Rua Pushkin:</strong> Conhecida pelo seu extenso calçadão com restaurantes, cafés, monumentos e jardins, lá estão localizados atrações como o Museu Memorial Sabina Spielrein, o Parque da Revolução de Outubro e o Parque Gorky.</p>
+
+                                    <p><strong>H2O Aquapark:</strong> No verão, parque aquático pode ficar lotado. Crianças e adultos se divertem nas inúmeras piscinas, aquecidas e descobertas. Mas há também saunas e spa.</p>
+
+                                    <p><strong>Rostov State Musical Theatre:</strong> É um dos maiores teatros do sul do país. Inaugurado em 1999, conta com cerca de 300 apresentações, festivais e shows todos os anos.</p>
+
+                                    <p><strong>Mercado Central:</strong> Tanto para os moradores quanto para os turistas, o mercado central permite a compra de peixes e carnes frescas, legumes e frutas. Além disso, é um local para encontrar típicos alimentos da Rússia.</p>
+
+                                    <p><strong>Parque Gorky:</strong> O parque, com um perímetro de 1,66 km, ocupa uma área de 12,2 hectares. Embora o plantio e a forma do solo em grande parte do parque pareçam naturais, na verdade ele é quase todo paisagístico. O parque contém extensas trilhas para caminhadas, sete fontes, rotundas, parques infantis, parques de diversões, cafés, pavilhões de xadrez e parques decorados com esculturas. As atrações cobertas incluem o observatório, o Monumento a Lenin e o Monumento da Grande Revolução de Outubro. Além disso, há galeria ao ar livre em que hospeda exposições de arte aplicada e obras de artistas de Rostov.</p>
+
+                                    <p><strong>Khinkali</strong> é comido puro, ou com pimenta preta moída. O recheio de carne não é cozido quando o khinkali é montado, então, quando ele é cozido, os sucos da carne ficam presos dentro do bolinho. O khinkali é tipicamente consumido primeiro sugando os sucos enquanto se dá a primeira mordida, para evitar que o bolinho rebente. O topo, onde as pregas se encontram, é duro e não deve ser comido, mas descartado no prato. Na Geórgia, esse topo é chamado de kudi  (chapéu) ou k'uch'i (umbigo). Há uma etiqueta generalizada na região do Mar Negro para usar apenas as próprias mãos enquanto consome esses bolinhos; o uso de utensílios, como um garfo, não é considerado educado.</p>
+
+                                    <p><img src="../_complementos/images/cidades/sochi/khinkali.jpg" alt="blog-image">
+                                    <br><cite>khachapuri. Fonte: <a target="_blank" href="https://www.accorhotels.com">accorhotels.com</a></cite></p>
+
+                                    <p><strong>Shashlik</strong> (que significa carne no espeto) é originalmente feito de cordeiro. Hoje em dia também é feito de carne de porco ou boi, dependendo das preferências locais e observâncias religiosas. Os espetos ou são enfiados apenas com carne, ou com pedaços alternados de carne, gordura e legumes, como pimentão, cebola, cogumelo e tomate.</p>
+
+                                    <p><img src="../_complementos/images/cidades/sochi/shashlik.jpg" alt="blog-image">
+                                    <br><cite>Shashlik. Fonte: <a target="_blank" href="https://www.accorhotels.com">accorhotels.com</a></cite></p>
+
+                                    <p><strong>khachapuri</strong> é uma das primeiras iguarias que se oferecem a um convidado. É preparado com uma massa de farinha de trigo com água, leite, levedura e óleo, que é transformada numa bola e deixada a levedar, antes de ser tendida da forma e tamanho desejados. Para além das variantes individuais, existem as regionais, entre as quais a mais comum em forma de gôndola, normalmente servido com um ovo cru e manteiga.</p>
+
+
+
+                                    <p><strong>Olivye:</strong> Localizado bem próximo à costa e a um museu, o restaurante Olivye tem um clima bem familiar e conta, além da culinária russa, com a italiana, francesa, europeia, europeia central, frutos do mar e ainda opções vegetarianas. Lá você consegue almoçar e jantar, encontra cadeiras para bebês e tem estacionamento disponível.</p>
+
+                                    <p><strong>Che Harcho Restaurant:</strong> O local conta com mesas amplas e estofadas, além de almofadas, o que deixa bem confortável. A cozinha, além de russa, é europeia, caucasiana, georgiana e há ainda opções vegetarianas e veganas. Você pode fazer reservas para visitar esse restaurante e o preço médio gasto é entre R$ 30 e R$ 86. Lá você pode tomar café da manhã, almoçar e jantar e levar a família ou ir em grupos grandes. A vista também é muito bonita da cidade de Sochi nas mesas ao ar livre.</p>
+
+                                    <p><strong>Belyye Nochi:</strong> Este restaurante é próximo ao primeiro aqui citado. O ambiente é também familiar e é bom para levar toda a família e um grupo grande de amigos. Você também encontra mesas ao ar livre, pode fazer reservas e levar a comida. A culinária é mais específica: russa e do leste europeu e lá você pode tomar café da manhã, almoçar ou jantar.</p>
+
+
+
+                                    <p>O grupo AccorHotels possui 4 de seus hotéis na região de Sochi, com diárias que vão de R$ 157,00 (Mercure Rosa Khutor Hotel, distante 46 km do centro) a R$ 670,00 - Pullman Sochi Centre. Conta ainda com o Mercure Sochi Centre e o <strong>Swissôtel Resort Sochi Kamelia</strong> - Residência Oficial da Seleção Brasileira. Com cinco estrelas, a propriedade dispõe de piscina, spa, academia e restaurantes. À beira de uma praia privativa, o hotel fica dentro de um parque natural às margens do Mar Negro. Além do conforto, privacidade e alta infraestrutura, um dos motivos da escolha foi à logística: São apenas alguns metros de distância que separam os quartos até os dois campos de treinamento que serão utilizados pelo time de Tite. Há ainda uma questão inédita que envolve os familiares dos jogadores. Pela primeira vez, os atletas da seleção brasileira vão poder hospedar seus parentes no mesmo hotel que a equipe durante toda a Copa do Mundo. Prioridade, inclusive, exigida por ele.</p>
+
+
+                                    <h2>Em Sochi ainda:</h2>
+
+                                    <h3>Park Inn by Radisson Rosa Khutor </h3>
+
+                                    <p>Hotel familiar no melhor resort de esqui do país. Localizado no centro do resort Rosa Khutor, a apenas 20 m do teleférico de Olympia. No inverno, o resort de Rosa Khutor oferece esqui tradicional, patinação, snowboard, passeios de trenó e tubulação e no verão, caminhadas escandinavas, cavalgadas maravilhosas, ciclismo ao longo das rotas cênicas, passeio de segway fascinante, velomobile e karting scooter, corda "Panda Park" a uma altitude de 1350 metros acima do nível do mar, rota ecológica "trilha de saúde", rafting, yoga ao ar livre. Todos os seus 211 quartos e suites possuem televisão LED, canais por satélite, Internet sem fios de alta velocidade gratuita, mini-bar e serviço 24 horas. O hotel conta ainda com cozinha gourmet e centro de fitness.</p>
+
+                                    <p><strong>Site Oficial:</strong> <a target="_blank" href="https://www.parkinn.com/hotel-rosakhutor"> parkinn.com</a></p>
+
+                                     <h3>Denart Hotel  </h3>
+
+                                     <p><img src="../_complementos/images/cidades/sochi/denarthotel.jpg" alt="blog-image">
+                                    <br><cite>Fonte: <a target="_blank" href="https://www.accorhotels.com/pt-br/hotel-A5C8-swissotel-resort-sochi-kamelia/index.shtml">accorhotels.com</a></cite></p>
+
+                                    <p>é um novo hotel internacional premium localizado no centro da cidade, em um lugar aconchegante, a uma curta distância do mar, das principais atrações e de importantes instalações turísticas, administrativas e comerciais. O nome DENART engloba o núcleo da filosofia do hotel. Consiste em duas partes: DEN, que significa do latim o lugar do descanso a longo prazo e recuperação e ART, que significa art. Assim, a base da filosofia do hotel DENART é a arte de proporcionar um lugar para descanso e recuperação a longo prazo.</p>
+
+                                    <p><strong>Site Oficial:</strong> <a target="_blank" href="http://www.denart-hotel.ru/"> denart-hotel.ru</a></p>
+
+
+                                    <p><strong>Casa de campo de Stalin:</strong> Um dos pontos turísticos famosos de Sochi é a antiga casa de veraneio do ditador Josef Stalin. Ela fica em um bosque e é toda pintada de verde por fora. Lá dentro, quem visitar, encontrará objetos pessoais, estátua de cera, dentre outros objetos que te levarão numa viagem no tempo. Para entrar ou visitar com um guia, o turista pagará 150 e 300 rublos, respectivamente.</p>
+                                    <p><strong>Dendrary Botanical Garden:</strong> Neste gigantesco jardim botânico você vai encontrar animais como papagaios e avestruzes transitando livremente. Ainda é possível ver fontes e estátuas, sendo a mais famosa é a da Branca de Neve com os sete anões. Sites especializados indicam visitar o local na primavera ou no verão, justamente no período da Copa 2018.</p>
+                                    <p>Teatro Winter: Um dos edifícios mais belos de Sochi com um interior de deixar o queixo caído, assim pode-se definir o Teatro Winter. Ir até lá é um dos programas mais populares da Rússia e o visitante pode comprar o ingresso online, mas em russo.</p>
+                                    <p><strong>Museu de Arte de Sochi:</strong> Por 100 rublos o turista pode ver seis mil obras de arte soviética e do leste europeu. Existem peças desde o período mitológico até o clássico e algumas esculturas ficam expostas ao ar livre. Sendo o local mais visitado da cidade.</p>
+
+
 
                                     <p>A <strong>Rua Bauman</strong> é o lugar ideal para passear e conhecer os melhores restaurantes, bares, cafés e lojas de souvenirs (objeto que resgata memórias que estão relacionadas ao destino turístico). É a rua principal de Kazan, com o calçadão somente para pedestres, muito frequentado por jovens e bem movimentado principalmente a tarde e a noite. E o melhor, você pode experimentar a saborosa comida Tartar, com vários restaurantes especializados na cozinha nacional de Tartar, como por exemplo o <strong>Restaurante Dom Tatarskoi Kulinarii</strong></p>
 
@@ -424,47 +515,104 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <p><img src="../_upload/extras/pontosaransk2.jpg" alt="blog-image">
                                     <br><cite>Catedral de St. Theodore Ushakov. Fonte: <a target="_blank" href="http://welcome2018.com/es/cities/saransk/the-picturesque-saransk/">walcome2018</a></cite></p> 
 
-                                    <p>	A Catedral de St. Theodore Ushakov é a construção é a mais bonita da cidade e apenas ficou pronta em agosto de 2006. A cruz central da catedral é do estilo do Império Russo e tem 62 metros de altura. Nela, existem quatro torres de sino e 12 sinos, o maior dos quais pesa seis toneladas. Ao lado da catedral há um monumento a Fedor Ushakov, um almirante russo que comandou a Frota do Mar Negro em 1790-1792. Os moradores de Saransk o consideram o santo padroeiro da cidade. O comandante militar passou apenas seus últimos anos em Mordovia, mas sua história familiar está estreitamente entrelaçada com a história do povo da mordovia.</p>
+                                    <p class="drop-cap"> Dividida em oito distritos, a cidade de Rostov-do-Don está localizada em uma província de mesmo nome ao Sul da Rússia. É lá onde o Brasil irá fazer sua estreia na Copa do Mundo de 2018, no dia 17 de junho, contra a Suíça. A partida irá acontecer mais precisamente na Arena Rostov, um dos estádios que foi construída especialmente para receber o maior evento de futebol mundial. Próxima ao rio Don, a Arena Rostov será a nova casa do Rostov FC depois do evento. </p><p>Em junho de 2013, durante as escavações para a construção do estádio, cinco cartuchos da Segunda Guerra Mundial foram encontrados, quase perfeitamente preservadas. Concluído em dezembro de 2017 a um custo de R$ 1,488 bilhão, tem capacidade para 45.145 torcedores. Além de receber quatro jogos da fase de grupos, vai receber uma partida das oitavas de final.</p>
 
-                                    <p><img src="../_upload/extras/pontosaransk2.jpg" alt="blog-image">
-                                    <br><cite>Catedral de St. Theodore Ushakov. Fonte: <a target="_blank" href="http://welcome2018.com/es/cities/saransk/the-picturesque-saransk/">walcome2018</a></cite></p> 
+                                    <h2>Jogos:</h2>
+
+                                    <div id="grupos">
+										<div class="grupoW">
+											
+											
+											<ul id="jogos">
+												
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>20 de junho de 2018, 12h &gt;</strong> Rostov</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-UY"></div>
+															<span class="nomePais">Uruguai</span>
+															<span class="siglaPais">URU</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-SA"></div>
+															<span class="nomePais">A. Saudita</span>
+															<span class="siglaPais">ARA</span>
+														</div>
+													</div>
+													
+												</li>
+																			
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>26 de junho de 2018, 15h &gt;</strong> Rostov</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-IS"></div>
+															<span class="nomePais">Islândia</span>
+															<span class="siglaPais">ISL</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-HR"></div>
+															<span class="nomePais">Croácia</span>
+															<span class="siglaPais">CRO</span>
+														</div>
+													</div>
+												
+												</li>
+
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>17 de junho de 2018, 15h &gt;</strong> Rostov</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-BR"></div>
+															<span class="nomePais">Brasil</span>
+															<span class="siglaPais">BRA</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-CH"></div>
+															<span class="nomePais">Suíça</span>
+															<span class="siglaPais">SUI</span>
+														</div>
+													</div>
+												</li>
+												
+												<li style="border-top: 1px solid #ccc;">
+													<div class="dataLocal"><strong>23 de junho de 2018, 15h &gt;</strong> Rostov</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-KR"></div>
+															<span class="nomePais">Coreia do Sul</span>
+															<span class="siglaPais">COR</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-MX"></div>
+															<span class="nomePais">México</span>
+															<span class="siglaPais">MEX</span>
+														</div>
+													</div>
+												</li>
+											</ul>
+
+										</div>
+										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
+									</div>
+
+                                    <h2>Outros Jogos</h2>
+
+                                    <p><strong>02 de julho - Oitavas de final </p>
+
+                                    <h2>Clube da cidade</h2>
+
+                                    <p>	Fundado em 1930, o FC Rostov atua na primeira divisão do Campeonato Russo. Foi o campeão da segunda divisão em 2008 e na temporada 2013/2014 foi o vencedor da Copa da Rússia. Antes da construção da Arena Rostov, era o clube do estádio Olimp-2, que com capacidade para pouco mais de 17 mil pessoas, havia sido inaugurado em 1930. A cidade ainda conta com dois times extintos ou licenciados: O FC SKVO Rostov-on-Don e o FC Istochnik Rostov-on-Don.</p>
+
+                                    <p>Leia Mais em: <a target="_blank" href="http://esporte.ig.com.br/futebol/copa-do-mundo-2018/2018-02-16/estadios-da-copa-sochi.html">esporte.ig.com.br</a></p>
+
 
                                     
-
-                                    <h2>Museu Panorâmico da Batalha de Stalingrado</h2>
-
-                                    <p>	Um dos principais símbolos da cidade, possui a coleção mais extensa e completa de artefatos, documentos e objetos relacionados à batalha de Stalingrado. Há ainda uma tela grandiosa representando a luta dos soldados que morreram durante a batalha. Sua principal sala é a do Triunfo, onde estão expostas as bandeiras reais de todas as unidades e tropas envolvidas nessa batalha que marcou a cidade. Além disso, há estátuas de bronze de Rodin, como "O Beijo" e "A Fidelidade", entregues à cidade por Lady Vestmakott em 1945, assim como a espada do rei britânico George 6º, oferecida à cidade em 1943 em homenagem à vitória.</p>
-
-                                    <h2>Casa Pavlov</h2>
-
-                                    <p>	O local ficou famoso durante a Batalha de Stalingrado. No confronto, apenas 25 soldados defenderam o ponto por 58 dias. O prédio foi marco de grande importância estratégica, já que ficava no centro da principal praça da cidade. Durante a batalha, uma menina batizada de Zinaída nasceu na Casa Pavlov. Ela ainda mora na cidade e é uma das maiores personalidades de Volgogrado.</p>
-
-                                    <h2>Monumento a Vladimir Lenin</h2>
-
-                                    <p><img src="../_upload/extras/pontovolgograd1.jpg" alt="blog-image">
-                                    <br><cite>Monumento a Vladimir Lenin. Fonte: <a target="_blank" href="https://oquefazeremsuaviagem.com/russia/o-que-fazer-em-volgograd-na-russia/">oquefazeremsuaviagem.com</a></cite></p> 
-
-                                    <p>A maior estátua pra o ex-líder da União Soviética pode ser encontrada na cidade. O pedestal tem 30 metros da altura, enquanto a escultura de Lênin mede 27. O munumento está no livro dos Recordes, o Guinness, como o mais alto feito a uma pessoa real.</p>
-
-                                   
-                                   
-
-
-
-
-
-                                    <p><img src="../_upload/extras/comidakazan2.jpg" alt="blog-image">
-                                    <br><cite>Etchpetchmac. Fonte: <a target="_blank" href="https://es.rbth.com/cultura/2015/10/16/5-platos-por-los-que-vale-la-pena-viajar-a-kazan_483551"> rbth.com</a></cite></p>
-
-                                    <p>	<strong>Etchpetchmac</strong> tem a forma de uma torta simples: massa fermentada, carne, cebola, batata cortada em cubos, todos fechados em forma de pirâmide e cozidos. Uma vez que a massa foi preparada e recheada, os cantos são dobrados para trás de forma que haja um pequeno buraco no topo da torta. Na metade do processo de cozimento, os echpochmak são retirados do forno e uma colher de caldo é derramado no recheio pelo buraco. Isso garante que a carne - que é recheada crua - permaneça úmida, macia e deliciosa para comer.</p>
-
-                                    <p>Receita: <a target="_blank" href="http://www.pt.rowland98.com/eda/47813-kystybyy-recepty-tradicionnogo-tatarskogo-blyuda.html">rowland98.com</a> </p>
-
-                                   
-
-
-
-
                                     <p>A Arena Volgograd, localizada ao lado do Memorial de Mamayev Kurgan, um dos principais pontos turísticos da cidade, e às margens do Rio Volga, foi construída em 1958, no lugar de um depósito de óleo e, espera-se que sua reinauguração seja mais uma conquista depois de completamente reformado para a disputa da Copa do Mundo. Com capacidade para 45.568 espectadores e a um custo de R$ 952 milhões será palco dos seguintes jogos:</p>
 
                                     <h3>Jogos:</h3>
@@ -474,6 +622,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 											
 											
 											<ul id="jogos">
+												<li style="border-top: 1px solid #ccc;">
 												<div class="dataLocal"><strong>22 de junho de 2018, 12h &gt;</strong> Volgogrado</div>
 												<div class="confronto">
 													<div class="equipeE">
@@ -1144,22 +1293,31 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                               
                               
                               <!-- #respond --> 
-                              <div id="respond"> 
+                               <div id="respond"> 
                               
                                 <h3 id="reply-title">Deixe seu comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display:none;">Cancela resposta</a></small></h3>
                                 
                                 <!-- .commentform -->
                                 <form action="#" method="post" id="comment_form">
                                 
-                                  <input type="text" name="comment_name" id="comment_name" class="form-control hidden" value="Renato Moura" placeholder="Enter Name" />
+                                  <input type="text" name="comment_name" id="comment_name" class="form-control hidden" value="<?php echo $_SESSION['nome']; ?>" placeholder="Enter Name" />
+
+                                  <input type="text" name="imagem" id="imagem" class="form-control hidden" value="<?php echo $_SESSION['imagem']; ?>" placeholder="Enter Name" />
+
+                                  <input type="text" name="postagem_id" id="postagem_id" class="form-control hidden" value="<?php echo ($id)?>"  />
+
+                                  <input type="text" name="user_id" id="user_id" class="form-control hidden" value="<?php echo $_SESSION['id']; ?>"  />
 
                                   <p class="comment-form-comment">
-                                    <textarea id="comment_content" name="comment_content" rows="5" placeholder="Entre com seu comentário" aria-required="true"></textarea>
+                                    <textarea id="comment_content" name="comment_content" rows="5" placeholder="Entre com seu comentário" 
+                                    <?php if(!isset($_SESSION['email']) && (!isset($_SESSION['senha']))){ echo 'class =hidden';}
+                                    ?> aria-required="true"></textarea>
                                   </p>
                                   
                                   <p class="form-submit">
                                     <input type="hidden" name="comment_id" id="comment_id" value="0"/>
-     								<input type="submit" name="submit" id="submit" class="btn button primary" value="Postar Comentário" />
+     								<input type="submit" name="submit" id="submit" class="btn button primary <?php if(!isset($_SESSION['email']) && (!isset($_SESSION['senha']))){ echo ' hidden';}
+                                    ?> " value="Postar Comentário" /><span id="comment_message"></span>
                                   </p>
                                   
                                 </form>
@@ -1294,9 +1452,11 @@ $(document).ready(function(){
   $.ajax({
    url:"../_controle/fetch_comment.php",
    method:"POST",
+   data: 'id='+ $('#postagem_id').val(),
    success:function(data)
    {
     $('#display_comment').html(data);
+
    }
   })
  }

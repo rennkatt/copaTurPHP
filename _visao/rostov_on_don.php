@@ -159,7 +159,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <div class="container">
                     <div class="intro-text">
                         <h1>Bem Vindo à <span>Rostov-On-Don</span></h1>
-                        <p>Rostov, o Grande, é uma das primeiras cidades historicamente comprovadas na Rússia, mencionada pela primeira vez em 862, na antiga crônica "Conto dos Anos Passados". O principal marco de Rostov-on-Don é o seu Kremlin, um exemplo maravilhosamente preservado da arquitetura medieval russa.</p>
+                        <p>"Me deem só cossacos, e eu tomarei toda a Europa com eles." Napoleão era um eterno admirador dos cossacos e Rostov-on-Don é a pátria desse temído povo guerreiro. Na Europa, por se saber do caráter impiedoso em combate, os mesmos eram chamados de "bárbaros das estepes".</p>
                 
                     </div>
                 </div>
@@ -171,28 +171,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/história.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Rostov-on-Don, fundada em 1749, é uma cidade portuária e centro administrativo do Oblast de Rostov e do Distrito Federal do Sul da Rússia. Encontra-se na parte sudeste da Planície do Leste Europeu no rio Don, 32 quilômetros do Mar de Azov. </p>
 						<p><a href="historia.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/estadio.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Dividida em oito distritos, a cidade de Rostov-do-Don está localizada em uma província de mesmo nome ao Sul da Rússia. É lá onde o Brasil irá fazer sua estreia na Copa do Mundo de 2018, no dia 17 de junho, contra a Suíça. </p>
 							<p><a href="estadio.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/ponto_turistico.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A cidade da morte. Embora os guias turísticos não passem essa informação, Rostov do Don é conhecida como a cidade da morte e também recebe o apelido de “Casa dos Maníacos”. É de lá, inclusive, o mais famoso serial killer da Rússia: Andrei Chikatilo, conhecido como: Açougueiro de Rostov...</p>
 							<p><a href="ponto_turistico.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/rostov_on_don/hotel.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>. O novo elegante e acolhedor boutique hotel de 4 estrelas Mercure Rostov-on-Don está idealmente localizado em frente à prefeitura e a 500 m da Pushkinskaya alleya, uma das ruas mais bonitas e animadas da cidade. </p>
 							<p><a href="hotel.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/rostov_on_don/restaurante.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Por conta da localização próxima ao rio Don e ao porto, a cidade oferece grande variedade de peixes e alimentos frescos. E esses três restaurante são exemplos clássicos dessa culinária:</p>
 							<p><a href="restaurante.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/rostov_on_don/comida2.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A comida russa não é apenas pelmeny e borsch, não. E não é assim tão sofisticada para o gosto dos estrangeiros. De fato, por ser um país multinacional, a Rússia, ao longo dos séculos, absorveu milhares de elementos gastronômicos de todo o mundo, tanto asiáticos como europeus. </p>
 							<p><a href="comidas.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/rostov_on_don/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/volgograd/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p> Em nossa pesquisa, não encontramos menção ao artesanato da cidade de Rostov On Don. Mas, na Rússia, há uma grande variedade de solvernis em oferta (Espécie de lembrancinhas). Souvernirs russas vêm em várias formas, as mais comuns são as bonecas russas.</p>
 							<p><a href="artesanato.php?cidade=rostov on don" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>

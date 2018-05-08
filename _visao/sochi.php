@@ -171,28 +171,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/história.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Os russos não tinham conhecimento detalhado da área até Barão Feodor Tornau investigar a rota costeira de Gelendzhik para Gagra, e através das montanhas para Kabarda, na década de 1830. Em 1838, o forte de Alexandria foi nomeado Navaginsky, um ano depois foi fundada na foz do rio Sochi como parte da linha costeira do Mar Negro... </p>
 						<p><a href="historia.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/estádio2.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Batizado em honra a um pico montanhoso na parte ocidental da cordilheira principal do Cáucaso, o Estádio de Fisht (ou estádio Olímpico de Fisht) foi construído em 2013 para os Jogos Olímpicos e Paraolímpicos de Inverno, em 2014, e posteriormente reformado para receber jogos de futebol. </p>
 							<p><a href="estadio.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/ponto.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Sochi é uma das cidades com clima mais ameno da Rússia, sendo um dos principais destinos de milhares de turistas durante as férias, já que as temperaturas, tanto no inverno quanto no verão, são agradáveis. A região onde ficará um dos estádios da Copa é rodeada com água tépida e altas montanhas nevadas. </p>
 							<p><a href="ponto_turistico.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/sochi/hotelresort.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A melhor região para ficar em Sochi é o centro, próximo ao porto. É ali que você vai encontrar a maior parte das principais atrações da cidade, como parques, museus, praias e construções históricas. Local de uma grande variedade de cafés, restaurantes, lojas e opções de hospedagem, que vão desde hostels até grandes hotéis 5 estrelas. </p>
 							<p><a href="hotel.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/sochi/restaurante.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A cidade de Sochi oferece grande variedade de restaurantes, sendo muitos deles specializados com a comida local. Confira aqui três dos melhores restaurantes de culinária russa de Sochi.</p>
 							<p><a href="restaurante.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/sochi/comidakhachapuri.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A culinária caucasiana não é propriamente um lugar para se visitar mas, sem sombra de dúvidas, é uma atração à parte! E não há melhor lugar para você experimentar suas delícias que não seja em Sochi.</p>
 							<p><a href="comidas.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/sochi/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/volgograd/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p> <p class="drop-cap">Em nossa pesquisa, não encontramos menção ao artesanato da cidade de Sochi. Mas, na Rússia, há uma grande variedade de solvernis em oferta (Espécie de lembrancinhas). Souvernirs russas vêm em várias formas, as mais comuns são as bonecas russas.</p></p>
 							<p><a href="artesanato.php?cidade=sochi" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
