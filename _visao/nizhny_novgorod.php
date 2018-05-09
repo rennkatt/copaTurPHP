@@ -181,18 +181,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/estadio.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p></p>
 							<p><a href="estadio.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/ponto_turistico.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Nizhny Novgorod se destaca por ser referência no mercado turístico da Rússia em geral e do Distrito Federal do Volga. Para conhecer, o visitante pode contar com infraestrutura de transportes, tais como estradas, porto fluvial, aeroporto e ferrovias.</p>
 							<p><a href="ponto_turistico.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/hoteis.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Nizhny Novgorod é um lugar onde todos encontram algo para o seu gosto. É um destino turístico, onde você não terá que ficar entediado. Aqui você pode visitar lugares de entretenimento como o Estádio de Nizhny Novgorod. Durante a sua viagem, visite lugares como a Torre Dmitrievskaya e a Praça de Minin e Pozharsky. É uma cidade com grande variedade de hotéis.</p>
 							<p><a href="hotel.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/restaurante.jpeg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Restaurantes em Nizhny Novgorod são diversificados, com deliciosos pratos, belo interior e excelente serviço para todo tipo de público, assim todos poderão escolher a opção ao seu gosto.</p>
 							<p><a href="restaurante.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/comida.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A culinária local absorveu as tradições de diferentes nacionalidades então, um dos pratos principais dos habitantes do norte da região é o Bolinhos de massa com cogumelos secos de Nizhny Novgorod</p>
 							<p><a href="comidas.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/nizhny_novgorod/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p></p>
 							<p><a href="artesanato.php?cidade=nizhny novgorod" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
