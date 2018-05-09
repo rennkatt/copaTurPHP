@@ -111,7 +111,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -236,12 +236,13 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                             <table width="100%" class="table table-striped table-bordered table-hover " id="dataTables-example">
                                 <thead>
                                     <tr>
-                                        <th width=20%>Imagem</th>
+                                        <th width=10%>Imagem</th>
                                         <th width=20% data-priority="1">Nome</th>
                                         <th width=20%>Sobrenome</th>
-                                        <th width=20%>Email</th>
-                                        <th width=10%>Nível</th>
+                                        <th width=25%>Email</th>
+                                        <th width=15%>Nível</th>
                                         <th width=10% data-priority="s">Ações</th>
+
                                     </tr>
                                 </thead>
                                 <tbody>

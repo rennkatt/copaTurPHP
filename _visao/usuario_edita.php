@@ -127,7 +127,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -248,7 +248,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
                     <h3 class="page-header" style="text-align: left;" >Editar Usuário - <?php echo $categotia;?>                   
                     </h3>
-                    <a href="usuarios_gerencia.php" class="tn btn-link" style="float: right;">VOLTAR</a>                            
+                    <a href="usuarios_gerencia.php" class="btn btn-primary" style="float: right;">VOLTAR</a>                            
                     
                     <!-- Altera aqui -->
                 </div>
@@ -271,7 +271,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         
                         <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Nome</label>
-				                  <input type="text" id="nome" value="<?php echo $nome;?>" name="nome" placeholder="TITULO" class="form-control">
+				                  <input type="text" id="nome" value="<?php echo $nome;?>" name="nome" placeholder="TITULO" class="form-control" required>
                         </div>
                         <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Sobrenome</label>
@@ -280,17 +280,17 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
                         <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Email</label>
-				                    <input type="text" class="form-control" id="email" value="<?php echo $email;?>" name="email">
+				                    <input type="email" class="form-control" id="email" value="<?php echo $email;?>" name="email" required>
                         </div>
 
                          <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Nova Senha</label>
-				                    <input type="password" class="form-control" id="senha" value="<?php echo $senha;?>" name="senha">
+				                    <input type="password" class="form-control" id="senha" value="<?php echo $senha;?>" name="senha" required>
                         </div>
                             
                         <div class="form-actions col-lg-12" style="margin-top: 50px">
-							<input type="submit" name="atualizar" class="btn btn-success" value="atualizar">
-							<a href="usuarios_gerencia.php?delete=<?php echo $id;?>" class="btn btn-danger" onClick="return confirm('Deseja realmente exluir o usuário?')">Excluir</a>
+							<input type="submit" name="atualizar" class="btn btn-success" value="ATUALIZAR">
+							
 						</div> <!-- altera aqui. -->
 
 						</div>

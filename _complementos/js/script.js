@@ -34,16 +34,6 @@ $('body').scrollspy({
 	
 });
 
-
-
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function () {
-    "use strict";
-    $('.navbar-toggle:visible').click();
-});
-    
-    
-    
     
     /*----------------------------------------------------*/
     /*	Css3 Transition

@@ -33,7 +33,7 @@
 							$result->execute();
 							$contar = $result->rowCount();
 							if($contar>0){
-								header('Refresh:0');
+								header("Location: ../_visao/usuarios_gerencia.php");
 								echo '<div class="alert alert-success">
 		                      <button type="button" class="close" data-dismiss="alert">×</button>
 		                      <strong>Sucesso!</strong> O usuario foi excluído.

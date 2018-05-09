@@ -98,14 +98,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                <ul class="nav navbar-nav navbar-right">
 	                    <li class="hidden">
-	                        <a href="#page-top"></a>
+	                        <a class="page-scroll" href="#home"></a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="index.php#home">Home</a>
@@ -1420,7 +1420,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <script  src="../_complementos/js/datepicker.js"></script>
 
 		<!--Custom JS-->
-		<script src="../_complementos/js/scri-pt.js"></script>
+		<script src="../_complementos/js/script.js"></script>
 		<script src="../_complementos/js/custom.js"></script>
     </body>
 </html>

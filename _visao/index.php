@@ -96,7 +96,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -225,7 +225,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 						  			<div class="col-md-6 padding-0">
 						  				<div class="filtr-item">
-											<a href="rostov_on_don.php"><img src="../_complementos/images/home/06.jpg" alt="portfolio image"/>
+											<a href="rostov_on_don.php"><img src="../_complementos/images/home/0
+												6.jpg" alt="portfolio image"/>
 												<div class="item-title">
 													<p>Rostov-on-Don</p>
 												</div> <!-- /.item-title-->
@@ -311,7 +312,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="dicount-offer-content text-center">
-							<h2>Quanto tempo falta para o início da Copa 2018?</h2>
+							<h2  class="animated2">Quanto tempo falta para o início da Copa 2018?</h2>
 							<div class="campaign-timer">
 								<div id="timer">
 									<div class="time time-after" id="days">
@@ -342,7 +343,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			<div class="container">
 				<div class="gallery-details">
 					<div class="gallary-header text-center">
-						<h2 class="animated2">
+						<h2  class="animated2">
 							Sobre Nós 
 						</h2>
 						<p>

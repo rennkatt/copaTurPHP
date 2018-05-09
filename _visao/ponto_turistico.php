@@ -99,7 +99,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -262,7 +262,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 
                                 <!-- .featured-image -->
                                 <div class="featured-image">
-                                    <img src="../_upload/postagens/<?php echo $imagem;?>" alt="blog-image">
+                                    <img src="../_upload/postagens/<?php echo $imagem;?>" alt="blog-image"><br>
                                     <cite>Fonte da imagem: <a href="http://<?php echo $fonte;?>" title="test link">Clique Aqui...</a></cite>
                                 </div>
                                 <!-- .featured-image -->

@@ -93,7 +93,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                </button>
-	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#page-top" href="index.html"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
+	                <div class="logo"><a class="navbar-brand page-scroll pad0" href="#"><img src="../_complementos/images/logo.png" alt=""></a></div><!-- /.logo-->
 	            </div>
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
@@ -192,7 +192,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image" style="background-image: url(../_complementos/images/cidades/moscow/ponto_turistico.jpeg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>A Catedral do Cristo Salvador é o mais importante templo de Moscou.<br><br><br><br><br><br><br><br></p>
+							<p>Olhando Moscou do alto, por satélite, veremos as três ‘Ring Roads’ bem definidas e, ao centro o contorno do Kremlin. Habitada por povo ‘fino-úgricos’, dois séculos antes de Cristo, a colina do rio Neglinnaya recebeu, no século XI, uma estrutura fortificada que fora destruída em 1237 pelos mongóis e reconstruída em 1339. Mas desde 1331 já era conhecida como Kremlin. </p>
 							<p><a href="ponto_turistico.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -203,7 +203,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/hotel.jpeg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Hotel Baltschug Kempinski <br><br><br><br><br><br><br><br></p>
+							<p>O mundo volta os olhos à Rússia. Além de estádios modernos com tecnologia de ponta, a ‘Fifa World Cup - Russia 2018’ escolheu a dedo cidades capazes de encantar a todos com suas belezas e mistérios e Moscou com sua grandiosidade é o palco central desta festa. </p>
 							<p><a href="hotel.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -211,7 +211,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/moscow/restaurante.jpeg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Restaurante White Rabbit<br><br><br><br><br><br><br><br></p>
+							<p>Por ser uma megalópole, Moscou conta com inúmeras opções de comida, sejam típicas da Rússia ou até mesmo de outras nacionalidades. Confira três dos melhores restaurantes de culinária russa em Moscou:</p>
 							<p><a href="restaurante.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -230,7 +230,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						<div class="image " style="background-image: url(../_complementos/images/cidades/moscow/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Matrioskas<br><br><br><br><br><br><br><br></p>
+							<p>As ‘Matrioskas’ reinam absolutas em Moscou. Elas estão por todos os lados: dos camelôs da Praça Vermelha aos luxuosos quiosques nos shoppings da cidade. Mas é em uma feira de artesanato que as bonecas ganham suas mais variadas formas e estilos.</p>
 							<p><a href="artesanato.php?cidade=moscow" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>

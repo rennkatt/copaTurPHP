@@ -20,7 +20,7 @@
                       <strong>Operação realizada com sucesso!</strong> 
                  	  </div> ';
 
-                header("Location: ../_visao/index.php"); 	 
+                header("Location: ../_visao/home.php?link=2"); 	 
                  
 			} else {
 				header("Location: ../_visao/home.php?link=2&erro_cod=1&erro_msg=". $msg_retorno );
