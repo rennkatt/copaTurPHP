@@ -264,7 +264,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                         </div>
                         <div class=" col-lg-12 pad10 hidden">
                             <label class="control-label" for="categoria">Categoria</label>
-				            <input type="text" class="form-control" id="categoria" value="historia" name="categoria">
+				            <input type="text" class="form-control" id="categoria" value="comidas" name="categoria">
 				            			<!-- value = aqui muda a categoria... -->
                         </div>
 

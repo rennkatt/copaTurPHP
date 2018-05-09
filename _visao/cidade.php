@@ -515,7 +515,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <p><img src="../_upload/extras/pontosaransk2.jpg" alt="blog-image">
                                     <br><cite>Catedral de St. Theodore Ushakov. Fonte: <a target="_blank" href="http://welcome2018.com/es/cities/saransk/the-picturesque-saransk/">walcome2018</a></cite></p> 
 
-                                    <p class="drop-cap"> Dividida em oito distritos, a cidade de Rostov-do-Don está localizada em uma província de mesmo nome ao Sul da Rússia. É lá onde o Brasil irá fazer sua estreia na Copa do Mundo de 2018, no dia 17 de junho, contra a Suíça. A partida irá acontecer mais precisamente na Arena Rostov, um dos estádios que foi construída especialmente para receber o maior evento de futebol mundial. Próxima ao rio Don, a Arena Rostov será a nova casa do Rostov FC depois do evento. </p><p>Em junho de 2013, durante as escavações para a construção do estádio, cinco cartuchos da Segunda Guerra Mundial foram encontrados, quase perfeitamente preservadas. Concluído em dezembro de 2017 a um custo de R$ 1,488 bilhão, tem capacidade para 45.145 torcedores. Além de receber quatro jogos da fase de grupos, vai receber uma partida das oitavas de final.</p>
+                                    <p class="drop-cap"> Kulebjaka é uma torta deliciosa culinária típica da tradição russa cheia de peixe (geralmente salmão ou, às vezes, com esturjão) ou vários tipos de carne (ou, às vezes, mesmo de plantas) que podem ser servidos como aperitivo para um jantar elegante, ou abertura, mais maciça em tamanho, como uma refeição precisa para deliciar o seu paladar. Um pedaço de pão que pode proporcionar, juntamente com a carne, (que, pela forma são separadas por camadas de frita fresco destinadas a evitar que a mistura), outros ingredientes saborosos tais como o arroz, os ovos cozidos, cogumelos e temperada com limão e dill, que contribuem para dar a Coulibiac (Koulebiak também soletrado) um sabor perfumado e irresistível. Assado em um escudo massa folhada, este prato forte da Rússia pode conter variações nos ingredientes que mudam dependendo de gostos pessoais. Muito popular na Rússia no início do século XX, a receita original de Coulibiac, (que vem do outro do campo), envolveu o uso de arroz só ou só legumes envoltos em massa folhada e, portanto, era originalmente um prato camponês, que é gradualmente enriquecido com a adição de ingredientes tal como o salmão. Hoje é um prato perfeito para ser apreciado ao jantar em casa com amigos ou em qualquer outro momento.</p>
+
+                                    <p><strong>Capacidade: </strong>44.807 pessoas
+                                    	<br><strong>Custo: </strong>R$ 1.443 bilhão</p>
 
                                     <h2>Jogos:</h2>
 
@@ -526,72 +529,72 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 											<ul id="jogos">
 												
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>20 de junho de 2018, 12h &gt;</strong> Rostov</div>
-													<div class="confronto">
-														<div class="equipeE">
-															<div class="bandeira bandeira-UY"></div>
-															<span class="nomePais">Uruguai</span>
-															<span class="siglaPais">URU</span>
-														</div>
-														<div class="versus">X</div>
-														<div class="equipeD">
-															<div class="bandeira bandeira-SA"></div>
-															<span class="nomePais">A. Saudita</span>
-															<span class="siglaPais">ARA</span>
-														</div>
+													<div class="dataLocal"><strong>25 de junho de 2018, 11h &gt;</strong> Samara</div>
+												<div class="confronto">
+													<div class="equipeE">
+														<div class="bandeira bandeira-UY"></div>
+														<span class="nomePais">Uruguai</span>
+														<span class="siglaPais">URU</span>
 													</div>
+													<div class="versus">X</div>
+													<div class="equipeD">
+														<div class="bandeira bandeira-RU"></div>
+														<span class="nomePais">Rússia</span>
+														<span class="siglaPais">RUS</span>
+													</div>
+												</div>
 													
 												</li>
 																			
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>26 de junho de 2018, 15h &gt;</strong> Rostov</div>
+													<div class="dataLocal"><strong>21 de junho de 2018, 12h &gt;</strong> Samara</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-IS"></div>
-															<span class="nomePais">Islândia</span>
-															<span class="siglaPais">ISL</span>
+															<div class="bandeira bandeira-DK"></div>
+															<span class="nomePais">Dinamarca</span>
+															<span class="siglaPais">DIN</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-HR"></div>
-															<span class="nomePais">Croácia</span>
-															<span class="siglaPais">CRO</span>
+															<div class="bandeira bandeira-AU"></div>
+															<span class="nomePais">Austrália</span>
+															<span class="siglaPais">AUS</span>
 														</div>
 													</div>
 												
 												</li>
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>17 de junho de 2018, 15h &gt;</strong> Rostov</div>
+													<div class="dataLocal"><strong>17 de junho de 2018, 9h &gt;</strong> Samara</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-BR"></div>
-															<span class="nomePais">Brasil</span>
-															<span class="siglaPais">BRA</span>
+															<div class="bandeira bandeira-CR"></div>
+															<span class="nomePais">Costa Rica</span>
+															<span class="siglaPais">CRC</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-CH"></div>
-															<span class="nomePais">Suíça</span>
-															<span class="siglaPais">SUI</span>
+															<div class="bandeira bandeira-RS"></div>
+															<span class="nomePais">Sérvia</span>
+															<span class="siglaPais">SER</span>
 														</div>
 													</div>
 												</li>
 												
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>23 de junho de 2018, 15h &gt;</strong> Rostov</div>
+													<div class="dataLocal"><strong>28 de junho de 2018, 11h &gt;</strong> Samara</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-KR"></div>
-															<span class="nomePais">Coreia do Sul</span>
-															<span class="siglaPais">COR</span>
+															<div class="bandeira bandeira-SN"></div>
+															<span class="nomePais">Senegal</span>
+															<span class="siglaPais">SEN</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-MX"></div>
-															<span class="nomePais">México</span>
-															<span class="siglaPais">MEX</span>
+															<div class="bandeira bandeira-CO"></div>
+															<span class="nomePais">Colômbia</span>
+															<span class="siglaPais">COL</span>
 														</div>
 													</div>
 												</li>
@@ -604,6 +607,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <h2>Outros Jogos</h2>
 
                                     <p><strong>02 de julho - Oitavas de final </p>
+                                    <p><strong>07 de julho - Quartas de final </p>
 
                                     <h2>Clube da cidade</h2>
 
