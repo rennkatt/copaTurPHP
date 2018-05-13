@@ -227,7 +227,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/volgograd/artesanato.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/sochi/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
 							<p> <p class="drop-cap">Em nossa pesquisa, não encontramos menção ao artesanato da cidade de Sochi. Mas, na Rússia, há uma grande variedade de solvernis em oferta (Espécie de lembrancinhas). Souvernirs russas vêm em várias formas, as mais comuns são as bonecas russas.</p></p>
