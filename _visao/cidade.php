@@ -215,39 +215,71 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <!-- .entry-content -->
                                 <div class="entry-content">
                                     
-                                    <p class="drop-cap">Rostov-on-Don, fundada em 1749, é uma cidade portuária e centro administrativo do Oblast de Rostov e do Distrito Federal do Sul da Rússia. Encontra-se na parte sudeste da Planície do Leste Europeu no rio Don, 32 quilômetros do Mar de Azov. Os subúrbios do sudoeste da cidade confinam com o delta do rio Don. A população é pouco mais de um milhão de pessoas com números recentes registrados como: 1.089.261 (Censo de 2010). Não confundi com Rostov Veliki ou Rostov Grande, que são outros municípios da Rússia. </p>
+                                    <p class="drop-cap">Havia uma casa e ela foi subjugada e foi dito que ela não possuía significado histórico suficiente para se manter. No entanto, apesar dessa ação, os peregrinos continuavam chegando, muitas vezes em segredo e à noite, deixando sinais de recordação no terreno baldio e ali foi construída a “Igreja do Sangue” em Honra a Todos os Santos Resplandecentes na Terra Russa. Nas primeiras horas da manhã de 17 de julho de 1918, o Czar deposto e aqui exilado após a revolução de outubro de 1917, Nicolau II, foi executado junto a todos os seus familiares pelos bolcheviques que acreditavam que as Legiões Brancas estavam se aproximando de Yekaterinburg em uma missão para libertá-los. Embora tarde, em menos de uma semana a cidade foi capturada. Era a Casa Ipatiev, a que seria chamada de "A Casa de Propósito Específico" - Em 1977, a Casa Ipatiev foi demolida por ordem de Boris Yeltsin, para evitar que ela fosse usada como local de reunião dos monarquistas. Yeltsin mais tarde se tornou o primeiro presidente da Rússia e representou o povo no funeral do ex-czar em 1998.</p>
 
-                                    <p>Desde os tempos antigos, a área ao redor da foz do rio Don tem tido importância cultural e comercial. Os antigos habitantes indígenas incluíam as tribos Citas, Sarmat e Savromat. Foi o local de Tanais, uma antiga colônia grega, Fort Tana, sob os genoveses e Fort Azak na época do Império Otomano. Em 1749, uma alfândega foi estabelecida no rio Temernik, um afluente do Don, por decreto da imperatriz Elizabeth, a filha de Pedro, o Grande, a fim de controlar o comércio com a Turquia. No final do século XVIII, com a incorporação de territórios e mares otomanos ao Império Russo, o assentamento perdeu muito de sua importância estratégica militar como posto de fronteira. Em 1806, foi oficialmente nomeado Rostov-on-Don. Durante o século XIX, devido às suas conexões fluviais com o interior da Rússia, Rostov se transformou em um importante centro comercial e centro de comunicações. A conexão ferroviária com Kharkiv foi concluída em 1870, com mais ligações seguintes em 1871 a Voronezh e em 1875 a Vladikavkaz.</p>
+                                    <p>Yekaterinburg foi fundada em 18 de novembro de 1723 e recebeu seu nome em homenagem a esposa do imperador russo Pedro o Grande, Yekaterina, que mais tarde se tornou imperatriz reinante Catarina I. Projeta pelo engenheiro Georg Wilhelm de Gennin para ser uma cidade industrial, cercada por muros fortificados, de modo que ao mesmo tempo era tanto um centro de fabricação como uma fortaleza na fronteira entre a Europa e Ásia, sendo, portanto o coração da estratégia da Rússia para o desenvolvimento de toda a Região dos Urais. A chamada rodovia siberiana se tornou operacional em 1763 e colocou a cidade em uma rota de trânsito cada vez mais importante, o que levou ao seu desenvolvimento como um foco de comércio entre leste e oeste. Em 1781, a imperatriz Catarina, a Grande, nomeou a cidade como o centro administrativo da região.</p>
 
-                                    <p>Durante a Guerra Civil Russa, os Brancos e os Reds disputaram Rostov-on-Don, então a cidade mais fortemente industrializada do sul da Rússia. Em 1928, o governo regional havia se mudado da antiga capital cossaca de Novocherkassk para Rostov-on-Don. Nos anos soviéticos, os bolcheviques demoliram dois dos principais marcos históricos de Rostov-on-Don: A Catedral de Santo Alexandre Nevsky (1908) e a Catedral de St. George (1783-1807).</p>
+                                    <p>Renomeada de Sverdlovsk em 1924 em homenagem a um dos principais protagonistas da Revolução de Outubro, junto a Lenine, Iankel Movchevitch Sverdlov. Tornando-se um local estratégico para o desenvolvimento do governo soviético como um centro da indústria pesada, local escolhido para a construção do famoso Uralmash. Durante a Segunda Guerra Mundial, muitas instituições técnicas estatais e fábricas inteiras foram transferidas para Sverdlovsk de cidades afetadas pela guerra (principalmente Moscou), com muitos deles permanecendo após a vitória. As coleções do Museu Hermitage também foram parcialmente evacuadas de Leningrado para Sverdlovsk em julho de 1941 e lá permaneceram até outubro de 1945.</p>
 
-                                    <p>Durante a Segunda Guerra Mundial, as forças alemãs ocuparam Rostov-on-Don, a princípio por sete dias, a partir de 21 de novembro de 1941, após ataques do primeiro Exército Panzer alemão na Batalha de Rostov e depois por sete meses, de 24 de julho de 1942 a 14 de fevereiro de 1943. 27.000 judeus e civis soviéticos foram massacrados pelos militares alemães em 11 e 12 de agosto de 1942, em Rostov-on-Don, em um local chamado Zmievskaya Balka A cidade era de importância estratégica com um entroncamento ferroviário e um porto fluvial com acesso ao Cáucaso, uma região rica em petróleo e minerais. Demorou dez anos para restaurar a cidade dos danos sofridos na Segunda Guerra Mundial.</p>
+                                    <p>Sverdlovsk foi palco de um dos momentos mais tensos durante a guerra Fria entre a Rússia e Estados Unidos: Em 1 de maio de 1960, um avião espião americano U-2, pilotado por Francis Gary Powers, sob o emprego da CIA, foi abatido sobre o Oblast de Sverdlovsk. Ele foi capturado, levado a julgamento, considerado culpado de espionagem e condenado a sete anos de trabalhos forçados. Em menos de um ano foi trocado por Rudolf Abel, um espião de alto escalão da KGB, que havia sido preso nos Estados Unidos em 1957.</p>
 
-                                   
+                                    <p>Durante a tentativa de golpe de 1991, Sverdlovsk, a cidade natal do presidente Boris Yeltsin, foi escolhida por ele como uma capital reserva temporária para a Federação Russa, no caso de Moscou se tornar perigosa demais para o governo russo. Yeltsin gozava de forte apoio popular na época. Pouco depois do fracasso do golpe e da subsequente dissolução da União Soviética, em 4 de setembro de 1991 a cidade recuperou seu nome histórico de Yekaterinburg. Entretanto, Sverdlovsk Oblast, do qual Yekaterinburg é o centro administrativo, manteve seu nome.</p>
+
+                                      
                                     <h2>Como chegar:</h2>
-                                   	<p><strong>De avião:</strong> Um voo de Moscou para Rostov-on- Don tem duração média de 1h50 e custa cerca de R$500. Há voos regulares que saem dos aeroportos de Domodedovo, Vnukovo e Sheremetyevo. 
-                                   	<br><strong>De trem:</strong> Há trens que saem da estação Estação Kazansky, em Moscou, diariamente. O tempo de viagem é de aproximadamente 16 horas. 
-                                   	<br><strong>De carro:</strong> Os ônibus de Moscou para Rostov-on-Don podem ser encontrados na estação de ônibus Orekhovo ou na estação de metrô Komsomolskaya. A viagem dura aproximadamente 17 horas. Caso vá com o seu próprio carro, é possível realizar o percurso em 14 horas.</p>
+                                   	<p><strong>De avião:</strong> Por dia chegam cerca de 20 aviões vindos apenas de Moscou no aeroporto de Yekaterinburg. Não faltam opções de horário para voss vindo de todo o país. Da capital do país para a cidade, a viagem demora pouco mais de duas horas sem escala e quatro horas com uma parada. As passagens não são caras e custam por volta de R$300 em baixa temporada. 
+                                   	<br><strong>De trem:</strong> A estação de trem de Ecaterimburgo recebe cerca de 10 trens vindo de Moscou por dia. A viagem é bem longa e demora cerca de um dia e três horas para ser realizada. 
                                    
                                     <p>Leia Mais em: <a target="_blank" href="https://br.sputniknews.com/rostov-on-don-worldcup-2018/201711119814469-rostov-don-comida-bebida-foto-curiosidades-copa/ ">sputniknews.com</a></p>
 
                                     
 
                                     
-                                    <p class="drop-cap">A principal atração turística de Kazan é o seu <strong>Kremlin</strong>, construído entre os séculos X e XIV, e concluído durante o reinado de Ivan, o Terrível. Diferentemente dos históricos Kremlins de Moscou e de Níjni Novgorod, o de Kazan é branco e a sua beleza não está nas tradicionais igrejas ortodoxas, mas em uma magnífica mesquita, a Mesquita Kul Sharif. </p>
+                                    <p class="drop-cap">Em Yekaterinburg, pode-se encontrar diversos programas diferentes, como peças de teatro, balés, museus, igrejas e monumentos turísticos. Além disso, o local é conhecido pelas suas universidades e pelas bibliotecas que elas possuem.</p>
 
-                                    <p><img src="../_upload/extras/pontokazan1.jpg" alt="blog-image">
-                                    <br><cite>Kremlin de Kazan durante o dia. Foto: <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Казанский_кремль._Панорама_с_колеса_обозрения.jpg">@wikipedia</a></cite></p>
+                                    <h2>Igreja do Sangue</h2>
 
-                                    <p><img src="../_upload/extras/pontokazan2.jpg" alt="blog-image">
-                                    <br><cite>Kremlin de Kazan durante a noite. Foto: <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Казанский_кремль_в_вечернее_время.jpg">@wikipedia</a></cite></p>
+                                    <p><img src="../_upload/extras/pontoYeka.jpg" alt="blog-image">
+                                    <br><cite>Igreja do Sangue. Foto: <a target="_blank" href="http://www.goingrussia.com/portfolio-item/yekaterinburg/?lang=yekaterinburg&lang=fr">@goingrussia</a></cite></p>
 
-                                    <h2>Mesquita Kul Sharif</h2>
+                                    <p>Ela uma das maiores igrejas da Rússia. Foi constuida no local onde os membros da família imperial russa e vários de seus atendentes foram baleados pelos bolcheviques em julho de 1918, durante a guerra civil. O prédio onde ocorreu a execução, Ipatyev House, foi demolido em 1977. A igreja foi aberta no início dos anos 2000. O design fez uso da planta da casa de Ipatyev. Hoje, ela abriga uma exposição dedicada aos eventos de 1918 e organiza exposições de arte.</p>
 
-                                    <p>A cultura muçulmana é muito forte em Kazan. A mesquita da cidade é uma das mais emblemáticas construções da Rússia, graças a sua arquitetura única. Ela foi destruída na invasão das tropas de Ivan, o Terrível, em 1552, quando a região foi anexada aos domínios russos. Em 1996, foi reconstruída. Seu interior é belíssimo, com lustres, vitrais, pinturas e cores impressionantes. No subsolo, um pequeno museu explica algumas curiosidades do lugar.</p>
+                                    <h2>Galeria Ural Vision</h2>
+
+                                    <p><img src="../_upload/extras/pontoyeka1.jpg" alt="blog-image">
+                                    <br><cite>Galeria Ural Vision. Foto: <a target="_blank" href="https://media-cdn.tripadvisor.com/media/photo-w/05/61/44/a8/getlstd-property-photo.jpg">@tripadvisor</a></cite></p>
+
+                                    <p>O local é voltado para a exibição de arte moderna. Localizada no coração de Ecaterinburgo, foi inaugurado em dezembro de 2012 pelos colecionadores Alla e Viktor Loshchenko. A galeria exibe apenas duas ou três exposições por ano. Mesmo voltado para artistas consagrados, alguns em início de carreira também usam esta galeria para exibir seus trabalhos, com algumas peças para venda.</p>
+
+                                    <h2>Museu de ícones Nevyansk</h2>
+
+                                    <p><img src="../_upload/extras/pontoyeka12.jpg" alt="blog-image">
+                                    <br><cite>Museu de ícones Nevyansk. Foto: <a target="_blank" href="https://media-cdn.tripadvisor.com/media/photo-w/05/b1/a6/74/caption.jpg">@tripadvisor</a></cite></p>
+
+                                    <p>O prefeito de Ekaterinburg, Yevgeny Roizman, reune artigos antigos e arte russa nesse museu. Os ícones Nevyansk ocupam a maior parte de sua coleção. Este é um tipo especial de itens, que apareceran no início do século XVIII. Eles são diferentes pela excelente qualidade da madeira, usada para dar uma quantidade de detalhes nas obras.Mais de 300 ícones são exibidos para os visitantes, nele que é o primeiro museu privado de artes da Rússia. Todas essas obras foram encontradas em Ecaterinburgo, Nevyansk, Nizhny Tagil e outras cidades da região dos Urais.</p>
+
+                                     <h2>Museu de Belas Artes de Yekaterinburg</h2>
+
+                                    <p><img src="../_upload/extras/pontoyeka2.jpg" alt="blog-image">
+                                    <br><cite>Museu de Belas Artes de Yekaterinburg. Foto: <a target="_blank" href="https://www.codart.nl/guide/museums/ekaterinburg-museum-of-fine-arts/">@codart</a></cite></p>
+
+                                    <p>Ele foi criado em 1936. Hoje em dia, tem dois ramos. Um está localizado no edifício reconstruído do hospital da fábrica ferroviária local e o outro na antiga casa do comerciante Bardygin. O museu possui coleções de artes da Europa Ocidental dos séculos XIV-XIX, e russas do século XVII até o início do século XX. A obra-prima do local é o pavilhão de ferro fundido de Kasli, que foi feito para a Exposição Internacional em Paris em 1900 e que está na lista da UNESCO de monumentos históricos e culturais. O museu oferece para os visitantes, além das exposições, aulas sobre diversos tipos de arte, noites musicais, concertos, palestras, passeios com autores consagrados de grandes obras e reuniões para debate de apreciadores artísticos.</p>
+
+                                    <h2>Teatro de Balé do Estado de Yekaterinburg</h2>
+
+                                    <p><img src="../_upload/extras/pontoyeka3.jpg" alt="blog-image">
+                                    <br><cite>Teatro de Balé do Estado de Yekaterinburg. Foto: <a target="_blank" href="http://welcome2018.com/es/places/ekaterinburg/1479767/">@welcome2018</a></cite></p>
+
+                                    <p>A história do teatro remonta à década de 1870, quando as empresas de ópera de Moscou eram muito populares e faziam shows grandiosos para a elite do país. Os conhecedores das artes locais conseguiram persuadir as autoridades locais a construir um teatro. A construção do local foi finalizado em 1912, mas sua inauguração foi apenas em 1914 com um espetáculo da ópera de Mikhail Glinka A Life for the Tsar. O teatro recebe os maiores maestros do país com uma boa frenquência. O lendário tenor Ivan Kozlovsky começou sua carreira aqui, o maestro Ariy Pazovsky, o diretor de ópera Alexander Titel, a artista Galina Gorchakova e muitos outros trabalharam no lugar. O local é famoso por performances baseadas em peças clássicas e versões de encenações e músicas modernas. O repertório inclui a ópera Satyagraha em sânscrito, música do minimalista americano Philip Glass, ou o balé de Romeu e Julieta encenado por Vyacheslav Samodurov, vencedor do prêmio Golden Mask.</p>
+
+
+                                  
+
 
                                     <p><img src="../_upload/extras/pontokazan3.jpg" alt="blog-image">
                                     <br><cite>Mesquita Kul Sharif. Foto: <a target="_blank" href="https://bloghoteis.com/kazan-jogos-2018/">@bloghoteis</a></cite></p>
+
+
 
                                     <h2>Soyembike</h2>
 
@@ -339,17 +371,51 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 									<h2>Hotel Saransk</h2>
 
-                                    <p class="drop-cap">A comida russa não é apenas pelmeny e borsch, não. E não é assim tão sofisticada para o gosto dos estrangeiros. De fato, por ser um país multinacional, a Rússia, ao longo dos séculos, absorveu milhares de elementos gastronômicos de todo o mundo, tanto asiáticos como europeus. Como exemplo, no restaurante emblemático Pauling que se situa em pleno centro de Rostov, se pode provar desde pratos tradicionais com traços modernos, até à cozinha fusion. Sobretudo, vale ressaltar que na região do Don a alimentação se destaca especialmente pela variedade de pratos de peixe, evidentemente devido à sua situação geográfica. Rostov-on-Dom é a Cidade dos Cinco Mares - Azov, Negro, Cáspio, Báltico e Branco.  Aqui, a gente pode provar as cotletas (bolinhos) de lúcio com molho de queijo, batatinhas crocantes e salada, ou uma versão da sopa borsch russa, mas com rosbife delicadíssimo.</p><p><strong>Cotletas:</strong> Prato tradicional e amado em toda a Rússia, feitos de carne moída. Veio da Europa para a Rússia e inicialmente era uma fatia de carne frita com uma fita de osso, mas depois tornou-se um hambúrguer de carne moído e temperado, coberto com migalhas de pão e frito. Desde o século XIX foi tão popular que inclusive Alexander Pushkin, o génio da poesia russa, mencionou cotletas em seu poema imortal “Eugene Onegin”, em uma descrição de um banquete de festa. Mas aqui em Rostov-on-Don, além das tradicionais, são encontradas Cotletas preparadas com peixe e, servidas com delicioso molho de queijo.  </p>
+                                    <p class="drop-cap">Rica em tradições, a cidade dos Urais de Yekaterinburg é uma cidade com uma riqueza de interesse histórico e um passado fascinante, tornando-se um local ideal para comprar algumas lembranças para amigos e familiares durante a sua visita. Uma boa caçada pela cidade revelará uma grande variedade de lembranças para qualquer gosto.</p>
 
-                                    <p>Leia Mais em: <a target="_blank" href="http://www.recipestudio.com/2010/06/classic-russian-cotleta-cotelette.html">recipestudio.com</a></p>
+                                    <p>Existem apenas 3.000 tipos de minerais no mundo, e quase 1.000 deles podem ser encontrados nos Urais. Por esta razão, os produtos feitos a partir de pedras naturais, pedras semipreciosas e minerais representam a atividade principal dos urais e o número um em sua lista de lembranças distintas.</p>
+
+                                    <p>Leia mais em: <a target="_blank" href="http://www.russia-direct.org/travel/yekaterinburg-souvenirs-what-take-back-urals-business-trip"></a>russia-direct.org</p>
+
+                                                                        
+                                    <h3>Moi Drug Olive</h3>
+
+                                    <p><img src="../_upload/extras/restauranteyeka.jpg" alt="blog-image">
+                                    <br><cite>Moi Drug Olive. Fonte: <a target="_blank" href="https://www.tripadvisor.com.br/Restaurant_Review-g298540-d6983575-Reviews-Moi_Drug_Olive-Yekaterinburg_Sverdlovsk_Oblast_Urals_District.html#photos;geo=298540&detail=6983575&aggregationId=101n">@tripadvisor</a></cite></p>
 
 
-                                    <h3>Smetana</h3>
-                                    <p>Ambiente acolhedor e deslocado, é uma boa opção para o almoço. Recomenda-se o pelmeni, visivelmente parecido com o capeletti, é um bolinho de massa fina recheado com carne e claro, no estilo russo. Outra pedida é o vareniki, uma massa similar ao ravioli, que possui diversos tipos de recheios. Ambos são alguns dos pratos favoritos de russos e ucranianos. No almoço, o preço médio chega a ser de 250 rublos russos. </p>
+                                    <p>O restaurante parece uma casa simples, mas com uma comida deciliosa. Aberta desde o café da manhã, o local oferece diferentes paratos para todas as refeições e lanches. Lá pode-se encontrar pães para o café da manhã, risotos, pratos com carnes elaboradas e peixes deliciosos. No entanto, as porções são pequenas, mas todas tem um bom custo-benefício.</p>
 
-                                     <p><strong>Endereço:</strong> Bolshaya Sadovaya St., 80, Rostov-on-Don 
-                                    <br><strong>Telefone: </strong> +7 863 244-16-11
-                                    <br><strong>Site: </strong><a target="_blank" href="https://smetana.gidm.ru/">smetana.ru</a></p>
+                                     <p><strong>Endereço:</strong> Bankovskiy ln, 10, Ecaterimburgo 620014, Rússia
+                                    <br><strong>Telefone: </strong> +7 343 376-34-34
+                                    <br><strong>Site: </strong><a target="_blank" href="https://www.myfriendolivier.ru/?utm_source=tripadvisor&utm_medium=referral">myfriendolivier.ru</a></p>
+
+                                    <h3>Panorama ASP</h3>
+
+                                    <p><img src="../_upload/extras/restauranteyeka1.jpg" alt="blog-image">
+                                    <br><cite>Panorama ASP. Fonte: <a target="_blank" href="http://www.visotsky-e.ru/ru/restorany/restoran-panorama-a-s-p.html">@visotsk-e.ru</a></cite></p>
+
+
+                                    <p>Este restaurante é um banquete por conta própria. Não é fácil conseguir terminar uma porção individual. Um dos destaques do local é a vista ampla e limpa que tem de toda a cidade. Ela é considerada uma das mais bonitas de Yekaterinburg. Isso se dá porque o restaurante fica no 50º andar da torre do Centro Corporativo Vysotsky. Lá, pode-se ver o rio, os subúrbios e toda a cidade. A comida servida é uma mistura da culinária russa, do leste europeu e asiática. Ele é a melhor indicação para um jantar em família. O lugar é muito visado, por isso é aconselhável fazer uma reserva com uma semana de antecedência.</p>
+
+                                     <p><strong>Endereço:</strong> Malysheva St., 51 | 50th Floor, Ecaterimburgo 620075, Rússia
+                                    <br><strong>Telefone: </strong> +7 343 298-98-88
+                                    <br><strong>Site: </strong><a target="_blank" href="https://ekaterinburg.regency.hyatt.com/en/hotel/home.html ">ekaterinburg.regency.hyatt.com</a></p>
+
+                                    <h3>Hmeli Suneli</h3>
+
+                                    <p><img src="../_upload/extras/restauranteyeka2.jpg" alt="blog-image">
+                                    <br><cite>Hmeli Suneli. Fonte: <a target="_blank" href="https://www.inyourpocket.com/yekaterinburg/khmeli-suneli_154109v">@inyourpocket.com</a></cite></p>
+
+
+                                    <p>Este restaurante é considerado o melhor da cozinha georgiana fora do país. O local é uma casa hospitaleira antiga e espaçosa onde os clientes podem se deliciar com especiarias e pratos típicos. A comida vem em porções generosas, incluindo vários tipos de khachapuri e khinkali, suluguni, kharcho, satsivi, chakapuli entre outros. Para beber, vinhos georgianos ou chacha podem ser servidos. Nos finais de semana, o local oferece aulas de culinária georgianas. O restaurante também tem um menu exclusivo para as crianças com sopa de frango com almôndegas, kebab e batatas fritas.</p>
+
+                                     <p><strong>Endereço:</strong> Lenina St., 69/10, Ecaterimburgo 620075, Rússia
+                                    <br><strong>Telefone: </strong> +7 343 350-63-18
+                                    <br><strong>Site: </strong><a target="_blank" href="http://www.hmeli.ru">hmeli.ru</a></p>
+
+
+
 
                                     <h3>Onegin Dacha</h3> 
 
@@ -515,9 +581,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                     <p><img src="../_upload/extras/pontosaransk2.jpg" alt="blog-image">
                                     <br><cite>Catedral de St. Theodore Ushakov. Fonte: <a target="_blank" href="http://welcome2018.com/es/cities/saransk/the-picturesque-saransk/">walcome2018</a></cite></p> 
 
-                                    <p class="drop-cap"> Kulebjaka é uma torta deliciosa culinária típica da tradição russa cheia de peixe (geralmente salmão ou, às vezes, com esturjão) ou vários tipos de carne (ou, às vezes, mesmo de plantas) que podem ser servidos como aperitivo para um jantar elegante, ou abertura, mais maciça em tamanho, como uma refeição precisa para deliciar o seu paladar. Um pedaço de pão que pode proporcionar, juntamente com a carne, (que, pela forma são separadas por camadas de frita fresco destinadas a evitar que a mistura), outros ingredientes saborosos tais como o arroz, os ovos cozidos, cogumelos e temperada com limão e dill, que contribuem para dar a Coulibiac (Koulebiak também soletrado) um sabor perfumado e irresistível. Assado em um escudo massa folhada, este prato forte da Rússia pode conter variações nos ingredientes que mudam dependendo de gostos pessoais. Muito popular na Rússia no início do século XX, a receita original de Coulibiac, (que vem do outro do campo), envolveu o uso de arroz só ou só legumes envoltos em massa folhada e, portanto, era originalmente um prato camponês, que é gradualmente enriquecido com a adição de ingredientes tal como o salmão. Hoje é um prato perfeito para ser apreciado ao jantar em casa com amigos ou em qualquer outro momento.</p>
+                                    <p class="drop-cap"> A Ekaterinburg Arena foi construída em 1953, mas foi totalmente reformada para sediar a Copa do Mundo. A fachada histórica foi mantida, mas o local foi todo remodelado e melhorado a um custo de R$ 742 milhões. O teto instalado é apenas para a competição, e será removido após o Mundial. O estádio terá capacidade para 44 mil pessoas, mas será reduzida para 25 mil após o torneio. Ele irá receber apenas quatro jogos da fase de grupos.</p>
 
-                                    <p><strong>Capacidade: </strong>44.807 pessoas
+                                    <p><strong>Capacidade: </strong>35.696 pessoas
                                     	<br><strong>Custo: </strong>R$ 1.443 bilhão</p>
 
                                     <h2>Jogos:</h2>
@@ -529,72 +595,70 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 											<ul id="jogos">
 												
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>25 de junho de 2018, 11h &gt;</strong> Samara</div>
-												<div class="confronto">
-													<div class="equipeE">
-														<div class="bandeira bandeira-UY"></div>
-														<span class="nomePais">Uruguai</span>
-														<span class="siglaPais">URU</span>
+													<div class="dataLocal"><strong>15 de junho de 2018, 9h &gt;</strong> Ecaterimburgo</div>
+													<div class="confronto">
+														<div class="equipeE">
+															<div class="bandeira bandeira-EG"></div>
+															<span class="nomePais">Egito</span>
+															<span class="siglaPais">EGI</span>
+														</div>
+														<div class="versus">X</div>
+														<div class="equipeD">
+															<div class="bandeira bandeira-UY"></div>
+															<span class="nomePais">Uruguai</span>
+															<span class="siglaPais">URU</span>
+														</div>
 													</div>
-													<div class="versus">X</div>
-													<div class="equipeD">
-														<div class="bandeira bandeira-RU"></div>
-														<span class="nomePais">Rússia</span>
-														<span class="siglaPais">RUS</span>
-													</div>
-												</div>
-													
 												</li>
 																			
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>21 de junho de 2018, 12h &gt;</strong> Samara</div>
+													<div class="dataLocal"><strong>21 de junho de 2018, 9h &gt;</strong> Ecaterimburgo</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-DK"></div>
-															<span class="nomePais">Dinamarca</span>
-															<span class="siglaPais">DIN</span>
+															<div class="bandeira bandeira-FR"></div>
+															<span class="nomePais">França</span>
+															<span class="siglaPais">FRA</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-AU"></div>
-															<span class="nomePais">Austrália</span>
-															<span class="siglaPais">AUS</span>
+															<div class="bandeira bandeira-PE"></div>
+															<span class="nomePais">Peru</span>
+															<span class="siglaPais">PER</span>
 														</div>
 													</div>
-												
 												</li>
 
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>17 de junho de 2018, 9h &gt;</strong> Samara</div>
+													<div class="dataLocal"><strong>27 de junho de 2018, 11h &gt;</strong> Ecaterimburgo</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-CR"></div>
-															<span class="nomePais">Costa Rica</span>
-															<span class="siglaPais">CRC</span>
+															<div class="bandeira bandeira-MX"></div>
+															<span class="nomePais">México</span>
+															<span class="siglaPais">MEX</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-RS"></div>
-															<span class="nomePais">Sérvia</span>
-															<span class="siglaPais">SER</span>
+															<div class="bandeira bandeira-SE"></div>
+															<span class="nomePais">Suécia</span>
+															<span class="siglaPais">SUE</span>
 														</div>
 													</div>
 												</li>
 												
 												<li style="border-top: 1px solid #ccc;">
-													<div class="dataLocal"><strong>28 de junho de 2018, 11h &gt;</strong> Samara</div>
+													<div class="dataLocal"><strong>24 de junho de 2018, 12h &gt;</strong> Ecaterimburgo</div>
 													<div class="confronto">
 														<div class="equipeE">
-															<div class="bandeira bandeira-SN"></div>
-															<span class="nomePais">Senegal</span>
-															<span class="siglaPais">SEN</span>
+															<div class="bandeira bandeira-JP"></div>
+															<span class="nomePais">Japão</span>
+															<span class="siglaPais">JAP</span>
 														</div>
 														<div class="versus">X</div>
 														<div class="equipeD">
-															<div class="bandeira bandeira-CO"></div>
-															<span class="nomePais">Colômbia</span>
-															<span class="siglaPais">COL</span>
+															<div class="bandeira bandeira-SN"></div>
+															<span class="nomePais">Senegal</span>
+															<span class="siglaPais">SEN</span>
 														</div>
 													</div>
 												</li>
@@ -604,14 +668,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 										<p><cite>Fonte: <a target="_blank" href="https://complemento.veja.abril.com.br/esporte/tabela-copa-2018/" title="tabela copa 2018">tabela copa 2018</a></cite></p>
 									</div>
 
-                                    <h2>Outros Jogos</h2>
+                                   <h2>Clube da cidade</h2>
 
-                                    <p><strong>02 de julho - Oitavas de final </p>
-                                    <p><strong>07 de julho - Quartas de final </p>
-
-                                    <h2>Clube da cidade</h2>
-
-                                    <p>	Fundado em 1930, o FC Rostov atua na primeira divisão do Campeonato Russo. Foi o campeão da segunda divisão em 2008 e na temporada 2013/2014 foi o vencedor da Copa da Rússia. Antes da construção da Arena Rostov, era o clube do estádio Olimp-2, que com capacidade para pouco mais de 17 mil pessoas, havia sido inaugurado em 1930. A cidade ainda conta com dois times extintos ou licenciados: O FC SKVO Rostov-on-Don e o FC Istochnik Rostov-on-Don.</p>
+                                    <p>	O FC Ural é o principal clube da cidade e o único profissional. Atualmente está na primeira divisão da liga russa e deve terminar o torneio no meio da tabela. Ele foi fundado em 1930, sendo um dos clubes mais antigos da região, mas já mudou várias vezes de nome durante sua história. Sua melhor colocação no campeonato nacional foi o oitavo lugar, conquistado em 1993 e 1995. Na temporada passada foi finalista da Copa da Rússia, perdendo para o Lokomotiv Moskou. Essa foi a sua melhor campanha o torneio.</p>
 
                                     <p>Leia Mais em: <a target="_blank" href="http://esporte.ig.com.br/futebol/copa-do-mundo-2018/2018-02-16/estadios-da-copa-sochi.html">esporte.ig.com.br</a></p>
 

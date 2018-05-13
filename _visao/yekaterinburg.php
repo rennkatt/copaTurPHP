@@ -171,28 +171,28 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			
 			<div class="row">
 				<div class="feature-full-1col">
-					<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+					<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/historia.jpg);"></div>
 					<div class="desc">
 						<h2>História</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio explicabo repellendus, illum velit beatae aut enim distinctio ipsam ducimus. Dolor veritatis cum quibusdam ab, voluptatibus cupiditate accusamus quos iusto! </p>
+						<p>Havia uma casa e ela foi subjugada e foi dito que ela não possuía significado histórico suficiente para se manter. No entanto, apesar dessa ação, os peregrinos continuavam chegando, muitas vezes em segredo e à noite, deixando sinais de recordação no terreno baldio e ali foi construída a “Igreja do Sangue” em Honra a Todos os Santos Resplandecentes na Terra Russa. </p>
 						<p><a href="historia.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 					</div>
 				</div>
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/estadio.jpg);"></div>
 						<div class="desc">
 							<h2>Estádio</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>A Ekaterinburg Arena foi construída em 1953, mas foi totalmente reformada para sediar a Copa do Mundo. A fachada histórica foi mantida, mas o local foi todo remodelado e melhorado a um custo de R$ 742 milhões. O teto instalado é apenas para a competição, e será removido após o Mundial. </p>
 							<p><a href="estadio.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/ponto_turistico.jpg);"></div>
 						<div class="desc">
 							<h2>Pontos Turísticos</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Em Yekaterinburg, pode-se encontrar diversos programas diferentes, como peças de teatro, balés, museus, igrejas e monumentos turísticos. Além disso, o local é conhecido pelas suas universidades e pelas bibliotecas que elas possuem.</p>
 							<p><a href="ponto_turistico.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -200,18 +200,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/yekaterinburg/hotel.jpg);"></div>
 						<div class="desc">
 							<h2>Hotéis</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>O grupo AccorHotels possui o maravilhoso Novotel Yekaterinburg Centre, localizado no tranquilo centro de Yekaaterinburg, perto de instalações locais de negócios e entretenimento, atrações culturais e museus. </p>
 							<p><a href="hotel.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+						<div class="image image-ab" style="background-image: url(../_complementos/images/cidades/yekaterinburg/restaurante.jpg);"></div>
 						<div class="desc">
 							<h2>Restaurantes</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>A gastronomia local tem grande influência de diversas cozinhas ao redor do mundo. As maiores influências são da Europa, principalmente de restaurantes italianos, checos e alemães e da culinária uzbeque. As especialidades da cidade são as carnes, principalmente a de cordeiro. Outro prato muito servido é o risoto, que pode ser encontrado de diversos tipos e com iguarias distintas. </p>
 							<p><a href="restaurante.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
@@ -219,18 +219,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 				<div class="feature-full-2col">
 					<div class="f-hotel">
-						<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+						<div class="image" style="background-image: url(../_complementos/images/cidades/yekaterinburg/comida.jpg);"></div>
 						<div class="desc">
 							<h2>Comidas Típicas</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum ad autem nesciunt quod? Iste corporis obcaecati beatae aliquam aut tenetur. Aliquid, harum ea! Ea sequi officia esse, ducimus a.</p>
+							<p>Se você quiser provar a culinária Ural, o lugar que você precisa ir é a cidade de Yekaterinburg. Uma comida que vale a pena experimentar é o Pelmini, que são bolinhos da cozinha russa que consistem em um recheio envolto em massa fina e sem fermento. </p>
 							<p><a href="comidas.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
 					<div class="f-hotel">
-						<div class="image " style="background-image: url(../_complementos/images/cidades/yekaterinburg/01.jpg);"></div>
+						<div class="image " style="background-image: url(../_complementos/images/cidades/yekaterinburg/artesanato.jpg);"></div>
 						<div class="desc">
 							<h2>Artesanato</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias beatae voluptatibus reiciendis fugiat quasi ipsum, explicabo aliquid similique quos ratione iusto ab velit! Explicabo nesciunt harum libero eos eligendi eaque?</p>
+							<p>Rica em tradições, a cidade dos Urais de Yekaterinburg é uma cidade com uma riqueza de interesse histórico e um passado fascinante, tornando-se um local ideal para comprar algumas lembranças para amigos e familiares durante a sua visita. Uma boa caçada pela cidade revelará uma grande variedade de lembranças para qualquer gosto.</p>
 							<p><a href="artesanato.php?cidade=yekaterinburg" class="btn btn-primary btn-luxe-primary">Saiba Mais <i class="fa fa-angle-right"></i></a></p>
 						</div>
 					</div>
