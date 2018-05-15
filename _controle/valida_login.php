@@ -55,6 +55,11 @@ if(isset($_POST['logar'])){
                       <strong>Logado com Sucesso!</strong> Redirecionando para o sistema.
                 </div> ';
 				
+				if ( isset($_POST['url_ref']) ){
+					header("Location: " . $_POST['url_ref'] );
+					return;
+				}
+
 				echo "<script>history.go(-2)</script>";
 
 			}else{

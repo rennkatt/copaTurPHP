@@ -69,6 +69,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 											<div class="form-group">
 												<div class="row">
 													<div class="col-sm-6 col-sm-offset-3">
+														<input type="hidden" name="url_ref" id="url_ref">														
 														<input type="submit" name="logar" id="logar" tabindex="4" class="form-control btn btn-login" value="Entrar">
 													</div>
 												</div>
@@ -238,6 +239,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 });
 
 
+document.getElementById("url_ref").value = document.referrer;
 
 		
 </script> 	
