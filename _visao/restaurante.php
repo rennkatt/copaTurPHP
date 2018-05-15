@@ -367,6 +367,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                               <div id="display_comment"></div>
                               <!-- .commentlist -->
                               
+                              <div ></div>
                               
                               <!-- #respond --> 
                               <div id="respond"> 
@@ -383,14 +384,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                   <input type="text" name="postagem_id" id="postagem_id" class="form-control hidden" value="<?php echo ($id)?>"  />
 
                                   <p class="comment-form-comment">
-                                    <textarea id="comment_content" name="comment_content" rows="5" placeholder="Entre com seu comentário" 
+                                    <textarea id="comment_content" name="comment_content" rows="5" placeholder="Comente aqui..." 
                                     <?php if(!isset($_SESSION['email']) && (!isset($_SESSION['senha']))){ echo 'class =hidden';}
                                     ?> aria-required="true"></textarea>
                                   </p>
                                   
                                   <p class="form-submit">
                                     <input type="hidden" name="comment_id" id="comment_id" value="0"/>
-     								<input type="submit" name="submit" id="submit" class="btn button primary <?php if(!isset($_SESSION['email']) && (!isset($_SESSION['senha']))){ echo ' hidden';}
+     								<input type="submit" name="submit" id="submit" class="btn btn-default primary <?php if(!isset($_SESSION['email']) && (!isset($_SESSION['senha']))){ echo ' hidden';}
                                     ?> " value="Postar Comentário" /><span id="comment_message"></span>
                                   </p>
                                   
@@ -506,10 +507,33 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<script src="../_complementos/js/custom.js"></script>
     </body>
 </html>
-
 <script>
-$(document).ready(function(){
+function load_comment() {
+    $.ajax({
+        url:"../_controle/fetch_comment.php",
+        method:"POST",
+        data: 'id='+ $('#postagem_id').val(),
+        success:function(data) {
+            $('#display_comment').html(data);  	
+        }
+    })
+}
+
+function load_qtde() {
+    $.ajax({
+        url:"../_controle/fetch_quantidade.php",
+        method:"POST",
+        data: 'id='+ $('#postagem_id').val(),
+        success:function(data){
+            $('#comments-title').html(data);
+        }
+    })
+}
+
+load_comment();
+load_qtde();
  
+$(document).ready(function(){
  $('#comment_form').on('submit', function(event){
   event.preventDefault();
   var form_data = $(this).serialize();
@@ -518,10 +542,8 @@ $(document).ready(function(){
    method:"POST",
    data:form_data,
    dataType:"JSON",
-   success:function(data)
-   {
-    if(data.error != '')
-    {
+        success:function(data) {
+            if(data.error != '') {
      $('#comment_form')[0].reset();
      $('#comment_message').html(data.error);
      $('#comment_id').val('0');
@@ -532,37 +554,6 @@ $(document).ready(function(){
   })
  });
 
- load_comment();
- load_qtde();
-
- function load_comment()
- {
-  $.ajax({
-   url:"../_controle/fetch_comment.php",
-   method:"POST",
-   data: 'id='+ $('#postagem_id').val(),
-   success:function(data)
-   {
-    $('#display_comment').html(data);
-
-   }
-  })
- }
-
-  function load_qtde()
- {
-  $.ajax({
-   url:"../_controle/fetch_quantidade.php",
-   method:"POST",
-    data: 'id='+ $('#postagem_id').val(),
-   success:function(data)
-   {
-    $('#comments-title').html(data);
-
-   }
-  })
- }
-
  $(document).on('click', '.resp', function(){
   var comment_id = $(this).attr("id");
   $('#comment_id').val(comment_id);
@@ -570,8 +561,7 @@ $(document).ready(function(){
  });
 
  $(document).on('click', '.excluir', function(){
-  var comment_id = $(this).attr("id");
-
+    var comment_id = $(this).attr("nome");
   $.ajax({
    url:"../_controle/apaga_comment.php",
    method:"POST",
@@ -579,11 +569,15 @@ $(document).ready(function(){
    success:function(data)
    {
      load_comment();
-
+        load_qtde();
    }
   })
-  	
  });
  
+var perfil = '<%=Session["nivel"]%>';
+if (perfil == '2')
+    $("#del").show();
+else
+    $("#del").hide();
 });
 </script>

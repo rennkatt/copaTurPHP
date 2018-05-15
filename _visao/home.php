@@ -179,7 +179,7 @@ if(isset($_SESSION['usuario']) && (isset($_SESSION['senha']))){
 						include "index.php";
 					}
 				}else{
-					include "index.php?";
+					include "index.php";
 				}		
 
 			?>			

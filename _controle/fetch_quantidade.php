@@ -4,11 +4,10 @@
 include("conecta.php");
 
 $id      = $_POST['id'];
-     
+
 $query = "
-SELECT * FROM tbl_comment 
+SELECT comment_id AS total FROM tbl_comment 
 WHERE postagem_id = :id
-ORDER BY comment_id DESC
 ";
 
 $res = $conexao->prepare($query);

@@ -7,13 +7,14 @@ include("conecta.php");
 $id      = $_POST['id'];
 
 $query = "
-UPDATE tbl_comment 
-SET comment = ' Mensagem apagada pelo autor ou administrador' 
-WHERE comment_id = :id
+DELETE FROM tbl_comment 
+WHERE comment_id = :id OR parent_comment_id = :parent
 ";
 
 $statement = $conexao->prepare($query);
       $statement->bindParam(':id', $id, PDO::PARAM_STR);
+      $statement->bindParam(':parent', $id, PDO::PARAM_STR);
+      
      
 
 $statement->execute();
