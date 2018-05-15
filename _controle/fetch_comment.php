@@ -9,7 +9,9 @@ if ( isset($_POST["id"]) ){
   $postagem_id = $_POST["id"];
 }
 
-$connect = new PDO('mysql:host=localhost;dbname=copatur', 'root', '');
+include("conecta.php");
+
+$connect = $conexao;
 
 $query = "
 SELECT COMMENT.comment_id, COMMENT.parent_comment_id, COMMENT.postagem_id, COMMENT.comment, COMMENT.comment_sender_name, DATE_FORMAT(COMMENT.date, '%d/%m/%Y 	%H:%i:%s') AS date, 
