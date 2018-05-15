@@ -90,6 +90,7 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 							}
 
 							header('Refresh:0');
+
 							echo '<div class="alert alert-success">
 								<button type="button" class="close" data-dismiss="alert">×</button>
 								<strong>Sucesso!</strong> O Usuário foi atualizado.
@@ -149,6 +150,7 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 									$result->execute();
 									$contar = $result->rowCount();
 									if($contar>0){
+										$_SESSION['nome']	= $nome;
 										header('Refresh:0');
 										echo '<div class="alert alert-success">
 											<button type="button" class="close" data-dismiss="alert">×</button>
