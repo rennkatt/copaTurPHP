@@ -81,7 +81,14 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 						$result->execute();
 						$contar = $result->rowCount();
 						if($contar>0){
-							$_SESSION['nome']	= $nome;
+
+							if ( $id == $_SESSION['id'] ){
+								$_SESSION['nome']	= $nome;
+								$_SESSION['nivel']	= $nivel;
+								$_SESSION['email']	= $email;
+								$_SESSION['imagem']	= $imagem;
+							}
+
 							header('Refresh:0');
 
 							echo '<div class="alert alert-success">
