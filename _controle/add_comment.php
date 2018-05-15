@@ -1,9 +1,11 @@
 <?php
 
 //add_comment.php
+if ( !isset($_SESSION) ){
+    session_start();
+}
 
 include("conecta.php");
-
 $error = '';
 $comment_name = '';
 $comment_content = '';
@@ -30,17 +32,17 @@ if($error == '')
 {
  $query = "
  INSERT INTO tbl_comment 
- (parent_comment_id, comment, comment_sender_name, postagem_id, imagem) 
- VALUES (:parent_comment_id, :comment, :comment_sender_name, :postagem_id, :imagem)
+ (parent_comment_id, comment, comment_sender_name, postagem_id,  login_id) 
+ VALUES (:parent_comment_id, :comment, :comment_sender_name, :postagem_id, :login_id)
  ";
  $statement = $conexao->prepare($query);
  $statement->execute(
   array(
    ':parent_comment_id' => $_POST["comment_id"],
    ':postagem_id' => $_POST["postagem_id"],
-   ':imagem' => $_POST["imagem"],
    ':comment'    => $comment_content,
-   ':comment_sender_name' => $comment_name
+   ':comment_sender_name' => $comment_name,
+   ':login_id' => $_SESSION['id'] 
   )
  );
  $error = '<label class="text-success">  Comentário Adicionado</label>';
