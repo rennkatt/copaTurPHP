@@ -21,11 +21,15 @@ else
 
 if(empty($_POST["comment_content"]))
 {
- $error .= '<label class="text-danger">  Comentário é requirido</label>';
+ $error .= '<label class="text-danger">Comentário é obrigatório</label>';
 }
 else
 {
  $comment_content = $_POST["comment_content"];
+}
+
+if (!isset($_SESSION['id'])){
+    $error .= '<label class="text-danger">Você precisa estar logado!</label>';
 }
 
 if($error == '')
