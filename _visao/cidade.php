@@ -371,7 +371,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 									<h2>Hotel Saransk</h2>
 
-                                    <p class="drop-cap">Rica em tradições, a cidade dos Urais de Yekaterinburg é uma cidade com uma riqueza de interesse histórico e um passado fascinante, tornando-se um local ideal para comprar algumas lembranças para amigos e familiares durante a sua visita. Uma boa caçada pela cidade revelará uma grande variedade de lembranças para qualquer gosto.</p>
+                                    <p class="drop-cap">Sochi, com seu clima quente, o mar e as magnificas praias atraem muitos turistas russos e estrangeiros. Portanto, toda a infra-estrutura urbana destinada aos viajantes. A Rússia é um país famoso por seu artesanato: samovares russos, bonecas matryoshka, da louça Gzhel, balalaika, bandeja Zhostovo, etc. Talvez uma das lembranças russas mais populares que você pode comprar em Sochi, sejam as bonecas matryoshka.</p>
 
                                     <p>Existem apenas 3.000 tipos de minerais no mundo, e quase 1.000 deles podem ser encontrados nos Urais. Por esta razão, os produtos feitos a partir de pedras naturais, pedras semipreciosas e minerais representam a atividade principal dos urais e o número um em sua lista de lembranças distintas.</p>
 
