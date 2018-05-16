@@ -379,8 +379,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <ul class="social">
                 <li><a class="facebook" target="_blank" href="https://www.facebook.com/jnelderc"></a></li>
                 <li><a class="instagram" target="_blank" href="https://www.instagram.com/jnelderc/"></a></li>
-                <li><a class="twitter" target="_blank" href="https://github.com/jnelderc"></a></li>
-                <li><a class="github" target="_blank" href="https://twitter.com/jnelderc"></a></li>
+                <li><a class="twitter" target="_blank" href="https://twitter.com/jnelderc"></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/jnelderc"></a></li>
                 <li><a class="google-plus" target="_blank" href="https://plus.google.com/+ElderCordeiro"></a></li>
             </ul></center>
               
