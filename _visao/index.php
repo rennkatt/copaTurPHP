@@ -362,10 +362,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <span>Gerente de Projeto</span>
               <ul class="social">
                 <li><a class="facebook" target="_blank" href="https://www.facebook.com/renatomoura7"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="instagram " target="_blank" href="https://www.instagram.com/renatomoura7/"></a></li>
+                <li><a class="twitter hidden " target="_blank" href="#"></a></li>
                 <li><a class="github" target="_blank" href="https://github.com/rennkatt"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="google-plus hidden" target="_blank" href="#"></a></li>
             </ul></center>
               
             </div>
@@ -377,11 +377,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <h4>Elder Cordeiro</h4>
               <span>Design</span>
               <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.facebook.com/jnelderc"></a></li>
+                <li><a class="instagram" target="_blank" href="https://www.instagram.com/jnelderc/"></a></li>
+                <li><a class="twitter" target="_blank" href="https://github.com/jnelderc"></a></li>
+                <li><a class="github" target="_blank" href="https://twitter.com/jnelderc"></a></li>
+                <li><a class="google-plus" target="_blank" href="https://plus.google.com/+ElderCordeiro"></a></li>
             </ul></center>
               
             </div>
@@ -393,11 +393,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <h4>Erico Vinicio</h4>
               <span>Analista</span>
               <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="facebook hidden" target="_blank" href="#"></a></li>
+                <li><a class="instagram hidden" target="_blank" href="#"></a></li>
+                <li><a class="twitter hidden" target="_blank" href="#"></a></li>
+                <li><a class="github hidden" target="_blank" href="#"></a></li>
+                <li><a class="google-plus hidden" target="_blank" href="#"></a></li>
             </ul></center>
               
             </div>
@@ -409,11 +409,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <h4>Hyago Sayomar</h4>
               <span>Desenvolvedor</span>
               <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.facebook.com/hyago.sayomar"></a></li>
+                <li><a class="instagram hidden" target="_blank" href="#"></a></li>
+                <li><a class="twitter hidden" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/HyagoDiaz"></a></li>
+                <li><a class="google-plus hidden " target="_blank" href="#"></a></li>
             </ul></center>
               
             </div>
@@ -425,11 +425,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <h4>Jefferson Gonçalves</h4>
               <span>Desenvolvedor</span>
               <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="facebook hidden" target="_blank" href="#"></a></li>
+                <li><a class="instagram hidden" target="_blank" href="#"></a></li>
+                <li><a class="twitter hidden" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/Jerffeson"></a></li>
+                <li><a class="google-plus hidden" target="_blank" href="#"></a></li>
             </ul></center>
               
             </div>
@@ -441,11 +441,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <h4>Robson Lemos</h4>
               <span>Testador</span>
               <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.facebook.com/robson.lemos.75"></a></li>
+                <li><a class="instagram" target="_blank" href="https://www.instagram.com/robsonlemos2011/"></a></li>
+                <li><a class="twitter hidden" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/robsonlemos"></a></li>
+                <li><a class="google-plus" target="_blank" href=" https://plus.google.com/u/0/117987277098925056760"></a></li>
             </ul></center>
               
             </div>
