@@ -410,7 +410,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
               <span>Desenvolvedor</span>
               <ul class="social">
                 <li><a class="facebook" target="_blank" href="https://www.facebook.com/hyago.sayomar"></a></li>
-                <li><a class="instagram hidden" target="_blank" href="#"></a></li>
+                <li><a class="instagram " target="_blank" href="https://www.instagram.com/hyagodiaz_/?hl=pt-br"></a></li>
                 <li><a class="twitter hidden" target="_blank" href="#"></a></li>
                 <li><a class="github" target="_blank" href="https://github.com/HyagoDiaz"></a></li>
                 <li><a class="google-plus hidden " target="_blank" href="#"></a></li>
