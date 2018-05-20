@@ -6,9 +6,11 @@
 		
 	}
 
-	$sql = "SELECT * from tb_postagens WHERE categoria='artesanato' AND cidade=:cidade LIMIT 1";
+	$sql = "SELECT POSTAGEM.*, LOGIN.nome, LOGIN.imagem, .LOGIN.sobre, LOGIN.link_fb, LOGIN.link_insta, 
+			LOGIN.link_tw, LOGIN.link_gh, LOGIN.link_google from tb_postagens POSTAGEM 
+			INNER JOIN login LOGIN ON LOGIN.id = POSTAGEM.login_id
+			WHERE POSTAGEM.categoria='artesanato' AND POSTAGEM.cidade=:cidade LIMIT 1";
 			//Edita aqui a categoria...
-	
 	try{
 		$resultado = $conexao->prepare($sql);
 		$resultado->bindParam(':cidade', $cidade, PDO::PARAM_STR);
@@ -26,8 +28,15 @@
 		          $cidade = $exibe->cidade;
 		          $categoria = $exibe->categoria;
 		          $fonte  = $exibe->fonte_imagem;
-		          $autor = $exibe->autor;
-		          $id = $exibe->id;
+		          $autor = $exibe->nome;
+		          $imagem = $exibe->imagem;
+		          $sobre = $exibe->sobre;
+		          $link_fb = $exibe->link_fb;
+		          $link_insta = $exibe->link_insta;
+		          $link_tw = $exibe->link_tw;
+		          $link_gh = $exibe->link_gh;
+		          $link_google = $exibe->link_google;
+				  $id = $exibe->id;
 		    }
 		}else{
 			echo '<div class="alert alert-danger">
