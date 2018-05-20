@@ -20,6 +20,12 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 					$nivel = $mostra->nivel;
 					$imagem = $mostra->imagem;
 					$senha = $mostra->senha;
+					$sobre = $mostra->sobre;
+					$link_fb = $mostra->link_fb;
+					$link_insta = $mostra->link_insta;
+					$link_tw = $mostra->link_tw;
+					$link_gh = $mostra->link_gh;
+					$link_google = $mostra->link_google;			
 				}				
 			}else{
 
@@ -41,6 +47,27 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 			$sobrenome 			= trim(strip_tags($_POST['sobrenome']));
 			$email 		= trim(strip_tags($_POST['email']));
 			$senha 		= trim(strip_tags($_POST['senha']));
+			$sobre 		= trim(strip_tags($_POST['sobre']));
+			$link_fb 		= trim(strip_tags($_POST['link_fb']));
+			$link_insta 		= trim(strip_tags($_POST['link_insta']));
+			$link_tw 		= trim(strip_tags($_POST['link_tw']));
+			$link_gh 		= trim(strip_tags($_POST['link_gh']));
+			$link_google 		= trim(strip_tags($_POST['link_google']));
+
+			$busca_usuario = "SELECT COUNT(id) AS total FROM login WHERE email = :email AND id <> :id";
+			$p_busca_usuario = $conexao->prepare($busca_usuario);
+			$p_busca_usuario->bindParam(":email", $email, PDO::PARAM_STR);	
+			$p_busca_usuario->bindParam(":id", $id, PDO::PARAM_STR);						
+			$p_busca_usuario->execute();
+			$row = $p_busca_usuario->fetch(PDO::FETCH_ASSOC);
+
+			if ( isset($row['total']) and $row['total'] > 0 ){				
+				echo '<div class="alert alert-danger">
+								<button type="button" class="close" data-dismiss="alert">×</button>
+								<strong>Erro ao Atualizar!</strong> Esse email já está existe no sistema!
+						</div>';
+				return;
+			}
 			
 			if(!empty($_FILES['img']['name'])){
 					
@@ -68,8 +95,11 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 				if($numFile <= 0){
 
 					$novoNome = $imagem;
-					$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, email=:email, senha=:senha, imagem=:imagem  WHERE id=:id";
-							
+					$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, 
+								email=:email, senha=:senha, imagem=:imagem,
+								sobre=:sobre, link_fb=:link_fb, link_insta=:link_insta, link_tw=:link_tw,
+								link_gh=:link_gh, link_google=:link_google
+							  WHERE id=:id";
 					try{
 						$result = $conexao->prepare($update);
 						$result->bindParam(':id', $id, PDO::PARAM_INT);
@@ -78,6 +108,12 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 						$result->bindParam(':email', $email, PDO::PARAM_STR);
 						$result->bindParam(':senha', $senha, PDO::PARAM_STR);
 						$result->bindParam(':imagem', $novoNome, PDO::PARAM_STR);
+						$result->bindParam(':sobre', $sobre, PDO::PARAM_STR);
+						$result->bindParam(':link_fb', $link_fb, PDO::PARAM_STR);
+						$result->bindParam(':link_insta', $link_insta, PDO::PARAM_STR);
+						$result->bindParam(':link_tw', $link_tw, PDO::PARAM_STR);
+						$result->bindParam(':link_gh', $link_gh, PDO::PARAM_STR);
+						$result->bindParam(':link_google', $link_google, PDO::PARAM_STR);						
 						$result->execute();
 						$contar = $result->rowCount();
 						if($contar>0){
@@ -136,7 +172,11 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 								$arquivo = "../_upload/login/" .$imagem;
 								//unlink($arquivo);
 								
-								$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, email=:email, senha=:senha, imagem=:imagem WHERE id=:id";
+								$update = "UPDATE login SET nome=:nome, sobrenome=:sobrenome, 
+												email=:email, senha=:senha, imagem=:imagem,
+												sobre=:sobre, link_fb=:link_fb, link_insta=:link_insta, link_tw=:link_tw,
+												link_gh=:link_gh, link_google=:link_google
+											WHERE id=:id";
 								
 							
 								try{
@@ -146,7 +186,13 @@ if($_GET['id'] != $_SESSION['id']){ header("Location: ../_visao/index.php"); exi
 									$result->bindParam(':sobrenome', $sobrenome, PDO::PARAM_STR);
 									$result->bindParam(':email', $email, PDO::PARAM_STR);
 									$result->bindParam(':senha', $senha, PDO::PARAM_STR);
-									$result->bindParam(':imagem', $novoNome, PDO::PARAM_STR);
+									$result->bindParam(':imagem', $novoNome, PDO::PARAM_STR);									
+									$result->bindParam(':sobre', $sobre, PDO::PARAM_STR);
+									$result->bindParam(':link_fb', $link_fb, PDO::PARAM_STR);
+									$result->bindParam(':link_insta', $link_insta, PDO::PARAM_STR);
+									$result->bindParam(':link_tw', $link_tw, PDO::PARAM_STR);
+									$result->bindParam(':link_gh', $link_gh, PDO::PARAM_STR);
+									$result->bindParam(':link_google', $link_google, PDO::PARAM_STR);			
 									$result->execute();
 									$contar = $result->rowCount();
 									if($contar>0){
