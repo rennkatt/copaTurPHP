@@ -108,7 +108,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <a href="#page-top"></a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="../index.html">Home</a>
+	                        <a class="page-scroll" href="">Home</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#gallery" onclick="desser_mais()">Cidades</a>
