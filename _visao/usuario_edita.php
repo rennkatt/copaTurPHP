@@ -241,6 +241,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         }
         ?>
 
+
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
@@ -278,14 +279,44 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 				                    <input type="text" class="form-control" id="sobrenome" value="<?php echo $sobrenome;?>" name="sobrenome">
                         </div>
 
+						<div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Sobre Você</label>
+				            <textarea class="form-control" id="sobre" name="sobre" maxlength="400"><?php echo $sobre;?></textarea>
+                        </div>
+
                         <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Email</label>
 				                    <input type="email" class="form-control" id="email" value="<?php echo $email;?>" name="email" required>
                         </div>
 
+						<div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Facebook</label>
+				                    <input type="text" class="form-control" id="link_fb" value="<?php echo $link_fb;?>" maxlength="400" name="link_fb">
+                        </div>
+
+						<div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Instagran</label>
+				                    <input type="text" class="form-control" id="link_insta" value="<?php echo $link_insta;?>" maxlength="400" name="link_insta">
+                        </div>
+
+						<div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Twitter</label>
+				                    <input type="text" class="form-control" id="link_tw" value="<?php echo $link_tw;?>" maxlength="400" name="link_tw">
+                        </div>
+
+						<div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">GitHub</label>
+				                    <input type="text" class="form-control" id="link_gh" value="<?php echo $link_gh;?>" maxlength="400" name="link_gh">
+                        </div>
+
+						<div class=" col-lg-12 pad10">
+                            <label class="control-label" for="username">Google+</label>
+				                    <input type="text" class="form-control" id="link_google" value="<?php echo $link_google;?>" maxlength="400" name="link_google">
+                        </div>
+
                          <div class=" col-lg-12 pad10">
                             <label class="control-label" for="username">Nova Senha</label>
-				                    <input type="password" class="form-control" id="senha" value="<?php echo $senha;?>" name="senha" required>
+				            <input type="password" class="form-control" id="senha" value="<?php echo $senha;?>" name="senha" minlength="6" required>
                         </div>
                             
                         <div class="form-actions col-lg-12" style="margin-top: 50px">
