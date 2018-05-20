@@ -607,7 +607,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                 <li><a class="instagram " target="_blank" href="#"></a></li>  
                 <li><a class="twitter" target="_blank" href="#"></a></li>
                 <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li> 
             </ul></center>
               
             </div>
@@ -634,7 +634,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
             <div class="member">
               <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
               <br>
-              <h4>Matheus</h4>
+              <h4>Matheus	</h4>
               <br>
               <ul class="social">
                 <li><a class="facebook" target="_blank" href="#"></a></li>
