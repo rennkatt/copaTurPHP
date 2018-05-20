@@ -108,7 +108,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <a href="#page-top"></a>
 	                    </li>
 	                    <li>
-	                        <a class="page-scroll" href="../index.html">Home</a>
+	                        <a class="page-scroll" href="">Home</a>
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#gallery" onclick="desser_mais()">Cidades</a>
@@ -118,6 +118,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    </li>
 	                    <li>
 	                        <a class="page-scroll" href="#contact" onclick="desser_mais()">Contato</a>
+	                    </li>
+
+	                    <li>
+	                        <a class="page-scroll" href="#parceiros" onclick="desser_mais()">Parceiros</a>
 	                    </li>
 						
 	                     <?php if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){ ?>
@@ -458,10 +462,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 
 
-		</section><!--/.gallery-->
+		</section>
 
-	
-		
+					
 		<section id="contact" class="contact ">
 	        <div class="container overlay">
 	            <div class="row">
@@ -530,6 +533,123 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	        </div>
 	        
 	    </section>
+
+	    <section id="parceiros" class="about-us" style="background: #fff">
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2  class="animated2">
+							PARCEIROS
+						</h2>
+					</div>
+					
+				</div>
+				<div class="row wow fadeInUp">
+          <div class="col-md-2 pull-left">
+            <div class="member">
+              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   "  width="150px" alt="" style="border-radius: 50%"></div>
+               <br>
+               <h4>João</h4>
+               <br>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram " target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
+              
+            </div>
+          </div>
+
+          <div class="col-md-2 pull-left">
+            <div class="member">
+              <center><center><div class="pic"><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px"  alt="" style="border-radius: 50%"></div>
+              <br>
+              <h4>Pedro</h4>
+              <br>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
+              
+            </div>
+          </div>
+
+          <div class="col-md-2 pull-left">
+            <div class="member">
+              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
+              <br>
+              <h4>Fernando</h4>       
+              <br>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
+              
+            </div>
+          </div>
+
+          <div class="col-md-2 pull-left">
+            <div class="member">
+             <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
+             <br>
+              <h4>Rafael</h4>
+              <br>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram " target="_blank" href="#"></a></li>  
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li> 
+            </ul></center>
+              
+            </div>
+          </div>
+
+           <div class="col-md-2 pull-left">
+            <div class="member">
+              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
+              <br>
+              <h4>Carlos</h4>
+              <br>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
+              
+            </div>
+          </div>
+
+           <div class="col-md-2 pull-left">
+            <div class="member">
+              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
+              <br>
+              <h4>Matheus	</h4>
+              <br>
+              <ul class="social">
+                <li><a class="facebook" target="_blank" href="#"></a></li>
+                <li><a class="instagram" target="_blank" href="#"></a></li>
+                <li><a class="twitter" target="_blank" href="#"></a></li>
+                <li><a class="github" target="_blank" href="#"></a></li>
+                <li><a class="google-plus" target="_blank" href="#"></a></li>
+            </ul></center>
+              
+            </div>
+          </div>
+        </div>
+			</div>
+		</section>
+
 		
 		<footer  class="footer-copyright">
 			<div class="container">
