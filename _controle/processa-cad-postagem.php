@@ -1,4 +1,8 @@
 <?php
+if ( !isset($_SESSION) ){
+    session_start();
+}
+
 	  	if(isset($_POST['cadastrar'])){
 			$titulo 		= trim(strip_tags($_POST['titulo']));
 			$data 			= trim(strip_tags($_POST['data']));
@@ -7,6 +11,7 @@
 			$fonte 			= trim(strip_tags($_POST['fonte']));
 			$autor 			= $_POST['autor'];
 			$descricao	 	= $_POST['descricao'];
+			$login_id	 	= $_SESSION['id'];
 			
 			
 			
@@ -64,7 +69,7 @@
 					if(move_uploaded_file($tmp, $folder.'/'.$novoNome)){
 						//$msg[] = "<b>$name :</b> Upload Realizado com Sucesso!";
 					
-			$insert = "INSERT into tb_postagens (titulo, data, imagem, cidade, descricao, categoria, autor, fonte_imagem) VALUES (:titulo, now(), :imagem, :cidade, :descricao, :categoria, :autor, :fonte)";
+			$insert = "INSERT into tb_postagens (titulo, data, imagem, cidade, descricao, categoria, autor, fonte_imagem, login_id) VALUES (:titulo, now(), :imagem, :cidade, :descricao, :categoria, :autor, :fonte, :login_id)";
 		
 		try{
 			$result = $conexao->prepare($insert);
@@ -75,6 +80,8 @@
 			$result->bindParam(':categoria', $categoria, PDO::PARAM_STR);
 			$result->bindParam(':autor', $autor, PDO::PARAM_STR);
 			$result->bindParam(':fonte', $fonte, PDO::PARAM_STR);
+			$result->bindParam(':login_id', $login_id, PDO::PARAM_INT);
+			
 			$result->execute();
 			$contar = $result->rowCount();
 			if($contar>0){
