@@ -6,7 +6,7 @@
 		
 	}
 
-	$sql = "SELECT POSTAGEM.*, LOGIN.nome, LOGIN.imagem, .LOGIN.sobre, LOGIN.link_fb, LOGIN.link_insta, 
+	$sql = "SELECT POSTAGEM.*, LOGIN.nome, LOGIN.imagem  AS imagem_login, .LOGIN.sobre, LOGIN.link_fb, LOGIN.link_insta, 
 	LOGIN.link_tw, LOGIN.link_gh, LOGIN.link_google from tb_postagens POSTAGEM 
 	INNER JOIN login LOGIN ON LOGIN.id = POSTAGEM.login_id
 	 WHERE categoria='ponto turistico' AND cidade=:cidade LIMIT 1";
@@ -30,7 +30,7 @@
 		          $categoria = $exibe->categoria;
 		          $fonte  = $exibe->fonte_imagem;
 				  $autor = $exibe->nome;
-		          $imagem = $exibe->imagem;
+		          $imagem_login = $exibe->imagem_login;
 		          $sobre = $exibe->sobre;
 		          $link_fb = $exibe->link_fb;
 		          $link_insta = $exibe->link_insta;

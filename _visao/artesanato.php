@@ -15,6 +15,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
     <head>
     	<!-- meta character set -->
         <meta charset="utf-8">
+		<meta http-equiv="content-Type" content="text/html; charset=iso-8859-1" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta Http-Equiv="Cache-Control" Content="no-cache">  
@@ -319,7 +320,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                             
                                             <!-- .author-img --> 
                                             <div class="author-img">
-                                                <a href="#"><img src="../_upload/login/<?php echo isset( $imagem ) ? $imagem : 'default.png' ;?>" style="border-radius: 75%; width: 63px; height: 63px;"></a>												
+                                                <a href="#"><img src="../_upload/login/<?php echo isset( $imagem_login ) ? $imagem_login : 'default.png' ;?>" style="border-radius: 75%; width: 63px; height: 63px;"></a>												
                                             </div>
                                             <!-- .author-img -->
                                             
@@ -330,11 +331,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                                 
                                                 <!-- SOCIAL -->
                                                 <ul class="social">
-                                                    <li><a class="facebook" href="<?php if (isset($link_fb)){echo $link_fb;} else{ echo '#';} ?>" target="_blank"></a></li>
-                                                    <li><a class="instagram" href="<?php if (isset($link_insta)){echo $link_insta;} else{ echo '#';} ?>" target="_blank"></a></li>
-                                                    <li><a class="twitter" href="<?php if (isset($link_tw)){echo $link_tw;} else{ echo '#';} ?>" target="_blank"></a></li>
-                                                    <li><a class="github" href="<?php if (isset($link_gh)){echo $link_gh;} else{ echo '#';} ?>" target="_blank"></a></li>
-                                                    <li><a class="google-plus" href="<?php if (isset($link_google)){echo $link_google;} else{ echo '#';} ?>" target="_blank"></a></li>
+                                                    <li><a class="facebook" href="<?php if (isset($link_fb)){echo $link_fb;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_fb) or strlen($link_fb) <= 2){ echo 'style="display: none;"'; } ?> ></a></li>
+                                                    <li><a class="instagram" href="<?php if (isset($link_insta)){echo $link_insta;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_insta) or strlen($link_insta) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="twitter" href="<?php if (isset($link_tw)){echo $link_tw;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_tw) or strlen($link_tw) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="github" href="<?php if (isset($link_gh)){echo $link_gh;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_gh) or strlen($link_gh) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="google-plus" href="<?php if (isset($link_google)){echo $link_google;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_google) or strlen($link_google) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
                                                 </ul>
                                                 <!-- SOCIAL -->
                                                 
