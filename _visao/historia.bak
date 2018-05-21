@@ -259,7 +259,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                 <!-- .featured-image -->
                                 <div class="featured-image">
                                     <img src="../_upload/postagens/<?php echo $imagem;?>" alt="blog-image">
-                                    <cite><a href="<?php echo $fonte;?>" title="<?php echo $fonte;?>">@fonte</a></cite>
+                                    <cite><a href="<?php echo $fonte;?>" target="_blank" title="<?php echo $fonte;?>">@fonte</a></cite>
                                 </div>
                                 <!-- .featured-image -->
                                                                 
