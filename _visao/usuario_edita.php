@@ -21,9 +21,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta Http-Equiv="Cache-Control" Content="no-cache">  
-		<meta Http-Equiv="Pragma" Content="no-cache">  
-		<meta Http-Equiv="Expires" Content="0">
+		 
 		
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
