@@ -47,6 +47,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!--animate.css-->
 		<link rel="stylesheet" href="../_complementos/css/animate.css" />
+		
+		<!--parceiros.css--->
+		<link rel="stylesheet" href="../_complementos/css/parceiros.css" />
 
 		<!--hover.css-->
 		<link rel="stylesheet" href="../_complementos/css/hover-min.css">
@@ -533,118 +536,18 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	    </section>
 
 	    <section id="parceiros" class="about-us" style="background: #fff">
-			<div class="container">
-				<div class="gallery-details">
-					<div class="gallary-header text-center">
-						<h2  class="animated2">
-							PARCEIROS
-						</h2>
-					</div>
-					
-				</div>
-				<div class="row wow fadeInUp">
-          <div class="col-md-2 pull-left">
-            <div class="member">
-              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   "  width="150px" alt="" style="border-radius: 50%"></div>
-               <br>
-               <h4>João</h4>
-               <br>
-              <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram " target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
-            </ul></center>
-              
-            </div>
-          </div>
+			<div class="parceiros">
+			  <a target="_blank" href="../_complementos/images/parceiros/logo-in-40.png">
+			    <img src="../_complementos/images/parceiros/logo-in-40.png" alt="Trolltunga Norway" width="300" height="200">
+			  </a>
+			  <p>O projeto chute de gênio consiste em fazer simulações da copa do mundo de 2018. A ideia central é ter um hanking de quem acertou. <a href="http://chutedegenio.herokuapp.com/" target="_blank"><button class="button" style="vertical-align:middle"><span>Saiba mais </span></button></a></p>
+			</div>
 
-          <div class="col-md-2 pull-left">
-            <div class="member">
-              <center><center><div class="pic"><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px"  alt="" style="border-radius: 50%"></div>
-              <br>
-              <h4>Pedro</h4>
-              <br>
-              <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
-            </ul></center>
-              
-            </div>
-          </div>
-
-          <div class="col-md-2 pull-left">
-            <div class="member">
-              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
-              <br>
-              <h4>Fernando</h4>       
-              <br>
-              <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
-            </ul></center>
-              
-            </div>
-          </div>
-
-          <div class="col-md-2 pull-left">
-            <div class="member">
-             <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
-             <br>
-              <h4>Rafael</h4>
-              <br>
-              <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram " target="_blank" href="#"></a></li>  
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li> 
-            </ul></center>
-              
-            </div>
-          </div>
-
-           <div class="col-md-2 pull-left">
-            <div class="member">
-              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
-              <br>
-              <h4>Carlos</h4>
-              <br>
-              <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
-            </ul></center>
-              
-            </div>
-          </div>
-
-           <div class="col-md-2 pull-left">
-            <div class="member">
-              <center><div class="pic  "><img src="../_complementos/images/parceiros/01.png" class="img-responsive   " width="150px" alt="" style="border-radius: 50%"></div>
-              <br>
-              <h4>Matheus	</h4>
-              <br>
-              <ul class="social">
-                <li><a class="facebook" target="_blank" href="#"></a></li>
-                <li><a class="instagram" target="_blank" href="#"></a></li>
-                <li><a class="twitter" target="_blank" href="#"></a></li>
-                <li><a class="github" target="_blank" href="#"></a></li>
-                <li><a class="google-plus" target="_blank" href="#"></a></li>
-            </ul></center>
-              
-            </div>
-          </div>
-        </div>
+			<div class="parceiros">
+			  <a target="_blank" href="../_complementos/images/parceiros/futhistoria.jpeg">
+			    <img class="futhistory" src="../_complementos/images/parceiros/futhistoria.jpeg" alt="Forest" width="600" height="400">
+			  </a>
+			  <p class="textfut">O projeto futhistória vai te mostrar tudo o que você quer saber sobre as seleções da copa de 2018. <br><br><a href="http://futistoria-br.umbler.net/" target="_blank"><button class="button" style="vertical-align:middle"><span>Saiba mais </span></button></a></p>
 			</div>
 		</section>
 
