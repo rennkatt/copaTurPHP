@@ -38,7 +38,14 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		<!-- TITULO DO SITE -->
 		<title>CopaTur</title>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 
 		<!-- icon -->
 		<link rel="shortcut icon" type="image/icon" href="../_complementos/images/icone.png"/>
@@ -76,7 +83,23 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 		
 		<!--responsive.css-->
 		<link rel="stylesheet" href="../_complementos/css/responsive.css" />
+	
+	<style>
+	.chute {
+		width: 50%;
+		margin-left: 25%;
+		text-align: justify;
+	}
+	.fut {
+		width: 50%;
+		margin-left: 25%;
+		text-align: justify;
+	}
+	.futimg{
+		border: 1px solid #000;
+	}
 
+</style>
 		
         
 
@@ -538,29 +561,26 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	    </section>
 
 	    <section id="parceiros" class="about-us" style="background: #fff">
-			<div class="card-deck" style="margin: 20px;">
-					  <div class="card">
-					    <img class="mx-auto d-block" src="../_complementos/images/parceiros/logo-in-40.png" alt="Card image cap" style="width: 50%;" >
-					    <div class="card-body" style="text-align: center;">
-					      <h5 class="card-title">CHUTE DE GÊNIO</h5>
-					      <p class="card-text">O projeto chute de gênio consiste em fazer simulações da copa do mundo de 2018. A ideia central é ter um hanking de quem acertou.</p>
-					    </div>
-					    <div class="card-footer">
-					      <a href="http://chutedegenio.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary btn-sm">Saiba mais</button></a>
-					    </div>
-					  </div>
+				<div class="container text-center">    
 
-					  <div class="card">
-					    <img class="card-img-top" src="../_complementos/images/parceiros/futhistoria.jpeg" alt="Card image cap">
-					    <div class="card-body" style="text-align: center;">
-					    	<br><br><br><br>
-					      <h5 class="card-title">FUTHISTÓRIA</h5>
-					      <p class="card-text">O projeto futhistória vai te mostrar tudo o que você quer saber sobre as seleções da copa de 2018.</p>
-					    </div>
-					    <div class="card-footer">
-					     <a href="http://futistoria-br.umbler.net/" target="_blank"><button type="button" class="btn btn-primary btn-sm">Saiba mais</button></a>
-					    </div>
-			  		</div>
+			  <div class="row" style="margin-top: 2em;">
+			    <div class="col-sm-6">
+			      <img src="logo-in-40.png" style="width:30%" alt="Image">
+			      <h5>CHUTE DE GÊNIO</h5>
+			      <p class="chute">O projeto chute de gênio consiste em fazer simulações da copa do mundo de 2018. A ideia central é ter um hanking de quem acertou.</p>
+			      <a href="http://chutedegenio.herokuapp.com/" target="_blank"><button type="button" class="btn btn-primary">Saiba mais</button></a>
+			    </div>
+
+			    <div class="col-sm-6"> 
+			    	<br><br><br>
+			      <img src="futhistoria.jpeg" style="width:30%;" alt="Image" class="futimg">
+			      <br><br><br>
+			       <h5>FUTHISTÓRIA</h5>
+			      <p class="fut">O projeto futhistória vai te mostrar tudo o que você quer saber sobre as seleções da copa de 2018.</p>
+			       <a href="http://futistoria-br.umbler.net/" target="_blank"><button type="button" class="btn btn-primary">Saiba mais</button></a>
+			    </div>
+			 
+			  </div>
 			</div>
 		</section>
 
