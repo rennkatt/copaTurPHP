@@ -148,6 +148,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <a class="page-scroll" href="index.php#contact">Contato</a>
 	                    </li>
 						
+						<li>
+	                        <a class="page-scroll" href="index.php#parceiros">Parceiros</a>
+	                    </li>
+	                    
 	                     <?php if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){ ?>
                         <li class="dropdown nav-item">
 		                    <a href="#" class=" dropdown-toggle" data-toggle="dropdown" data-aria-haspopup="true" data-aria-expanded="false"><i class="fa fa-user"></i> <?php echo $_SESSION['nome']; ?> <b class="caret"></b></a>

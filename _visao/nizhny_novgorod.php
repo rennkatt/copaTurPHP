@@ -112,6 +112,10 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                    <li>
 	                        <a class="page-scroll" href="index.php#contact">Contato</a>
 	                    </li>
+
+	                    <li>
+	                        <a class="page-scroll" href="index.php#parceiros">Parceiros</a>
+	                    </li>
 						
 	                     <?php if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){ ?>
                         <li class="dropdown nav-item">
