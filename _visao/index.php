@@ -537,15 +537,15 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 	    <section id="parceiros" class="about-us" style="background: #fff">
 			<div class="parceiros">
-			  <a target="_blank" href="logo-in-40.png">
-			    <img src="logo-in-40.png" alt="Trolltunga Norway" width="300" height="200">
+			  <a target="_blank" href="../_complementos/images/parceiros/logo-in-40.png">
+			    <img src="../_complementos/images/parceiros/logo-in-40.png" alt="Trolltunga Norway" width="300" height="200">
 			  </a>
 			  <p>O projeto chute de gênio consiste em fazer simulações da copa do mundo de 2018. A ideia central é ter um hanking de quem acertou. <a href="http://chutedegenio.herokuapp.com/" target="_blank"><button class="button" style="vertical-align:middle"><span>Saiba mais </span></button></a></p>
 			</div>
 
 			<div class="parceiros">
-			  <a target="_blank" href="futhistoria.jpeg">
-			    <img class="futhistory" src="futhistoria.jpeg" alt="Forest" width="600" height="400">
+			  <a target="_blank" href="../_complementos/images/parceiros/futhistoria.jpeg">
+			    <img class="futhistory" src="../_complementos/images/parceiros/futhistoria.jpeg" alt="Forest" width="600" height="400">
 			  </a>
 			  <p class="textfut">O projeto futhistória vai te mostrar tudo o que você quer saber sobre as seleções da copa de 2018. <br><br><a href="http://futistoria-br.umbler.net/" target="_blank"><button class="button" style="vertical-align:middle"><span>Saiba mais </span></button></a></p>
 			</div>
