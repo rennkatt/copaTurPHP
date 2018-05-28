@@ -564,7 +564,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 			    <div class="col-sm-6"> 
 			    	
-			      <img src="../_complementos/images/parceiros/futhistoria.png" style="height: 60px;background-color: #002752;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;margin-top: 20px;margin-bottom: 20px;" alt="Image" class="futimg">
+			      <img src="../_complementos/images/parceiros/futhistoria.png" style="height: 60px;background-color: #002752;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;margin-top: 30px;margin-bottom: 10px;" alt="Image" class="futimg">
 			      
 			       <h5 style="padding-top: 10px;">FUTHISTÓRIA</h5>
 			       <br>
