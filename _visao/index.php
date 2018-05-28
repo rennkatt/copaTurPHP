@@ -508,21 +508,21 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	                        <div class="row">
 	                            <div class="col-md-6">
 	                                <div class="form-group">
-	                                    <input type="text" class="form-control" placeholder="Seu Nome *" id="nome" name="nome" required data-validation-required-message="Por favor, escreva o seu nome.">
+	                                    <input type="text" class="form-control" placeholder="Seu Nome *" id="nome" name="nome" required data-validation-required-message="Por favor, escreva o seu nome." required>
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                                <div class="form-group">
-	                                    <input type="email" id="email" name="email" class="form-control" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, escreva o seu e-mail.">
+	                                    <input type="email" id="email" name="email" class="form-control" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, escreva o seu e-mail." required>
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                                <div class="form-group">
-	                                    <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Seu Assunto *" id="assunto" required data-validation-required-message="Por favor, escreva o assunto deste e-mail.">
+	                                    <input type="text" name="assunto" id="assunto" class="form-control" placeholder="Seu Assunto *" id="assunto" required data-validation-required-message="Por favor, escreva o assunto deste e-mail." required>
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                            </div>
 	                            <div class="col-md-6">
 	                                <div class="form-group">
-	                                    <textarea class="form-control" placeholder="Sua Mensagem *" id="message" name="mensagem" required data-validation-required-message="Por favor, escreva sua mensagem."></textarea>
+	                                    <textarea class="form-control" placeholder="Sua Mensagem *" id="message" name="mensagem" required data-validation-required-message="Por favor, escreva sua mensagem." required></textarea>
 	                                    <p class="help-block text-danger"></p>
 	                                </div>
 	                            </div>
