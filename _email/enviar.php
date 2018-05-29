@@ -4,12 +4,38 @@ if(isset($_POST['enviar'])){
     include "./config.php";
     include './phpmailer/PHPMailerAutoload.php';
     
-    $nome = $_POST["nome"];
-    $assunto = $_POST["assunto"];
-    $email = $_POST["email"];
-    $mensagem = $_POST["mensagem"];
-        
-    
+    $nomerr = "";
+    $emailrr = "";
+    $assuntorr = "";
+    $mensagemrr = "";
+ 
+ if($_SERVER["REQUEST_METHOD"] == "POST"){
+
+
+    if(empty($_POST["nome"])){
+        $nomerr = "Campo não preenchido";
+    }else{
+        $nome = $_POST["nome"];
+    }
+
+    if(empty($_POST["email"])){
+        $emailrr = "Campo não preenchido";
+    }else{
+        $email = $_POST["email"];
+    }
+
+    if(empty($_POST["assunto"])){
+        $assuntorr = "Campo não preenchido";
+    }else{
+        $assunto = $_POST["assunto"];
+    }
+
+    if(empty($_POST["mensagem"])){
+        $mensagemrr = "Campo não preenchido";
+    }else{
+        $mensagem = $_POST["mensagem"];
+    }
+}
     $mail = new PHPMailer;
     
     $mail->isSMTP();
