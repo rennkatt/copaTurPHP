@@ -554,7 +554,8 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 
 			  <div class="row" style="margin-top: 2em;">
 			    <div class="col-sm-6">
-			      <img src="../_complementos/images/parceiros/logo-in-40.png" style="height: 100px;" alt="Image">
+			    	 <a target="_blank" href="../_complementos/images/parceiros/logo-in-40.png">
+			      <img src="../_complementos/images/parceiros/logo-in-40.png" style="height: 100px;" alt="Image"></a>
 			      <br>
 			      <h5 style="padding-top: 10px;">CHUTE DE GÊNIO</h5>
 			      <br>
@@ -563,9 +564,9 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			    </div>
 
 			    <div class="col-sm-6"> 
-			    	
+			    	 <a target="_blank" href="../_complementos/images/parceiros/futhistoria.png">
 			      <img src="../_complementos/images/parceiros/futhistoria.png" style="height: 60px;background-color: #002752;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;margin-top: 30px;margin-bottom: 10px;" alt="Image" class="futimg">
-			      
+			      </a>
 			       <h5 style="padding-top: 10px;">FUTHISTÓRIA</h5>
 			       <br>
 			      <p class="fut">O projeto futhistória vai te mostrar tudo o que você quer saber sobre as seleções da copa de 2018.</p><br>
