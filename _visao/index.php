@@ -504,7 +504,7 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 	            </div>
 	            <div class="row">
 	                <div class="col-lg-12">
-	                    <form name="sentMessage" id="contactForm" action="../_email/enviar.php" method="post" enctype="multipart/form-data" role="form" novalidate>
+	                    <form name="sentMessage" id="contactForm" action="../_email/enviar.php" method="post" enctype="multipart/form-data" role="form">
 	                        <div class="row">
 	                            <div class="col-md-6">
 	                                <div class="form-group">
