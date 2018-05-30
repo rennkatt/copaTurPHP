@@ -328,11 +328,11 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
                                                 
                                                 <!-- SOCIAL -->
                                                 <ul class="social">
-                                                    <li><a class="facebook" href="<?php if (isset($link_fb)){echo $link_fb;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_fb) or strlen($link_fb) <= 2){ echo 'style="display: none;"'; } ?> ></a></li>
-                                                    <li><a class="instagram" href="<?php if (isset($link_insta)){echo $link_insta;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_insta) or strlen($link_insta) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
-                                                    <li><a class="twitter" href="<?php if (isset($link_tw)){echo $link_tw;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_tw) or strlen($link_tw) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
-                                                    <li><a class="github" href="<?php if (isset($link_gh)){echo $link_gh;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_gh) or strlen($link_gh) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
-                                                    <li><a class="google-plus" href="<?php if (isset($link_google)){echo $link_google;} else{ echo '#';} ?>" target="_blank" <?php if(!isset($link_google) or strlen($link_google) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="facebook" href="<?php if (isset($link_fb)){echo $link_fb;} else{ echo 'https://www.facebook.com/jnelderc';} ?>" target="_blank" <?php if(!isset($link_fb) or strlen($link_fb) <= 2){ echo 'style="display: none;"'; } ?> ></a></li>
+                                                    <li><a class="instagram" href="<?php if (isset($link_insta)){echo $link_insta;} else{ echo 'https://www.instagram.com/jnelderc/';} ?>" target="_blank" <?php if(!isset($link_insta) or strlen($link_insta) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="twitter" href="<?php if (isset($link_tw)){echo $link_tw;} else{ echo 'https://twitter.com/jnelderc';} ?>" target="_blank" <?php if(!isset($link_tw) or strlen($link_tw) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="github" href="<?php if (isset($link_gh)){echo $link_gh;} else{ echo 'https://github.com/jnelderc';} ?>" target="_blank" <?php if(!isset($link_gh) or strlen($link_gh) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
+                                                    <li><a class="google-plus" href="<?php if (isset($link_google)){echo $link_google;} else{ echo 'https://plus.google.com/+ElderCordeiro';} ?>" target="_blank" <?php if(!isset($link_google) or strlen($link_google) <= 2){ echo 'style="display: none;"'; } ?>></a></li>
                                                 </ul>
                                                 <!-- SOCIAL -->
                                                 
