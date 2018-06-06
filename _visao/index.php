@@ -576,7 +576,6 @@ if(isset($_SESSION['email']) && (isset($_SESSION['senha']))){
 			  </div>
 			</div>
 		</section>
-
 		
 		<footer  class="footer-copyright">
 			<div class="container">
